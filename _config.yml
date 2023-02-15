@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "NT의 개발 노트"
+title                    : "NinT의 개발 노트"
 title_separator          : "|"
 subtitle                 : "Slow but Steady"
 name                     : "ki-sung"
-description              : "NT의 개발 블로그 입니다."
+description              : "NinT의 개발 블로그 입니다."
 url                      : "https://ki-sung.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,9 +106,9 @@ analytics:
 author:
   name             : "NT"
   avatar           : "/assets/images/kisung.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "느리지만 꾸준한 NT 입니다."
+  bio              : "저의 Moto는 느리지만 꾸준하게 입니다."
   location         : "South Korea"
-  email            :
+  email            : "kcs4912@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
