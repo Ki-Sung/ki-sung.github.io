@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "꼬부기의 개발 노트"
+title                    : "꼬부기 일기"
 title_separator          : "|"
 subtitle                 : "Slow but Steady"
 name                     : "ki-sung"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Kkobugi"
   avatar           : "/assets/images/gobugi.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "저의 Moto는 느리지만 꾸준하게 입니다."
+  bio              : "안녕하세요👋 \n\n 회사에서는 데이터 엔지니어를 \n\n 집에서는 백앤드 개발 공부를 하는 \n\n 꼬부기입니다."
   location         : "South Korea"
   email            : 
   links:
@@ -127,11 +127,11 @@ author:
     #  url: "https://ki-sung.github.io/"
 
 # Site Footer
-# footer:
-#   links:
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/Ki-Sung"
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Ki-Sung"
 #     - label: "Linkedin"
 #       icon: "fab fa-fw fa-linkedin"
 #       url: "https://www.linkedin.com/in/kisung-kim-b65211218"
