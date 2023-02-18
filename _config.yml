@@ -127,17 +127,17 @@ author:
     #  url: "https://ki-sung.github.io/"
 
 # Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Ki-Sung"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/kisung-kim-b65211218"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/kcs4912/"
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/Ki-Sung"
+#     - label: "Linkedin"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: "https://www.linkedin.com/in/kisung-kim-b65211218"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://www.instagram.com/kcs4912/"
 
 
 # Reading Files
@@ -245,16 +245,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
