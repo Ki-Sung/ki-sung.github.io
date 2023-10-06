@@ -97,6 +97,31 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
 <!-- end custom head snippets -->
 
   </head>
@@ -237,7 +262,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
-              <ul class="toc__menu"><li><a href="#오늘-처음-블로그를-만들었습니다">오늘 처음 블로그를 만들었습니다.</a><ul><li><a href="#notice-part">Notice Part</a><ul><li><a href="#notice">Notice</a></li><li><a href="#notice-box">Notice box</a></li></ul></li></ul></li><li><a href="#code-block">Code Block</a></li><li><a href="#img">Img</a><ul><li><a href="#img-content-1">Img Content 1</a></li><li><a href="#img-content-2">Img Content 2</a></li><li><a href="#img-content-3">Img Content 3</a></li></ul></li><li><a href="#button-option">Button option</a></li><li><a href="#input-youtube-video">Input Youtube Video</a></li></ul></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#오늘-처음-블로그를-만들었습니다">오늘 처음 블로그를 만들었습니다.</a><ul><li><a href="#notice-part">Notice Part</a><ul><li><a href="#notice">Notice</a></li><li><a href="#notice-box">Notice box</a></li></ul></li></ul></li><li><a href="#code-block">Code Block</a></li><li><a href="#latex-수식-예제">LaTex 수식 예제</a></li><li><a href="#img">Img</a><ul><li><a href="#img-content-1">Img Content 1</a></li><li><a href="#img-content-2">Img Content 2</a></li><li><a href="#img-content-3">Img Content 3</a></li></ul></li><li><a href="#button-option">Button option</a></li><li><a href="#input-youtube-video">Input Youtube Video</a></li></ul></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -262,6 +287,17 @@
 <h2 id="code-block">Code Block</h2>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">hello</span> <span class="n">kkobugi</span> <span class="n">word</span><span class="err">!</span>
 </code></pre></div></div>
+
+<h2 id="latex-수식-예제">LaTex 수식 예제</h2>
+
+<p>The well know Pythagorean theorem can $(x^2 + y^2 = z^2)$ was
+prooved to be invalid for other exponents.
+Meaning the next equation has no integer solutions:</p>
+
+<p>$[ x^n + y^n = z^n\ ]$</p>
+
+<p>$y= f(x)^2$</p>
+
 <h2 id="img">Img</h2>
 <h4 id="img-content-1">Img Content 1</h4>
 <p><img src="/images/2023-02-12-first/sky.jpg" alt="sky" class="img-width-half align-center" /></p>
