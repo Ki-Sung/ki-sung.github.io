@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Kkobugi"
   avatar           : "/assets/images/gobugi.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "안녕하세요👋 \n\n 회사에서는 데이터 엔지니어를 \n\n 집에서는 백앤드 개발 공부를 하는 \n\n 꼬부기입니다."
+  bio              : "안녕하세요👋 \n\n 백앤드 개발 공부도 같이하고 있는 \n\n 데이터 엔제니어 꼬부기입니다."
   location         : "South Korea"
   email            : 
   links:
@@ -119,9 +119,6 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/kisung-kim-b65211218"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/kcs4912/"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
     #  url: "https://ki-sung.github.io/"
@@ -280,6 +277,7 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar_main: true
       show_date: true
       toc: true
       toc_sticky: true
