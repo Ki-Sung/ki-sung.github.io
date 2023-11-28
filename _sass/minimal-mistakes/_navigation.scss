@@ -20,7 +20,7 @@
 
   @include breakpoint($xxx-large) {
     max-width: $max-width;
-  }
+}
 
   ol {
     padding: 0;
