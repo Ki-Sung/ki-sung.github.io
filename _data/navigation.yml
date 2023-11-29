@@ -1,9 +1,9 @@
 # main links
 main:
+  - title: "About"
+    url: /about-me/
   - title: "Category"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
   - title: "By Year"
     url: /year-archive/
   - title: "Search"
@@ -20,9 +20,12 @@ docs:
 counts:
   - title: "Category"
     use: true
-  - title: "Tag"
-    use: false
+  
+  # - title: "Tag"
+  #   use: false
 
+  # - title: "Tag"
+  #  url: /tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
