@@ -241,6 +241,14 @@ figure {
   }
 }
 
+/* 이미지 캡션 설정 */
+img + em {
+  display: block;
+  text-align: center;
+  font-size: .7rem;
+  color: light-grey;
+}
+
 /* Figure captions */
 
 figcaption {
