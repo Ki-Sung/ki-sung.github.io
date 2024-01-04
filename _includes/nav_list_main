@@ -17,41 +17,6 @@
                         {% endif %}
                     {% endfor %}
                 </ul>
-                <ul>
-                    {% for category in site.categories %}
-                        {% if category[0] == "STL" %}
-                            <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-                <ul>
-                    {% for category in site.categories %}
-                        {% if category[0] == "C++ games" %}
-                            <li><a href="/categories/cpp-games" class="">C++ 연습 문제 패키지 ({{category[1].size}})</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-                <ul>
-                    {% for category in site.categories %}
-                        {% if category[0] == "Cpp Network" %}
-                            <li><a href="/categories/cpp-network" class="">C++ Boost.Asio 네트워크 ({{category[1].size}})</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-                <ul>
-                    {% for category in site.categories %}
-                        {% if category[0] == "C Sharp" %}
-                            <li><a href="/categories/csharp" class="">C # ({{category[1].size}})</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-                <ul>
-                    {% for category in site.categories %}
-                        {% if category[0] == "C" %}
-                            <li><a href="/categories/c" class="">C ({{category[1].size}})</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
 
             <span class="nav__sub-title">Computing</span>
                 <ul>
@@ -227,6 +192,28 @@
                     {% for category in site.categories %}
                         {% if category[0] == "Programmers SQL" %}
                             <li><a href="/categories/programmers-sql" class="">프로그래머스 SQL ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            <span class="nav__sub-title">Books</span>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "Tech Book" %}
+                            <li><a href="/categories/db" class="">기술 서적 ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "Economy Book" %}
+                            <li><a href="/categories/programmers-sql" class="">경제 서적 ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "Trend Book" %}
+                            <li><a href="/categories/programmers-sql" class="">트렌드 서적 ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
