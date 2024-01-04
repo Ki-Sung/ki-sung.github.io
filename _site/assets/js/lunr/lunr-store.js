@@ -4,4 +4,10 @@ var store = [{
         "tags": ["Tech"],
         "url": "/news/news1/",
         "teaser": null
+      },{
+        "title": "'IT 트렌드 읽는 습관'의 서평",
+        "excerpt":"“IT 트렌드 읽는 습관”을 일고 쓰는 나만의 서평         저자: 김지현   출판사: 좋은습관연구소   출판일: 2023.04.24    한 줄 요약     IT 트렌드 분석이라 읽고 트렌드 체크 방법이라 읽는다!  ","categories": ["Trend Book"],
+        "tags": ["Trend","IT"],
+        "url": "/trend%20book/trend-book-01/",
+        "teaser": null
       }]
