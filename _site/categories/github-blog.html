@@ -12,32 +12,28 @@
 
 <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>안녕하세요, 첫 posting이자, test posting 입니다. | 꼬부기의 개발 노트</title>
-<meta name="description" content="오늘 처음 블로그를 만들었습니다.">
+<!-- begin _includes/seo.html --><title>Github Blog 만들기 | 꼬부기의 개발 노트</title>
+<meta name="description" content="꼬부기의 개발 블로그 입니다.">
 
 
   <meta name="author" content="Kkobugi">
   
-  <meta property="article:author" content="Kkobugi">
-  
 
 
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="꼬부기의 개발 노트">
-<meta property="og:title" content="안녕하세요, 첫 posting이자, test posting 입니다.">
-<meta property="og:url" content="http://localhost:4000/coding/first/">
+<meta property="og:title" content="Github Blog 만들기">
+<meta property="og:url" content="http://localhost:4000/categories/github-blog">
 
 
-  <meta property="og:description" content="오늘 처음 블로그를 만들었습니다.">
-
-
-
+  <meta property="og:description" content="꼬부기의 개발 블로그 입니다.">
 
 
 
 
-  <meta property="article:published_time" content="2023-02-12T00:00:00+09:00">
+
+
 
 
 
@@ -48,7 +44,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/coding/first/">
+<link rel="canonical" href="http://localhost:4000/categories/github-blog">
 
 
 
@@ -97,29 +93,6 @@
 
 <!-- Math jax setting-->
 
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        TeX: {
-          equationNumbers: {
-            autoNumber: "AMS"
-          }
-        },
-        tex2jax: {
-        inlineMath: [ ['$', '$'] ],
-        displayMath: [ ['$$', '$$'] ],
-        processEscapes: true,
-      }
-    });
-    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
-          alert("Math Processing Error: "+message[1]);
-        });
-    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
-          alert("Math Processing Error: "+message[1]);
-        });
-    </script>
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
@@ -134,7 +107,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--archive">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -179,8 +152,6 @@
       
 
 
-
-
   
     
 
@@ -202,7 +173,7 @@
       
         
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/categories/#coding" itemprop="item"><span itemprop="name">Coding</span></a>
+          <a href="/categories" itemprop="item"><span itemprop="name">Categories</span></a>
           <meta itemprop="position" content="2" />
         </li>
         <span class="sep">/</span>
@@ -210,7 +181,7 @@
     
       
       
-        <li class="current">안녕하세요, 첫 posting이자, test posting 입니다.</li>
+        <li class="current">Github Blog 만들기</li>
       
     
   </ol>
@@ -223,29 +194,118 @@
   
   <div class="sidebar sticky">
   
-  
-    
-      
-      
-      
-      
-    
-    
-      
 
 
-
-
-
-
-
-<nav class="nav__list">
-  
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
-</nav>
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/gobugi.png" alt="Kkobugi" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
 
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Kkobugi</a>
+    </h3>
     
+      <div class="author__bio p-note" itemprop="description">
+        <p>안녕하세요👋</p>
+
+<p>백앤드 개발 공부도 같이하고 있는</p>
+
+<p>데이터 엔지니어 꼬부기입니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:kcs4912@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/kisung-kim-b65211218" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
   
 
   
@@ -532,6 +592,8 @@
                 <ul>
                     
                         
+                            <li><a href="/categories/github-blog" class="">Github Page Blog (1)</a></li>
+                        
                     
                         
                     
@@ -592,281 +654,51 @@
 
 
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="안녕하세요, 첫 posting이자, test posting 입니다.">
-    <meta itemprop="description" content="오늘 처음 블로그를 만들었습니다.">
-    <meta itemprop="datePublished" content="2023-02-12T00:00:00+09:00">
+  <div class="archive">
     
-
-    <div class="page__inner-wrap">
-      <!-- top banner-->
-      <!-- <p class="notice--info" style="font-size: 1rem !important;">
-    <strong>Github 블로그 제작기</strong>
-    <br>
-    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
-</p>  -->
-      
-        <header>
-          <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/coding/first/" class="u-url" itemprop="url">안녕하세요, 첫 posting이자, test posting 입니다.
-</a>
-          </h1>
-          
-
-  <p class="page__meta">
+      <h1 id="page-title" class="page__title">Github Blog 만들기</h1>
     
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+    <!-- 공백이 포함되어 있는 카테고리 이름의 경우 site.categories.['a b c'] 이런식으로! -->
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/github%20blog/first/">test 용 posting 입니다.</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.02.12
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
         
-        <time datetime="2023-02-12T00:00:00+09:00">2023-02-12</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-        </header>
-      
-
-      <section class="page__content e-content" itemprop="text">
-        
-          <aside class="sidebar__right sticky">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
-              <ul class="toc__menu"><li><a href="#오늘-처음-블로그를-만들었습니다">오늘 처음 블로그를 만들었습니다.</a><ul><li><a href="#notice-part">Notice Part</a><ul><li><a href="#notice">Notice</a></li><li><a href="#notice-box">Notice box</a></li></ul></li></ul></li><li><a href="#code-block">Code Block</a></li><li><a href="#latex-수식-예제">LaTex 수식 예제</a></li><li><a href="#img">Img</a><ul><li><a href="#img-content-1">Img Content 1</a></li><li><a href="#img-content-2">Img Content 2</a></li><li><a href="#img-content-3">Img Content 3</a></li></ul></li><li><a href="#button-option">Button option</a></li><li><a href="#input-youtube-video">Input Youtube Video</a></li></ul></li></ul></li></ul>
-
-            </nav>
-          </aside>
-        
-        <h1 id="오늘-처음-블로그를-만들었습니다">오늘 처음 블로그를 만들었습니다.</h1>
-
-<p>앞으로 열심히 기록해보겠습니다. :)</p>
-
-<h2 id="notice-part">Notice Part</h2>
-<h4 id="notice">Notice</h4>
-<p class="notice--danger"><strong>[Notice]</strong> <a href="https://github.com/Ki-Sung">Github에 새로운 프로젝트가 생성되었습니다.</a></p>
-<h4 id="notice-box">Notice box</h4>
-<div class="notice--success">
-<h1>안내사항 입니다.</h1>
-<ul>
-    <li>안내사항 1</li>
-    <li>안내사항 1</li>
-    <li>안내사항 1</li>
-</ul>
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#github-blog" class="page__taxonomy-item-category" rel="tag">Github Blog</a>
+                    
+                    
+                    <a href="/tags/#blog" class="page__taxonomy-item-tag" rel="tag">Blog</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#github-page" class="page__taxonomy-item-tag" rel="tag">Github-Page</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#github" class="page__taxonomy-item-tag" rel="tag">Github</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#jekyll" class="page__taxonomy-item-tag" rel="tag">Jekyll</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
 </div>
 
-<h2 id="code-block">Code Block</h2>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">hello</span> <span class="n">kkobugi</span> <span class="n">word</span><span class="err">!</span>
-</code></pre></div></div>
 
-<h2 id="latex-수식-예제">LaTex 수식 예제</h2>
-
-<p>The well know Pythagorean theorem can $(x^2 + y^2 = z^2)$ was
-prooved to be invalid for other exponents.
-Meaning the next equation has no integer solutions:</p>
-
-<p>$[ x^n + y^n = z^n\ ]$</p>
-
-<p>$y= f(x)^2$</p>
-
-<h2 id="img">Img</h2>
-<h4 id="img-content-1">Img Content 1</h4>
-<p><img src="/images/2023-02-12-first/sky.jpg" alt="sky" class="img-width-half align-center" /></p>
-<h4 id="img-content-2">Img Content 2</h4>
-<p><img src="/images/2023-02-12-first/cat2.jpg" alt="cat2" /></p>
-<h4 id="img-content-3">Img Content 3</h4>
-<p><img src="/images/2023-02-12-first/rain.jpeg" alt="rain" /></p>
-
-<h3 id="button-option">Button option</h3>
-<p><a href="https://google.com" class="btn btn--danger">Google로이동</a></p>
-
-<h3 id="input-youtube-video">Input Youtube Video</h3>
-
-<!-- Courtesy of embedresponsively.com -->
-
-<div class="responsive-video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/ACzFIAOsfpM" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
   </div>
-
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/categories/#coding" class="page__taxonomy-item p-category" rel="tag">coding</a>
-    
-    </span>
-  </p>
-
-
-        
-
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2023-02-12T00:00:00+09:00">2023-02-12</time></p>
-
-      </footer>
-
-      <section class="page__share">
-  
-    <h4 class="page__share-title">공유하기</h4>
-  
-
-  <a href="https://twitter.com/intent/tweet?text=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%2C+%EC%B2%AB+posting%EC%9D%B4%EC%9E%90%2C+test+posting+%EC%9E%85%EB%8B%88%EB%8B%A4.%20http%3A%2F%2Flocalhost%3A4000%2Fcoding%2Ffirst%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
-
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fcoding%2Ffirst%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
-
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fcoding%2Ffirst%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
-</section>
-
-
-      
-  <nav class="pagination">
-    
-      <a href="#" class="pagination--pager disabled">이전</a>
-    
-    
-      <a href="/news/news1/" class="pagination--pager" title="마이크로소프트, 비주얼스튜디오 2013, 2024년 4월 지원 종료
-">다음</a>
-    
-  </nav>
-
-    </div>
-
-    
-  </article>
-
-  
-  
-    <div class="page__related">
-      <h2 class="page__related-title">참고</h2>
-      <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/trend%20book/trend-book-01/" rel="permalink">‘IT 트렌드 읽는 습관’의 서평
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-04T00:00:00+09:00">2024-01-04</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">“IT 트렌드 읽는 습관”을 일고 쓰는 나만의 서평
-</p>
-  </article>
 </div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news1/" rel="permalink">마이크로소프트, 비주얼스튜디오 2013, 2024년 4월 지원 종료
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-03T00:00:00+09:00">2024-01-03</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.
-</p>
-  </article>
-</div>
-
-        
-      </div>
-    </div>
-  
-  
-</div>
-
     </div>
 
     
@@ -908,25 +740,6 @@ Meaning the next equation has no integer solutions:</p>
 
 
 
-
-
-    
-  <script>
-    var disqus_config = function () {
-      this.page.url = "http://localhost:4000/coding/first/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/coding/first"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
-    };
-    (function() { /* DON'T EDIT BELOW THIS LINE */
-      var d = document, s = d.createElement('script');
-      s.src = 'https://NinT.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-  
 
 
 
