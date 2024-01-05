@@ -12,28 +12,32 @@
 
 <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>트렌드 서적 | 꼬부기의 개발 노트</title>
-<meta name="description" content="꼬부기의 개발 블로그 입니다.">
+<!-- begin _includes/seo.html --><title>[Github Blog 만들기 1] Github Blog 환경 설정 | 꼬부기의 개발 노트</title>
+<meta name="description" content="나도 할 수 있다! Github Page Blog 만들기 Part 1 참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기">
 
 
   <meta name="author" content="Kkobugi">
   
+  <meta property="article:author" content="Kkobugi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="꼬부기의 개발 노트">
-<meta property="og:title" content="트렌드 서적">
-<meta property="og:url" content="http://localhost:4000/categories/trend-book">
+<meta property="og:title" content="[Github Blog 만들기 1] Github Blog 환경 설정">
+<meta property="og:url" content="http://localhost:4000/github%20blog/second/">
 
 
-  <meta property="og:description" content="꼬부기의 개발 블로그 입니다.">
-
-
-
+  <meta property="og:description" content="나도 할 수 있다! Github Page Blog 만들기 Part 1 참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기">
 
 
 
+
+
+
+
+  <meta property="article:published_time" content="2024-01-05T00:00:00+09:00">
 
 
 
@@ -44,7 +48,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/trend-book">
+<link rel="canonical" href="http://localhost:4000/github%20blog/second/">
 
 
 
@@ -93,6 +97,29 @@
 
 <!-- Math jax setting-->
 
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
@@ -107,7 +134,7 @@
 
   </head>
 
-  <body class="layout--archive">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -152,6 +179,8 @@
       
 
 
+
+
   
     
 
@@ -173,7 +202,7 @@
       
         
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/categories" itemprop="item"><span itemprop="name">Categories</span></a>
+          <a href="/categories/#github-blog" itemprop="item"><span itemprop="name">Github blog</span></a>
           <meta itemprop="position" content="2" />
         </li>
         <span class="sep">/</span>
@@ -181,7 +210,7 @@
     
       
       
-        <li class="current">트렌드 서적</li>
+        <li class="current">[Github Blog 만들기 1] Github Blog 환경 설정</li>
       
     
   </ol>
@@ -194,118 +223,29 @@
   
   <div class="sidebar sticky">
   
+  
+    
+      
+      
+      
+      
+    
+    
+      
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+
+
+
+
+<nav class="nav__list">
+  
 
   
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/gobugi.png" alt="Kkobugi" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
+</nav>
 
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Kkobugi</a>
-    </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>안녕하세요👋</p>
-
-<p>백앤드 개발 공부도 같이하고 있는</p>
-
-<p>데이터 엔지니어 꼬부기입니다.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">팔로우</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korea</span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="mailto:kcs4912@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/in/kisung-kim-b65211218" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
   
 
   
@@ -654,43 +594,304 @@
 
 
 
-  <div class="archive">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[Github Blog 만들기 1] Github Blog 환경 설정">
+    <meta itemprop="description" content="나도 할 수 있다! Github Page Blog 만들기 Part 1참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기">
+    <meta itemprop="datePublished" content="2024-01-05T00:00:00+09:00">
     
-      <h1 id="page-title" class="page__title">트렌드 서적</h1>
-    
-    <!-- 공백이 포함되어 있는 카테고리 이름의 경우 site.categories.['a b c'] 이런식으로! -->
 
-<div class="list__item">
-    <article class="archive-item">
-        <div>
-            <span>
-              <a href="/trend%20book/trend-book-01/">'IT 트렌드 읽는 습관'의 서평</a>
-            </span>
-            <small> 
-              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2024.01.04
-              <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
+    <div class="page__inner-wrap">
+      <!-- top banner-->
+      <!-- <p class="notice--info" style="font-size: 1rem !important;">
+    <strong>Github 블로그 제작기</strong>
+    <br>
+    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
+</p>  -->
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/github%20blog/second/" class="u-url" itemprop="url">[Github Blog 만들기 1] Github Blog 환경 설정
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#trend-book" class="page__taxonomy-item-category" rel="tag">Trend Book</a>
-                    
-                    
-                    <a href="/tags/#it" class="page__taxonomy-item-tag" rel="tag">IT</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#trend" class="page__taxonomy-item-tag" rel="tag">Trend</a>
-                
-            </span>
-        </span>
-            </small>
-        </div>
-      </article>
-</div>
+        <time datetime="2024-01-05T00:00:00+09:00">2024-01-05</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
 
 
-  </div>
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
+              <ul class="toc__menu"><li><a href="#나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</a><ul><li><a href="#개요">개요</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</h2>
+<p><a href="https://www.youtube.com/watch?v=--MMmHbSH9k&amp;list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기</a></p>
+
+<h3 id="개요">개요</h3>
+<p>지난번 Jekyll Theme를 사용해서 10분만에 Github 블로그 만들어 보기를 해보았는데, 처음 Github 블로그를 만드시는 분들은 진짜 이게 무슨 내용인지 하나도 모를수 있겠다 싶었어요(사실 제가 그랬습니다…하핫). 그래서 제가 Study 해보았던 “Github 블로그 만들기”를 바탕으로 여기에 정리해볼까 합니다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a><span class="sep">, </span>
+    
+      <a href="/tags/#github" class="page__taxonomy-item p-category" rel="tag">Github</a><span class="sep">, </span>
+    
+      <a href="/tags/#github-page" class="page__taxonomy-item p-category" rel="tag">Github-Page</a><span class="sep">, </span>
+    
+      <a href="/tags/#setting-env" class="page__taxonomy-item p-category" rel="tag">Setting-env</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#github-blog" class="page__taxonomy-item p-category" rel="tag">Github Blog</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2024-01-05T00:00:00+09:00">2024-01-05</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%5BGithub+Blog+%EB%A7%8C%EB%93%A4%EA%B8%B0+1%5D+Github+Blog+%ED%99%98%EA%B2%BD+%EC%84%A4%EC%A0%95%20http%3A%2F%2Flocalhost%3A4000%2Fgithub%2520blog%2Fsecond%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fgithub%2520blog%2Fsecond%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fgithub%2520blog%2Fsecond%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/trend%20book/trend-book-01/" class="pagination--pager" title="‘IT 트렌드 읽는 습관’의 서평
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/trend%20book/trend-book-01/" rel="permalink">‘IT 트렌드 읽는 습관’의 서평
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-04T00:00:00+09:00">2024-01-04</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“IT 트렌드 읽는 습관”을 일고 쓰는 나만의 서평
+</p>
+  </article>
 </div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news1/" rel="permalink">마이크로소프트, 비주얼스튜디오 2013, 2024년 4월 지원 종료
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-03T00:00:00+09:00">2024-01-03</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/github%20blog/first/" rel="permalink">test 용 posting 입니다.
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-02-12T00:00:00+09:00">2023-02-12</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">오늘 처음 블로그를 만들었습니다.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
     </div>
 
     
@@ -732,6 +933,25 @@
 
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/github%20blog/second/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/github%20blog/second"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://NinT.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 
