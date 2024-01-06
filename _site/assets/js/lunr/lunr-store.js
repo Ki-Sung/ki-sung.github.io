@@ -10,4 +10,10 @@ var store = [{
         "tags": ["Trend","IT"],
         "url": "/trend%20book/trend-book-01/",
         "teaser": null
+      },{
+        "title": "'프로그래머의 길, 멘토에게 묻는다'의 서평",
+        "excerpt":"“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평   이미지 출처: 교보문고      저자: 데이브 후버, 애디웨일 오시나이 저자(글) · 강중빈 번역   출판사: 인사이트   출판일: 2010.07.26    한 줄 요약     성장하고 싶은 주니어 프로그래머들이어, 이 책을 보라!  ","categories": ["Self Dev"],
+        "tags": ["Self-Dev","Programmer"],
+        "url": "/self%20dev/self-dev-book-01/",
+        "teaser": null
       }]

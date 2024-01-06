@@ -17,7 +17,14 @@
 <lastmod>2024-01-05T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/self%20dev/self-dev-book-01/</loc>
+<lastmod>2024-01-06T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about-me/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/self-dev-book</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/</loc>

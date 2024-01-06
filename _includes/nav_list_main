@@ -198,22 +198,29 @@
             <span class="nav__sub-title">Books</span>
                 <ul>
                     {% for category in site.categories %}
+                        {% if category[0] == "Self Dev" %}
+                            <li><a href="/categories/self-dev-book" class="">Self Dev ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <ul>
+                    {% for category in site.categories %}
                         {% if category[0] == "Tech Book" %}
-                            <li><a href="/categories/tech-book" class="">기술 서적 ({{category[1].size}})</a></li>
+                            <li><a href="/categories/tech-book" class="">Tech ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Economy Book" %}
-                            <li><a href="/categories/economy-book" class="">경제 서적 ({{category[1].size}})</a></li>
+                            <li><a href="/categories/economy-book" class="">Economy ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Trend Book" %}
-                            <li><a href="/categories/trend-book" class="">트렌드 서적 ({{category[1].size}})</a></li>
+                            <li><a href="/categories/trend-book" class="">Trend ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>

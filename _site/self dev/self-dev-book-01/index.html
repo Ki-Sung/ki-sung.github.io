@@ -12,28 +12,32 @@
 
 <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>꼬부기의 개발 노트</title>
-<meta name="description" content="꼬부기의 개발 블로그 입니다.">
+<!-- begin _includes/seo.html --><title>‘프로그래머의 길, 멘토에게 묻는다’의 서평 | 꼬부기의 개발 노트</title>
+<meta name="description" content="“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평">
 
 
   <meta name="author" content="Kkobugi">
   
+  <meta property="article:author" content="Kkobugi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="꼬부기의 개발 노트">
-<meta property="og:title" content="꼬부기의 개발 노트">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="‘프로그래머의 길, 멘토에게 묻는다’의 서평">
+<meta property="og:url" content="http://localhost:4000/self%20dev/self-dev-book-01/">
 
 
-  <meta property="og:description" content="꼬부기의 개발 블로그 입니다.">
-
-
-
+  <meta property="og:description" content="“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평">
 
 
 
+
+
+
+
+  <meta property="article:published_time" content="2024-01-06T00:00:00+09:00">
 
 
 
@@ -44,7 +48,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/self%20dev/self-dev-book-01/">
 
 
 
@@ -93,6 +97,29 @@
 
 <!-- Math jax setting-->
 
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
@@ -107,7 +134,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -153,122 +180,72 @@
 
 
 
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#self-dev" itemprop="item"><span itemprop="name">Self dev</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">'프로그래머의 길, 멘토에게 묻는다'의 서평</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
 <div id="main" role="main">
   
   <div class="sidebar sticky">
   
+  
+    
+      
+      
+      
+      
+    
+    
+      
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+
+
+
+
+<nav class="nav__list">
+  
 
   
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/gobugi.png" alt="Kkobugi" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
+</nav>
 
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Kkobugi</a>
-    </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>안녕하세요👋</p>
-
-<p>백앤드 개발 공부도 같이하고 있는</p>
-
-<p>데이터 엔지니어 꼬부기입니다.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">팔로우</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korea</span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="mailto:kcs4912@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/in/kisung-kim-b65211218" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
   
 
   
@@ -698,33 +675,26 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
-
-<h3 class="archive__subtitle">최근 포스트</h3>
-
-
-
-
-<div class="entries-list">
-  
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="‘프로그래머의 길, 멘토에게 묻는다’의 서평">
+    <meta itemprop="description" content="“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평">
+    <meta itemprop="datePublished" content="2024-01-06T00:00:00+09:00">
     
 
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <div class="page__inner-wrap">
+      <!-- top banner-->
+      <!-- <p class="notice--info" style="font-size: 1rem !important;">
+    <strong>Github 블로그 제작기</strong>
+    <br>
+    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
+</p>  -->
       
-        <a href="/self%20dev/self-dev-book-01/" rel="permalink">‘프로그래머의 길, 멘토에게 묻는다’의 서평
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/self%20dev/self-dev-book-01/" class="u-url" itemprop="url">‘프로그래머의 길, 멘토에게 묻는다’의 서평
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
   <p class="page__meta">
     
@@ -752,17 +722,120 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평
-</p>
-  </article>
-</div>
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
+              <ul class="toc__menu"><li><a href="#프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</a><ul><li><a href="#한-줄-요약">한 줄 요약</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
+
+<p><img src="/images/books/self-dev-book/programmer-way.jpeg" alt="it_trend_book_cover" width="420" /><em>이미지 출처: 교보문고</em></p>
+
+<blockquote>
+  <p>저자: 데이브 후버, 애디웨일 오시나이 저자(글) · 강중빈 번역 <br />
+출판사: 인사이트 <br />
+출판일: 2010.07.26</p>
+</blockquote>
+
+<h3 id="한-줄-요약">한 줄 요약</h3>
+<ul>
+  <li>성장하고 싶은 주니어 프로그래머들이어, 이 책을 보라!</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
 
   
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
     
+      <a href="/tags/#programmer" class="page__taxonomy-item p-category" rel="tag">Programmer</a><span class="sep">, </span>
+    
+      <a href="/tags/#self-dev" class="page__taxonomy-item p-category" rel="tag">Self-Dev</a>
+    
+    </span>
+  </p>
 
 
 
-<div class="list__item">
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#self-dev" class="page__taxonomy-item p-category" rel="tag">Self Dev</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2024-01-06T00:00:00+09:00">2024-01-06</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%27%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98+%EA%B8%B8%2C+%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C+%EB%AC%BB%EB%8A%94%EB%8B%A4%27%EC%9D%98+%EC%84%9C%ED%8F%89%20http%3A%2F%2Flocalhost%3A4000%2Fself%2520dev%2Fself-dev-book-01%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fself%2520dev%2Fself-dev-book-01%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fself%2520dev%2Fself-dev-book-01%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/github%20blog/second/" class="pagination--pager" title="[Github Blog 만들기 1] Github Blog 환경 설정
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -777,7 +850,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-01-05T00:00:00+09:00">2024-01-05</time>
       </span>
@@ -790,7 +863,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           최대 1 분 소요
         
@@ -805,12 +878,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -825,7 +898,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-01-04T00:00:00+09:00">2024-01-04</time>
       </span>
@@ -838,7 +911,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           최대 1 분 소요
         
@@ -852,12 +925,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -872,7 +945,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-01-03T00:00:00+09:00">2024-01-03</time>
       </span>
@@ -885,7 +958,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           1 분 소요
         
@@ -899,12 +972,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -919,7 +992,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2023-02-12T00:00:00+09:00">2023-02-12</time>
       </span>
@@ -932,7 +1005,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           최대 1 분 소요
         
@@ -946,14 +1019,13 @@
   </article>
 </div>
 
+        
+      </div>
+    </div>
+  
   
 </div>
 
-
-
-
-  </div>
-</div>
     </div>
 
     
@@ -995,6 +1067,25 @@
 
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/self%20dev/self-dev-book-01/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/self%20dev/self-dev-book-01"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://NinT.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 
