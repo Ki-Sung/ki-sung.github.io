@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-06T20:52:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-06T21:40:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
 
-<p><img src="/images/books/self-dev-book/programmer-way.jpeg" alt="it_trend_book_cover" width="420" /><em>이미지 출처: 교보문고</em></p>
+<p><img src="/images/books/self-dev-book/programmer_way.jpeg" alt="it_trend_book_cover" width="420" /><em>이미지 출처: 교보문고</em></p>
 
 <blockquote>
   <p>저자: 데이브 후버, 애디웨일 오시나이 저자(글) · 강중빈 번역 <br />
@@ -19,7 +19,29 @@
 이런 의문을 가지고 있었을 때, 여자친구가 이 책 한번 읽어봐 라고 슥 내밀어 주었습니다.<br />
 그래서 한번 이 책을 읽어 보았습니다.</p>
 
-<h3 id="이-책을-읽으면서-나는-무엇을-느꼈나">이 책을 읽으면서 나는 무엇을 느꼈나?</h3>]]></content><author><name>Kkobugi</name></author><category term="Self Dev" /><category term="Self-Dev" /><category term="Programmer" /><summary type="html"><![CDATA[“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평]]></summary></entry><entry><title type="html">[Github Blog 만들기 1] Github Blog 환경 설정</title><link href="http://localhost:4000/github%20blog/second/" rel="alternate" type="text/html" title="[Github Blog 만들기 1] Github Blog 환경 설정" /><published>2024-01-05T00:00:00+09:00</published><updated>2024-01-05T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/second</id><content type="html" xml:base="http://localhost:4000/github%20blog/second/"><![CDATA[<h2 id="나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</h2>
+<h3 id="이-책을-읽으면서-나는-무엇을-느꼈나">이 책을 읽으면서 나는 무엇을 느꼈나?</h3>]]></content><author><name>Kkobugi</name></author><category term="Self Dev" /><category term="Self-Dev" /><category term="Programmer" /><summary type="html"><![CDATA[“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평]]></summary></entry><entry><title type="html">파이썬 공식 저장소, 악성코드 패키지 116개 발견</title><link href="http://localhost:4000/news/news2/" rel="alternate" type="text/html" title="파이썬 공식 저장소, 악성코드 패키지 116개 발견" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news2</id><content type="html" xml:base="http://localhost:4000/news/news2/"><![CDATA[<h2 id="개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</h2>
+
+<ul>
+  <li><a href="https://zdnet.co.kr/view/?no=20240104094359">ZDNET KOREA, 파이썬 공식 저장소, 악성코드 패키지 116개 발견 기사 발췌</a></li>
+</ul>
+
+<p>파이썬 패키지용 공개 저장소인 파이썬 패키지 색인(PyPI)에서 악성코드가 포함된 패키지가 발견되어 사용에 주의가 요구됩니다.</p>
+
+<p>현지시간 2024년 01월 03일 미국 지디넷 등 외신에 따르면 사이버보안기업 EST리서치가 PyPI내 조사를 실시한 결과 악성 패키지를 발견했다고 밝혔습니다.</p>
+
+<p><img src="/images/news/2024-01-06-news2/python_package_img.jpeg" alt="python_package_img" class="align-center img-width-half" /><em>Python Package Index</em></p>
+
+<p>파이썬 패키지 색인(PyPI)은 인기 프로그래밍 언어인 파이썬의 공식 저장소로 개발자가 만든 소프트웨어(SW)를 저장하거나 효율적인 배포를 위해 사용됩니다. 현재 약 50만개의 프로젝트가 진행 중으로 약 520만개의 패키지가 릴리즈 되고 있고, 저장소를 이용하는 사용자는 77만 명이라고 합니다.</p>
+
+<p>PyPI는 많은 사용자를 대상으로 SW를 배표하기 위해 개발된 만큼 이를 악용할 경우 많은 개발자 PC나 기업 시스템을 악성코드로 감염시킬 우려가 있습니다. 특히 제품이나 서비스를 만드는 개발자를 대상으로 하는 만큼 피해는 더욱 확대될 가능성이 높습니다.</p>
+
+<p>지난 1년간 조사한 결과에 따르면 PyPI에 등록된 53개 프로젝트에서 총 116개의 악성 패키지를 발견했다고 합니다. 악성 패키지는 하루 약 80건씩 총 1만 회 이상 다운로드가 발생한 것으로 나타났습니다.</p>
+
+<p>패키지에 포함된 악성코드를 조사한 결과 사이버 스파이 기능을 갖춘 맞춤형 백도어로 윈도와 리눅스를 모두 대상으로 합니다. 윈도 타깃 패키지는 백도어가 파이썬으로 구현됐으며 리눅스 백도어는 GO를 사용했다고 합니다.</p>
+
+<p>악성코드는 원격 명령 실행 및 파일 추출이 가능하며 스크린샷을 촬영하는 기능도 포함됐다고 합니다. 일부 악성코드는 개인 데이터와 자격 증명을 훔치는 W4SP 스틸러의 변종이나 암호화폐를 훔치는 클립보드 모니터도 확인되었다고 밝혔습니다. 클립보드 모니터는 비트코인, 이더리움, 모네로, 라이트코인을 주로 타깃으로 삼았다고 합니다.</p>
+
+<p>아쉽게도 어떻게 대비해라 방법은 없지만, 결국 파이썬 패키지를 이용하실 때, 우리가 조심 또 조심하는 수 밖에 없는 것 같습니다. 파이썬으로 개발하시는 분들 모두 조심합시다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="Python" /><category term="PyPI" /><category term="Malware" /><summary type="html"><![CDATA[개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생]]></summary></entry><entry><title type="html">[Github Blog 만들기 1] Github Blog 환경 설정</title><link href="http://localhost:4000/github%20blog/second/" rel="alternate" type="text/html" title="[Github Blog 만들기 1] Github Blog 환경 설정" /><published>2024-01-05T00:00:00+09:00</published><updated>2024-01-05T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/second</id><content type="html" xml:base="http://localhost:4000/github%20blog/second/"><![CDATA[<h2 id="나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</h2>
 <p><a href="https://www.youtube.com/watch?v=--MMmHbSH9k&amp;list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기</a></p>
 
 <h3 id="개요">개요</h3>

@@ -16,4 +16,10 @@ var store = [{
         "tags": ["Self-Dev","Programmer"],
         "url": "/self%20dev/self-dev-book-01/",
         "teaser": null
+      },{
+        "title": "파이썬 공식 저장소, 악성코드 패키지 116개 발견",
+        "excerpt":"개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생 ZDNET KOREA, 파이썬 공식 저장소, 악성코드 패키지 116개 발견 기사 발췌 파이썬 패키지용 공개 저장소인 파이썬 패키지 색인(PyPI)에서 악성코드가 포함된 패키지가 발견되어 사용에 주의가 요구됩니다. 현지시간 2024년 01월 03일 미국 지디넷 등 외신에 따르면 사이버보안기업 EST리서치가 PyPI내 조사를 실시한 결과 악성...","categories": ["News"],
+        "tags": ["Tech","Python","PyPI","Malware"],
+        "url": "/news/news2/",
+        "teaser": null
       }]

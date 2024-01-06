@@ -12,28 +12,32 @@
 
 <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Category | 꼬부기의 개발 노트</title>
-<meta name="description" content="꼬부기의 개발 블로그 입니다.">
+<!-- begin _includes/seo.html --><title>파이썬 공식 저장소, 악성코드 패키지 116개 발견 | 꼬부기의 개발 노트</title>
+<meta name="description" content="개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생">
 
 
   <meta name="author" content="Kkobugi">
   
+  <meta property="article:author" content="Kkobugi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="꼬부기의 개발 노트">
-<meta property="og:title" content="Category">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="파이썬 공식 저장소, 악성코드 패키지 116개 발견">
+<meta property="og:url" content="http://localhost:4000/news/news2/">
 
 
-  <meta property="og:description" content="꼬부기의 개발 블로그 입니다.">
-
-
-
+  <meta property="og:description" content="개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생">
 
 
 
+
+
+
+
+  <meta property="article:published_time" content="2024-01-06T00:00:00+09:00">
 
 
 
@@ -44,7 +48,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/news/news2/">
 
 
 
@@ -93,6 +97,29 @@
 
 <!-- Math jax setting-->
 
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
@@ -107,7 +134,7 @@
 
   </head>
 
-  <body class="layout--categories">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -152,6 +179,8 @@
       
 
 
+
+
   
     
 
@@ -171,7 +200,17 @@
         <span class="sep">/</span>
       
       
-        <li class="current">Category</li>
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#news" itemprop="item"><span itemprop="name">News</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">파이썬 공식 저장소, 악성코드 패키지 116개 발견</li>
       
     
   </ol>
@@ -184,118 +223,29 @@
   
   <div class="sidebar sticky">
   
+  
+    
+      
+      
+      
+      
+    
+    
+      
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+
+
+
+
+<nav class="nav__list">
+  
 
   
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/gobugi.png" alt="Kkobugi" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
+</nav>
 
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Kkobugi</a>
-    </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>안녕하세요👋</p>
-
-<p>백앤드 개발 공부도 같이하고 있는</p>
-
-<p>데이터 엔지니어 꼬부기입니다.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">팔로우</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korea</span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="mailto:kcs4912@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/in/kisung-kim-b65211218" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
   
 
   
@@ -725,191 +675,26 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Category</h1>
-    
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="파이썬 공식 저장소, 악성코드 패키지 116개 발견">
+    <meta itemprop="description" content="개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생">
+    <meta itemprop="datePublished" content="2024-01-06T00:00:00+09:00">
     
 
-
-
-
-
-<ul class="taxonomy__index">
-  
-    
+    <div class="page__inner-wrap">
+      <!-- top banner-->
+      <!-- <p class="notice--info" style="font-size: 1rem !important;">
+    <strong>Github 블로그 제작기</strong>
+    <br>
+    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
+</p>  -->
       
-        <li>
-          <a href="#github-blog">
-            <strong>Github Blog</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#news">
-            <strong>News</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-        <li>
-          <a href="#trend-book">
-            <strong>Trend Book</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#self-dev">
-            <strong>Self Dev</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
-</ul>
-
-
-
-  
-    
-      <section id="github-blog" class="taxonomy__section">
-        <h2 class="archive__subtitle">Github Blog</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/github%20blog/second/" rel="permalink">[Github Blog 만들기 1] Github Blog 환경 설정
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/news/news2/" class="u-url" itemprop="url">파이썬 공식 저장소, 악성코드 패키지 116개 발견
 </a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-05T00:00:00+09:00">2024-01-05</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">나도 할 수 있다! Github Page Blog 만들기 Part 1
-참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기
-</p>
-  </article>
-</div>
-
+          </h1>
           
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/github%20blog/first/" rel="permalink">test 용 posting 입니다.
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2023-02-12T00:00:00+09:00">2023-02-12</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">오늘 처음 블로그를 만들었습니다.
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="news" class="taxonomy__section">
-        <h2 class="archive__subtitle">News</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news2/" rel="permalink">파이썬 공식 저장소, 악성코드 패키지 116개 발견
-</a>
-      
-    </h2>
-    
 
   <p class="page__meta">
     
@@ -937,141 +722,133 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+        </header>
       
-        <a href="/news/news1/" rel="permalink">마이크로소프트, 비주얼스튜디오 2013, 2024년 4월 지원 종료
-</a>
-      
-    </h2>
-    
 
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+      <section class="page__content e-content" itemprop="text">
         
-        <time datetime="2024-01-03T00:00:00+09:00">2024-01-03</time>
-      </span>
-    
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
+              <ul class="toc__menu"><li><a href="#개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</a></li></ul>
 
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+            </nav>
+          </aside>
         
-          1 분 소요
+        <h2 id="개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</h2>
+
+<ul>
+  <li><a href="https://zdnet.co.kr/view/?no=20240104094359">ZDNET KOREA, 파이썬 공식 저장소, 악성코드 패키지 116개 발견 기사 발췌</a></li>
+</ul>
+
+<p>파이썬 패키지용 공개 저장소인 파이썬 패키지 색인(PyPI)에서 악성코드가 포함된 패키지가 발견되어 사용에 주의가 요구됩니다.</p>
+
+<p>현지시간 2024년 01월 03일 미국 지디넷 등 외신에 따르면 사이버보안기업 EST리서치가 PyPI내 조사를 실시한 결과 악성 패키지를 발견했다고 밝혔습니다.</p>
+
+<p><img src="/images/news/2024-01-06-news2/python_package_img.jpeg" alt="python_package_img" class="align-center img-width-half" /><em>Python Package Index</em></p>
+
+<p>파이썬 패키지 색인(PyPI)은 인기 프로그래밍 언어인 파이썬의 공식 저장소로 개발자가 만든 소프트웨어(SW)를 저장하거나 효율적인 배포를 위해 사용됩니다. 현재 약 50만개의 프로젝트가 진행 중으로 약 520만개의 패키지가 릴리즈 되고 있고, 저장소를 이용하는 사용자는 77만 명이라고 합니다.</p>
+
+<p>PyPI는 많은 사용자를 대상으로 SW를 배표하기 위해 개발된 만큼 이를 악용할 경우 많은 개발자 PC나 기업 시스템을 악성코드로 감염시킬 우려가 있습니다. 특히 제품이나 서비스를 만드는 개발자를 대상으로 하는 만큼 피해는 더욱 확대될 가능성이 높습니다.</p>
+
+<p>지난 1년간 조사한 결과에 따르면 PyPI에 등록된 53개 프로젝트에서 총 116개의 악성 패키지를 발견했다고 합니다. 악성 패키지는 하루 약 80건씩 총 1만 회 이상 다운로드가 발생한 것으로 나타났습니다.</p>
+
+<p>패키지에 포함된 악성코드를 조사한 결과 사이버 스파이 기능을 갖춘 맞춤형 백도어로 윈도와 리눅스를 모두 대상으로 합니다. 윈도 타깃 패키지는 백도어가 파이썬으로 구현됐으며 리눅스 백도어는 GO를 사용했다고 합니다.</p>
+
+<p>악성코드는 원격 명령 실행 및 파일 추출이 가능하며 스크린샷을 촬영하는 기능도 포함됐다고 합니다. 일부 악성코드는 개인 데이터와 자격 증명을 훔치는 W4SP 스틸러의 변종이나 암호화폐를 훔치는 클립보드 모니터도 확인되었다고 밝혔습니다. 클립보드 모니터는 비트코인, 이더리움, 모네로, 라이트코인을 주로 타깃으로 삼았다고 합니다.</p>
+
+<p>아쉽게도 어떻게 대비해라 방법은 없지만, 결국 파이썬 패키지를 이용하실 때, 우리가 조심 또 조심하는 수 밖에 없는 것 같습니다. 파이썬으로 개발하시는 분들 모두 조심합시다.</p>
+
         
-      </span>
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
     
+      <a href="/tags/#malware" class="page__taxonomy-item p-category" rel="tag">Malware</a><span class="sep">, </span>
+    
+      <a href="/tags/#pypi" class="page__taxonomy-item p-category" rel="tag">PyPI</a><span class="sep">, </span>
+    
+      <a href="/tags/#python" class="page__taxonomy-item p-category" rel="tag">Python</a><span class="sep">, </span>
+    
+      <a href="/tags/#tech" class="page__taxonomy-item p-category" rel="tag">Tech</a>
+    
+    </span>
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.
-</p>
-  </article>
-</div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
+
   
 
+
   
-    
-  
-    
-  
-    
-      <section id="trend-book" class="taxonomy__section">
-        <h2 class="archive__subtitle">Trend Book</h2>
-        <div class="entries-list">
-          
-            
 
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/trend%20book/trend-book-01/" rel="permalink">‘IT 트렌드 읽는 습관’의 서평
-</a>
-      
-    </h2>
+      <a href="/categories/#news" class="page__taxonomy-item p-category" rel="tag">News</a>
     
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-04T00:00:00+09:00">2024-01-04</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
+    </span>
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">“IT 트렌드 읽는 습관”을 일고 쓰는 나만의 서평
-</p>
-  </article>
-</div>
+        
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2024-01-06T00:00:00+09:00">2024-01-06</time></p>
+
+      </footer>
+
+      <section class="page__share">
   
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%ED%8C%8C%EC%9D%B4%EC%8D%AC+%EA%B3%B5%EC%8B%9D+%EC%A0%80%EC%9E%A5%EC%86%8C%2C+%EC%95%85%EC%84%B1%EC%BD%94%EB%93%9C+%ED%8C%A8%ED%82%A4%EC%A7%80+116%EA%B0%9C+%EB%B0%9C%EA%B2%AC%20http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews2%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews2%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews2%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
     
-      <section id="self-dev" class="taxonomy__section">
-        <h2 class="archive__subtitle">Self Dev</h2>
-        <div class="entries-list">
+      <a href="/self%20dev/self-dev-book-01/" class="pagination--pager" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -1086,7 +863,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-01-06T00:00:00+09:00">2024-01-06</time>
       </span>
@@ -1099,7 +876,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           최대 1 분 소요
         
@@ -1113,16 +890,155 @@
   </article>
 </div>
 
+        
           
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-  
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/github%20blog/second/" rel="permalink">[Github Blog 만들기 1] Github Blog 환경 설정
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-05T00:00:00+09:00">2024-01-05</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
 
 
-  </div>
+    <p class="archive__item-excerpt" itemprop="description">나도 할 수 있다! Github Page Blog 만들기 Part 1
+참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기
+</p>
+  </article>
 </div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/trend%20book/trend-book-01/" rel="permalink">‘IT 트렌드 읽는 습관’의 서평
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-04T00:00:00+09:00">2024-01-04</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“IT 트렌드 읽는 습관”을 일고 쓰는 나만의 서평
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news1/" rel="permalink">마이크로소프트, 비주얼스튜디오 2013, 2024년 4월 지원 종료
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-03T00:00:00+09:00">2024-01-03</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
     </div>
 
     
@@ -1164,6 +1080,25 @@
 
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/news/news2/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/news/news2"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://NinT.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 
