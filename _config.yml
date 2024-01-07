@@ -110,6 +110,9 @@ author:
   location         : "South Korea"
   email            : 
   links:
+    - label: "My Running Record"
+      icon: "fab fa-fw fa-pix"
+      url: "https://pixe.la/v1/users/kisung/graphs/graph1.html"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kcs4912@gmail.com"
