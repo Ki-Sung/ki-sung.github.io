@@ -17,7 +17,7 @@ sidebar:
 ---
 ## "프로그래머의 길, 멘토에게 묻는다"를 일고 쓰는 나만의 서평
 
-![it_trend_book_cover](/images/books/self-dev-book/programmer_way.jpeg){:width="420"}*이미지 출처: 교보문고*
+![it_trend_book_cover](/images/books/self-dev-book/programmer_way.jpeg){:width="380"}*이미지 출처: 교보문고*
 
 > 저자: 데이브 후버, 애디웨일 오시나이 저자(글) · 강중빈 번역 \
 > 출판사: 인사이트 \
