@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-08T13:08:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-09T10:56:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!</title><link href="http://localhost:4000/news/news3/" rel="alternate" type="text/html" title="‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!" /><published>2024-01-09T00:00:00+09:00</published><updated>2024-01-09T00:00:00+09:00</updated><id>http://localhost:4000/news/news3</id><content type="html" xml:base="http://localhost:4000/news/news3/"><![CDATA[<p><a href="https://n.news.naver.com/mnews/article/586/0000070615?sid=101">시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌</a></p>
+
+<blockquote>
+  <p>2023년 11월 공개 후 ‘올트먼 축출 사태’로 출시 연기… 2024년 출시 예정<br />
+언론, 출판사 등과 본격적으로 저작권 협상 나서<br />
+NYT와의 소송은 장애물…생성형 AI vs 미디어 기업 간 충돌 우려</p>
+</blockquote>
+
+<p><img src="/images/news/2024-01-09-news3/openAI_logo.jpeg" alt="openAI_logo" class="align-center img-width-600" /><em>OpenAI와 ChatGPT 로고, 출처: 연합뉴스</em></p>
+
+<p>OepnAI가 ‘맞춤형 ChatGPT’를 거래할 수 있는 ‘GPT스토어’를 출시한다고 밝혔습니다.</p>
+
+<p>현지 시각 2024년 1월 04일 OpenAI는 GPT 개발자들에게 이메일을 보내 GPT 스토어가 공개될 때, GPT를 올리기 위해 OpenAI의 새로운 사용 정책을 검토하고 이를 준수해야 한다고 공지했다고 합니다.</p>
+
+<p>원래는 2023년 11월 공개 후 ‘올트먼 축출 사태’로 출시가 연기되었는데요, 빠르면 해당 뉴스를 작성한 해당 주에 출시될 것으로 확인됩니다.</p>
+
+<p>OpenAI측은 ‘GPT빌더’를 통해 코딩을 배우지 않은 개인도 GPT를 개인 맞춤형으로 만들 수 있는 서비스를 제공하고 있는데요, 이렇게 만든 GPT를 자유롭게 거래할 수 있는 ‘AI판 앱스토어’라고 하고 있어요. (해당 예시로 자녀에게 수학을 가르쳐주거나, 칵테일 제조 방법을 알려주는 챗봇 등이 제시되었어요)</p>
+
+<p>이렇게 GPT스토어를 출시한 배경에는 아마도 생성형 AI의 수익성 입증이 한몫을 했겠죠, 2022년 매출 2,800만 달러(약 365억 원) 2023년 매출 16억 달러(약 2조 800억 원), 약 1.75%의 매출 증가가 이루어졌습니다. 업계에서는 Open AI가 GPT스토어 수수료를 통해 상당한 수익을 벌어들일 것이며, B2C(소비자 대상 시장)에서도 영향력을 넓힐 것이라 해요.</p>
+
+<p><img src="/images/news/2024-01-09-news3/sam_altman.jpeg" alt="sam_altman" class="align-center img-width-600" /><em>OpenAI CEO 샘 올트먼, 출처: 연합뉴스</em></p>
+
+<p>하지만 넘어야 할 산도 존재합니다. 우선 저작권 문제인데요, GPT스토어 출시를 앞두고 OpenAI는 수십 개의 회사와 저작권 협상을 벌이고 있어요. 현재 블룸버그, AP통신, 악셀 스프링어와 뉴스 콘텐츠로 사용 계약을 체결했지만, 뉴욕타임스와의 협상은 잘 진행되지 않고 있어요. 게다가 Open AI가 저작권을 무단으로 사용했다는 의혹이 제기되어 뉴욕타임스 측에서 소송을 제기한 바 있어요.</p>
+
+<p>만약 뉴욕타임스가 승소한다면 Open AI는 수십억 달러를 물어줘야 하며, 뉴욕타임스 기사가 포함된 AI 훈련 데이터를 강제로 삭제해야 할 수도 있어요. 업계에서는 해당 소송을 계기로 생성형 AI 기업과 미디어, 콘텐츠 기업 간 법적 충돌이 본격화될 것이라는 전망도 나와 해당 문제는 꼭 해결해야 할 숙제로 남겨져 있습니다.</p>
+
+<p>이제 GPT스토어 출시가 얼만 안남았는데, 과연 지난번 ChatGPT 공개 때처럼 또 다른 반향을 일으킬 수 있을지, 또 우리 소비자로서는 어떤 변화가 발생할지 지켜보는 것도 좋을 것 같아요.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="OpenAI" /><category term="ChatGPT Store" /><category term="Service Launching" /><summary type="html"><![CDATA[시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
 
 <p><img src="/images/books/self-dev-book/programmer_way.jpeg" alt="it_trend_book_cover" width="380" /><em>이미지 출처: 교보문고</em></p>
 

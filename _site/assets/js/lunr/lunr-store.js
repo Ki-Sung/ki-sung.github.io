@@ -22,4 +22,10 @@ var store = [{
         "tags": ["Tech","Python","PyPI","Malware"],
         "url": "/news/news2/",
         "teaser": null
+      },{
+        "title": "'수익화' 시동 건 OpenAI, '맞품형 ChatGPT' 사고 파는 스토어 출시!",
+        "excerpt":"시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌 2023년 11월 공개 후 ‘올트먼 축출 사태’로 출시 연기… 2024년 출시 예정 언론, 출판사 등과 본격적으로 저작권 협상 나서 NYT와의 소송은 장애물…생성형 AI vs 미디어 기업 간 충돌 우려 OpenAI와 ChatGPT 로고, 출처: 연합뉴스 OepnAI가 ‘맞춤형 ChatGPT’를...","categories": ["News"],
+        "tags": ["Tech","AI","OpenAI","ChatGPT Store","Service Launching"],
+        "url": "/news/news3/",
+        "teaser": null
       }]
