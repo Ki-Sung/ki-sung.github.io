@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-16T19:02:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!</title><link href="http://localhost:4000/news/news3/" rel="alternate" type="text/html" title="‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!" /><published>2024-01-09T00:00:00+09:00</published><updated>2024-01-09T00:00:00+09:00</updated><id>http://localhost:4000/news/news3</id><content type="html" xml:base="http://localhost:4000/news/news3/"><![CDATA[<p><a href="https://n.news.naver.com/mnews/article/586/0000070615?sid=101">시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-28T20:07:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시</title><link href="http://localhost:4000/news/news4/" rel="alternate" type="text/html" title="깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시" /><published>2024-02-28T00:00:00+09:00</published><updated>2024-02-28T00:00:00+09:00</updated><id>http://localhost:4000/news/news4</id><content type="html" xml:base="http://localhost:4000/news/news4/"><![CDATA[<p><a href="https://zdnet.co.kr/view/?no=20240228105159">ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌</a></p>
+
+<blockquote>
+  <p>2024년 02월 27일 ‘코파일럿 엔터프라이즈’ 정식 출시 <br />
+사용자 조직 내부의 코드베이스와 프로세스, 지식 기반등을 따르게 코드 제안<br />
+현재 마이크로소프트 빙과 통합, 향후 모델은 미세조정도 가능</p>
+</blockquote>
+
+<p><img src="/images/news/2024-02-28-news4/github_copilot_en.png" alt="copilot_enterprise" class="align-center img-width-600" /><em>코파일럿 엔터프라이즈, 출처: ZDNET KOREA</em></p>
+
+<p>대형기업용 생성형 인공지능(AI) 기반 개발자 보조도구 요금제 ‘깃허브 코파일럿 엔터프라이즈’가 27일(현지시간)을 기점으로 정식 버전으로 출시했습니다.</p>
+
+<p>깃허브 코파일럿은 대화창에서 자연어로 작성하고 싶은 소프트웨어 개념과 요구사항을 알려주면, AI가 코드를 작성하고, 그밖에 버그나 보안취약점을 찾아내고 조치 방안을 제안, 주석 작성이나 디버깅 수행 등 개발자의 코드 작성을 돕는 AI 도구입니다.</p>
+
+<p>깃허브 코파일럿 엔터프라이즈는 이같은 기본 기능 외에 사용자 조직 내부의 코드베이스와 프로세스, 지식 기반 등을 따르게 제한하는 기능을 제공(저장소 기반 의미검색, 지적재산권(IP) 면책 기능 포함)한다고 발표했습니다. 일반적인 코딩 질문에 대한 채팅도 지원하는데, 도입을 위해 깃허브 엔터프라이즈 클라우드가 필요하다고 합니다.</p>
+
+<p>사측에서 밝힌 코파일럿 엔터프라이즈의 기능은 다음과 같습니다.</p>
+<ol>
+  <li>개발자의 코드 탐색과 이해를 간소화해 더 빠른 기능 구현, 문제해결, 코드 현대화 등을 지원</li>
+  <li>채팅을 깃허브닷컴에 직접 통합 - 코드베이스에 자연어로 질문하고 답변을 받을 수 있으며, 관련 문서나 기존 솔루션으로 개발자를 안내하고, 조직의 특정 코드베이스와 표준에 맞는 맞춤형 지원과 제안을 제공</li>
+  <li>생성된 Pull Request 요약을 통해 개발자는 초안 작성 시간 단축 - 검토자는 제안된 변경 사항을 빠르게 파악하고 변경사항 이해 시간을 단축해 피드백 제공에 더 많은 시간을 할애할 수 있음</li>
+  <li>빙 검색과 통합으로 코파일럿 챗에서 CSS나 자바스크립트 프레임워크 업데이트 같은 최신 소프트웨어 관련 정보 검색 가능</li>
+</ol>
+
+<p>위의 기능 설명에 덧붙이기 위해 깃허브에서는 코파일럿의 기업 생산성 영향도를 조사한 액센추어 내부 연구 결과를 제시했습니다. 액센추어 연구에 의하면, 깃허브 코파일럿은 액센추어 개발자의 흐름을 유지하고 중단을 최소화하도록 지원했다고 합니다. 이 연구 결과로 개발자의 94%가 깃허브 코파일럿을 사용해 흐름 유지와 반복작업 감소에 도움을 받았다고 답했고, 90%는 정보 검색 소요 시간을 줄였다고 말했습니다.</p>
+
+<p>또한 개발자는 깃허브 코파일럿에서 제안한 코드의 88%를 편집기에 유지했고, 약 90%의 개발자는 코파일럿 제안을 포함한 코드를 커밋 했으며, 90%의 개발자는 깃허브 코파일럿을 사용해 더 나은 코드를 작성했다고 보고했습니다. 약 95%는 개발자가 코파일럿 제안으로 배웠다고 답했습니다. 매우 흥미로운 결과 입니다.</p>
+
+<p>마지막으로 테크크런치에 따르면, 깃허브 코파일럿 엔터프라이즈의 자동 완성 기능은 현재 오픈AI의 GPT-3.5 터보를 기반모델로 활용하고 있다고 합니다. 대기시간 요구사항 때문에 GPT-4로 이동하지 않았지만, 코파일럿 비즈니스 이후 모델을 6회 이상 업데이트했다고 밝혔습니다.</p>
+
+<p>위의 연구 결과 및 모델을 보면 회사에서 코드 작성시 개발자들의 업무 효율이 상당히 올라 갈 것으로 예상됩니다. 가격은 사용자당 월 39달러라고 합니다. 향후에도 모델 종류에 따라 요금제를 구분하지 않는다고 하니 많이 이용해보시기 바랍니다 :)</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="Github" /><category term="Copilot Enterprise" /><category term="Service Launching" /><summary type="html"><![CDATA[ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">‘머니 트렌드 2024’의 서평</title><link href="http://localhost:4000/trend%20book/trend-book-02/" rel="alternate" type="text/html" title="‘머니 트렌드 2024’의 서평" /><published>2024-01-26T00:00:00+09:00</published><updated>2024-01-26T00:00:00+09:00</updated><id>http://localhost:4000/trend%20book/trend-book-02</id><content type="html" xml:base="http://localhost:4000/trend%20book/trend-book-02/"><![CDATA[<h2 id="한-줄-요약">한 줄 요약</h2>
+<ul>
+  <li>각 분야 8명의 전문가가 57개의 키워드로 2024년 주목해야할 돈의 트렌드를 집어준다!</li>
+</ul>
+
+<p><img src="/images/books/trend-book/money_trend_2024.jpeg" alt="money_trend_2024" width="380" /><em>이미지 출처: 교보문고</em></p>
+
+<blockquote>
+  <p>저자: 김도윤, 정태익, 김용섭, 김현준, 전영수, 채상욱, 최재붕, 홍춘욱 <br />
+출판사: 북모먼트 <br />
+출판일: 2023.10.05</p>
+</blockquote>
+
+<h2 id="이-책을-읽게-된-이유">이 책을 읽게 된 이유</h2>
+<p>자본주의 체계에서 돈은 중요한 요소중 하나입니다. 우리는 늘 돈이되는 소스가 무엇이 있는지 찾고 있습니다. 2024년 돈이 될만한 트렌드는 무엇이 있는지 알고 싶어 이 책을 선정해서 읽게 되었습니다.</p>
+
+<h2 id="내가-생각하는-중요한-내용-정리">내가 생각하는 중요한 내용 정리</h2>
+<p>본 서적은 총 7부로 구성되어 있습니다. 각 분야의 전문가(부동산, 트렌드 분석가, 투자운용전문가, 경제학 교수 등) 8명(사실은 7명입니다. 1분은 이 책을 지칠하기 위해 기획하신 분이 계십니다.)을 초빙해서 각 분야의 트렌드를 분석하고 요약해 놓았습니다.</p>
+
+<p>하단 내용 작성 중… (빠른 시일내에 작성하겠습니다.)</p>]]></content><author><name>Kkobugi</name></author><category term="Trend Book" /><category term="Trend" /><category term="Money" /><category term="Economy" /><summary type="html"><![CDATA[한 줄 요약 각 분야 8명의 전문가가 57개의 키워드로 2024년 주목해야할 돈의 트렌드를 집어준다!]]></summary></entry><entry><title type="html">‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!</title><link href="http://localhost:4000/news/news3/" rel="alternate" type="text/html" title="‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!" /><published>2024-01-09T00:00:00+09:00</published><updated>2024-01-09T00:00:00+09:00</updated><id>http://localhost:4000/news/news3</id><content type="html" xml:base="http://localhost:4000/news/news3/"><![CDATA[<p><a href="https://n.news.naver.com/mnews/article/586/0000070615?sid=101">시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌</a></p>
 
 <blockquote>
   <p>2023년 11월 공개 후 ‘올트먼 축출 사태’로 출시 연기… 2024년 출시 예정<br />
@@ -24,7 +73,29 @@ NYT와의 소송은 장애물…생성형 AI vs 미디어 기업 간 충돌 우�
 
 <p>만약 뉴욕타임스가 승소한다면 Open AI는 수십억 달러를 물어줘야 하며, 뉴욕타임스 기사가 포함된 AI 훈련 데이터를 강제로 삭제해야 할 수도 있어요. 업계에서는 해당 소송을 계기로 생성형 AI 기업과 미디어, 콘텐츠 기업 간 법적 충돌이 본격화될 것이라는 전망도 나와 해당 문제는 꼭 해결해야 할 숙제로 남겨져 있습니다.</p>
 
-<p>이제 GPT스토어 출시가 얼만 안남았는데, 과연 지난번 ChatGPT 공개 때처럼 또 다른 반향을 일으킬 수 있을지, 또 우리 소비자로서는 어떤 변화가 발생할지 지켜보는 것도 좋을 것 같아요.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="OpenAI" /><category term="ChatGPT Store" /><category term="Service Launching" /><summary type="html"><![CDATA[시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
+<p>이제 GPT스토어 출시가 얼만 안남았는데, 과연 지난번 ChatGPT 공개 때처럼 또 다른 반향을 일으킬 수 있을지, 또 우리 소비자로서는 어떤 변화가 발생할지 지켜보는 것도 좋을 것 같아요.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="OpenAI" /><category term="ChatGPT Store" /><category term="Service Launching" /><summary type="html"><![CDATA[시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">파이썬 공식 저장소, 악성코드 패키지 116개 발견</title><link href="http://localhost:4000/news/news2/" rel="alternate" type="text/html" title="파이썬 공식 저장소, 악성코드 패키지 116개 발견" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news2</id><content type="html" xml:base="http://localhost:4000/news/news2/"><![CDATA[<h2 id="개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</h2>
+
+<ul>
+  <li><a href="https://zdnet.co.kr/view/?no=20240104094359">ZDNET KOREA, 파이썬 공식 저장소, 악성코드 패키지 116개 발견 기사 발췌</a></li>
+</ul>
+
+<p>파이썬 패키지용 공개 저장소인 파이썬 패키지 색인(PyPI)에서 악성코드가 포함된 패키지가 발견되어 사용에 주의가 요구됩니다.</p>
+
+<p>현지시간 2024년 01월 03일 미국 지디넷 등 외신에 따르면 사이버보안기업 EST리서치가 PyPI내 조사를 실시한 결과 악성 패키지를 발견했다고 밝혔습니다.</p>
+
+<p><img src="/images/news/2024-01-06-news2/python_package_img.jpeg" alt="python_package_img" class="align-center img-width-half" /><em>Python Package Index</em></p>
+
+<p>파이썬 패키지 색인(PyPI)은 인기 프로그래밍 언어인 파이썬의 공식 저장소로 개발자가 만든 소프트웨어(SW)를 저장하거나 효율적인 배포를 위해 사용됩니다. 현재 약 50만개의 프로젝트가 진행 중으로 약 520만개의 패키지가 릴리즈 되고 있고, 저장소를 이용하는 사용자는 77만 명이라고 합니다.</p>
+
+<p>PyPI는 많은 사용자를 대상으로 SW를 배포하기 위해 개발된 만큼 이를 악용할 경우 많은 개발자 PC나 기업 시스템을 악성코드로 감염시킬 우려가 있습니다. 특히 제품이나 서비스를 만드는 개발자를 대상으로 하는 만큼 피해는 더욱 확대될 가능성이 높습니다.</p>
+
+<p>지난 1년간 조사한 결과에 따르면 PyPI에 등록된 53개 프로젝트에서 총 116개의 악성 패키지를 발견했다고 합니다. 악성 패키지는 하루 약 80건씩 총 1만 회 이상 다운로드가 발생한 것으로 나타났습니다.</p>
+
+<p>패키지에 포함된 악성코드를 조사한 결과 사이버 스파이 기능을 갖춘 맞춤형 백도어로 윈도와 리눅스를 모두 대상으로 합니다. 윈도 타깃 패키지는 백도어가 파이썬으로 구현됐으며 리눅스 백도어는 GO를 사용했다고 합니다.</p>
+
+<p>악성코드는 원격 명령 실행 및 파일 추출이 가능하며 스크린샷을 촬영하는 기능도 포함됐다고 합니다. 일부 악성코드는 개인 데이터와 자격 증명을 훔치는 W4SP 스틸러의 변종이나 암호화폐를 훔치는 클립보드 모니터도 확인되었다고 밝혔습니다. 클립보드 모니터는 비트코인, 이더리움, 모네로, 라이트코인을 주로 타깃으로 삼았다고 합니다.</p>
+
+<p>아쉽게도 어떻게 대비해라 방법은 없지만, 결국 파이썬 패키지를 이용하실 때, 우리가 조심 또 조심하는 수 밖에 없는 것 같습니다. 파이썬으로 개발하시는 분들 모두 조심합시다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="Python" /><category term="PyPI" /><category term="Malware" /><summary type="html"><![CDATA[개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생]]></summary></entry><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
 
 <p><img src="/images/books/self-dev-book/programmer_way.jpeg" alt="it_trend_book_cover" width="380" /><em>이미지 출처: 교보문고</em></p>
 
@@ -45,29 +116,7 @@ NYT와의 소송은 장애물…생성형 AI vs 미디어 기업 간 충돌 우�
 이런 의문을 가지고 있었을 때, 여자친구가 이 책 한번 읽어봐 라고 슥 내밀어 주었습니다.<br />
 그래서 한번 이 책을 읽어 보았습니다.</p>
 
-<h3 id="이-책을-읽으면서-나는-무엇을-느꼈나">이 책을 읽으면서 나는 무엇을 느꼈나?</h3>]]></content><author><name>Kkobugi</name></author><category term="Self Dev" /><category term="Self-Dev" /><category term="Programmer" /><summary type="html"><![CDATA[“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평]]></summary></entry><entry><title type="html">파이썬 공식 저장소, 악성코드 패키지 116개 발견</title><link href="http://localhost:4000/news/news2/" rel="alternate" type="text/html" title="파이썬 공식 저장소, 악성코드 패키지 116개 발견" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news2</id><content type="html" xml:base="http://localhost:4000/news/news2/"><![CDATA[<h2 id="개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</h2>
-
-<ul>
-  <li><a href="https://zdnet.co.kr/view/?no=20240104094359">ZDNET KOREA, 파이썬 공식 저장소, 악성코드 패키지 116개 발견 기사 발췌</a></li>
-</ul>
-
-<p>파이썬 패키지용 공개 저장소인 파이썬 패키지 색인(PyPI)에서 악성코드가 포함된 패키지가 발견되어 사용에 주의가 요구됩니다.</p>
-
-<p>현지시간 2024년 01월 03일 미국 지디넷 등 외신에 따르면 사이버보안기업 EST리서치가 PyPI내 조사를 실시한 결과 악성 패키지를 발견했다고 밝혔습니다.</p>
-
-<p><img src="/images/news/2024-01-06-news2/python_package_img.jpeg" alt="python_package_img" class="align-center img-width-half" /><em>Python Package Index</em></p>
-
-<p>파이썬 패키지 색인(PyPI)은 인기 프로그래밍 언어인 파이썬의 공식 저장소로 개발자가 만든 소프트웨어(SW)를 저장하거나 효율적인 배포를 위해 사용됩니다. 현재 약 50만개의 프로젝트가 진행 중으로 약 520만개의 패키지가 릴리즈 되고 있고, 저장소를 이용하는 사용자는 77만 명이라고 합니다.</p>
-
-<p>PyPI는 많은 사용자를 대상으로 SW를 배표하기 위해 개발된 만큼 이를 악용할 경우 많은 개발자 PC나 기업 시스템을 악성코드로 감염시킬 우려가 있습니다. 특히 제품이나 서비스를 만드는 개발자를 대상으로 하는 만큼 피해는 더욱 확대될 가능성이 높습니다.</p>
-
-<p>지난 1년간 조사한 결과에 따르면 PyPI에 등록된 53개 프로젝트에서 총 116개의 악성 패키지를 발견했다고 합니다. 악성 패키지는 하루 약 80건씩 총 1만 회 이상 다운로드가 발생한 것으로 나타났습니다.</p>
-
-<p>패키지에 포함된 악성코드를 조사한 결과 사이버 스파이 기능을 갖춘 맞춤형 백도어로 윈도와 리눅스를 모두 대상으로 합니다. 윈도 타깃 패키지는 백도어가 파이썬으로 구현됐으며 리눅스 백도어는 GO를 사용했다고 합니다.</p>
-
-<p>악성코드는 원격 명령 실행 및 파일 추출이 가능하며 스크린샷을 촬영하는 기능도 포함됐다고 합니다. 일부 악성코드는 개인 데이터와 자격 증명을 훔치는 W4SP 스틸러의 변종이나 암호화폐를 훔치는 클립보드 모니터도 확인되었다고 밝혔습니다. 클립보드 모니터는 비트코인, 이더리움, 모네로, 라이트코인을 주로 타깃으로 삼았다고 합니다.</p>
-
-<p>아쉽게도 어떻게 대비해라 방법은 없지만, 결국 파이썬 패키지를 이용하실 때, 우리가 조심 또 조심하는 수 밖에 없는 것 같습니다. 파이썬으로 개발하시는 분들 모두 조심합시다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="Python" /><category term="PyPI" /><category term="Malware" /><summary type="html"><![CDATA[개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생]]></summary></entry><entry><title type="html">[Github Blog 만들기 1] Github Blog 환경 설정</title><link href="http://localhost:4000/github%20blog/second/" rel="alternate" type="text/html" title="[Github Blog 만들기 1] Github Blog 환경 설정" /><published>2024-01-05T00:00:00+09:00</published><updated>2024-01-05T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/second</id><content type="html" xml:base="http://localhost:4000/github%20blog/second/"><![CDATA[<h2 id="나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</h2>
+<h3 id="이-책을-읽으면서-나는-무엇을-느꼈나">이 책을 읽으면서 나는 무엇을 느꼈나?</h3>]]></content><author><name>Kkobugi</name></author><category term="Self Dev" /><category term="Self-Dev" /><category term="Programmer" /><summary type="html"><![CDATA[“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평]]></summary></entry><entry><title type="html">[Github Blog 만들기 1] Github Blog 환경 설정</title><link href="http://localhost:4000/github%20blog/second/" rel="alternate" type="text/html" title="[Github Blog 만들기 1] Github Blog 환경 설정" /><published>2024-01-05T00:00:00+09:00</published><updated>2024-01-05T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/second</id><content type="html" xml:base="http://localhost:4000/github%20blog/second/"><![CDATA[<h2 id="나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</h2>
 <p><a href="https://www.youtube.com/watch?v=--MMmHbSH9k&amp;list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기</a></p>
 
 <h3 id="개요">개요</h3>

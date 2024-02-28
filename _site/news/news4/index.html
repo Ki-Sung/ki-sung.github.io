@@ -12,28 +12,32 @@
 
 <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Category | 꼬부기의 개발 노트</title>
-<meta name="description" content="꼬부기의 개발 블로그 입니다.">
+<!-- begin _includes/seo.html --><title>깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시 | 꼬부기의 개발 노트</title>
+<meta name="description" content="ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌">
 
 
   <meta name="author" content="Kkobugi">
   
+  <meta property="article:author" content="Kkobugi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="꼬부기의 개발 노트">
-<meta property="og:title" content="Category">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시">
+<meta property="og:url" content="http://localhost:4000/news/news4/">
 
 
-  <meta property="og:description" content="꼬부기의 개발 블로그 입니다.">
-
-
-
+  <meta property="og:description" content="ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌">
 
 
 
+
+
+
+
+  <meta property="article:published_time" content="2024-02-28T00:00:00+09:00">
 
 
 
@@ -44,7 +48,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/news/news4/">
 
 
 
@@ -93,6 +97,29 @@
 
 <!-- Math jax setting-->
 
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
@@ -107,7 +134,7 @@
 
   </head>
 
-  <body class="layout--categories">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -152,6 +179,8 @@
       
 
 
+
+
   
     
 
@@ -171,7 +200,17 @@
         <span class="sep">/</span>
       
       
-        <li class="current">Category</li>
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#news" itemprop="item"><span itemprop="name">News</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">깃허브, '코파일럿 엔터프라이즈' 정식 출시</li>
       
     
   </ol>
@@ -184,122 +223,29 @@
   
   <div class="sidebar sticky">
   
+  
+    
+      
+      
+      
+      
+    
+    
+      
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+
+
+
+
+<nav class="nav__list">
+  
 
   
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/gobugi.png" alt="Kkobugi" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
+</nav>
 
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Kkobugi</a>
-    </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>안녕하세요👋</p>
-
-<p>백앤드 개발 공부도 같이하고 있는</p>
-
-<p>데이터 엔지니어 꼬부기입니다.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">팔로우</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korea</span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="https://pixe.la/v1/users/kisung/graphs/graph1.html" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-pix" aria-hidden="true"></i><span class="label">My Running Record</span></a></li>
-          
-        
-          
-            <li><a href="mailto:kcs4912@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/in/kisung-kim-b65211218" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
   
 
   
@@ -729,108 +675,26 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Category</h1>
-    
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시">
+    <meta itemprop="description" content="ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌">
+    <meta itemprop="datePublished" content="2024-02-28T00:00:00+09:00">
     
 
-
-
-
-
-<ul class="taxonomy__index">
-  
-    
+    <div class="page__inner-wrap">
+      <!-- top banner-->
+      <!-- <p class="notice--info" style="font-size: 1rem !important;">
+    <strong>Github 블로그 제작기</strong>
+    <br>
+    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
+</p>  -->
       
-    
-      
-        <li>
-          <a href="#news">
-            <strong>News</strong> <span class="taxonomy__count">4</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-        <li>
-          <a href="#github-blog">
-            <strong>Github Blog</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#trend-book">
-            <strong>Trend Book</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-        <li>
-          <a href="#self-dev">
-            <strong>Self Dev</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
-</ul>
-
-
-
-  
-    
-  
-    
-      <section id="news" class="taxonomy__section">
-        <h2 class="archive__subtitle">News</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news4/" rel="permalink">깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/news/news4/" class="u-url" itemprop="url">깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
   <p class="page__meta">
     
@@ -844,221 +708,144 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+        </header>
       
-        <a href="/news/news3/" rel="permalink">‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!
-</a>
-      
-    </h2>
-    
 
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+      <section class="page__content e-content" itemprop="text">
         
-        <time datetime="2024-01-09T00:00:00+09:00">2024-01-09</time>
-      </span>
-    
-  </p>
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
+              
 
-
-    <p class="archive__item-excerpt" itemprop="description">시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news2/" rel="permalink">파이썬 공식 저장소, 악성코드 패키지 116개 발견
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+            </nav>
+          </aside>
         
-        <time datetime="2024-01-06T00:00:00+09:00">2024-01-06</time>
-      </span>
-    
-  </p>
+        <p><a href="https://zdnet.co.kr/view/?no=20240228105159">ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌</a></p>
+
+<blockquote>
+  <p>2024년 02월 27일 ‘코파일럿 엔터프라이즈’ 정식 출시 <br />
+사용자 조직 내부의 코드베이스와 프로세스, 지식 기반등을 따르게 코드 제안<br />
+현재 마이크로소프트 빙과 통합, 향후 모델은 미세조정도 가능</p>
+</blockquote>
+
+<p><img src="/images/news/2024-02-28-news4/github_copilot_en.png" alt="copilot_enterprise" class="align-center img-width-600" /><em>코파일럿 엔터프라이즈, 출처: ZDNET KOREA</em></p>
+
+<p>대형기업용 생성형 인공지능(AI) 기반 개발자 보조도구 요금제 ‘깃허브 코파일럿 엔터프라이즈’가 27일(현지시간)을 기점으로 정식 버전으로 출시했습니다.</p>
+
+<p>깃허브 코파일럿은 대화창에서 자연어로 작성하고 싶은 소프트웨어 개념과 요구사항을 알려주면, AI가 코드를 작성하고, 그밖에 버그나 보안취약점을 찾아내고 조치 방안을 제안, 주석 작성이나 디버깅 수행 등 개발자의 코드 작성을 돕는 AI 도구입니다.</p>
+
+<p>깃허브 코파일럿 엔터프라이즈는 이같은 기본 기능 외에 사용자 조직 내부의 코드베이스와 프로세스, 지식 기반 등을 따르게 제한하는 기능을 제공(저장소 기반 의미검색, 지적재산권(IP) 면책 기능 포함)한다고 발표했습니다. 일반적인 코딩 질문에 대한 채팅도 지원하는데, 도입을 위해 깃허브 엔터프라이즈 클라우드가 필요하다고 합니다.</p>
+
+<p>사측에서 밝힌 코파일럿 엔터프라이즈의 기능은 다음과 같습니다.</p>
+<ol>
+  <li>개발자의 코드 탐색과 이해를 간소화해 더 빠른 기능 구현, 문제해결, 코드 현대화 등을 지원</li>
+  <li>채팅을 깃허브닷컴에 직접 통합 - 코드베이스에 자연어로 질문하고 답변을 받을 수 있으며, 관련 문서나 기존 솔루션으로 개발자를 안내하고, 조직의 특정 코드베이스와 표준에 맞는 맞춤형 지원과 제안을 제공</li>
+  <li>생성된 Pull Request 요약을 통해 개발자는 초안 작성 시간 단축 - 검토자는 제안된 변경 사항을 빠르게 파악하고 변경사항 이해 시간을 단축해 피드백 제공에 더 많은 시간을 할애할 수 있음</li>
+  <li>빙 검색과 통합으로 코파일럿 챗에서 CSS나 자바스크립트 프레임워크 업데이트 같은 최신 소프트웨어 관련 정보 검색 가능</li>
+</ol>
+
+<p>위의 기능 설명에 덧붙이기 위해 깃허브에서는 코파일럿의 기업 생산성 영향도를 조사한 액센추어 내부 연구 결과를 제시했습니다. 액센추어 연구에 의하면, 깃허브 코파일럿은 액센추어 개발자의 흐름을 유지하고 중단을 최소화하도록 지원했다고 합니다. 이 연구 결과로 개발자의 94%가 깃허브 코파일럿을 사용해 흐름 유지와 반복작업 감소에 도움을 받았다고 답했고, 90%는 정보 검색 소요 시간을 줄였다고 말했습니다.</p>
+
+<p>또한 개발자는 깃허브 코파일럿에서 제안한 코드의 88%를 편집기에 유지했고, 약 90%의 개발자는 코파일럿 제안을 포함한 코드를 커밋 했으며, 90%의 개발자는 깃허브 코파일럿을 사용해 더 나은 코드를 작성했다고 보고했습니다. 약 95%는 개발자가 코파일럿 제안으로 배웠다고 답했습니다. 매우 흥미로운 결과 입니다.</p>
+
+<p>마지막으로 테크크런치에 따르면, 깃허브 코파일럿 엔터프라이즈의 자동 완성 기능은 현재 오픈AI의 GPT-3.5 터보를 기반모델로 활용하고 있다고 합니다. 대기시간 요구사항 때문에 GPT-4로 이동하지 않았지만, 코파일럿 비즈니스 이후 모델을 6회 이상 업데이트했다고 밝혔습니다.</p>
+
+<p>위의 연구 결과 및 모델을 보면 회사에서 코드 작성시 개발자들의 업무 효율이 상당히 올라 갈 것으로 예상됩니다. 가격은 사용자당 월 39달러라고 합니다. 향후에도 모델 종류에 따라 요금제를 구분하지 않는다고 하니 많이 이용해보시기 바랍니다 :)</p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news1/" rel="permalink">마이크로소프트, 비주얼스튜디오 2013, 2024년 4월 지원 종료
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-01-03T00:00:00+09:00">2024-01-03</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
       </section>
-    
-  
-    
-  
-    
-  
 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-      <section id="github-blog" class="taxonomy__section">
-        <h2 class="archive__subtitle">Github Blog</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/github%20blog/second/" rel="permalink">[Github Blog 만들기 1] Github Blog 환경 설정
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+      <footer class="page__meta">
         
-        <time datetime="2024-01-05T00:00:00+09:00">2024-01-05</time>
-      </span>
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
     
+      <a href="/tags/#ai" class="page__taxonomy-item p-category" rel="tag">AI</a><span class="sep">, </span>
+    
+      <a href="/tags/#copilot-enterprise" class="page__taxonomy-item p-category" rel="tag">Copilot Enterprise</a><span class="sep">, </span>
+    
+      <a href="/tags/#github" class="page__taxonomy-item p-category" rel="tag">Github</a><span class="sep">, </span>
+    
+      <a href="/tags/#service-launching" class="page__taxonomy-item p-category" rel="tag">Service Launching</a><span class="sep">, </span>
+    
+      <a href="/tags/#tech" class="page__taxonomy-item p-category" rel="tag">Tech</a>
+    
+    </span>
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">나도 할 수 있다! Github Page Blog 만들기 Part 1
-참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기
-</p>
-  </article>
-</div>
-
-          
-            
 
 
+  
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/github%20blog/first/" rel="permalink">test 용 posting 입니다.
-</a>
-      
-    </h2>
+      <a href="/categories/#news" class="page__taxonomy-item p-category" rel="tag">News</a>
     
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2023-02-12T00:00:00+09:00">2023-02-12</time>
-      </span>
-    
+    </span>
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">오늘 처음 블로그를 만들었습니다.
-</p>
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2024-02-28T00:00:00+09:00">2024-02-28</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%EA%B9%83%ED%97%88%EB%B8%8C%2C+%27%EC%BD%94%ED%8C%8C%EC%9D%BC%EB%9F%BF+%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88%27+%EC%A0%95%EC%8B%9D+%EC%B6%9C%EC%8B%9C%20http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews4%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews4%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews4%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/trend%20book/trend-book-02/" class="pagination--pager" title="‘머니 트렌드 2024’의 서평
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
   </article>
-</div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
   
-    
   
-    
-      <section id="trend-book" class="taxonomy__section">
-        <h2 class="archive__subtitle">Trend Book</h2>
-        <div class="entries-list">
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -1073,7 +860,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-01-26T00:00:00+09:00">2024-01-26</time>
       </span>
@@ -1089,17 +876,17 @@
   </article>
 </div>
 
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/trend%20book/trend-book-01/" rel="permalink">‘IT 트렌드 읽는 습관’의 서평
+        <a href="/news/news3/" rel="permalink">‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!
 </a>
       
     </h2>
@@ -1109,48 +896,58 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-01-04T00:00:00+09:00">2024-01-04</time>
+        <time datetime="2024-01-09T00:00:00+09:00">2024-01-09</time>
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">한 줄 요약
-
-  IT 트렌드 분석이라 읽고 트렌드 체크 방법이라 읽는다!
-
+    <p class="archive__item-excerpt" itemprop="description">시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌
 </p>
   </article>
 </div>
 
+        
           
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
 
-  
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-  
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news2/" rel="permalink">파이썬 공식 저장소, 악성코드 패키지 116개 발견
+</a>
+      
+    </h2>
     
-  
+
+  <p class="page__meta">
     
-  
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-06T00:00:00+09:00">2024-01-06</time>
+      </span>
     
-      <section id="self-dev" class="taxonomy__section">
-        <h2 class="archive__subtitle">Self Dev</h2>
-        <div class="entries-list">
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생
+</p>
+  </article>
+</div>
+
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -1165,7 +962,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-01-06T00:00:00+09:00">2024-01-06</time>
       </span>
@@ -1178,16 +975,13 @@
   </article>
 </div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
+        
+      </div>
+    </div>
   
-
-
-  </div>
+  
 </div>
+
     </div>
 
     
@@ -1229,6 +1023,25 @@
 
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/news/news4/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/news/news4"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://NinT.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 

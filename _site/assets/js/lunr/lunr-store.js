@@ -28,4 +28,16 @@ var store = [{
         "tags": ["Tech","AI","OpenAI","ChatGPT Store","Service Launching"],
         "url": "/news/news3/",
         "teaser": null
+      },{
+        "title": "'머니 트렌드 2024'의 서평",
+        "excerpt":"한 줄 요약 각 분야 8명의 전문가가 57개의 키워드로 2024년 주목해야할 돈의 트렌드를 집어준다! 이미지 출처: 교보문고 저자: 김도윤, 정태익, 김용섭, 김현준, 전영수, 채상욱, 최재붕, 홍춘욱 출판사: 북모먼트 출판일: 2023.10.05 이 책을 읽게 된 이유 자본주의 체계에서 돈은 중요한 요소중 하나입니다. 우리는 늘 돈이되는 소스가 무엇이 있는지 찾고 있습니다. 2024년...","categories": ["Trend Book"],
+        "tags": ["Trend","Money","Economy"],
+        "url": "/trend%20book/trend-book-02/",
+        "teaser": null
+      },{
+        "title": "깃허브, '코파일럿 엔터프라이즈' 정식 출시",
+        "excerpt":"ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌 2024년 02월 27일 ‘코파일럿 엔터프라이즈’ 정식 출시 사용자 조직 내부의 코드베이스와 프로세스, 지식 기반등을 따르게 코드 제안 현재 마이크로소프트 빙과 통합, 향후 모델은 미세조정도 가능 코파일럿 엔터프라이즈, 출처: ZDNET KOREA 대형기업용 생성형 인공지능(AI) 기반 개발자 보조도구 요금제 ‘깃허브 코파일럿 엔터프라이즈’가 27일(현지시간)을...","categories": ["News"],
+        "tags": ["Tech","AI","Github","Copilot Enterprise","Service Launching"],
+        "url": "/news/news4/",
+        "teaser": null
       }]
