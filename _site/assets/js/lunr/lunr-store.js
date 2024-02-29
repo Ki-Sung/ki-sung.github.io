@@ -40,4 +40,10 @@ var store = [{
         "tags": ["Tech","AI","Github","Copilot Enterprise","Service Launching"],
         "url": "/news/news4/",
         "teaser": null
+      },{
+        "title": "엔비디아 CEO \"코딩, 필수기술 아냐… AI에 맡겨도\"",
+        "excerpt":"ZDNET KOREA, 엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도” 기사에서 발췌 젠슨 황 “어릴 때부터 코딩교육 시킬 필요 없다” 강조 AI로 인해 모든 사람이 프로그래머이다. 이것이 바로 AI의 기적이다 라고 발언 이제 인간은 생물학, 교육, 제조 및 농업과 같이 더 가치 있는 분야를 추구하는 데 집중할 수 있을 것 젠슨...","categories": ["News"],
+        "tags": ["Tech","AI","Nvida","Programmer","No coding"],
+        "url": "/news/news5/",
+        "teaser": null
       }]

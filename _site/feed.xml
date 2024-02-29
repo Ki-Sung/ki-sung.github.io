@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-28T20:07:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시</title><link href="http://localhost:4000/news/news4/" rel="alternate" type="text/html" title="깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시" /><published>2024-02-28T00:00:00+09:00</published><updated>2024-02-28T00:00:00+09:00</updated><id>http://localhost:4000/news/news4</id><content type="html" xml:base="http://localhost:4000/news/news4/"><![CDATA[<p><a href="https://zdnet.co.kr/view/?no=20240228105159">ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-29T15:50:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”</title><link href="http://localhost:4000/news/news5/" rel="alternate" type="text/html" title="엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”" /><published>2024-02-29T00:00:00+09:00</published><updated>2024-02-29T00:00:00+09:00</updated><id>http://localhost:4000/news/news5</id><content type="html" xml:base="http://localhost:4000/news/news5/"><![CDATA[<p><a href="https://zdnet.co.kr/view/?no=20240228094935">ZDNET KOREA, 엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도” 기사에서 발췌</a></p>
+
+<blockquote>
+  <p>젠슨 황 “어릴 때부터 코딩교육 시킬 필요 없다” 강조 <br />
+AI로 인해 모든 사람이 프로그래머이다. 이것이 바로 AI의 기적이다 라고 발언<br />
+이제 인간은 생물학, 교육, 제조 및 농업과 같이 더 가치 있는 분야를 추구하는 데 집중할 수 있을 것</p>
+</blockquote>
+
+<p>젠슨 황 엔비디아 최고경영자(CEO)가 인공지능(AI) 기술의 등장으로 더 이상 프로그래밍이 필수 기술이 아니라고 주장했다고 기가진, 톰스가이드 등 외신들이 27일(현지시간) 보도했습니다.</p>
+
+<p>최근 두바이에서 열린 세계정부정상회의(World Government Summit)에서 젠슨 황 CEO는 “아이들에게 코딩을 배워야 한다는 말을 그만둬야 한다”며, “AI의 등장으로 누구나 프로그래머가 될 수 있게 됐다”고 밝혔습니다.</p>
+
+<p><img src="/images/news/2024-02-29-news5/Jensen_Huang.png" alt="jensen_huang" class="align-center img-width-600" /><em>NVIDIA CEO 젠슨 황, 출처: AFP/연합뉴스</em></p>
+
+<p>그는 “지난 10~15년 동안 거의 모든 사람들이 입을 모아 아이들에게 컴퓨터 과학 교육의 중요성을 이야기했다”며, “하지만 아무도 프로그래밍할 필요가 없는 컴퓨팅 기술을 만드는 것이 우리의 임무다. 이제 전 세계 모든 사람이 프로그래머다. 이것이 바로 AI의 기적”이라고 덧붙였습니다.</p>
+
+<p>또 그는 AI 혁명 초기 단계에서도 프로그래밍은 더 이상 필수적인 기술이 아니며, “AI가 코딩을 대체함에 따라 인간은 생물학, 교육, 제조 및 농업과 같이 더 가치 있는 전문 분야를 추구하는 데 집중할 수 있을 것”이라고 설명했습니다.</p>
+
+<p><img src="/images/news/2024-02-29-news5/coding.png" alt="coding" class="align-center img-width-600" /><em>출처: pixela</em></p>
+
+<p>AI 분야를 대표하는 그의 발언은 소셜미디어 상에서 확산되면서 다양한 의견이 나왔는데, HP, AMD 등 임원을 맡았던 무어인사이트앤스트래티지 CEO “패트릭 무어 헤드”는 자신의 엑스를 통해 “나는 30년 이상에 걸쳐 ‘XYX가 코딩을 죽인다’라는 말을 들어왔지만, 우리는 여전히 프로그래머가 부족하다”고 밝혔습니다.</p>
+
+<p>또 그는 “데스크톱 퍼블리싱이 창의성을 죽이지 않고 확장한 것처럼 AI도 코딩을 사라지게 하지 않고, 더 많은 사람이 사용할 수 있게 될 것”이라고 지적했습니다.</p>
+
+<p>오큘러스 전 최고기술책임자(CTO) “존 카멕”은 “코딩이 결코 가치의 원천이 아니며, 사람들이 코딩에 지나치게 집착해서는 안 된다. 문제 해결이 핵심 기술이다. 전통적인 프로그래밍에서 요구되는 규율과 정확성은 전수할 수 있는 가치 있는 속성으로 남아 있지만, 진입 장벽이 되지는 않을 것”이라고 밝혔습니다.</p>
+
+<p>이에 대해 기가진은 AI가 프로그래머를 사라지게 할 지는 아직 모르겠으나, AI의 등장으로 더 많은 직업이 영향을 받고 있는 것은 사실이라고 밝혔습니다.</p>
+
+<p><img src="/images/news/2024-02-29-news5/bloom_bery.png" alt="bloom_berg_chart" class="align-center img-width-600" /><em>ChatGPT 출시 이후 시간이 지남에 따라 각 카테고리에 대한 새로운 직업수 변화, 출처: 블룸베리</em></p>
+
+<p>노동 시장 분석기업 블룸베리 조사 결과에 따르면, 챗GPT 등장 이래 프리랜서 작가와 번역가의 일자리가 33%, 19% 감소했지만 소프트웨어 개발의 일자리는 6% 증가한 것으로 통계에서 나타내고 있습니다.</p>
+
+<p>이렇게 의견이 분분한 가운데, 레딧에서의 여론은 “지극히 엔비디아 중심적인 관점이다.”, “결국 코딩 대신 AI 기술에 의존하라라는 이야기 아니야?”, “결국 자기네(엔베디아) 제품을 더 많이 팔게 도리 것이다.” 처럼 그렇게 좋지 못합니다.</p>
+
+<p>현재 AI의 시대에 피할 수 없는 추세라 해당 발언을 한 것 아닌가 싶지만, 지극히 비지니스 적인 계산이 들어가 있는 것 아닌가 하는 생각도 하게 됩니다. 하지만 이 발언을 절대적으로 무시할 것은 아니라고 생각하는 것이, 정말 뛰어난 프로그래머가 되기 위해선 ‘코딩 기술’ 보다 더 중요한 것은 ‘인간과 사회에 대한 이해의 선행’이라는 점 입니다.</p>
+
+<p>인간 옳은 방향으로 선택하는데 온 힘을 집중하기 위해 AI는 그저 활용할 수 있는 도구라는 것이죠. 결국 기술 보다 중요한 것은 해당 전문 분야에 대한 깊이 있는 지식이라는 점 입니다. 젠슨 황의 발언으로 정말 많은 화두가 던져졌습니다. 대 AI 시대 한 번쯤 생각해봐야 할 문제라고 생각합니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="Nvida" /><category term="Programmer" /><category term="No coding" /><summary type="html"><![CDATA[ZDNET KOREA, 엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도” 기사에서 발췌]]></summary></entry><entry><title type="html">깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시</title><link href="http://localhost:4000/news/news4/" rel="alternate" type="text/html" title="깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시" /><published>2024-02-28T00:00:00+09:00</published><updated>2024-02-28T00:00:00+09:00</updated><id>http://localhost:4000/news/news4</id><content type="html" xml:base="http://localhost:4000/news/news4/"><![CDATA[<p><a href="https://zdnet.co.kr/view/?no=20240228105159">ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌</a></p>
 
 <blockquote>
   <p>2024년 02월 27일 ‘코파일럿 엔터프라이즈’ 정식 출시 <br />
