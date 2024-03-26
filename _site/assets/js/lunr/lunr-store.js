@@ -46,4 +46,10 @@ var store = [{
         "tags": ["Tech","AI","Nvida","Programmer","No coding"],
         "url": "/news/news5/",
         "teaser": null
+      },{
+        "title": "AI가 축구도 잘할까? - 딥마인드 연구 소개",
+        "excerpt":"[미라클레터, “AI가 축구에 적응할 수 있을까?” 뉴스레터에서 발췌] 3월 21일 2026 북중미 월드컵 아시아 지역 2차 예선 한국과 태국전이 있었습니다. 선수들의 기량 측면에서는 당연히 한국이 앞섰고, ‘홈’이라는 이점을 살린 경기였음에도 결국 비기고 말았습니다. 다음 2차전은 태국의 홈에서 26일 열립니다. 과연 한국은 원정 경기에서 승리를 거둘 수 있을까요. 이를 위해서는 어떤...","categories": ["News"],
+        "tags": ["Tech","AI","DeepMind","Soccer","AI Tactics"],
+        "url": "/news/news6/",
+        "teaser": null
       }]

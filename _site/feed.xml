@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-17T23:06:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”</title><link href="http://localhost:4000/news/news5/" rel="alternate" type="text/html" title="엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”" /><published>2024-02-29T00:00:00+09:00</published><updated>2024-02-29T00:00:00+09:00</updated><id>http://localhost:4000/news/news5</id><content type="html" xml:base="http://localhost:4000/news/news5/"><![CDATA[<p><a href="https://zdnet.co.kr/view/?no=20240228094935">ZDNET KOREA, 엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도” 기사에서 발췌</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-26T20:47:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">AI가 축구도 잘할까? - 딥마인드 연구 소개</title><link href="http://localhost:4000/news/news6/" rel="alternate" type="text/html" title="AI가 축구도 잘할까? - 딥마인드 연구 소개" /><published>2024-03-26T00:00:00+09:00</published><updated>2024-03-26T00:00:00+09:00</updated><id>http://localhost:4000/news/news6</id><content type="html" xml:base="http://localhost:4000/news/news6/"><![CDATA[<p>[미라클레터, “AI가 축구에 적응할 수 있을까?” 뉴스레터에서 발췌]</p>
+
+<p>3월 21일 2026 북중미 월드컵 아시아 지역 2차 예선 한국과 태국전이 있었습니다. 선수들의 기량 측면에서는 당연히 한국이 앞섰고, ‘홈’이라는 이점을 살린 경기였음에도 결국 비기고 말았습니다. 다음 2차전은 태국의 홈에서 26일 열립니다. 과연 한국은 원정 경기에서 승리를 거둘 수 있을까요. 이를 위해서는 어떤 전략이 필요할까요.</p>
+
+<p>갑자기 이렇게 축구 이야기를 하는 이유는 이제 ‘축구를 잘하는 법’을 인공지능(AI)가 알려준다고 합니다. 24년 3월 19일에 공개된 연구 결과인데, 바로 ‘알파고’를 개발하고 ‘알파폴드’를 만든 구글 AI 딥마인드의 연구입니다.</p>
+
+<h4 id="ai를-축구에-적용할-수-있을까">AI를 축구에 적용할 수 있을까?</h4>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-03-26-news6/deepminde_soccer.png" alt="news-6" width="800" />
+    <p style="font-size: smaller;"><em>이미지 출처: 딥마인드</em></p>
+</div>
+
+<p>딥마인드는 무려 3년 전, 영국의 명문 구단 “리버풀 FC”와 손을 잡습니다. 클래스가 다릅니다. 딥마인드와 리버풀의 만남이라뇨! 축구를 좋아하는 데 AI도 관심이 있는 분들 입장에서는 눈의 휘둥그레질 이야기입니다. 2021년 딥마인드와 리버풀은 연구를 시작했고 첫 번째 논문 ‘게임 플랜’을 발표합니다(<a href="https://www.jair.org/index.php/jair/article/view/12505/26683">논문</a>).</p>
+
+<p>게임플랜은 축구 전술에 왜 AI가 사용되어야 하는지를 살펴본 ‘워밍업’과 같은 논문입니다. 결론부터 말하자면 “축구는 AI를 이용하는 데 있어서 유용한 ‘소우주’이며 자동화된 비디오 어시스턴트는 분명 전술적으로 도움을 준다”라고 결론을 내렸습니다.</p>
+
+<p>축구에서 감독의 중요성을 우리는 뼈저리게 느꼈습니다. 히딩크, 벤투와 함께 클린스만을 경험했기 때문일 텐데요, 이처럼 축구는 감독의 전술이 큰 영향을 미치는 경기입니다.
+그리고 감독이 카리스마를 가지고 팀을 이끌려면 ‘경력’도 중요합니다. 만약 ‘메시’가 은퇴하고 한국의 국가대표팀 감독으로 온다고 생각해 봅시다. 이를 본 선수들은 그를 정말 ‘신’ 대하듯 할 겁니다(물론 팀을 잘 이끌지는 별개의 문제겠지만요).</p>
+
+<h4 id="ai를-패널티킥에-적용했더니-뭔가-보인다">AI를 패널티킥에 적용했더니… “뭔가 보인다?!”</h4>
+<p>이제 축구에서도 데이터를 광범위하게 수집할 수 있게 됐습니다. 딥마인드는 이를 통해 “축구가 게임 이론과 비슷하다”라고 이야기합니다. 게임이론이란 상대의 행동을 고려하면서 자기의 이익을 효과적으로 달성하기 위한 행동을 수학적으로 분석하는 이론입니다. 그라운드에 있는 선수들은 상대편, 또는 같은 편 선수의 움직임을 고려하면서 의사결정을 내려야 하는 상황에 매번 놓이게 되니까요.</p>
+
+<p>또한 상대방의 전술을 유심히 관찰하고 ‘허점’을 찾아낸 뒤, 이를 역이용합니다. 즉 ‘통계’와 관련성이 높습니다. 마지막으로 선수들의 특징도 우리는 압니다. 가령 차두리가 공을 잡았다면 ‘치고 달리겠구나’라고 예상할 수 있는 것처럼요. 이는 ‘시나리오’로 만들 수 있음을 뜻합니다. 딥마인드는 이를 ‘컴퓨터 비전’이라고 이야기합니다.</p>
+
+<p>이제 축구를 AI에 적용할 이론적 근거가 마련됐습니다. 게임이론과 관련이 있고 통계가 적용되며, 비전으로 만들 수 있습니다. 실제로 딥마인드는 이를 기반으로 패널티킥 상황을 모델링 했습니다. 딥마인드는 유사한 경기 스타일을 가진 ‘선수’를 그룹화하고, 그 뒤 그룹 수준에서 게임이론으로 이를 분석합니다.</p>
+
+<p>결과적으로 서로 다른 그룹의 슈팅 전략이 통계적으로 구별됨을 확인합니다. 예를 들어 어떤 그룹은 골대 왼쪽 모서리를 선호했고, 또 다른 그룹은 왼쪽과 오른쪽을 선택하는 비중이 1대1에 가까웠다고 해요. 이를 골키퍼가 사전에 파악하고 경기에 임한다면 골을 막을 수 있는 확률은 높아질 겁니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-03-26-news6/game_plan.png" alt="news-6" width="800" />
+    <p style="font-size: smaller;"><em>이미지 출처: 딥마인드</em></p>
+</div>
+
+<h4 id="리버풀이-잘나가는-이유-혹시">리버풀이 잘나가는 이유, 혹시…</h4>
+<p>2022년, 딥마인드는 또 한 편의 논문을 발표합니다. 바로 공을 갖고 있지 않은 선수의 움직임을 추적하는 ‘그래프 임포터’라는 기술입니다.<br />
+딥마인드에 따르면 완벽하지는 않다고 하더라도 상당히 높은 수준으로 공을 갖지 않은 선수의 움직임을 예측했다고 합니다. 딥마인드는 이 AI 개발을 위해 프리미어리그 105경기를 AI에게 학습시켰다고 합니다(<a href="https://www.nature.com/articles/s41598-022-12547-0">논문</a>).</p>
+
+<p>그리고 선수가 TV 화면에 있을 때, 그리고 없을 때, 다시 나타났을 때 등을 분석해 선수가 화면에서 사라졌을 때의 궤적을 그려 나갑니다. 이러한 작업을 반복해 정확도를 높여 나갔다고 합니다. 딥마인드는 과거 두 번의 논문과 함께, 이번에 ‘택틱AI’를 선보입니다. 택틱AI는 세 가지 질문에 답하기 위해 구축되었다고 하는데요, 다음과 같습니다.</p>
+<ol>
+  <li>주어진 코너킥 전술에서 어떤 일이 일어날까. 예를 들어 누가 공을 받을 가능성이 크며 누가 슛을 할 수 있을까?</li>
+  <li>전술이 시행됐을 때 무슨 일이 일어날까. 과거에도 유사한 전술이 잘 작동했을까?</li>
+  <li>특정한 결과가 나오도록 하려면 전술을 어떻게 조정해야 할까. 가령 공격수가 슛을 시도하는 확률을 줄이려면 수비수를 어떻게 배치해야 할까?</li>
+</ol>
+
+<p>코너킥의 결과를 예측하는 것은 어렵다고 합니다만, 알파고를 만든 딥마인드는 리버풀과 함께했으니까 뭔가 다르지 않을까요? 과정은 이렇습니다. 선수의 위치, 공의 방향, 상대 팀의 수비 전략 등을 고려해 코너킥의 전술을 짜고 결과를 예측하는 AI를 만들어 냅니다. 또한 이전 경기에서 얻은 데이터를 분석합니다. 프리미어 리그 시즌의 7176개 코너킥 데이터 세트를 사용하여 TacticAI를 훈련하고 테스트했습니다.</p>
+
+<p>딥마인드에 따르면 택틱AI는 유사한 상황에서 어떤 전술이 효과적이었는지를 파악하고 이를 기반으로 새로운 전술을 제안해줄 수 있다고 다음과 같이 자신 있게 이야기 합니다. “택틱AI는 리버풀과 같은 축구 클럽에서 코치가 경기 전략을 수립하는 데 도움을 줄 수 있다. 예를 들어 코너킥 상황에서 어떤 선수를 배치하는지, 어떤 방향으로 공을 차야 하는지 제안할 수 있다. 이를 통해서 경기 결과를 개선할 수 있다.”(<a href="https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/">딥마인드 홈페이지</a>)</p>
+
+<p>문득 영국 프리미어리그에서 꾸준히 좋은 성적을 내고 있는 리버풀이 AI의 도움을 받고 있는 것은 아닐까 하는 생각도 듭니다. 실제로 딥마인드가 축구와 관련된 AI 논문을 세 차례 발표했는데 모두 리버풀 데이터 분석관들이 공동 연구자로 이름을 올렸습니다. 축구 전술 AI를 만들었고, 리버풀 데이터 분석관들은 이와 함께 했죠. 리버풀이 딥마인드의 AI를 전술에 활용했을 가능성. 상당히 높지 않을까요?</p>
+
+<p>AI는 이미 스포츠 산업 곳곳을 파고들고 있습니다. AI로 구동되는 “NBA글로벌 스카우트”를 예로 들 수 있습니다. 이 앱은 켠 상태에서 훈련을 하고, 자세를 교정받을 수 있습니다.<br />
+나아가 앱을 기반으로 전 세계 많은 아마추어 선수가 자신의 재능을 선보이고, 이를 기반으로 NBA에 진출할 기회를 얻을 수 있습니다.</p>
+
+<p>세계 기계체조선수권 대회에서는 레이저 센서, 컴퓨터 비전 기술 등을 이용해 선수의 움직임을 측정하는 딥러닝 시스템이 사용되고 있습니다. 이 솔루션은 3D 모델을 기반으로 선수의 성과를 시각화하고 채점 데이터를 추출, 심판의 의사 결정을 향상하는 데 목적을 두고 있다고 합니다.</p>
+
+<p>축구도 마찬가지입니다. 오프사이드 판정이 소름 돋을 정도로 정확해졌고, 한국 프로야구는 올해부터 볼과 스트라이크를 판정하는 ‘AI 심판’을 도입했습니다.</p>
+
+<p>‘오심도 게임의 일부’라는 말이 있었습니다. 하지만 오심이 승패에 영향을 미친다면 선수들의 피와 땀이 물거품이 될 수 있는 만큼 이러한 변화는 긍정적이라는 생각도 듭니다.</p>
+
+<p>전략, 전술에 AI를 이용하는 것은 어떨까요. 현존하는 AI는 모두 인간이 그동안 쌓아온 데이터를 기반으로 확률적으로 높은 답을 내놓습니다. 즉 AI가 내놓은 전술, 전략도 인간의 데이터에서 찾아낸 결과인 만큼 이를 긍정적으로 받아들일 수도 있을 듯합니다.</p>
+
+<p>하지만 AI가 만들어 준 전술에만 의존하는 감독이 있다면, 우리는 그 사람을 ‘감독’이라고 부를 수 있을까요? 만약 밤 마다 몰래 AI가 가르쳐 준 전술을 학습한 뒤, 이를 기반으로 선수를 지도하는 감독이 있다면, 우리는 이를 걸러낼 수 있을까요?</p>
+
+<p>AI가 전 산업에 영향을 미치고 있는 지금, 인류가 생각하고 합의하고, 내놓아야 할 답들이 점점 쌓여가고 있는 것 같습니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="DeepMind" /><category term="Soccer" /><category term="AI Tactics" /><summary type="html"><![CDATA[[미라클레터, “AI가 축구에 적응할 수 있을까?” 뉴스레터에서 발췌]]]></summary></entry><entry><title type="html">엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”</title><link href="http://localhost:4000/news/news5/" rel="alternate" type="text/html" title="엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”" /><published>2024-02-29T00:00:00+09:00</published><updated>2024-02-29T00:00:00+09:00</updated><id>http://localhost:4000/news/news5</id><content type="html" xml:base="http://localhost:4000/news/news5/"><![CDATA[<p><a href="https://zdnet.co.kr/view/?no=20240228094935">ZDNET KOREA, 엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도” 기사에서 발췌</a></p>
 
 <blockquote>
   <p>젠슨 황 “어릴 때부터 코딩교육 시킬 필요 없다” 강조 <br />
@@ -171,7 +235,26 @@ NYT와의 소송은 장애물…생성형 AI vs 미디어 기업 간 충돌 우�
 
 <p>만약 뉴욕타임스가 승소한다면 Open AI는 수십억 달러를 물어줘야 하며, 뉴욕타임스 기사가 포함된 AI 훈련 데이터를 강제로 삭제해야 할 수도 있어요. 업계에서는 해당 소송을 계기로 생성형 AI 기업과 미디어, 콘텐츠 기업 간 법적 충돌이 본격화될 것이라는 전망도 나와 해당 문제는 꼭 해결해야 할 숙제로 남겨져 있습니다.</p>
 
-<p>이제 GPT스토어 출시가 얼만 안남았는데, 과연 지난번 ChatGPT 공개 때처럼 또 다른 반향을 일으킬 수 있을지, 또 우리 소비자로서는 어떤 변화가 발생할지 지켜보는 것도 좋을 것 같아요.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="OpenAI" /><category term="ChatGPT Store" /><category term="Service Launching" /><summary type="html"><![CDATA[시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">파이썬 공식 저장소, 악성코드 패키지 116개 발견</title><link href="http://localhost:4000/news/news2/" rel="alternate" type="text/html" title="파이썬 공식 저장소, 악성코드 패키지 116개 발견" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news2</id><content type="html" xml:base="http://localhost:4000/news/news2/"><![CDATA[<h2 id="개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</h2>
+<p>이제 GPT스토어 출시가 얼만 안남았는데, 과연 지난번 ChatGPT 공개 때처럼 또 다른 반향을 일으킬 수 있을지, 또 우리 소비자로서는 어떤 변화가 발생할지 지켜보는 것도 좋을 것 같아요.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="OpenAI" /><category term="ChatGPT Store" /><category term="Service Launching" /><summary type="html"><![CDATA[시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
+
+<p><img src="/images/books/self-dev-book/programmer_way.jpeg" alt="it_trend_book_cover" width="380" /><em>이미지 출처: 교보문고</em></p>
+
+<blockquote>
+  <p>저자: 데이브 후버, 애디웨일 오시나이 저자(글) · 강중빈 번역 <br />
+출판사: 인사이트 <br />
+출판일: 2010.07.26</p>
+</blockquote>
+
+<h3 id="한-줄-요약">한 줄 요약</h3>
+<ul>
+  <li>성장하고 싶은 주니어 프로그래머들이어, 이 책을 보라!</li>
+</ul>
+
+<h3 id="서론">서론</h3>
+<p>데이터 직종으로 변경하고, 2년이 지났습니다. 개발자는 아니지만, 회사에서 가끔 개발에도 참여하고, 여러가지 겸험을 쌓고 있습니다.<br />
+여러가지 경험을 쌓으면서, 좋은 점도 있지만, 가끔 제가 잘하 있는지 의문이 들때가 많습니다.<br />
+이런 의문을 가지고 있었을 때, 여자친구가 이 책 한번 읽어봐 라고 슥 내밀어 주었습니다.<br />
+그래서 한번 이 책을 읽어 보았습니다.</p>]]></content><author><name>Kkobugi</name></author><category term="Self Dev" /><category term="Self-Dev" /><category term="Programmer" /><summary type="html"><![CDATA[“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평]]></summary></entry><entry><title type="html">파이썬 공식 저장소, 악성코드 패키지 116개 발견</title><link href="http://localhost:4000/news/news2/" rel="alternate" type="text/html" title="파이썬 공식 저장소, 악성코드 패키지 116개 발견" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news2</id><content type="html" xml:base="http://localhost:4000/news/news2/"><![CDATA[<h2 id="개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</h2>
 
 <ul>
   <li><a href="https://zdnet.co.kr/view/?no=20240104094359">ZDNET KOREA, 파이썬 공식 저장소, 악성코드 패키지 116개 발견 기사 발췌</a></li>
@@ -193,26 +276,7 @@ NYT와의 소송은 장애물…생성형 AI vs 미디어 기업 간 충돌 우�
 
 <p>악성코드는 원격 명령 실행 및 파일 추출이 가능하며 스크린샷을 촬영하는 기능도 포함됐다고 합니다. 일부 악성코드는 개인 데이터와 자격 증명을 훔치는 W4SP 스틸러의 변종이나 암호화폐를 훔치는 클립보드 모니터도 확인되었다고 밝혔습니다. 클립보드 모니터는 비트코인, 이더리움, 모네로, 라이트코인을 주로 타깃으로 삼았다고 합니다.</p>
 
-<p>아쉽게도 어떻게 대비해라 방법은 없지만, 결국 파이썬 패키지를 이용하실 때, 우리가 조심 또 조심하는 수 밖에 없는 것 같습니다. 파이썬으로 개발하시는 분들 모두 조심합시다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="Python" /><category term="PyPI" /><category term="Malware" /><summary type="html"><![CDATA[개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생]]></summary></entry><entry><title type="html">‘프로그래머의 길, 멘토에게 묻는다’의 서평</title><link href="http://localhost:4000/self%20dev/self-dev-book-01/" rel="alternate" type="text/html" title="‘프로그래머의 길, 멘토에게 묻는다’의 서평" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/self%20dev/self-dev-book-01</id><content type="html" xml:base="http://localhost:4000/self%20dev/self-dev-book-01/"><![CDATA[<h2 id="프로그래머의-길-멘토에게-묻는다를-일고-쓰는-나만의-서평">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평</h2>
-
-<p><img src="/images/books/self-dev-book/programmer_way.jpeg" alt="it_trend_book_cover" width="380" /><em>이미지 출처: 교보문고</em></p>
-
-<blockquote>
-  <p>저자: 데이브 후버, 애디웨일 오시나이 저자(글) · 강중빈 번역 <br />
-출판사: 인사이트 <br />
-출판일: 2010.07.26</p>
-</blockquote>
-
-<h3 id="한-줄-요약">한 줄 요약</h3>
-<ul>
-  <li>성장하고 싶은 주니어 프로그래머들이어, 이 책을 보라!</li>
-</ul>
-
-<h3 id="서론">서론</h3>
-<p>데이터 직종으로 변경하고, 2년이 지났습니다. 개발자는 아니지만, 회사에서 가끔 개발에도 참여하고, 여러가지 겸험을 쌓고 있습니다.<br />
-여러가지 경험을 쌓으면서, 좋은 점도 있지만, 가끔 제가 잘하 있는지 의문이 들때가 많습니다.<br />
-이런 의문을 가지고 있었을 때, 여자친구가 이 책 한번 읽어봐 라고 슥 내밀어 주었습니다.<br />
-그래서 한번 이 책을 읽어 보았습니다.</p>]]></content><author><name>Kkobugi</name></author><category term="Self Dev" /><category term="Self-Dev" /><category term="Programmer" /><summary type="html"><![CDATA[“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평]]></summary></entry><entry><title type="html">[Github Blog 만들기 1] Github Blog 환경 설정</title><link href="http://localhost:4000/github%20blog/second/" rel="alternate" type="text/html" title="[Github Blog 만들기 1] Github Blog 환경 설정" /><published>2024-01-05T00:00:00+09:00</published><updated>2024-01-05T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/second</id><content type="html" xml:base="http://localhost:4000/github%20blog/second/"><![CDATA[<h2 id="나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</h2>
+<p>아쉽게도 어떻게 대비해라 방법은 없지만, 결국 파이썬 패키지를 이용하실 때, 우리가 조심 또 조심하는 수 밖에 없는 것 같습니다. 파이썬으로 개발하시는 분들 모두 조심합시다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="Python" /><category term="PyPI" /><category term="Malware" /><summary type="html"><![CDATA[개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생]]></summary></entry><entry><title type="html">[Github Blog 만들기 1] Github Blog 환경 설정</title><link href="http://localhost:4000/github%20blog/second/" rel="alternate" type="text/html" title="[Github Blog 만들기 1] Github Blog 환경 설정" /><published>2024-01-05T00:00:00+09:00</published><updated>2024-01-05T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/second</id><content type="html" xml:base="http://localhost:4000/github%20blog/second/"><![CDATA[<h2 id="나도-할-수-있다-github-page-blog-만들기-part-1">나도 할 수 있다! Github Page Blog 만들기 Part 1</h2>
 <p><a href="https://www.youtube.com/watch?v=--MMmHbSH9k&amp;list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기</a></p>
 
 <h3 id="개요">개요</h3>
@@ -334,52 +398,4 @@ IT 기술은 모든 산업에 스며들어 변화와 혁신의 마중물이 되�
 
 <p><span style="color:blue">visual studio</span>는 IDE가 아니라 코드 에디터 입니다. 그래서 개발 환경이 구축되어 있지 않아 개발자가 필요한 언어에 따라 개발환경을 구축해야 합니다. 하지만 현재는 IDE 수준까지 근접해 있으며 이 부분이 강점으로 작용해 개발자들 사이에서 많이 사용되고 있습니다.</p>
 
-<p>요구 사항은 visual studio 보다 상대적으로 낮습니다. (CPU: 1,6GHz 이상, RAM: 1GB 이상)</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><summary type="html"><![CDATA[MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.]]></summary></entry><entry><title type="html">test 용 posting 입니다.</title><link href="http://localhost:4000/github%20blog/first/" rel="alternate" type="text/html" title="test 용 posting 입니다." /><published>2023-02-12T00:00:00+09:00</published><updated>2023-02-12T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/first</id><content type="html" xml:base="http://localhost:4000/github%20blog/first/"><![CDATA[<h1 id="오늘-처음-블로그를-만들었습니다">오늘 처음 블로그를 만들었습니다.</h1>
-
-<p>앞으로 열심히 기록해보겠습니다. :)</p>
-
-<h2 id="notice-part">Notice Part</h2>
-<h4 id="notice">Notice</h4>
-<p class="notice--danger"><strong>[Notice]</strong> <a href="https://github.com/Ki-Sung">Github에 새로운 프로젝트가 생성되었습니다.</a></p>
-<h4 id="notice-box">Notice box</h4>
-<div class="notice--success">
-<h1>안내사항 입니다.</h1>
-<ul>
-    <li>안내사항 1</li>
-    <li>안내사항 1</li>
-    <li>안내사항 1</li>
-</ul>
-</div>
-
-<h2 id="code-block">Code Block</h2>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">hello</span> <span class="n">kkobugi</span> <span class="n">word</span><span class="err">!</span>
-</code></pre></div></div>
-
-<h2 id="latex-수식-예제">LaTex 수식 예제</h2>
-
-<p>The well know Pythagorean theorem can $(x^2 + y^2 = z^2)$ was
-prooved to be invalid for other exponents.
-Meaning the next equation has no integer solutions:</p>
-
-<p>$[ x^n + y^n = z^n\ ]$</p>
-
-<p>$y= f(x)^2$</p>
-
-<h2 id="img">Img</h2>
-<h4 id="img-content-1">Img Content 1</h4>
-<p><img src="/images/2023-02-12-first/sky.jpg" alt="sky" class="img-width-half align-center" /></p>
-<h4 id="img-content-2">Img Content 2</h4>
-<p><img src="/images/2023-02-12-first/cat2.jpg" alt="cat2" /></p>
-<h4 id="img-content-3">Img Content 3</h4>
-<p><img src="/images/2023-02-12-first/rain.jpeg" alt="rain" /></p>
-
-<h3 id="button-option">Button option</h3>
-<p><a href="https://google.com" class="btn btn--danger">Google로이동</a></p>
-
-<h3 id="input-youtube-video">Input Youtube Video</h3>
-
-<!-- Courtesy of embedresponsively.com -->
-
-<div class="responsive-video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/ACzFIAOsfpM" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>]]></content><author><name>Kkobugi</name></author><category term="Github Blog" /><category term="Github" /><category term="Github-Page" /><category term="Jekyll" /><category term="Blog" /><summary type="html"><![CDATA[오늘 처음 블로그를 만들었습니다.]]></summary></entry></feed>
+<p>요구 사항은 visual studio 보다 상대적으로 낮습니다. (CPU: 1,6GHz 이상, RAM: 1GB 이상)</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><summary type="html"><![CDATA[MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.]]></summary></entry></feed>
