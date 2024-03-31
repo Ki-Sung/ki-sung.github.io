@@ -12,28 +12,32 @@
 
 <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Category | 꼬부기의 개발 노트</title>
-<meta name="description" content="꼬부기의 개발 블로그 입니다.">
+<!-- begin _includes/seo.html --><title>어서오세요, 여기는 쿠팡공화국입니다. | 꼬부기의 개발 노트</title>
+<meta name="description" content="[2024년 03월 28일자 Tech잇슈, Biz Trend Letter에서 발췌]">
 
 
   <meta name="author" content="Kkobugi">
   
+  <meta property="article:author" content="Kkobugi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="꼬부기의 개발 노트">
-<meta property="og:title" content="Category">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="어서오세요, 여기는 쿠팡공화국입니다.">
+<meta property="og:url" content="http://localhost:4000/news/news7/">
 
 
-  <meta property="og:description" content="꼬부기의 개발 블로그 입니다.">
-
-
-
+  <meta property="og:description" content="[2024년 03월 28일자 Tech잇슈, Biz Trend Letter에서 발췌]">
 
 
 
+
+
+
+
+  <meta property="article:published_time" content="2024-03-31T00:00:00+09:00">
 
 
 
@@ -44,7 +48,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/news/news7/">
 
 
 
@@ -93,6 +97,29 @@
 
 <!-- Math jax setting-->
 
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
@@ -107,7 +134,7 @@
 
   </head>
 
-  <body class="layout--categories">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -152,6 +179,8 @@
       
 
 
+
+
   
     
 
@@ -171,7 +200,17 @@
         <span class="sep">/</span>
       
       
-        <li class="current">Category</li>
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#news" itemprop="item"><span itemprop="name">News</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">어서오세요, 여기는 쿠팡공화국입니다.</li>
       
     
   </ol>
@@ -184,122 +223,29 @@
   
   <div class="sidebar sticky">
   
+  
+    
+      
+      
+      
+      
+    
+    
+      
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+
+
+
+
+<nav class="nav__list">
+  
 
   
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/coding_gobugi.jpeg" alt="Kkobugi" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
+</nav>
 
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Kkobugi</a>
-    </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>안녕하세요👋</p>
-
-<p>백앤드 개발 공부도 같이하고 있는</p>
-
-<p>데이터 엔지니어 꼬부기입니다.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">팔로우</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korea</span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="https://pixe.la/v1/users/kisung/graphs/graph1.html" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-pix" aria-hidden="true"></i><span class="label">My Running Record</span></a></li>
-          
-        
-          
-            <li><a href="mailto:kcs4912@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/in/kisung-kim-b65211218" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
   
 
   
@@ -729,138 +675,26 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Category</h1>
-    
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="어서오세요, 여기는 쿠팡공화국입니다.">
+    <meta itemprop="description" content="[2024년 03월 28일자 Tech잇슈, Biz Trend Letter에서 발췌]">
+    <meta itemprop="datePublished" content="2024-03-31T00:00:00+09:00">
     
 
-
-
-
-
-<ul class="taxonomy__index">
-  
-    
+    <div class="page__inner-wrap">
+      <!-- top banner-->
+      <!-- <p class="notice--info" style="font-size: 1rem !important;">
+    <strong>Github 블로그 제작기</strong>
+    <br>
+    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
+</p>  -->
       
-    
-      
-        <li>
-          <a href="#news">
-            <strong>News</strong> <span class="taxonomy__count">7</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-        <li>
-          <a href="#github-blog">
-            <strong>Github Blog</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#trend-book">
-            <strong>Trend Book</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-        <li>
-          <a href="#self-dev">
-            <strong>Self Dev</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
-</ul>
-
-
-
-  
-    
-  
-    
-      <section id="news" class="taxonomy__section">
-        <h2 class="archive__subtitle">News</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news7/" rel="permalink">어서오세요, 여기는 쿠팡공화국입니다.
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/news/news7/" class="u-url" itemprop="url">어서오세요, 여기는 쿠팡공화국입니다.
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
   <p class="page__meta">
     
@@ -874,17 +708,149 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">[2024년 03월 28일자 Tech잇슈, Biz Trend Letter에서 발췌]
-</p>
-  </article>
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
+              <ul class="toc__menu"><li><a href="#와우-멤버십-인상에도-늘어난-가입자-수">와우 멤버십 인상에도 늘어난 가입자 수</a></li><li><a href="#쿠팡에-위기는-없을까">쿠팡에 위기는 없을까?</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>[2024년 03월 28일자 Tech잇슈, Biz Trend Letter에서 발췌]</p>
+
+<p>지난해말(대략 2023년 12월), 쿠팡와우 맴버십 회원 수가 1,400만 명을 돌파했다는 소식이 전해졌었습니다.<br />
+이는 대한민국 전체 인구의 약 1/3을 차지하며, 노령인구(65세 이상)+유소년 인구(14세 이하)를 제외하면 거의 절반이 가입되어 있다고 볼 수 있는데요. 특히, 가족 중에서는 대표 1명이 가입되어 있는 경우도 많으니, 거의 대부분의 세대가 쿠팡와우 멤버십 회원에 가입되어 있다고 볼 수 있을 것 같습니다.</p>
+
+<h3 id="와우-멤버십-인상에도-늘어난-가입자-수">와우 멤버십 인상에도 늘어난 가입자 수</h3>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-03-31-news7/coupang.png" alt="news-7" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: 쿠팡</em></p>
 </div>
 
+<p>2022년 6월, 쿠팡와우 멤버십 구독료가 2,900원에서 4,990원으로 인상됐습니다. 인상률로 따지면 약 72%나 증가한 셈인데요. 보통 이정도로 인상되면 이탈률이 제법 높을만도 한데, 이탈이 되기는 커녕 오히려 회원수가 꾸준히 증가하여 지금은 1,400만 명이 구독을 유지하고 있습니다. 여기에는 어떤 이유가 숨어 있을까요? 답은 간단합니다. 소비자들이 구독료로 낸 4,990원보다 훨씬 높은 가치를 받고 있다고 체감하기 때문입니다.</p>
+
+<p>한국에서는 ‘배송비=2500원’이라는 개념이 모두에게 인식되어 있습니다. 즉, 월 4,990원의 멤버십을 구독하고 한 달 동안 두번의 무료배송 혜택만 받더라도 그 값어치는 충분히 한다고 인식한다는 것입니다. 실제로 대부분의 소비자는 한 달에 최소 두 번 이상 구매를 하기 때문에, 이것만으로도 손해를 보지 않았다는 판단을 하기 마련입니다.</p>
+
+<p>쿠팡 혜택만으로 충분히 값어치를 한다고 느껴지는데, 쿠팡은 여기에 더해 ‘쿠팡플레이’라는 OTT까지 무료로 제공한다고 합니다. OTT에 관심이 없던 고객들도 무료로 제공한다니 괜히 뭐 볼만한 게 있나 한 번쯤 들어가 보게 됩니다. 그런데 크게 기대하지 않았지만 생각보다 볼만한 콘텐츠가 꽤 있고, 심지어 다른 OTT에서는 볼 수 없었던 스포츠 중계까지 제공한다고 합니다. 특히 다른 OTT의 구독료가 쿠팡와우 멤버십 구독료보다 비싸다는 것을 확인하고나니 더 많은 이득을 본 기분이 듭니다. 소비자 입장에서는 점점 멤버십 구독하길 잘했다는 확신이 듭니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-03-31-news7/coupang_coupang_eats.png" alt="news-7" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: 쿠팡</em></p>
+</div>
+
+<p>여기까지만 하더라도 충분히 만족스러운데, 쿠팡이츠에서는 멤버십 회원을 대상으로 무료배달 혜택까지 제공한다고 합니다. 비록 ‘묶음 배달’에 한정된 서비스라고는 하지만, 이 또한 공짜로 받는 혜택이라고 생각하니 되려 감사하게 느껴집니다. 더더욱 멤버십을 해지할 이유가 없어졌습니다. 이렇게 우리는 일상생활 속에서 자연스럽게 쿠팡에 스며들고 있습니다.</p>
+
+<p>여기서 잠시 계산을 한 번 해보겠습니다. 서두에 멤버십 회원이 1,400만 명이라고 말씀드렸는데요. 월 구독료만으로 쿠팡은 약 700억 원, 연간으로는 약 8,383억 원의 수익을 올립니다. 만약 여기서 구독료가 6,990원으로 인상된다면, 연간 수익은 1조 1,743억 원으로 늘어납니다. 최근 백화점의 패러다임을 바꾸고 있는 더현대 서울이 지난해 1조 매출을 올렸다고 하니, 놀라운 수치입니다.</p>
+
+<p>그러나 쿠팡의 목표는 멤버십을 통해 큰 수익을 올리는 것이 아닐겁니다. 오히려 저렴한 구독료로 더욱 다양한 곳에 혜택을 제공하고, 이를 통해 쿠팡의 생태계 안에 가두는 전략을 펼칠 것입니다. “쿠팡와우 멤버십을 이런데서도 쓸 수 있네?”싶은 곳이 많아질 수록 고객의 감동 포인트는 증가할 것이고, 지금과 같이 멤버십 구독료 대비 2~5배의 가치를 유지하도록 금액을 조절할 것으로 예상됩니다. 그렇게 쿠팡와우 멤버십을 중심으로 만들어진 쿠팡공화국을 통해 더욱 많은 수익을 만들어 내는 것이 궁극적인 목표일 것입니다. 마치 카카오가 카카오톡을 중심으로 카카오 공화국을 만들었던 것처럼요.</p>
+
+<h3 id="쿠팡에-위기는-없을까">쿠팡에 위기는 없을까?</h3>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-03-31-news7/kakao.png" alt="news-7" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: 헤럴드경제</em></p>
+</div>
+
+<p>물론, 쿠팡에게 위험요소가 전혀 없는 것은 아닙니다. 카카오의 사례에서 볼 수 있듯, 시장과 소비자로부터 부정적 반응을 초래할 수 있는 문어발식 확장은 대중들의 반(反)감정을 일으킬 수 있기 때문에 유의해야 합니다. 또한, 멤버십의 영향력이 점점 거대해 질수록 공정거래 및 독점에 대한 규제 기관의 감시가 엄격해질 가능성도 배제할 수 없습니다. 현재 쿠팡이 OTT와 배달 서비스를 중점으로 비즈니스를 확장하고 있어 큰 문제는 되고 있지 않지만, 앞으로 어떤 분야로 확장하느냐에 따라 계속해서 순풍이 불수도, 갑작스레 역풍을 맞을 수도 있습니다.</p>
+
+<p>그리고 최근 “알리익스프레스”, “테무”와 같은 중국 이커머스 직구 플랫폼이 본격적으로 한국 시장에 뛰어들었는데, 파격적인 저가 공략으로 쿠팡을 위협하고 있습니다. 쿠팡은 로켓 배송 지역 확대, 파페치 인수 등 쿠팡만의 독보적인 전략으로 맞대응 하고 있지만, 중국 이커머스의 공격적이 전략에 대응할 수 있을지는 조금 더 지켜봐야 할 것 같습니다(사실 소비자 입장에서 선택지가 많아 지는 것은 좋은 일이지요).</p>
+
+<p>마지막으로 이 시점에서 우리는 한 가지 고민을 할 필요가 있습니다. 쿠팡이 제공하는 편리함과 다양한 혜택에 점점 익숙해지고 있는 가운데, 이러한 이용이 우리의 선택과 독립성에 어떤 영향을 미치는지 자문해 볼 필요가 있습니다. 쿠팡과 같은 대형 플랫폼의 서비스를 편리하게 활용하면서도, 동시에 다양한 선택지를 고려하고 건강한 소비 생활을 유지할 수 있어야 합니다. 당장 눈 앞에 보이는 편리함과 혜택만 쫓다보면 어느새 공정한 경쟁이 무너지고, 장기적으로는 다양성을 해치는 방향으로 발전할 수 있기때문입니다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#biz-trend" class="page__taxonomy-item p-category" rel="tag">Biz-Trend</a><span class="sep">, </span>
+    
+      <a href="/tags/#coupang" class="page__taxonomy-item p-category" rel="tag">Coupang</a><span class="sep">, </span>
+    
+      <a href="/tags/#e-commerce" class="page__taxonomy-item p-category" rel="tag">E-Commerce</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#news" class="page__taxonomy-item p-category" rel="tag">News</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2024-03-31T00:00:00+09:00">2024-03-31</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%EC%96%B4%EC%84%9C%EC%98%A4%EC%84%B8%EC%9A%94%2C+%EC%97%AC%EA%B8%B0%EB%8A%94+%EC%BF%A0%ED%8C%A1%EA%B3%B5%ED%99%94%EA%B5%AD%EC%9E%85%EB%8B%88%EB%8B%A4.%20http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews7%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews7%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews7%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/news/news6/" class="pagination--pager" title="AI가 축구도 잘할까? - 딥마인드 연구 소개
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -899,7 +865,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-03-26T00:00:00+09:00">2024-03-26</time>
       </span>
@@ -912,12 +878,12 @@
   </article>
 </div>
 
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -932,7 +898,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-02-29T00:00:00+09:00">2024-02-29</time>
       </span>
@@ -945,12 +911,12 @@
   </article>
 </div>
 
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -965,7 +931,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-02-28T00:00:00+09:00">2024-02-28</time>
       </span>
@@ -978,246 +944,12 @@
   </article>
 </div>
 
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news3/" rel="permalink">‘수익화’ 시동 건 OpenAI, ‘맞품형 ChatGPT’ 사고 파는 스토어 출시!
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-01-09T00:00:00+09:00">2024-01-09</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌
-</p>
-  </article>
-</div>
-
           
-            
 
 
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news2/" rel="permalink">파이썬 공식 저장소, 악성코드 패키지 116개 발견
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-06T00:00:00+09:00">2024-01-06</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/news/news1/" rel="permalink">마이크로소프트, 비주얼스튜디오 2013, 2024년 4월 지원 종료
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-03T00:00:00+09:00">2024-01-03</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">MS의 대표 개발환경(IDE)인 비쥬얼스튜디오 2013의 지원을 종료합니다.
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-      <section id="github-blog" class="taxonomy__section">
-        <h2 class="archive__subtitle">Github Blog</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/github%20blog/second/" rel="permalink">[Github Blog 만들기 1] Github Blog 환경 설정
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-05T00:00:00+09:00">2024-01-05</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">나도 할 수 있다! Github Page Blog 만들기 Part 1
-참조: 테디노트 - Github Blog 만들기 시즌 1 개발환경 설치하기
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/github%20blog/first/" rel="permalink">test 용 posting 입니다.
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2023-02-12T00:00:00+09:00">2023-02-12</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">오늘 처음 블로그를 만들었습니다.
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
-      <section id="trend-book" class="taxonomy__section">
-        <h2 class="archive__subtitle">Trend Book</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -1232,7 +964,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2024-01-26T00:00:00+09:00">2024-01-26</time>
       </span>
@@ -1248,105 +980,13 @@
   </article>
 </div>
 
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/trend%20book/trend-book-01/" rel="permalink">‘IT 트렌드 읽는 습관’의 서평
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-01-04T00:00:00+09:00">2024-01-04</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">한 줄 요약
-
-  IT 트렌드 분석이라 읽고 트렌드 체크 방법이라 읽는다!
-
-</p>
-  </article>
+      </div>
+    </div>
+  
+  
 </div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-      <section id="self-dev" class="taxonomy__section">
-        <h2 class="archive__subtitle">Self Dev</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/self%20dev/self-dev-book-01/" rel="permalink">‘프로그래머의 길, 멘토에게 묻는다’의 서평
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-01-06T00:00:00+09:00">2024-01-06</time>
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">“프로그래머의 길, 멘토에게 묻는다”를 일고 쓰는 나만의 서평
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-
-
-  </div>
-</div>
     </div>
 
     
@@ -1388,6 +1028,25 @@
 
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/news/news7/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/news/news7"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://NinT.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 

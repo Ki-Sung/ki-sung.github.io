@@ -52,4 +52,10 @@ var store = [{
         "tags": ["Tech","AI","DeepMind","Soccer","AI Tactics"],
         "url": "/news/news6/",
         "teaser": null
+      },{
+        "title": "어서오세요, 여기는 쿠팡공화국입니다.",
+        "excerpt":"[2024년 03월 28일자 Tech잇슈, Biz Trend Letter에서 발췌] 지난해말(대략 2023년 12월), 쿠팡와우 맴버십 회원 수가 1,400만 명을 돌파했다는 소식이 전해졌었습니다. 이는 대한민국 전체 인구의 약 1/3을 차지하며, 노령인구(65세 이상)+유소년 인구(14세 이하)를 제외하면 거의 절반이 가입되어 있다고 볼 수 있는데요. 특히, 가족 중에서는 대표 1명이 가입되어 있는 경우도 많으니, 거의 대부분의...","categories": ["News"],
+        "tags": ["E-Commerce","Coupang","Biz-Trend"],
+        "url": "/news/news7/",
+        "teaser": null
       }]
