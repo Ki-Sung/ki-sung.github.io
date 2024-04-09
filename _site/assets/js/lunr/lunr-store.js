@@ -58,4 +58,10 @@ var store = [{
         "tags": ["E-Commerce","Coupang","Biz-Trend"],
         "url": "/news/news7/",
         "teaser": null
+      },{
+        "title": "쿠팡이츠 배달비 무료, 두잇은 어떡하지?",
+        "excerpt":"[2024년 04월 01일자 Tech잇슈, Biz Trend Letter에서 발췌] 혹시 ‘두잇’이라는 스타트업에 대해 알고 계신가요? 모르신 분들을 위해 간략하게 소개하자면, 두잇은 ‘평생 배달비 없는 배달앱’이라는 슬로건 아래 2022년에 등장한 스타트업입니다. 이들은 ‘팀 배달 시스템’과 ‘전담 라이더 시스템’을 도입하여 일종의 배달 공동구매를 진행하는데요. 이를 통해 전반적인 배달 코스트를 줄이고 소비자에게 배달비를 받지...","categories": ["News"],
+        "tags": ["Coupang-Eats","Delivery-Market","Free Delivery","Doeat"],
+        "url": "/news/news8/",
+        "teaser": null
       }]
