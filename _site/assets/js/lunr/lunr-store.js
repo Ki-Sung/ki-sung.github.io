@@ -64,4 +64,10 @@ var store = [{
         "tags": ["Coupang-Eats","Delivery-Market","Free Delivery","Doeat"],
         "url": "/news/news8/",
         "teaser": null
+      },{
+        "title": "네이버 AI 국내 1위 그런다고 사람들이 쓸까?",
+        "excerpt":"[2024년 04월 08일자 Tech잇슈, Biz Trend Letter에서 발췌] 네이버는 대한민국 빅테크 기업의 자존심이자, ‘네카라쿠배’의 가장 큰 형님 격이라 할 수 있는데요. 이들이 얼마 전, 자체 대형 언어 모델인 하이퍼클로바X의 연구/개발 소식을 전해왔습니다. 다양한 항목에서 글로벌 모델과 비교했을 때 가장 우수한 성적을 기록했다고 발표하기도 했습니다. 해당 내용 자세히 살펴보죠 다른 모델보다...","categories": ["News"],
+        "tags": ["Naver AI","HyperCLOVA X","Korea LLM"],
+        "url": "/news/news9/",
+        "teaser": null
       }]
