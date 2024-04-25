@@ -51,11 +51,13 @@ Back-end 개발 등 다양한 데이터 직군을 경험했습니다.
             <td style="text-align: center">에이원 퍼포먼스 팩토리</td>
             <td style="text-align: center">2021.12 ~ present</td>
             <td>
+                SSG 솔루션 개발 참여 
+                <br>
                 QSM Project Airflow를 사용한 데이터 파이프라인 생성
                 <br>
                 네이버 비딩 개발 참여 
                 <br>
-                LF mall 개발 참여
+                LF mall 솔루션 개발 참여
                 <br>
                 신세계 키워드 수집기 개발 및 배포 by Streamlit
             </td>
@@ -67,6 +69,10 @@ Back-end 개발 등 다양한 데이터 직군을 경험했습니다.
                 롯데 면세점 Gucci Watch Store 매장 관리 및 판매
                 <br>
                 신세계 면세점 Gucci Watch Store 매장 관리 및 판매
+                <br>
+                Gucci Korea 본사 리테일팀 - 매장 관리 및 지원
+                <br>
+                롯데 면세점 Gucci BTQ Store 판매 및 고개 관리
             </td>
         </tr>
          <tr>
