@@ -70,4 +70,10 @@ var store = [{
         "tags": ["Naver AI","HyperCLOVA X","Korea LLM"],
         "url": "/news/news9/",
         "teaser": null
+      },{
+        "title": "Meta 오픈소스 AI를 꿈꾸다!",
+        "excerpt":"[2024년 04월 25일자 Tech잇슈, Biz Trend Letter에서 발췌] 페이스북, 인스타그램, 스레드 등을 운영하고 있는 곳으로 유명한 “메타”가 2024년 04월 24일 자신들의 대표적인 생성형 AI 모델인 “라마(LLaMA)3” 업데이트 소식을 전했습니다. 메타는 이번 소식을 전하면서 “라마 3은 다른 모델과 비교(벤치마크)했을 때 최고의 성능을 보였습니다. 추론 기능을 포함해 동급 최고의 오픈소스 모델입니다.”라고 발표했는데요....","categories": ["News"],
+        "tags": ["Meta AI","LLaMA3","Open-source AI"],
+        "url": "/news/news10/",
+        "teaser": null
       }]
