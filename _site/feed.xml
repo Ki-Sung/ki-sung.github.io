@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-06T17:17:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">Meta 오픈소스 AI를 꿈꾸다!</title><link href="http://localhost:4000/news/news10/" rel="alternate" type="text/html" title="Meta 오픈소스 AI를 꿈꾸다!" /><published>2024-05-06T00:00:00+09:00</published><updated>2024-05-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news10</id><content type="html" xml:base="http://localhost:4000/news/news10/"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-12T23:52:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">드디어 공개된 애플 AI, 그리고 애플 AI의 흔적들</title><link href="http://localhost:4000/news/news11/" rel="alternate" type="text/html" title="드디어 공개된 애플 AI, 그리고 애플 AI의 흔적들" /><published>2024-05-12T00:00:00+09:00</published><updated>2024-05-12T00:00:00+09:00</updated><id>http://localhost:4000/news/news11</id><content type="html" xml:base="http://localhost:4000/news/news11/"><![CDATA[<p>[2024년 05월 10일자 미라클 레터에서 발췌]</p>
+
+<p>월 말부터 이번주까지 혁신의 아이콘, 애플 소식이 끊임없이 터져 나왔습니다.</p>
+
+<p>마치 영화 속이 한 장면처럼 애플이 ‘AI 비밀 연구소’를 운영하고 있었다고 했고, 지난 7일에는 ‘맥북보다 똑똑한’ 아이패드를 출시합니다. ‘괴물 칩’이라는 수식어가 붙은 ‘M4칩’이 탑재됐는데, 이를 두고 ‘애플이 AI 승부수를 띄었다’라는 분석이 나오고 있습니다. 지난해부터 “애플이 AI 분야에서 뒤처진 것 아니냐” “존재감이 없는 것 아니냐”는 분석이 제기되곤 했습니다. 이럴 때 마다 팀 쿡 애플 최고경영자(CEO)는 “준비하고 있다”라는 말을 했는데요, 출시가 임박한 듯 합니다.</p>
+
+<p>그래서 애플이 지난 1년간 AI 분야에서 보여준 흔적 10가지를 정리해보았습니다.</p>
+
+<h3 id="팀쿡-나도-chat-gpt-사용그러나">팀쿡 “나도 Chat GPT 사용…그러나”</h3>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-05-12-news11/apple.png" alt="news-11" width="500" />
+    <p style="font-size: smaller;"><em>이미지 출처: Greg Joswiak's X</em></p>
+</div>
+
+<p>2022년 11월, 오픈AI의 챗GPT가 모습을 드러냅니다. 생성형 AI의 성능과 이를 받아들이는 사람들의 인식이 심상치가 않았죠. 메타는 이듬해 2월 ‘라마’를 공개합니다. 구글은 다음 달인 3월, ‘바드’를 공개해요. 오픈AI에서 파생된(?) 앤스로픽의 생성형AI ‘클로드’ 역시 3월에 공개됩니다.</p>
+
+<p>비단 해외 기업뿐만이 아닙니다. 네이버는 지난해 8월 ‘하이퍼클로바X’를 공개했는데요, 이처럼 생성형 AI가 ‘바람’을 일으키자 빅테크 기업들은 기다렸다는 듯 관련 서비스를 출시합니다.</p>
+
+<p>애플은 달랐습니다. 생성형 AI에 관한 관심이 높아지던 2023년 5월, 팀 쿡은 애플 실적 발표에서 AI에 관한 질문에 “AI에 어떻게 접근할지 신중하고, 신중하게 생각하는 게 매우 중요하다” “정리해야 할 문제가 많다”라고 답합니다. 조심스럽게 접근하지만, 뭔가 소극적인 느낌도 들었습니다.</p>
+
+<p>팀 쿡은 AI가 가진 잠재력을 인정하면서도 AI가 적용된 ‘애플의 미래’에 대해서는 언급을 꺼렸습니다. 비즈니스인사이더의 분석에 따르면 2023년 1분기 실적 보고 당시, 메타와 알파벳, 마이크로소프트(MS), 아마존은 ‘AI’라는 단어를 168번 언급했는데, 애플은 관련 이야기를 불과 몇 분도 하지 않았다고 합니다.</p>
+
+<p>팀 쿡도 많은 고민을 한 것 같습니다. 팀 쿡은 지난해 6월 자신도 “챗GPT를 사용하고 있다”라고 밝히기도 했는데요, 다만 애플이 소비자에게 AI를 어떻게 전달할지에 대한 명확한 전략은 보여주지 않았습니다.</p>
+
+<p>지난해 애플은 AI와 관련해 어수선한 모습을 보였습니다. 실제로 애플의 임원들은 갑작스러운 AI 열풍에 당황했다고 합니다. 이미 자사 제품에 AI 기술을 적용하고 있고, 오래전부터 개발을 해왔는데 생성형AI가 주목받을 것이라고는 상상하지 못했던 거죠.</p>
+
+<p>애플 관계자는 지난해 언론에 이런 말을 남기기도 했습니다. “(AI와 관련) 이 부분에 대한 큰 우려가 있고, 내부적으로도 꽤 큰 실수로 간주하고 있다.”</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-05-12-news11/apple_ferret.png" alt="news-11" width="500" />
+    <p style="font-size: smaller;"><em>이미지 출처: Apple Ferret 논문</em></p>
+</div>
+
+<p>하지만 애플이 가만히만 있던 것은 아닙니다. 애플의 AI와 관련된 10가지 소식을 두 카테고리로 묶어서 정리해 보겠습니다.</p>
+
+<h3 id="애플의-발자취-우리도-생성한다">애플의 발자취 “우리도 생성한다”</h3>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Apple AI" /><category term="WWDC2024" /><summary type="html"><![CDATA[[2024년 05월 10일자 미라클 레터에서 발췌]]]></summary></entry><entry><title type="html">Meta 오픈소스 AI를 꿈꾸다!</title><link href="http://localhost:4000/news/news10/" rel="alternate" type="text/html" title="Meta 오픈소스 AI를 꿈꾸다!" /><published>2024-05-06T00:00:00+09:00</published><updated>2024-05-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news10</id><content type="html" xml:base="http://localhost:4000/news/news10/"><![CDATA[<hr />
 <p>[2024년 04월 25일자 Tech잇슈, Biz Trend Letter에서 발췌]</p>
 
 <p>페이스북, 인스타그램, 스레드 등을 운영하고 있는 곳으로 유명한 “메타”가 2024년 04월 24일 자신들의 대표적인 생성형 AI 모델인 “라마(LLaMA)3” 업데이트 소식을 전했습니다. 메타는 이번 소식을 전하면서 “라마 3은 다른 모델과 비교(벤치마크)했을 때 최고의 성능을 보였습니다. 추론 기능을 포함해 동급 최고의 오픈소스 모델입니다.”라고 발표했는데요. 잠시 벤치마크 기록을 살펴보면 아래와 같습니다.</p>
@@ -459,26 +495,4 @@ NYT와의 소송은 장애물…생성형 AI vs 미디어 기업 간 충돌 우�
 
 <p>만약 뉴욕타임스가 승소한다면 Open AI는 수십억 달러를 물어줘야 하며, 뉴욕타임스 기사가 포함된 AI 훈련 데이터를 강제로 삭제해야 할 수도 있어요. 업계에서는 해당 소송을 계기로 생성형 AI 기업과 미디어, 콘텐츠 기업 간 법적 충돌이 본격화될 것이라는 전망도 나와 해당 문제는 꼭 해결해야 할 숙제로 남겨져 있습니다.</p>
 
-<p>이제 GPT스토어 출시가 얼만 안남았는데, 과연 지난번 ChatGPT 공개 때처럼 또 다른 반향을 일으킬 수 있을지, 또 우리 소비자로서는 어떤 변화가 발생할지 지켜보는 것도 좋을 것 같아요.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="OpenAI" /><category term="ChatGPT Store" /><category term="Service Launching" /><summary type="html"><![CDATA[시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">파이썬 공식 저장소, 악성코드 패키지 116개 발견</title><link href="http://localhost:4000/news/news2/" rel="alternate" type="text/html" title="파이썬 공식 저장소, 악성코드 패키지 116개 발견" /><published>2024-01-06T00:00:00+09:00</published><updated>2024-01-06T00:00:00+09:00</updated><id>http://localhost:4000/news/news2</id><content type="html" xml:base="http://localhost:4000/news/news2/"><![CDATA[<h2 id="개발자-대상-대규모-전파-노려-1년간-1만-다운로드-발생">개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생</h2>
-
-<ul>
-  <li><a href="https://zdnet.co.kr/view/?no=20240104094359">ZDNET KOREA, 파이썬 공식 저장소, 악성코드 패키지 116개 발견 기사 발췌</a></li>
-</ul>
-
-<p>파이썬 패키지용 공개 저장소인 파이썬 패키지 색인(PyPI)에서 악성코드가 포함된 패키지가 발견되어 사용에 주의가 요구됩니다.</p>
-
-<p>현지시간 2024년 01월 03일 미국 지디넷 등 외신에 따르면 사이버보안기업 EST리서치가 PyPI내 조사를 실시한 결과 악성 패키지를 발견했다고 밝혔습니다.</p>
-
-<p><img src="/images/news/2024-01-06-news2/python_package_img.jpeg" alt="python_package_img" class="align-center img-width-half" /><em>Python Package Index</em></p>
-
-<p>파이썬 패키지 색인(PyPI)은 인기 프로그래밍 언어인 파이썬의 공식 저장소로 개발자가 만든 소프트웨어(SW)를 저장하거나 효율적인 배포를 위해 사용됩니다. 현재 약 50만개의 프로젝트가 진행 중으로 약 520만개의 패키지가 릴리즈 되고 있고, 저장소를 이용하는 사용자는 77만 명이라고 합니다.</p>
-
-<p>PyPI는 많은 사용자를 대상으로 SW를 배포하기 위해 개발된 만큼 이를 악용할 경우 많은 개발자 PC나 기업 시스템을 악성코드로 감염시킬 우려가 있습니다. 특히 제품이나 서비스를 만드는 개발자를 대상으로 하는 만큼 피해는 더욱 확대될 가능성이 높습니다.</p>
-
-<p>지난 1년간 조사한 결과에 따르면 PyPI에 등록된 53개 프로젝트에서 총 116개의 악성 패키지를 발견했다고 합니다. 악성 패키지는 하루 약 80건씩 총 1만 회 이상 다운로드가 발생한 것으로 나타났습니다.</p>
-
-<p>패키지에 포함된 악성코드를 조사한 결과 사이버 스파이 기능을 갖춘 맞춤형 백도어로 윈도와 리눅스를 모두 대상으로 합니다. 윈도 타깃 패키지는 백도어가 파이썬으로 구현됐으며 리눅스 백도어는 GO를 사용했다고 합니다.</p>
-
-<p>악성코드는 원격 명령 실행 및 파일 추출이 가능하며 스크린샷을 촬영하는 기능도 포함됐다고 합니다. 일부 악성코드는 개인 데이터와 자격 증명을 훔치는 W4SP 스틸러의 변종이나 암호화폐를 훔치는 클립보드 모니터도 확인되었다고 밝혔습니다. 클립보드 모니터는 비트코인, 이더리움, 모네로, 라이트코인을 주로 타깃으로 삼았다고 합니다.</p>
-
-<p>아쉽게도 어떻게 대비해라 방법은 없지만, 결국 파이썬 패키지를 이용하실 때, 우리가 조심 또 조심하는 수 밖에 없는 것 같습니다. 파이썬으로 개발하시는 분들 모두 조심합시다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="Python" /><category term="PyPI" /><category term="Malware" /><summary type="html"><![CDATA[개발자 대상 대규모 전파 노려, 1년간 1만 다운로드 발생]]></summary></entry></feed>
+<p>이제 GPT스토어 출시가 얼만 안남았는데, 과연 지난번 ChatGPT 공개 때처럼 또 다른 반향을 일으킬 수 있을지, 또 우리 소비자로서는 어떤 변화가 발생할지 지켜보는 것도 좋을 것 같아요.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="OpenAI" /><category term="ChatGPT Store" /><category term="Service Launching" /><summary type="html"><![CDATA[시사저널 “‘수익화’ 시동 건 오픈 AI…’맞춤형 챗GPT’ 사고 파는 스토어 출시” 기사에서 발췌]]></summary></entry></feed>
