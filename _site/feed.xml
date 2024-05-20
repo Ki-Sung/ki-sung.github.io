@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-14T18:35:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">라인야후 사태, 손정의가 그린 빅픽처!</title><link href="http://localhost:4000/news/news12/" rel="alternate" type="text/html" title="라인야후 사태, 손정의가 그린 빅픽처!" /><published>2024-05-14T00:00:00+09:00</published><updated>2024-05-14T00:00:00+09:00</updated><id>http://localhost:4000/news/news12</id><content type="html" xml:base="http://localhost:4000/news/news12/"><![CDATA[<p>[2024년 05월 13일자 미라클 레터에서 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-20T22:03:03+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">AI계에서 Hot한 오픈AI와 구글</title><link href="http://localhost:4000/news/news13/" rel="alternate" type="text/html" title="AI계에서 Hot한 오픈AI와 구글" /><published>2024-05-20T00:00:00+09:00</published><updated>2024-05-20T00:00:00+09:00</updated><id>http://localhost:4000/news/news13</id><content type="html" xml:base="http://localhost:4000/news/news13/"><![CDATA[<p>[2024년 05월 16일자 테크잇슈에서 발췌]</p>
+
+<p>지난주는 정말 뜨거운 이슈가 많았던 한 주였습니다. 바로 OpenAI와 구글이 각각 자사의 AI 기술 업데이트 소식을 전했기 때문이죠(저는 프로젝트 막바지에 죽어 있었지만은요…).<br />
+5월 14일에는 구글의 개발자 연례 행사인 GoogleI/O 2024가 진행되었으며, 그보다 하루 앞서 Open AI는 ‘GPT-4o(Omni)’ 업데이트 소식을 기습적으로 발표하며 김빼기 작전을 실시했습니다.<br />
+관련해서 오늘은 두 기업의 경쟁 구도를 중심으로 글을 준비해보았습니다.</p>
+
+<h3 id="축구계에-매호대전이-있다면-ai계에는-og대전이-있다">축구계에 매호대전이 있다면, AI계에는 OG대전이 있다?</h3>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-05-20-news13/google_vs_openAI.png" alt="news-13" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Sociobits.org</em></p>
+</div>
+
+<p>라이벌의 존재는 서로에게 동기 부여를 높이는 긍정적인 효과를 주곤 합니다. 이른바 ‘메호대전’이라 불리며 축구 역사상 가장 유명한 라이벌로 꼽히는 “메시”와 “호날두” 역시 서로에게 큰 자극제가 되곤 했습니다. “퍼거슨 감독”은 호날두가 맨체스터 유나이티드에서 뛸 당시, “메시가 현존 최고의 선수인 거 알지?”라는 말로 “호날두”에게 동기부여를 했다고 알려져 있습니다. “호날두” 스스로도 “메시”와의 경쟁이 서로에게 큰 동기부여가 되었다고 밝힌 바 있습니다.</p>
+
+<p>축구계에 ‘메호대전’이 있다면, AI계에는 ‘OG대전(해당 용어는 편의를 위해 제가 만들어 보았습니다)’이 있는데요. 바로 OpenAI와 구글을 말합니다. 누군가는 두 기업이 왜 라이벌 관계냐며 반문하실 수도 있는데요. 사실 두 기업은 태생적으로 라이벌 관계라고 볼 수 있습니다. OpenAI가 폐쇄형 인공지능의 대표주자였던 구글에 대항하기 위해 만들어진 기업이기 때문입니다.</p>
+
+<p>과거 구글 설립자인 “레리 페이지”와 “일론 머스크”는 인공지능의 잠재적 위험성을 두고 논쟁을 벌인 적이 있습니다. 그 과정에서 일론 머스크의 만류에도 레리 페이지가 딥마인드를 인수하자 이에 대항하기 위해 “샘 알트만”과 의기투합하여 만든 것이 바로 “OpenAI”입니다.</p>
+
+<p>사실 두 기업이 라이벌이라고는 했지만, 라이벌이라는 말이 무색할 정도로 ChatGPT 출시 이후의 모든 OG대전 승자는 OpenAI였습니다. 여기에는 OpenAI가 잘해서 승리한 면도 있지만, 그에 못지않게 구글이 자멸한 영향도 컸습니다.</p>
+
+<p>첫 번째 OG대전이라 부를 수 있는 “ChatGPT” vs “Bard” 대전에서는 바드가 공식석상에서 틀린 답변을 내놓으며 주가가 7% 이상 급락하는 등 구글의 대패로 끝이 났고(<a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4253817">기사</a>), 두 번째 OG대전이라 부를 수 있는 “GPT-4” vs “Gemini” 대전에서는 제미나이 데모 영상의 과도한 편집 정황이 드러나며 또다시 구글의 패배로 돌아갔습니다(<a href="https://www.aitimes.com/news/articleView.html?idxno=155764">기사</a>).</p>
+
+<h3 id="선공-점에-집중한-openai">선공, 점에 집중한 OpenAI</h3>
+<p>그렇다면 지난 주에 벌어진 세 번째 OG대전은 어떨까요?(<a href="https://www.newsis.com/view/?id=NISX20240515_0002735415&amp;cID=13007&amp;pID=13100">기사</a>) 먼저, ‘굳이’ 구글의 연례 개발자 행사인 구글 I/O 2024의 하루 전, 기습 공격을 날린 OpenAI의 업데이트 소식을 살펴보겠습니다. OpenAI의 업데이트 소식이 전해지자 많은 매체는 영화 ‘Her’ 혹은 어벤저스의 ‘자비스’를 제목에 언급하며 업데이트 내용을 비유했는데요. 이보다 정확한 비유가 없을 만큼 OpenAI 업데이트 내용은 명확했습니다.</p>
+
+<p>이번에 업데이트된 모델의 이름은 GPT-4o(Omni)입니다. 이름에서 알 수 있듯이 성능 측면에서 GPT-4와 비교해 크게 진전된 모습은 없지만, 전방향의 모든 것을 뜻하는 ‘Omni’를 붙임으로써 멀티모달 능력을 가졌다는 것을 암시하고 있습니다. 즉, GPT-4o는 GPT-4 성능을 텍스트에 국한하지 않고 어떤 인풋에도 원하는 아웃풋으로 만들 수 있다는 의미입니다. 이 외에도 빠른 응답 속도를 위해 경량화 측면에서 많은 발전을 이루었습니다.</p>
+
+<p>뛰어난 멀티모달 능력과 경량화가 결합되자, 사람과의 실시간 화상대화 능력을 극한까지 끌어올릴 수 있게 됐는데요. 핸드폰 카메라를 활용한 실시간 화상대화에서 ‘ChatGPT-4o’는 사람 수준의 반응 속도(0.32ms)로 답변하는 것도 모자라, 카메라로 보는 상황을 인식해서 답변에 반영하거나 화자의 감정을 읽어내고, 자신의 감정까지 바꿔가면서 대화를 이끄는 등 인상적인 모습을 연이어 보여주었습니다. 시연 영상을 보면서, 아마도 스티브잡스가 Siri에게 이런 모습을 기대하지 않았을까 하는 생각이 들었습니다.</p>
+
+<p>공식 발표 영상 외에도 OpenAI는 이 멀티모달 능력에 초점을 맞추어 많은 정보를 제공했습니다. 즉, 보고 듣고 말하는 완벽한 개인 비서라는 하나의 ‘점’에 집중하여 공세를 펼쳤습니다. 물론 그 점이 워낙 강력하고 두꺼워서 마치 하나의 면처럼 보였다는 것이 함정이지만 말입니다.</p>
+
+<h3 id="후공-선에-집중한-구글">후공, 선에 집중한 구글</h3>
+<p>구글은 앞선 두 차례의 OG대전과 다르게 접근했습니다. 무리하게 OpenAI와의 기술 경쟁을 무리하게 시도하지 않았고, 대신 자신들이 잘할 수 있는 분야에 집중했습니다. 중요한 것은 구글이 잘할 수 있는 분야가 워낙 많다 보니 이것들이 모여 하나의 선이 되었다는 사실입니다.</p>
+
+<p>구글은 이번 I/O 2024 행사에서 전 세계 90% 이상을 점유하고 있는 검색 분야부터 이메일, 클라우드, 모바일을 아우르는 구글 플랫폼에 AI 기술을 접목해 유기적인 비서 역할을 제공하겠다는 메시지를 전했습니다. 특히 구글 제품 사용자가 20억 명에 이른다는 점을 상기시키며, 모두가 언제 어디서나 제미나이를 활용해 제품을 사용할 수 있다고 강조했는데요.</p>
+
+<p>대표적으로, 구글 포토에서는 “딸 루시아가 언제 수영을 배웠지?”라는 질문에 관련된 사진을 모아주거나, 신발 반품을 요청하면 받은 편지함에서 영수증을 검색하고, 주문번호를 찾아서 반품 양식까지 대신 작성해 줍니다. 또한, 온디바이스 모델을 안드로이드에 통합해 스마트폰에서 멀티모달 기능을 활용할 수 있도록 지원할 예정입니다.</p>
+
+<p>이외에도 워크스페이스에는 제미나이 1.5 프로 버전이 적용되며, 구글 검색에서도 더 이상 키워드 기반의 검색이 아닌 자연어 기반의 질문을 통해 원하는 답변을 보다 빠르게 받아볼 수 있게 되었습니다. 이는 마치 “네가 상상한 모든 것에 AI가 들어가 있어”라고 외치는 것 같은데요. 그도 그럴 것이 약 1시간 50분 동안 진행된 발표에서 ‘AI’라는 단어를 121차례 언급했다고 하니 말 다한 것 같습니다. (1분에 1회꼴이네요 - <a href="https://www.chosun.com/economy/tech_it/2024/05/15/JON6NQT5KRFVPLT53VMPBLU3PM/">관련기사</a>)</p>
+
+<p>이처럼 구글은 하나의 ‘점’에 집중하기보다는 자신들이 보유한 모든 것들에 AI를 포석시키며 ‘선’에 집중하는 모습을 보여주었고, 이로 인해 사용량 측면에서 월등히 앞설 수 있는 기회를 잡았습니다.</p>
+
+<h3 id="세-번째-og대전의-승자는">세 번째 OG대전의 승자는?</h3>
+<p>개인적으로 이번 OG대전의 승자는 구글이라고 생각합니다. 다만, 압도적인 승리라기 보다는 정말 근소한 차이로 우세했다고 보여집니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-05-20-news13/googleIO2024.png" alt="news-13" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Android Police</em></p>
+</div>
+
+<p>그 이유는 먼저, 이번 대전에서 구글은 실수하지 않았습니다. 서두에 말씀드렸던 것처럼 이전 오구대전의 승리가 모두 OpenAI로 돌아간 데에는 구글이 자멸한 영향이 크다고 말씀드렸는데요. 최소한 이번에는 실수하지 않으며 동등한 위치에서 판정을 받을 수 있게 됐습니다. 특히 최근 구글의 업데이트 발표에서 다소 조급해 보인다는 인식이 있었는데, 이번 발표에서는 약간의 여유마저 느껴지며 평소 우리가 알던 구글이 돌아왔다는 느낌을 받았습니다.</p>
+
+<p>또한, 최근 시대적 흐름을 잘 판단한 것도 형세에 유리한 영향을 미쳤습니다. 최근 AI 경쟁은 더 이상 누가 더 성능이 좋은가를 넘어 누가 더 사용성이 좋은가를 판단하는 시대로 접어들고 있습니다. 약간의 성능 차이보다는 월등히 우세한 사용성이 더욱 중요하다는 의미인데요. 이 점에서 거대 플랫폼 생태계를 보유한 구글이 자신들의 장점을 잘 활용하면서 좋은 반격을 했다고 판단됩니다.</p>
+
+<p>OpenAI가 기습적인 선공을 선택한 것도 이러한 형세를 어느 정도 인지한 상황에서 결정된 것으로 해석해 볼 수 있습니다. 만약 자신들의 완벽한 우위가 예상됐다면, 무리하게 선공을 하기보다는 구글의 선공을 여유롭게 지켜보다가 완벽한 한방의 후공을 선택해 확연한 차이를 대비시켜 보여주는 게 효과적이었을 겁니다. 그러나 이번에는 그러지 못할 것이라는 것을 예상하여 그나마도 효과적인 공격을 하기 위해 기습 선공을 한 것으로 풀이됩니다.</p>
+
+<p>이제 다음 OG대전 경쟁의 승자는 누가 먼저 점이나 선이 아닌 면에 도달하는지에 달렸습니다. 강력한 면을 이루기 위해서는 기술력은 기본이며 사용성에 있어서도 완벽한 모습을 갖춰야 하는데요. 누가 먼저 면에 도달할지는 알 수 없지만, 확실한 것은 오구대전의 결과와는 별개로 이들은 서로에게 동기부여가 되며 빠르게 혁신을 이루고 있다는 점입니다. 앞으로도 건강한 경쟁 관계가 이어져 소비자에게 긍정적인 효과로 전달되길 바래봅니다.</p>
+
+<p>기술관련 내용은 아래의 영상을 참고해주세요.</p>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/DQacCB9tDaw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p><em>OpenAI GPT-4o 발표 영상</em></p>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/WsEQjeZoEng" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p><em>Google I/O 2024 발표 영상</em></p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Open AI" /><category term="GPT-4o" /><category term="Google" /><category term="Gemini" /><summary type="html"><![CDATA[[2024년 05월 16일자 테크잇슈에서 발췌]]]></summary></entry><entry><title type="html">라인야후 사태, 손정의가 그린 빅픽처!</title><link href="http://localhost:4000/news/news12/" rel="alternate" type="text/html" title="라인야후 사태, 손정의가 그린 빅픽처!" /><published>2024-05-14T00:00:00+09:00</published><updated>2024-05-14T00:00:00+09:00</updated><id>http://localhost:4000/news/news12</id><content type="html" xml:base="http://localhost:4000/news/news12/"><![CDATA[<p>[2024년 05월 13일자 미라클 레터에서 발췌]</p>
 
 <p>작년 11월 일본 라인야후의 해킹 사건을 계기로, 일본 정부의 압박이 올 들어 거세지더니, 급기야 네이버와 소프트뱅크간 지분 매각 협상이 진행 중이라는 소식이 속속 들리기 시작했습니다.<br />
 라인야후는 소프트뱅크의 검색 ‘야후재팬’과 네이버의 메신저 ‘라인’이 3년 전 합쳐져 탄생한 공룡 IT 기업인데요. 한국으로 치면 네이버(포털) 카카오(메신저) 토스(핀테크) 배민(배달)을 몽땅 합친. 그야말로 슈퍼 IT 기업이라고 할 수 있습니다.<br />
@@ -619,85 +694,4 @@ AI로 인해 모든 사람이 프로그래머이다. 이것이 바로 AI의 기�
 
 <p>마지막으로 테크크런치에 따르면, 깃허브 코파일럿 엔터프라이즈의 자동 완성 기능은 현재 오픈AI의 GPT-3.5 터보를 기반모델로 활용하고 있다고 합니다. 대기시간 요구사항 때문에 GPT-4로 이동하지 않았지만, 코파일럿 비즈니스 이후 모델을 6회 이상 업데이트했다고 밝혔습니다.</p>
 
-<p>위의 연구 결과 및 모델을 보면 회사에서 코드 작성시 개발자들의 업무 효율이 상당히 올라 갈 것으로 예상됩니다. 가격은 사용자당 월 39달러라고 합니다. 향후에도 모델 종류에 따라 요금제를 구분하지 않는다고 하니 많이 이용해보시기 바랍니다 :)</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="Github" /><category term="Copilot Enterprise" /><category term="Service Launching" /><summary type="html"><![CDATA[ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌]]></summary></entry><entry><title type="html">‘머니 트렌드 2024’의 서평</title><link href="http://localhost:4000/trend%20book/trend-book-02/" rel="alternate" type="text/html" title="‘머니 트렌드 2024’의 서평" /><published>2024-01-26T00:00:00+09:00</published><updated>2024-01-26T00:00:00+09:00</updated><id>http://localhost:4000/trend%20book/trend-book-02</id><content type="html" xml:base="http://localhost:4000/trend%20book/trend-book-02/"><![CDATA[<h2 id="한-줄-요약">한 줄 요약</h2>
-<ul>
-  <li>각 분야 8명의 전문가가 57개의 키워드로 2024년 주목해야할 돈의 트렌드를 집어준다!</li>
-</ul>
-
-<div style="text-align:center">
-    <img src="/images/books/trend-book/money_trend/money_trend_2024.jpeg" alt="money_trend_2024" width="350" />
-    <p style="font-size: smaller;"><em>이미지 출처: 교보문고</em></p>
-</div>
-
-<blockquote>
-  <p>저자: 김도윤, 정태익, 김용섭, 김현준, 전영수, 채상욱, 최재붕, 홍춘욱 <br />
-출판사: 북모먼트 <br />
-출판일: 2023.10.05</p>
-</blockquote>
-
-<h2 id="이-책을-읽게-된-이유">이 책을 읽게 된 이유</h2>
-<p>자본주의 체계에서 돈은 중요한 요소중 하나입니다. 우리는 늘 돈이되는 소스가 무엇이 있는지 찾고 있습니다. 2024년 돈이 될만한 트렌드는 무엇이 있는지 알고 싶어 이 책을 선정해서 읽게 되었습니다.</p>
-
-<h2 id="내가-생각하는-중요한-내용-정리">내가 생각하는 중요한 내용 정리</h2>
-<p>본 서적은 총 7부로 구성되어 있습니다. 각 분야의 전문가(부동산, 트렌드 분석가, 투자운용전문가, 경제학 교수 등) 8명(사실은 7명입니다. 1분은 이 책을 집필하기 위해 기획하신 분이 계십니다.)을 초빙해서 각 분야의 트렌드를 분석하고 요약해 놓았습니다.</p>
-
-<p>그럼 제가 생각하기에 중요한 내용들을 정리해 보겠습니다.</p>
-
-<h3 id="1-경기-회복-그리고-중금리-시대">1. 경기 회복 그리고 중금리 시대</h3>
-<p>서적에 의하면 2024년에는 고금리 시대가 끝나고, 중금리 시대가 올 것으로 예측하고 있습니다. 이유는 한국이나 미국 등 주요 국가의 물가 상승(인플레이션) 압력이 점차 완화되고 있어 각 중앙은행의 금리 인상이 중단 될 것이라 기대하기 때문이라고 설명합니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/books/trend-book/money_trend/Leading_Economic_Index_2006_2022.jpeg" alt="Leading Economic Index 2006-2022" width="500" />
-    <p style="font-size: smaller;"><em>2006~2022년 경기선행지수, 이미지 출처: OECD</em></p>
-</div>
-
-<p>그리고 두 가지의 구조적 원인을 꼽았는데, 바로 ‘글로벌 고령화’와 ‘총요소생산(노동, 자본뿐만 아니라 근로자의 능력과 기술까지 포함한 복합적 경제 성장률)의 꾸준한 향상’입니다. 자금이 축적된 선진국 노인이 늘어 전체적으로 자금 공급을 늘릴 것이고, 정보 통신, 바이오, AI로 이어지는 강력한 혁신이 제품 생산 단가를 떨어뜨리고 이것이 다시 물가 압력을 떨어뜨릴 것이라 예상하고 있습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/books/trend-book/money_trend/population_and_total_factor_production_statistics.jpeg" alt="population_and_total_factor_production_statistics" width="500" />
-    <p style="font-size: smaller;"><em>인구와 총요소생산성 통계, 이미지 출처: IMF</em></p>
-</div>
-
-<p>그러면 지난번 처럼 제로 금리로 내려갈 수 있겠네? 라고 생각할 수 있지만, 저자는 예전의 제로 금리로 돌아가기는 어려울 것이라 전망하고 있습니다. 가장 큰 원인으로 2022년 우크라이나 전쟁으로 ‘지정학’의 시대가 다시 열렸고, 지리적인 위치 관계가 정치, 경제적으로 미치는 영향 때문에 사람들은 신뢰하기 어려운 나라와 더 이상 장기적인 거래 관계를 맺지 않을 것이고, 이러한 변화로 산업 집적지가 해제되고, 이 클러스터의 해체가 가져올 비용이 적지 않으므로, 중물가 중금리 시대가 2~3년간 펼쳐질 것으로 전망하고 있습니다.</p>
-
-<h3 id="2-미국이-금리를-내리지-않는-이유">2. 미국이 금리를 내리지 않는 이유</h3>
-<p>왜 연준(미국 연방 준비제도 이사회, 미국 중앙은행) 금리 인하를 하지 않을까?의 그 답은 바로 경기가 좋기 때문인데, 인플레이션이 완화되는 가운데 (미국의)노동시장의 여건마저 개선되고 있는 이른바 ‘골디락스’ 현상이 벌어지고 있기에, 연준 입장에서는 금리를 인상하고 인플레이션을 잡는 과정에서 불황을 감내할 결심이었지만, 노동시장이 견조한 모습을 보이자 서둘러 금리를 인하할 이유를 찾기 힘들어졌다고 분석하고 있습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/books/trend-book/money_trend/US_House_Price_Index_Trends_Since_2000.jpeg" alt="US_House_Price_Index_Trends_Since_2000" width="500" />
-    <p style="font-size: smaller;"><em>2000년 이후 미국 주택가격 지수 추이,이미지 출처: ISM, 한국은행, 프리즘 투자자문</em></p>
-</div>
-
-<p>더 아나가 주택 시장마저 강력한 상승세를 보인 것도 연준의 금리 인상을 지속시키는 원인으로 작용했습니다. 주담대(주택담보대출) 금리가 7%를 넘어섰는데도 주택가격이 상승하니, 연준 입장에서는 2008년과 같은 부동산 버블 위험을 경계하지 않을 수 없습니다. 따라서 노동시장의 지표가 빠르게 악화되지 않는 한, 2023년 중 금리 인하는 힘들어졌고 2024년 상반기에나 금리 인하를 기대해볼 수 있는 상황으로 전망하고 있습니다. (글을 쓰고 있는날 연준 의장의 연설이 있었는데, “인플레이션이 2%를 향해 지속해서 이동하고 있다는 확신이 더 들기를 기다리고 있다”, “우리가 그 확신을 갖게 되면, 그리고 우리는 그 지점에서 멀지 않았는데, 긴축 강도를 완화하기 시작하는 게 적절할 것” 이라고 발표하여, 각종 투자 기관에서 6월 부터 금리 인하가 시작할 것이라는 전망이 보도되고 있습니다.)</p>
-
-<h3 id="3-한국-경제-더-성장하려면-어떻게-해야할까">3. 한국 경제, 더 성장하려면 어떻게 해야할까?</h3>
-
-<p>위의 이미지는 한국과 이스라엘 총요소생산성 증가율을 나타내는 그래프 입니다. 한국은 2010년 이후로 세계 1위인 혁신 국가 이스라엘의 총요소생산성을 넘어선 것을 확인할 수 있습니다. 어떻게 이것이 가능했을까요? 서적에서는 세 가지의 원인을 말하고 있습니다.</p>
-
-<p>첫 번째 이유는 한국 정부와 기업들이 세계 최고 수준의 연구개발 투자를 진행 중이기 때문입니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/books/trend-book/money_trend/R&amp;D_expenditure_GDP)in_OECD_vs_Korea.jpeg" alt="R&amp;D_expenditure_GDP)in_OECD_vs_Korea" width="500" />
-    <p style="font-size: smaller;"><em>OECD 국가 GDP 대비 연구 개발비 비중(%), 이미지 출처: OECD</em></p>
-</div>
-
-<p>위의 그래프는 OECD 가입국의 GDP에서 연구개발비(R&amp;D)가 차지하는 비중의 변화를 보여주고 있는데, 한국은 이스라엘에 이어 세게 2위를 차지고 있습니다(대표적으로 삼성전자가 2022년 한 해 동안 25조의 연구개발비를 지출했다고 합니다).</p>
-
-<p>두 번째 이유는 한국이라는 국가 브랜드 가치가 예전에 비해 크게 상승했기 때문입니다. 어느 순간부터 한국은 K-Pop, K-영화, K-드라마의 영향으로 문화 강국의 대열에 서기 시작했습니다.</p>
-
-<p>세 번째 이유는 노사 간의 갈등이 지속적으로 완화되고 있습니다. 2004년 한 해 파업 건수는 462건, 근로 손실 일수는 120만 일에 달했지만, 2021년에는 119건, 47만의 근로 손실 일수를 기록할 정도로 줄어들었습니다.
-앞으로 한국의 노사관계가 대다수의 선진국처럼 온건한 방향으로 움직일 것인지 단언할 수 없지만, 고령화 사회에 접어 들면서 이전과는 다른 행태의 노사관계가 형성될 가능성이 높고, 이는 한국 기업들에게 큰 기회를 제공하리라 예상하고 있습니다.</p>
-
-<p>마지막으로 주력 수출 산업이 한국 기업 위주로 독과점화가 진행되는 징후는 뚜렷하지 않아 보입니다. 가장 대표적인 사례가 조선과 반도체 입니다. 둘 다 한국이 세계적인 경쟁력을 가지고 있지만, 인수, 합병, 퇴출 등을 통한 산업 내 경쟁 압력이 크기 때문입니다. 특히 중국이 ‘반도체 굴기’를 외치며 지속해서 공격적인 투자를 단행하고 있는 것은 이른바 치킨 게임의 위험을 높이는 요인이 됩니다.</p>
-
-<p>따라서 한국의 총요소생산성은 앞으로 지속적으로 증가하리라 기대되나, 일부 산업 내에서의 공급 과잉 위험도를 감안할 때 한국의 1인당 국민총생산은 연 2% 내외의 증가세를 기록할 것으로 예상하고 있습니다.</p>
-
-<h2 id="완독-후-느낀점">완독 후 느낀점</h2>
-<p>더 많은 내용이 많으나, 거시적으로 중요하다고 생각하는 내용만 작성하였습니다. 나머지는 저자의 생각이 많이 반영되어 있기 때문에, 직접 읽어 보시는 것을 추천드립니다.<br />
-먼저 거시적으로 경제 동향이 어떻게 돌아갈 것인지 소개하고, 주식, 부동산으로 넘어간 뒤, 우리 생활속에 돈되는 요소들을 소개해주고 있습니다.\ 
-전체적인 서적 구성은 개인적으로 마음에 듭니다. 하지만 꼭 보세요 라고 말씀드리지 못하는 이유는 각 저자분들이 직접 분석을 해서 예측하는 것들이 많아, 이것은 보시는 독자들이 직접 판단하는 것이 좋겠다고 생각했기 때문입니다. <br />
-(개인적으로는 저는 정말 좋은 내용이 많아 좋았습니다.) <br />
-그래서 시간이 되신다면, 2024년 돈의 흐름이 어떻게 흘러갈지 궁금하신 분은 꼭 읽어보시길 바랍니다. :)</p>
-
-<h2 id="총평">총평</h2>
-<p>2024년 올해의 돈되는 트렌드를 보고싶다면, 이 책을 읽어 보시라!</p>]]></content><author><name>Kkobugi</name></author><category term="Trend Book" /><category term="Trend" /><category term="Money" /><category term="Economy" /><summary type="html"><![CDATA[한 줄 요약 각 분야 8명의 전문가가 57개의 키워드로 2024년 주목해야할 돈의 트렌드를 집어준다!]]></summary></entry></feed>
+<p>위의 연구 결과 및 모델을 보면 회사에서 코드 작성시 개발자들의 업무 효율이 상당히 올라 갈 것으로 예상됩니다. 가격은 사용자당 월 39달러라고 합니다. 향후에도 모델 종류에 따라 요금제를 구분하지 않는다고 하니 많이 이용해보시기 바랍니다 :)</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="Github" /><category term="Copilot Enterprise" /><category term="Service Launching" /><summary type="html"><![CDATA[ZDNET KOREA, “깃허브, ‘코파일럿 엔터프라이즈’ 정식 출시” 기사에서 발췌]]></summary></entry></feed>

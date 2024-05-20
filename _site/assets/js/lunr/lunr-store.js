@@ -88,4 +88,10 @@ var store = [{
         "tags": ["LINE","Soft Bank","LINE Yahoo","Naver"],
         "url": "/news/news12/",
         "teaser": null
+      },{
+        "title": "AI계에서 Hot한 오픈AI와 구글",
+        "excerpt":"[2024년 05월 16일자 테크잇슈에서 발췌] 지난주는 정말 뜨거운 이슈가 많았던 한 주였습니다. 바로 OpenAI와 구글이 각각 자사의 AI 기술 업데이트 소식을 전했기 때문이죠(저는 프로젝트 막바지에 죽어 있었지만은요…). 5월 14일에는 구글의 개발자 연례 행사인 GoogleI/O 2024가 진행되었으며, 그보다 하루 앞서 Open AI는 ‘GPT-4o(Omni)’ 업데이트 소식을 기습적으로 발표하며 김빼기 작전을 실시했습니다. 관련해서...","categories": ["News"],
+        "tags": ["Open AI","GPT-4o","Google","Gemini"],
+        "url": "/news/news13/",
+        "teaser": null
       }]
