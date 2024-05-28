@@ -94,4 +94,10 @@ var store = [{
         "tags": ["Open AI","GPT-4o","Google","Gemini"],
         "url": "/news/news13/",
         "teaser": null
+      },{
+        "title": "마이크로소프트는 1등 AI 플랫폼 기업이다 (a.k.a BUILD 2024)",
+        "excerpt":"[2024년 05월 22일자 미라클레터에서 발췌] 마이크로소프트 “우리가 1등 AI 플랫폼 기업” 이미지 출처: 마이크로소프트 미국 워싱턴 주 시애틀 도심에 위치한 시애틀컨벤션센터에서 마이크로소프트의 “BUILD 2024“가 열렸습니다. 오프라인으로 열린 기조연설에는 약 5000명이 직접 참석했다고 합니다. “사타나 나델라” 마이크로소프트 CEO가 등장해 새로운 서비스와 제품에 대해서 하나하나 밝혔습니다. 하지만 현장에서는 그렇게 특별하고 깜짝놀랄만한 발표가...","categories": ["News"],
+        "tags": ["Microsoft","BUILD 2024","AI","Copilot","Pie-3"],
+        "url": "/news/news14/",
+        "teaser": null
       }]
