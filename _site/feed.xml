@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-28T19:06:11+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">마이크로소프트는 1등 AI 플랫폼 기업이다 (a.k.a BUILD 2024)</title><link href="http://localhost:4000/news/news14/" rel="alternate" type="text/html" title="마이크로소프트는 1등 AI 플랫폼 기업이다 (a.k.a BUILD 2024)" /><published>2024-05-28T00:00:00+09:00</published><updated>2024-05-28T00:00:00+09:00</updated><id>http://localhost:4000/news/news14</id><content type="html" xml:base="http://localhost:4000/news/news14/"><![CDATA[<p>[2024년 05월 22일자 미라클레터에서 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-12T15:57:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">애플은 이제 AI회사가 됩니다. [WWDC2024]</title><link href="http://localhost:4000/news/news15/" rel="alternate" type="text/html" title="애플은 이제 AI회사가 됩니다. [WWDC2024]" /><published>2024-06-12T00:00:00+09:00</published><updated>2024-06-12T00:00:00+09:00</updated><id>http://localhost:4000/news/news15</id><content type="html" xml:base="http://localhost:4000/news/news15/"><![CDATA[<p>[2024년 06월 12일자 미라클레터에서 발췌]</p>
+
+<p>부쩍 날씨가 더워진 6월 둘째 주 입니다. 날씨가 뜨거워진 것만큼 이번 주 핫한 소식이 있는데, 바로 Apple에서 주최한 WWDC 2024입니다. 과연 어떤 내용이 있었는지 바로 알아보도록 하겠습니다.</p>
+
+<h3 id="애플-지능apple-intelligence의-탄생">애플 지능(Apple Intelligence)의 탄생</h3>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-06-12-news15/wwdc_2024.jpg" alt="news-15" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Apple, WWDC2024 팀쿡의 기조연설</em></p>
+</div>
+
+<p>Apple WWDC2024의 내용은 사실 블룸버그의 보도로 많은 부분이 유출되었는데요. WWDC2024는 과연 유출된 내용을 애플이 얼마나 설득력 있는 내러티브로 엮어내는지를 보여주는 자리였다고 합니다.<br />
+2시간 동안 사전 녹화된 영상을 틀어주고 함께 시청하는 것이었기 때문에 서프라이즈도 없었다고 해요. 하지만 애플이 AI를 어떻게 소비자들에게 기져올지를 엄청 고민했다는 것을 알 수 있었다고 WWDC2024 참석자 분들은 이야기 합니다.</p>
+
+<p>Apple은 Apple 생태계 기기 iPhone, iPad, Mac을 관통하는 생성형 AI를 ‘애플지능(Apple Intelligence)’이라고 부르기로 했어요. 앞으로 AI는 인공지능이 아니라 애플지능이라고 부르겠다는 Apple의 ‘애플중심적 사고’가 눈에 띄었습니다.</p>
+
+<p>AI가 소비자들에게 쓸모있는 서비스를 위해서 가장 중요한 것은 무엇인지 Apple은 너무 잘 알고 있었어요. 바로 “개인화” 입니다. Apple은 이를 “Personal Context”라고 설명했어요. AI가 개인의 사적인 대화 및 경험의 맥락을 이해하고 있어야 고객들에게 가장 쓸모 있는 AI가 된다는 것을 강조하고 있습니다.</p>
+
+<p>그러나 소비자 개인화를 위해서 개인정보를 가져와야하는데, 이는 소비자들에게 예민할 수밖에 없는 문제입니다. 문제는 생성형 AI는 모델의 사이즈가 크기 때문에 iPhone 등 디바이스에서 계산하기 어렵다는 것입니다. 이를 동작시키기 위해서는 데이터를 데이터 센터(예: 클라우드)로 보내서 이를 연산시키고 다시 가져오는 절차가 필요합니다.</p>
+
+<p>이를 위해서 Apple은 어떻게 하기로 했냐면 직접 데이터센터를 만들기로 했습니다. 자신들의 AI 반도체가 탑재된 데이터 센터를 만들고 고객의 데이터는 여기서만 처리하기로 한 것. 그 이름은 바로 “Private Cloud Compute” 라고 정했습니다. 그래서 온디바이스로 애플 반도체에서 처리할 수 있는 것은 온디바이스에서, 높은 연산이 필요한 것은 클라우드로 보내는 하이브리드 AI를 하기로 했습니다.</p>
+
+<p>이렇게 고객의 정보를 가져와 어떤 것을 할까요?</p>
+
+<p>첫 번째, Siri가 좀 더 개인화된 비서가 됩니다. 생성형 AI가 고객을 좀더 잘 이해해서 맞춤화된 서비스를 제공해준다고 합니다(내 말을 잘 알아듣는 개인용 비서를 만드는 것이 애플의 목표!).</p>
+
+<p>두 번째, 앱에 실제 명령을 내리는 것이 가능해집니다. 현재는 Siri와 AI를 가지고 Apple이 직접만든 앱에게 명령을 내릴 수 있지만 장기적으로는 서드파티앱(우버나 배민같은)에도 확장 될 것이라고 했습니다.</p>
+
+<h4 id="고객의-데이터-획득">고객의 데이터 획득!</h4>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-06-12-news15/apple_pcc.png" alt="news-15" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Apple, Apple Private Cloud Compute</em></p>
+</div>
+
+<p>여기까지 들으신 분들은 이렇게 생각하실거에요. 너무 당연한 것 아니야? 혁신이 어딨지? 삼성 갤럭시와 구글, 오픈AI가 생각하고 먼저 공개했던거 아니야? ‘이번에도 혁신은 없는거 아냐?’</p>
+
+<p>여기서의 대답은 “네, 맞습니다.”</p>
+
+<p>그런데 Apple의 AI 진입을 AI 경쟁이 아니라 디바이스 생태계 경쟁이라고 보면 저는 매우 위협적이고 강력한 Apple의 또 하나의 Lock-In(생태계에서 빠져나오지 못하게 하는 것)요소가 생겼다는 생각이 들었습니다.</p>
+
+<p>먼저 개인화된 AI 서비스를 제공하기 위해서는 고객의 개인데이터가 필요한데요. 이를 가지고 있는 회사는 Apple과 Google 정도입니다. Apple은 디바이스에 저장된 데이터, 메일, iCloud에 저장된 고객 데이터를 갖고 있어요. Google도 안드로이드 디바이스에 저장된 데이터, Gmail 등에 데이터를 갖고 있습니다.</p>
+
+<p>문제는 기꺼이 고객이 자신의 데이터를 Apple에게 맡길 것인지하는 문제인데 Apple은 이를 ‘직접 데이터센터를 구축’하는 방식으로 푸는 것 같습니다. 그리고 Apple의 개인정보 보호에 대한 집착(!) 덕분에 고객들의 신뢰를 얻고 있죠.</p>
+
+<p>Google도 자신의 생태계에 있는 데이터를 고객의 데이터를 사용하도록 해야하는데요. 문제는 Apple과 달리 Google은 스마트폰 디바이스 시장에서 삼성전자와 다른 제조사에 의존하고 있다는 것입니다. 이건 반대로 삼성전자도 마찬가지로 삼성전자는 AI와 클라우드(데이터센터)를 Google에 의존하고 있죠.</p>
+
+<p>이건 PC쪽도 마찬가지인데요. Google은 Chrome 브라우저를 통해서 고객의 인터넷 사용정보를 갖고있긴 하지만, PC에 저장된 데이터는 Microsoft의 Window에 더 많죠.</p>
+
+<p>Apple은 iPhone-Mac-iPad가 하나의 생태계로 개인정보가 공유되는데, Google이나 삼성, Microsoft는 각각 디바이스에 갇혀져 서로 공유되지 못하고 있어요. 일부 공유는 되겠지만.. Apple만큼 강력하지 않아요. 개인화된 AI가 소비자들에게 가장 중요한 킬러 서비스가 된다면 이 데이터확보가 중요할 것 같다는 생각이 들었습니다.</p>
+
+<h3 id="chatgpt-탑재한-siri-언제-나올까">ChatGPT 탑재한 Siri.. 언제 나올까?</h3>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-06-12-news15/gpt_siri.png" alt="news-15" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Apple, ChatGPT Section</em></p>
+</div>
+
+<p>WWDC 2024 현장에 샘 올트먼이 등장했다고 합니다. 그는 제일 앞줄에 앉아서 ‘함께’ 방송을 시청했습니다. 하지만 키노트 영상에 등장하거나 깜짝 무대에 오르지는 않은 것 같습니다.</p>
+
+<p>하지만 공식적으로 애플과 오픈AI의 파트너십은 발표되었어요. 시리에는 챗GPT가 들어가서 시리에게 챗GPT를 통한 질문을 하는 것이 가능해졌습니다.</p>
+
+<p>애플이 개발한 AI 중에서 어느것이 애플이 직접 개발한 AI이고, 어느 것이 오픈AI의 GPT 기술을 가져온 것인지는 명확하지 않습니다. AI가 텍스트와 이미지를 이해하고, 이미지와 이모티콘을 생성하는 등 생성형 AI의 주요 기능이 Apple 기기에 도입된다고 합니다.</p>
+
+<p>하지만 Apple은 ‘올해 하반기부터 GPT-4o가 시리에 도입된다’고 말했고 다른 AI도 향후 도입할 것이라고 밝혔죠. OpenAI는 여러 파트너 중 하나라고 명확하게 선을 긋는 모습입니다.</p>
+
+<p>삼성전자 GlaxyAI의 경우 온디바이스로 처리되는 기술은 대부분 삼성전자가 직접 개발한 AI가, 클라우드로 처리되는 기술은 Google의 Gemini로 작동되는데, 애플도 동일한 방식을 선택한 것으로 보여집니다.</p>
+
+<h4 id="apple이-제시하는-모바일-ai의-모습">Apple이 제시하는 모바일 AI의 모습</h4>
+
+<div style="text-align:center">
+    <img src="/images/news/2024-06-12-news15/apple_ai.png" alt="news-15" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Apple, Apple Intelligence</em></p>
+</div>
+
+<ol>
+  <li>온디바이스로 처리할 수 있는 것은 Apple 디바이스에서 처리하고, 처리량이 큰 것은 클라우드에서 처리하는 하이브리드 방식 채택</li>
+  <li>Apple이 직접 데이터 센터를 만들어서 직접 고객 데이터를 처리하도록 채택</li>
+  <li>개인화된 정보를 바탕으로 개인 비서인 Siri를 출시, 테스트를 거쳐 내년에 졍교화 시키기</li>
+  <li>생성형 AI의 경우 기본적인 것은 Apple이 만들고, 정교한 작업은 ChatGPT에 맡기기. 그리고 GPT 말고 다른 생성형 AI가 들어올 수 있게 구축</li>
+</ol>
+
+<p>어떻게 보면 위의 내용은 지난 1월 삼성전자가 갤럭시S24를 공개하고 소프트웨어를 통해 기존 스마트폰들에 업데이트를 하면서 선택한 방향과 같아 보입니다. 결국 하이브리드로 생성형AI를 돌릴 수 밖에 없고, 외부업체의 AI를 사용할 수 밖에 없다는 거죠.<br />
+하지만 애플이 갖고 있는 가장 큰 차이점은 고객의 개인정보를 가져올 수 있고, 이를 데이터센터를 구축해 거기에서만 돌리겠다는 계획. 개인화된 AI에서 제일 중요한 것이 바로 ‘개인 데이터’와 ‘보안’임을 애플은 잘 알고 있는 것 같았습니다.<br />
+이제 개인과 기업의 데이터를 어떻게 체계적으로 정리하고, 이를 기록하도록 만드냐가 중요해질 것으로 보입니다.</p>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/cErKv-cqSn8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p><em>CNET, Apple WWDC2024 발표 영상 12분 요약본</em></p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Apple" /><category term="WWDC2024" /><category term="AI" /><category term="Apple Intelligence" /><summary type="html"><![CDATA[[2024년 06월 12일자 미라클레터에서 발췌]]]></summary></entry><entry><title type="html">마이크로소프트는 1등 AI 플랫폼 기업이다 (a.k.a BUILD 2024)</title><link href="http://localhost:4000/news/news14/" rel="alternate" type="text/html" title="마이크로소프트는 1등 AI 플랫폼 기업이다 (a.k.a BUILD 2024)" /><published>2024-05-28T00:00:00+09:00</published><updated>2024-05-28T00:00:00+09:00</updated><id>http://localhost:4000/news/news14</id><content type="html" xml:base="http://localhost:4000/news/news14/"><![CDATA[<p>[2024년 05월 22일자 미라클레터에서 발췌]</p>
 
 <h3 id="마이크로소프트-우리가-1등-ai-플랫폼-기업">마이크로소프트 “우리가 1등 AI 플랫폼 기업”</h3>
 
@@ -732,40 +824,4 @@
 
 <p>하지만 AI가 만들어 준 전술에만 의존하는 감독이 있다면, 우리는 그 사람을 ‘감독’이라고 부를 수 있을까요? 만약 밤 마다 몰래 AI가 가르쳐 준 전술을 학습한 뒤, 이를 기반으로 선수를 지도하는 감독이 있다면, 우리는 이를 걸러낼 수 있을까요?</p>
 
-<p>AI가 전 산업에 영향을 미치고 있는 지금, 인류가 생각하고 합의하고, 내놓아야 할 답들이 점점 쌓여가고 있는 것 같습니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="DeepMind" /><category term="Soccer" /><category term="AI Tactics" /><summary type="html"><![CDATA[[미라클레터, “AI가 축구에 적응할 수 있을까?” 뉴스레터에서 발췌]]]></summary></entry><entry><title type="html">엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”</title><link href="http://localhost:4000/news/news5/" rel="alternate" type="text/html" title="엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도”" /><published>2024-02-29T00:00:00+09:00</published><updated>2024-02-29T00:00:00+09:00</updated><id>http://localhost:4000/news/news5</id><content type="html" xml:base="http://localhost:4000/news/news5/"><![CDATA[<p><a href="https://zdnet.co.kr/view/?no=20240228094935">ZDNET KOREA, 엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도” 기사에서 발췌</a></p>
-
-<blockquote>
-  <p>젠슨 황 “어릴 때부터 코딩교육 시킬 필요 없다” 강조 <br />
-AI로 인해 모든 사람이 프로그래머이다. 이것이 바로 AI의 기적이다 라고 발언<br />
-이제 인간은 생물학, 교육, 제조 및 농업과 같이 더 가치 있는 분야를 추구하는 데 집중할 수 있을 것</p>
-</blockquote>
-
-<p>젠슨 황 엔비디아 최고경영자(CEO)가 인공지능(AI) 기술의 등장으로 더 이상 프로그래밍이 필수 기술이 아니라고 주장했다고 기가진, 톰스가이드 등 외신들이 27일(현지시간) 보도했습니다.</p>
-
-<p>최근 두바이에서 열린 세계정부정상회의(World Government Summit)에서 젠슨 황 CEO는 “아이들에게 코딩을 배워야 한다는 말을 그만둬야 한다”며, “AI의 등장으로 누구나 프로그래머가 될 수 있게 됐다”고 밝혔습니다.</p>
-
-<p><img src="/images/news/2024-02-29-news5/Jensen_Huang.png" alt="jensen_huang" class="align-center img-width-600" /><em>NVIDIA CEO 젠슨 황, 출처: AFP/연합뉴스</em></p>
-
-<p>그는 “지난 10~15년 동안 거의 모든 사람들이 입을 모아 아이들에게 컴퓨터 과학 교육의 중요성을 이야기했다”며, “하지만 아무도 프로그래밍할 필요가 없는 컴퓨팅 기술을 만드는 것이 우리의 임무다. 이제 전 세계 모든 사람이 프로그래머다. 이것이 바로 AI의 기적”이라고 덧붙였습니다.</p>
-
-<p>또 그는 AI 혁명 초기 단계에서도 프로그래밍은 더 이상 필수적인 기술이 아니며, “AI가 코딩을 대체함에 따라 인간은 생물학, 교육, 제조 및 농업과 같이 더 가치 있는 전문 분야를 추구하는 데 집중할 수 있을 것”이라고 설명했습니다.</p>
-
-<p><img src="/images/news/2024-02-29-news5/coding.png" alt="coding" class="align-center img-width-600" /><em>출처: pixela</em></p>
-
-<p>AI 분야를 대표하는 그의 발언은 소셜미디어 상에서 확산되면서 다양한 의견이 나왔는데, HP, AMD 등 임원을 맡았던 무어인사이트앤스트래티지 CEO “패트릭 무어 헤드”는 자신의 엑스를 통해 “나는 30년 이상에 걸쳐 ‘XYX가 코딩을 죽인다’라는 말을 들어왔지만, 우리는 여전히 프로그래머가 부족하다”고 밝혔습니다.</p>
-
-<p>또 그는 “데스크톱 퍼블리싱이 창의성을 죽이지 않고 확장한 것처럼 AI도 코딩을 사라지게 하지 않고, 더 많은 사람이 사용할 수 있게 될 것”이라고 지적했습니다.</p>
-
-<p>오큘러스 전 최고기술책임자(CTO) “존 카멕”은 “코딩이 결코 가치의 원천이 아니며, 사람들이 코딩에 지나치게 집착해서는 안 된다. 문제 해결이 핵심 기술이다. 전통적인 프로그래밍에서 요구되는 규율과 정확성은 전수할 수 있는 가치 있는 속성으로 남아 있지만, 진입 장벽이 되지는 않을 것”이라고 밝혔습니다.</p>
-
-<p>이에 대해 기가진은 AI가 프로그래머를 사라지게 할 지는 아직 모르겠으나, AI의 등장으로 더 많은 직업이 영향을 받고 있는 것은 사실이라고 밝혔습니다.</p>
-
-<p><img src="/images/news/2024-02-29-news5/bloom_bery.png" alt="bloom_berg_chart" class="align-center img-width-600" /><em>ChatGPT 출시 이후 시간이 지남에 따라 각 카테고리에 대한 새로운 직업수 변화, 출처: 블룸베리</em></p>
-
-<p>노동 시장 분석기업 블룸베리 조사 결과에 따르면, 챗GPT 등장 이래 프리랜서 작가와 번역가의 일자리가 33%, 19% 감소했지만 소프트웨어 개발의 일자리는 6% 증가한 것으로 통계에서 나타내고 있습니다.</p>
-
-<p>이렇게 의견이 분분한 가운데, 레딧에서의 여론은 “지극히 엔비디아 중심적인 관점이다.”, “결국 코딩 대신 AI 기술에 의존하라라는 이야기 아니야?”, “결국 자기네(엔베디아) 제품을 더 많이 팔게 도리 것이다.” 처럼 그렇게 좋지 못합니다.</p>
-
-<p>현재 AI의 시대에 피할 수 없는 추세라 해당 발언을 한 것 아닌가 싶지만, 지극히 비지니스 적인 계산이 들어가 있는 것 아닌가 하는 생각도 하게 됩니다. 하지만 이 발언을 절대적으로 무시할 것은 아니라고 생각하는 것이, 정말 뛰어난 프로그래머가 되기 위해선 ‘코딩 기술’ 보다 더 중요한 것은 ‘인간과 사회에 대한 이해의 선행’이라는 점 입니다.</p>
-
-<p>인간 옳은 방향으로 선택하는데 온 힘을 집중하기 위해 AI는 그저 활용할 수 있는 도구라는 것이죠. 결국 기술 보다 중요한 것은 해당 전문 분야에 대한 깊이 있는 지식이라는 점 입니다. 젠슨 황의 발언으로 정말 많은 화두가 던져졌습니다. 대 AI 시대 한 번쯤 생각해봐야 할 문제라고 생각합니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="Nvida" /><category term="Programmer" /><category term="No coding" /><summary type="html"><![CDATA[ZDNET KOREA, 엔비디아 CEO “코딩, 필수기술 아냐… AI에 맡겨도” 기사에서 발췌]]></summary></entry></feed>
+<p>AI가 전 산업에 영향을 미치고 있는 지금, 인류가 생각하고 합의하고, 내놓아야 할 답들이 점점 쌓여가고 있는 것 같습니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Tech" /><category term="AI" /><category term="DeepMind" /><category term="Soccer" /><category term="AI Tactics" /><summary type="html"><![CDATA[[미라클레터, “AI가 축구에 적응할 수 있을까?” 뉴스레터에서 발췌]]]></summary></entry></feed>

@@ -100,4 +100,10 @@ var store = [{
         "tags": ["Microsoft","BUILD 2024","AI","Copilot","Pie-3"],
         "url": "/news/news14/",
         "teaser": null
+      },{
+        "title": "애플은 이제 AI회사가 됩니다. [WWDC2024]",
+        "excerpt":"[2024년 06월 12일자 미라클레터에서 발췌] 부쩍 날씨가 더워진 6월 둘째 주 입니다. 날씨가 뜨거워진 것만큼 이번 주 핫한 소식이 있는데, 바로 Apple에서 주최한 WWDC 2024입니다. 과연 어떤 내용이 있었는지 바로 알아보도록 하겠습니다. 애플 지능(Apple Intelligence)의 탄생 이미지 출처: Apple, WWDC2024 팀쿡의 기조연설 Apple WWDC2024의 내용은 사실 블룸버그의 보도로 많은 부분이...","categories": ["News"],
+        "tags": ["Apple","WWDC2024","AI","Apple Intelligence"],
+        "url": "/news/news15/",
+        "teaser": null
       }]
