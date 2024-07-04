@@ -106,4 +106,10 @@ var store = [{
         "tags": ["Apple","WWDC2024","AI","Apple Intelligence"],
         "url": "/news/news15/",
         "teaser": null
+      },{
+        "title": "2024년 상반기 IT 트렌드 총정리",
+        "excerpt":"[2024년 07월 04일자 테크이슈에서 발췌] 이미지 출처: Copilot Designer 2024년 06월 30일을 기점으로 2024년 상반기가 마무리되었습니다. 본격적으로 하반기를 시작하기 앞서, 상반기 IT 업계에서 어떤 일이 있었는지 되짚어 보는 시간을 가지겠습니다. 이번 블로그에서는 테크이슈 레터 내용을 참조하여 꼭 알아두어야 할 ‘주요 기술’과 ‘주요 기업’을 선별하여 정리하였습니다. 그리고 참고해서 보면 좋을 테크...","categories": ["News"],
+        "tags": ["The First Half","IT Trend"],
+        "url": "/news/news16/",
+        "teaser": null
       }]
