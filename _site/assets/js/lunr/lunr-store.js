@@ -118,4 +118,10 @@ var store = [{
         "tags": ["CloudStrike","IT Crisis","EDR","Korea IT"],
         "url": "/news/news17/",
         "teaser": null
+      },{
+        "title": "AI에게 인간이 필요한 이유",
+        "excerpt":"[2024년 08월 30일자 미라클레터에서 발췌] 초기 생성형 AI와 비교했을 때 지금 우리가 사용하고 있는 AI의 성능은 점점 좋아지고 있습니다. 하지만 AI를 너무 맹신해서는 안 됩니다. AI는 대단한 도구지만 또 한편으로 상당히 나약한 모습을 보여주기도 합니다. AI를 객관적으로 바라보고 싶은 마음에 AI가 가진 ‘한계’에 대한 자료와 논문들이 있는 레터를 가지고 왔습니다....","categories": ["News"],
+        "tags": ["AI","Human","AI Philosophy"],
+        "url": "/news/news18/",
+        "teaser": null
       }]
