@@ -1,4 +1,187 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-11T22:54:03+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">AI에게 인간이 필요한 이유</title><link href="http://localhost:4000/news/news18/" rel="alternate" type="text/html" title="AI에게 인간이 필요한 이유" /><published>2024-09-11T00:00:00+09:00</published><updated>2024-09-11T00:00:00+09:00</updated><id>http://localhost:4000/news/news18</id><content type="html" xml:base="http://localhost:4000/news/news18/"><![CDATA[<p>[2024년 08월 30일자 미라클레터에서 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-27T12:18:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">Python은 어떤 언어인가?</title><link href="http://localhost:4000/python/about_python/" rel="alternate" type="text/html" title="Python은 어떤 언어인가?" /><published>2024-09-26T00:00:00+09:00</published><updated>2024-09-26T00:00:00+09:00</updated><id>http://localhost:4000/python/about_python</id><content type="html" xml:base="http://localhost:4000/python/about_python/"><![CDATA[<p>Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/python2.png" alt="python_icon" width="200" />
+    <p style="font-size: smaller;"><em>이미지 출처: FLATICON</em></p>
+</div>
+
+<p>간단한 유틸리티 제작을 넘어 웹 프로그래밍, 데이터 분석, 머신러닝, 딥러닝, 사물 인터넷(IoT) 등 다양한 분야에서 활용되고 있습니다.</p>
+
+<p>이번 시간에는 파이썬으 어떤 언어이고, 어떤 특징을 가지고 있는지 알아보도록 하겠습니다.</p>
+
+<h2 id="python-소개">Python 소개</h2>
+<h3 id="python의-탄생">Python의 탄생</h3>
+<p>Python은 네덜란드 암스테르담의 “귀도 반 로섬(Guido van Rossum)”이 개발한 프로그래밍 언어입니다. 1991년에 출시하며 이름을 Python이라고 지었죠. 귀도는 자신이 좋아하던 코미디 프로그램 &lt;Monty Python’s Flying Circus&gt;에서 Python이라는 이름을 따왔다고 합니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/van_rossum_monty_pythons.png" alt="python_history" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: school.coding-x.com</em></p>
+</div>
+
+<p>프로그래밍 언어 중에서도 오래전에 만들어진 ‘포트란’은 1954년에 탄생했고, 지금도 많이 사용하는 C언어는 1972년에 공개된 언어입니다. 해당 언어들과 비교하면 1991년에 탄생한 Python은 비교적 최신에 만들어진 언어라고 할 수 있습니다.</p>
+
+<p>Python은 신화속에 나오는 비단뱀이라는 뜻이기 때문에 로고에 두 마리의 뱀이 들어간 것 입니다(특별한 의미는 없다고 합니다).</p>
+
+<h3 id="python을-휴가-중에-만들었다고">Python을 휴가 중에 만들었다고?</h3>
+<p>누구나 영어로 이해할 수 있는 코드와 일상적인 업무에 적합한 빠른 개발을 원했던 “귀도 반 로섬”은 1989년, 네덜란드 국립 연구소에 근무하던 당시 두 달의 휴가 동안 취미로 만들어본 프로젝트의 하나로 Python을 개발하게 됩니다. 이후 모두를 위한 컴퓨터 프로그래밍이라는 이름으로 투자를 받아 파이썬이 개발되었습니다.</p>
+
+<p>현재 검색량을 기준으로 프로그래밍 언어 선호도를 조사하는 “TIOBE index”에서 2024년 9월 기준 파이썬은 선호하는 프로그래밍 언어 1위(20.17%)를 차지했으며, 오라일리 미디어가 온라인 학습 플랫폼의 학습 과정 및 사용자 선호도를 분석해 발표한 프로그래밍 언어 순위에서는 파이썬이 Java와 C++을 제치고 가장 높은 사용률을 보였습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/2024_09_ranking.png" alt="python_ranking" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: TIOBE Index for September 2024</em></p>
+</div>
+
+<h2 id="python-특징">Python 특징</h2>
+<h3 id="python의-기본-철학">Python의 기본 철학</h3>
+<p><a href="https://peps.python.org/pep-0020/">PEP 20</a> 문서에 보면 Python의 철학이 나오는데 핵심 철학은 아래와 같습니다.</p>
+
+<div class="notice--success">
+<ul>
+    <li>"아름다운 게 추한 것보다 낫다." (Beautiful is better than ugly)</li>
+    <li>"명시적인 것이 암시적인 것 보다 낫다." (Explicit is better than implicit)</li>
+    <li>"단순함이 복잡함보다 낫다." (Simple is better than complex)</li>
+    <li>"복잡함이 난해한 것보다 낫다." (Complex is better than complicated)</li>
+    <li>"가독성은 중요하다." (Readability counts)</li>
+</ul>
+</div>
+
+<p>이런 철학들 때문에 Python은 “복잡하지 않으면서 의미가 명확하고, 코드의 축약보다 뚜렷하게 보이는 흐름을 중시하는 파이썬의 철학을 중시”하는 언어로 알려져 있습니다.</p>
+
+<p>그럼 여기서 Python에서 대표하는 특징들을 살펴보겠습니다.</p>
+
+<h3 id="python의-대표적-특징">Python의 대표적 특징</h3>
+<h4 id="1-스트립트-언어">1) 스트립트 언어</h4>
+<p>Python은 컴파일 과정 없이 인터프리터가 소스 코드를 한 줄씩 읽어 곧바로 실행하는 스크립트 언어입니다. 스크립트 언어의 특성상 컴파일 과정이 필요하지 않기 때문에, 실행 결과를 바로 확인하고 수정할 수 있으며, 코드 작성의 난이도 또한 낮습니다.</p>
+
+<blockquote>
+  <p><strong>※ 컴파일 언어 vs 스크립트 언어</strong> <br />
+컴파일 언어는 컴파일 과정(전처리, 컴파일, 어셈블, 링크)을 통해, 작성한 코드를 기계어로 번역해 실행하는 방식입니다.<br />
+반면, 스크립트 언어는 별도의 컴파일 과정 없이 인터프리터(프로그래밍 언어 해석기)가 소스 코드를 한 줄씩 읽어가며 바로 실행하는 방식입니다.<br />
+컴파일 언어는 소스 코드를 컴파일 하는 과정을 거쳐야 하므로, 실행 및 수정에 비교적 많은 시간이 소요되지만, 한 번 기계어로 번역된 이후에는 빠른 실행 속도를 보입니다.<br />
+이와 달리, 스크립트 언어는 컴파일 없이 곧바로 실행되므로, 결과를 바로 확인하고 수정할 수 있지만, 번역과 실행이 동시에 이루어지므로, 실행 속도가 컴파일 언어에 비해 느립니다.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>※ 스크립트 언어 &amp; 인터프리터 언어</strong> <br />
+스크립트 언어와 인터프리터 언어는 비슷한 개념으로 사용되고 있지만, 엄밀히 말하면 다른 개념입니다. <br />
+스크립트 언어는 코드를 Iterpret(해석)하는 방식으로 동작하는 언어를 의미하고, 인터프리터 언어는 소스 코드를 실행할 때, 컴파일 단계를 거치지 않고 바로 해석하여 실행하는 언어를 의미합니다. <br />
+물론, 두 언어의 차이점이 명확하지는 않기 때문에 같은 개념처럼 사용되는게 일반적이며, 실제로 Python은 스크립트 언어이면서, 인터프리터 언어입니다. <br />
+하지만, 스크립트 언어이면서 인터프리터 언어가 아니거나, 반대로 인터프리터 언어이면서 스크립트 언어가 아닌 경우도 있을 수 있습니다. 대표적으로 <strong>MATLAB</strong>은 스크립트 형태로 작성되지만, 컴파일 단계를 거쳐 실행파일을 생성하기 때문에, 스크립트 언어지만 인터프리터 언어가 아닙니다. 또한 Java는 컴파일 언어와 인터프리터 언어의 특징을 모두 갖는 하이브리드 언어로 스크립트 언어는 아니지만, 인터프리터 언어의 특징이 가지고 있습니다.</p>
+</blockquote>
+
+<h4 id="2-동적-타이핑">2) 동적 타이핑</h4>
+<p>Python은 동적 타이핑(Dynamic Typing) 언어 입니다. 여기서 동적 타이핑이란, 변수의 자료형을 지정하지 않은 상태에서, 단순히 선언하는 것만으로 값을 지정할 수 있음을 의미합니다. 이 때, 변수의 자료형은 코드가 실행되는 시점에 결정됩니다. 형변환을 위한 번거로운 과정이 불필요해진다는 장점이 있지만, 예상치 못한 타입이 할당되어 런타임 에러가 발생할 수도 있습니다.</p>
+
+<p>이와 상반되는 개념으로 정적 타이핑(Static Typing) 언어도 있습니다. 정적 타이핑 언어는 컴파일 시점에서 변수의 타입이 명시적으로 선언되어야 합니다(대포적 언어로 Java가 있습니다). 하지만 그렇다고 해서 컴파일 언어이면 무조건 정적 타이핑이고, 스크립트 언어면 무조건 정적 타이핑인 것은 아닙니다.</p>
+
+<h4 id="3-플랫폼-독립성">3) 플랫폼 독립성</h4>
+<p>Python은 Linux, Unix, Window, Mac 등 대부분의 운영체제에서 모두 동작합니다. 운영체제 별로 컴파일할 필요가 없다는 것은 곧, 한 번 소스 코드를 작성하면, 어떤 운영체제에서도 활용할 수 있다는 것을 의미합니다.</p>
+
+<p>대표적인 특징을 알아보았으니 이제 Python의 장, 단점을 살펴볼까요?</p>
+
+<h3 id="python의-장점">Python의 장점</h3>
+<h4 id="1-간결하고-쉬운-문법">1) 간결하고 쉬운 문법</h4>
+<p>Python을 흔히 “인간다운 언어”라고 이야기 합니다. 그 이유는 Python의 문법이 인간의 사고와 유사하기 때문입니다. 이러한 이유에서 Python 문법을 학습하는 데에 많은 시간을 할애할 필요가 없으며, 프로그래밍 전공자의 경우, Python 문법이 얼마나 쉽고 간결한지를 몸소 느낄수 있습니다. 여기서 쉽고 간결하다는 것은 코드가 직관적이고, 길이가 짧아 가독성이 높다는 의미입니다.</p>
+
+<h4 id="2-빠른-개발-속도">2) 빠른 개발 속도</h4>
+<p>쉽고 간결한 문법 덕분에 Python은 높은 생산성을 자랑합니다. Python을 활용할 경우 더 적은 코드로 더 많은 작업을 수행할 수 있으며, 이는 복잡한 구문으로 인해 발생할 수 있는 오류를 줄여줄 수도 있습니다.</p>
+
+<h4 id="3-높은-확장성-및-이식성">3) 높은 확장성 및 이식성</h4>
+<p>Python은 대표적인 접착제 언어(Glue Language) 입니다. 적, 다른 언어나 라이브러리에 쉽게 접근해 연동이 가능합니다. 실제로, 고성능의 어플리케이션 개발에 C나 C++ 같은 언어를 Python과 결합해 사용하기도 합니다. 이로써 애플리케이션의 성능은 보장되면서, 동시에 별도 설치나 구성과정 없이 스크립트 언어의 장점도 누릴수 있게 됩니다.</p>
+
+<h4 id="4-활발한-생태계">4) 활발한 생태계</h4>
+<p>파이썬은 다양한 분야에 대한 라이브러리와 프레임워크를 제공하기 때문에 프로그래머가 모든 코드를 일일이 작성할 필요가 없습니다. 또한 폭 넓은 생태계와 활발한 커뮤니티 활동으로 인해 문제 해결과 협업이 매우 빠르게 이루어질 수 있습니다.</p>
+
+<h3 id="python의-단점">Python의 단점</h3>
+<h4 id="1-느린-실행-속도">1) 느린 실행 속도</h4>
+<p>인터프리터 언어로 컴파일 언어에 비해 실행 속도가 느립니다. 따라서 성능이 중요한 애플리케이션, 예를 들어 게임 엔진이나 고성능의 수치 계산에는 적합하지 않을 수 있습니다.</p>
+
+<h4 id="2-모바일-및-웹-클라이언트-개발">2) 모바일 및 웹 클라이언트 개발</h4>
+<p>웹 서버 측 스크립트나 데이터 처리에 주로 사용되지만, 웹 클라이언트 측 개발에는 JavaScript 등 다른 언어가 더욱 선호됩니다(Streamlit 이나 FastHTML이 나왔지만 한계가 명확합니다). 또한, IOS나 Android와 같은 모바일 환경에서의 앱 개발에는 잘 사용되지 않습니다.</p>
+
+<h4 id="3-멀티코어-cpu-활용">3) 멀티코어 CPU 활용</h4>
+<p>Python의 GIL(Global Interpreter Lock) 때문에 멀티코어 CPU를 효율적으로 활용하는 것이 어렵습니다. 이는 병렬 처리가 필요한 고성능 애플리케이션에서는 문제가 될 수 있습니다.</p>
+
+<h4 id="4-데이터베이스-접근">4) 데이터베이스 접근</h4>
+<p>데이터베이스 접근에 있어서 다른 언어들에 비해 제한적인 측면이 있습니다. Python의 데이터베이스 연동 기능은 상대적으로 느리고, 대규모 트래픽과 데이터를 처리하기 위한 엔터프라이즈급 애플리케이션에는 제한적일 수 있습니다.</p>
+
+<h2 id="python의-활용-사례">Python의 활용 사례</h2>
+<p>지금까지 살펴본 Python의 특징을 바탕으로 과연 Python은 어디에 활용되었는지 살펴보겠습니다.</p>
+
+<h3 id="기업에서의-활용">기업에서의 활용</h3>
+<h4 id="1-google">1) Google</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/google_logo.png" alt="python_history" width="300" />
+    <p style="font-size: smaller;"><em>이미지 출처: google</em></p>
+</div>
+
+<p>구글은 백엔드에서 C++과 Python을 결합해 활용하고 있습니다. 짧은 대기시간과 엄격한 메모리 제어가 중요한 스택에는 C++을 프그램의 빠른 전달과 유지 관리가 필요한 부분에서는 Python을 사용합니다.</p>
+
+<h4 id="2-instagram">2) Instagram</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/instagram.png" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Business Insider</em></p>
+</div>
+
+<p>Python으로 작성된 오픈 소스 웹 프레임워크인 Django를 기본 서버 측 언어로 사용하고 있습니다.</p>
+
+<h4 id="3-netflix">3) Netflix</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/Netflix-Logo.jpg" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Netfilx</em></p>
+</div>
+
+<p>방대한 표준 라이브러리, 간결하고 깔끔한 구문, 대규모 커뮤니티, 풍부한 타사 라이브러리 등을 이유로 Python을 자사 서비스에 적극적으로 활용하고 있습니다.</p>
+
+<h4 id="4-spotify">4) Spotify</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/spotify-logo.jpg" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Belwood music</em></p>
+</div>
+
+<p>음악 스트리밍 및 미디어 서비스 제공 업체 Spotify는 Python을 활용해 빌드 되었으며, 백앤드의 80%가 Python으로 작성되어 있다고 알려져있습니다.</p>
+
+<h4 id="5-dropbox">5) Dropbox</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/dropbox.png" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Dropbox</em></p>
+</div>
+
+<p>외부 오픈 소스 코드와 자체 작성한 코드 모두 Python을 사용하고 있습니다(귀도 반 로썸도 Dropbox 개발자 출신이기도 합니다).</p>
+
+<h3 id="python의-활용-영역">Python의 활용 영역</h3>
+<h4 id="1-시스템-유틸리티-제작">1) 시스템 유틸리티 제작</h4>
+<p>운영체제의 시스템 명령어를 사용할 수 있는 각종 도구를 갖추고 있습니다. 파일 관리, 로그 분석, 시스템 모니터링 등과 같은 여러 시스템 유틸리티를 만드는데 유리합니다.</p>
+
+<h4 id="2-gui-프로그래밍">2) GUI 프로그래밍</h4>
+<p>GUI 프로그래밍을 위한 도구들이 잘 갖추어져 있다. 대표적으로 PyQt5, PyGUI, Tkinter 등이 있습니다.</p>
+
+<h4 id="3-cc과의-결합">3) C/C++과의 결합</h4>
+<p>C나 C++로 만든 프로그램을 파이썬에서 사용할 수 있고, 반대로 파이썬으로 만든 프로그램을 C나 C++에서 사용하는 것도 가능합니다.</p>
+
+<h4 id="4-웹-프로그래밍">4) 웹 프로그래밍</h4>
+<p>웹 클라이언트를 만드는 것은 어려우나 웹 프로그램를 제작하기에 매우 적합하여, 파이썬으로 웹 사이트를 제작하는 경우가 많습니다(주로 프론트 영역은 JavaScript, 백엔드를 Python으로 사용하는 경우 입니다).</p>
+
+<h4 id="5-수치-연산-프로그래밍">5) 수치 연산 프로그래밍</h4>
+<p>수치 연산 프로그래밍에는 사실 C언어가 적합합니다. 하지만 Python의 NumPy라는 수치 연산 모듈이 C로 작성되었기 때문에 Python에도 빠른 수치 연산을 수행할 수 있습니다.</p>
+
+<h4 id="6-데이터-분석">6) 데이터 분석</h4>
+<p>Numpy, Pandas, Matplotlib 등의 라이브러리를 활용하여 데이터 처리, 통계 분석, 시각화를 수행할 수 있습니다. 아직까지는 데이터분석에 특화된 R이라는 언어가 더 많이 사용되고 있지만, 최근 들어 파이썬을 사용하는 추세가 굳어지고 있습니다.</p>
+
+<h4 id="7-데이터-베이스-프로그래밍">7) 데이터 베이스 프로그래밍</h4>
+<p>Sybase, Infomix, Oracle, MySQL, PostgreSQL 등의 데이터베이스에 접근하기 위한 도구를 제공합니다.</p>
+
+<h4 id="8-인공지능과-머신러닝">8) 인공지능과 머신러닝</h4>
+<p>Python을 활용하여 자연어 처리, 음성 인식, 이미지 인식과 같은 인공지능 기술을 구현할 수 있습니다. 인공지능과 머신러닝 프로그래밍에는 Scikit-Learn, TensorFlow, PyTorch, Keras 등의 라이브러리가 사용됩니다.</p>
+
+<h2 id="마무리">마무리</h2>
+<p>오늘은 파이썬의 역사, 특징, 활용 분야까지 살펴봤습니다. Python이 널리 사용된 이유는 간결하고 쉽기 때문입니다. 문법이 다른 프로그래밍 언어에 비해 어렵지 않으며, 표현하는 구조도 사람이 대화하는 형식을 이용함으로서 초보자도 쉽게 배울 수 있다는 강점이 있습니다. 또한, 개발자가 누구든지 무료로 쓸 수 있도록 오픈 소스로 제공한 것도 큰 역할을 했다고 볼 수 있습니다. 현재 Python은 속도를 높이기 위해 지속적으로 업데이트를 진행하고 있습니다. 앞으로도 파이썬은 더 많은 분야에서 사용될 것으로 예상되며, 특히 인공지능 분야에 더 많이 활용될 것으로 보입니다. 프로그래밍 언어를 배우고자 하시는 분들에게 Python은 좋은 선택이 될 것입니다. 한번 배워보시는 것은 어떨까요?</p>]]></content><author><name>Kkobugi</name></author><category term="Python" /><category term="Programming Language" /><category term="Python" /><category term="Python History" /><category term="Python Characteristic" /><summary type="html"><![CDATA[Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.]]></summary></entry><entry><title type="html">AI에게 인간이 필요한 이유</title><link href="http://localhost:4000/news/news18/" rel="alternate" type="text/html" title="AI에게 인간이 필요한 이유" /><published>2024-09-11T00:00:00+09:00</published><updated>2024-09-11T00:00:00+09:00</updated><id>http://localhost:4000/news/news18</id><content type="html" xml:base="http://localhost:4000/news/news18/"><![CDATA[<p>[2024년 08월 30일자 미라클레터에서 발췌]</p>
 
 <p>초기 생성형 AI와 비교했을 때 지금 우리가 사용하고 있는 AI의 성능은 점점 좋아지고 있습니다. 하지만 AI를 너무 맹신해서는 안 됩니다. AI는 대단한 도구지만 또 한편으로 상당히 나약한 모습을 보여주기도 합니다.</p>
 
@@ -868,77 +1051,4 @@
 <h3 id="앞으로-중요한-것은-서비스화">앞으로 중요한 것은 서비스화</h3>
 <p>이유야 어찌 됐든 메타가 오픈소스 진영으로 돌아서면서 AI 산업이 흥미롭게 전개되고 있습니다. 물론, OpenAI에서 GPT-5를 공개할 경우 다시금 성능의 차이가 발생할 수 있지만, 최근에는 실제 서비스의 활용과 구현에 대한 관심이 높아지고 있어 집단 지성의 오픈소스 진영이 더 큰 영향력을 발휘할 수 있을 것으로 기대합니다.</p>
 
-<p>앞으로 메타 외에도 오픈소스 진영에 더욱 강력한 지원군들이 등장하여 폐쇄 진영과의 건강한 경쟁 체제가 잘 유지되길 바래봅니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Meta AI" /><category term="LLaMA3" /><category term="Open-source AI" /><summary type="html"><![CDATA[[2024년 04월 25일자 Tech잇슈, Biz Trend Letter에서 발췌]]]></summary></entry><entry><title type="html">네이버 AI 국내 1위 그런다고 사람들이 쓸까?</title><link href="http://localhost:4000/news/news9/" rel="alternate" type="text/html" title="네이버 AI 국내 1위 그런다고 사람들이 쓸까?" /><published>2024-04-10T00:00:00+09:00</published><updated>2024-04-10T00:00:00+09:00</updated><id>http://localhost:4000/news/news9</id><content type="html" xml:base="http://localhost:4000/news/news9/"><![CDATA[<hr />
-<p>[2024년 04월 08일자 Tech잇슈, Biz Trend Letter에서 발췌]</p>
-
-<p>네이버는 대한민국 빅테크 기업의 자존심이자, ‘네카라쿠배’의 가장 큰 형님 격이라 할 수 있는데요. 이들이 얼마 전, 자체 대형 언어 모델인 하이퍼클로바X의 연구/개발 소식을 전해왔습니다. 다양한 항목에서 글로벌 모델과 비교했을 때 가장 우수한 성적을 기록했다고 발표하기도 했습니다. 해당 내용 자세히 살펴보죠</p>
-
-<h3 id="다른-모델보다-성능-좋은-하이퍼클로바x">다른 모델보다 성능 좋은 하이퍼클로바X</h3>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-04-10-news9/hyperclovax.png" alt="news-8" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: 네이버</em></p>
-</div>
-
-<p>2024년 04월 02일, 네이버클라우드 하이퍼클로바X 팀이 아카이브를 통해 <a href="https://arxiv.org/html/2404.01954v1/">테크니컬 리포트</a>를 공개했습니다. 이 리포트에는 하이퍼클로바X가 영어, 수학, 코딩 분야에서 경쟁력을 갖추고 있으며, 한국 문화에 맞춘 대규모 언어 모델로 한국어에 특화된 성능을 보유하고 있다고 설명하고 있습니다. 더 나아가 일본어, 아랍어 등 다국어 능력과 안정성 측면에서도 높은 지표를 보유했다는 것을 강조했습니다.<br />
-참고 기사: <a href="https://www.mk.co.kr/news/it/10982237">미라클 AI, 네이버클라우드 “하이퍼클로바X 성능 14개 모델 중 1위”</a></p>
-
-<p>특히, 현시점에서 가장 뛰어난 성능을 자랑하고 있는 Llama2, GPT-4, SOLAR 등을 비교군으로 선정하여 다양한 지표에서 이들보다 높은 성능을 갖추었다고 소개했는데요, 대표적으로 몇 가지 살펴보면 다음과 같습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-04-10-news9/technical_report.png" alt="news-8" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: ⓒ HyperclovaX Technical Report (수치가 작을수록 효율적)</em></p>
-</div>
-
-<p>먼저, 토크나이저 지표입니다. 한국어를 잘 이해하고 처리할 수 있는 언어 모델을 만들기 위해서는 ‘토큰화’라는 과정이 매우 중요합니다. 토큰화는 문장을 의미 있는 작은 단위로 나누는 것을 말하는데요. 한국어는 그 구조상 단어가 변형되기 쉽고, 같은 단어라도 문맥에 따라 의미가 달라질 수 있기 때문에 이 과정이 특히 중요합니다.</p>
-
-<p>예를 들어, 한국어에서는 같은 명사에 추가되는 어미에 따라 동사가 될 수도, 형용사가 될 수도 있습니다. 글로벌 기업들은 각 나라별 언어적 특성을 완벽히 파악하기 쉽지 않아, 토큰화 과정에서 어려움을 겪는 경우가 많은데요. 이로 인해, 같은 의미를 가진 문장이라 할지라도 영어로 답변을 받았을 때보다 한글로 답변을 받았을 때 인코딩이 비효율적인 경우가 많았습니다. 네이버는 이를 효과적으로 처리할 수 있도록 연구했고, 더 적은 비용으로 더 좋은 성능을 발휘할 수 있게 됐습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-04-10-news9/technical_report_2.png" alt="news-8" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: ⓒ HyperclovaX Technical Report</em></p>
-</div>
-
-<p>다음으로는 생성형 AI의 성능을 평가하는 핵심 항목을 바탕으로 주요 오픈소스 모델들과 비교한 성능 지표를 살펴보겠습니다. 영어 성능 지표에서 라마2에 살짝 뒤처질 뿐, 수학, 코딩 등을 포함한 나머지 지표에서는 하이퍼클로바X가 모두 앞서는 모습을 확인할 수 있습니다.</p>
-
-<h3 id="빛좋은-개살구">빛좋은 개살구?</h3>
-
-<p>벤치마크 결과에서 아무리 높은 성능을 보였더라고 하더라도 사용되지 못하면 의미가 없습니다. 하이퍼클로바X가 적용된 ‘<a href="https://cue.search.naver.com/">큐(Cue:)</a>’ AI 검색 서비스는 지난 2023년 9월에 베타 서비스를 시작했지만, 7개월이 지난 지금까지도 정식 서비스 출시는 요원한 상태입니다. 현재 대기명단을 등록하고 승인받아야만 사용이 가능한 상태로, 아직까지 일반 대중들의 접근이 어려운데요. 그 사이 ChatGPT가 출시한 지는 벌써 1년 6개월이라는 시간이 훌쩍 지나갔습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-04-10-news9/naver_cue.png" alt="news-8" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: 네이버 큐 (작성하고 있는 24년 04월 10일 기준 아직도 베타 서비스 중)</em></p>
-</div>
-
-<p>또한, 지금의 성능을 갖춘 상태로 서비스가 출시한다고 하더라도 과연 좋은 반응을 이끌어낼지도 미지수입니다. 이미 네이버가 발표하기 전에도 GPT-4의 성능을 뛰어넘었다고 발표한 곳은 몇몇 있었습니다. OpenAI의 최대 경쟁사로 불리는 ‘Anthropic’의 ‘Cluade 3(Opus ver.)’는 GPT-4를 넘어선 것은 물론 AI 최초로 IQ 테스트에서 100점을 넘는 성적을 기록했다고 알려졌습니다. 특히, 네이버와 마찬가지로 검색 엔진 기반의 포털인 구글 역시도 뛰어난 성능의 제미나이를 발표했지만 사람들은 여전히 ChatGPT를 선호하고 있습니다. 왜 그럴까요?</p>
-
-<h3 id="결국은-선점-효과로-인한-익숙함">결국은 선점 효과로 인한 익숙함</h3>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-04-10-news9/iot.png" alt="news-8" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: ⓒ IoT Analytics</em></p>
-</div>
-
-<p>여기에는 ChatGPT가 누린 초기 선점 효과와 그로 인해 이미 익숙해진 UI/UX가 중요한 역할을 했는데요. 그러나 이보다 더 큰 요인은 대다수의 사용자들이 현재 제공되는 ChatGPT의 성능으로도 충분히 만족하고 있다는 점입니다. 물론, 조금 더 고차원적인 답변을 위해서 더 뛰어난 성능을 가진 모델이 필요로 할 수 있지만, 이런 사용자층은 전체 시장에서 차지하는 비중이 작아 대세에 큰 영향을 주기 어렵습니다.</p>
-
-<p>네이버가 한국에서 높은 포털 점유율을 보유하고 있는 지금, 로컬라이제이션이 잘 되어 있는 모델을 기반으로 한 AI 서비스를 출시된다면, 한국을 한정해 많은 관심을 끌 수 ‘있을 수도’ 있습니다. 그러나 여기에는 서비스를 무료로 제공해야 한다는 전제 조건이 붙습니다. 현재 제공되고 있는 무료 서비스들도 충분히 우수한 상황이기에 네이버가 결정적인 와우포인트 없이 유료 서비스를 선보인다면, 사용자의 관심을 끌기 어려울 것으로 보입니다.</p>
-
-<p>그러나 문제는 이러한 대형 언어 모델의 서비스 운영비용은 굉장히 높다는 점인데요. 무료로 서비스를 제공하자니, 금액적인 리스크를 네이버가 감당해야 한다는 딜레마에 빠질 수밖에 없습니다.</p>
-
-<h3 id="llm-이미-시장의-눈은-더-높은-곳에">LLM? 이미 시장의 눈은 더 높은 곳에…</h3>
-
-<p>앞서 언급했듯, 대형 언어 모델 간의 성능 비교는 이제 크게 중요하지 않게 됐습니다. 냉정히 말하면, 상향 평준화된 LLM 시장에 이제야 네이버가 비슷한 수준에 도달했다고 볼 수 있습니다. 이렇듯 네이버가 모든 역량을 LLM 모델에 집중하는 동안, 글로벌 경쟁사들은 ‘멀티모달(Multi-Modality: 여러개의 데이터형식을 가지고 수행하는 AI, 대표적으로 텍스트, 이미지, 음성, 영샹 등)’ 기능, 즉 더 높은 목표를 향해 나아가고 있습니다. 이제 생성형 AI 경쟁력은 단순한 텍스트 기반 서비스에서 갈리는 것이 아니라, 이미지, 음성, 영상까지 다양한 형태의 입력과 출력을 제공하는 능력에 의해 결정될 예정입니다.</p>
-
-<p>OpenAI는 ‘DALL-E’를 활용해 이미지를 생성하고, ‘SORA’를 활용해 동영상을 생성하며, ‘Voice Engine’을 통해 음성까지 복제할 수 있는 능력까지 보유하게 됐습니다. 그리고 궁극적으로는 이 모든 기능을 ChatGPT로 통합 구축할 것으로 예상되는데요. 이 말은, 앞으로는 음성로 그림을 그려달라고 할 수 있으며, 이미지를 보여주고 설명을 듣거나 토론을 할 수 있으며, 대본을 주고 영상을 만들어 달라고 할 날이 머지않았다는 의미입니다.</p>
-
-<p>상황이 이렇게까지 전개되었지만, 아쉽게도 이번 네이버의 발표에서 멀티모달 역량에 대한 내용을 찾아볼 수 없었습니다. 리포트 중간에 앞으로 멀티모달 역량에 집중하겠다는 계획을 보여주는 것이 전부였습니다.</p>
-
-<h3 id="그럼에도-아직-기회는-있다">그럼에도 아직 기회는 있다</h3>
-
-<p>사실 네이버는 애초에 B2C 시장을 어느 정도 포기한 것으로도 보입니다. 그동안 공식석상에서도 AI 활용 전략에 대한 질문에 대해, 대부분 커머스 분야의 고도화나 B2B 클라우드 서비스의 경쟁력을 끌어올리는 데 활용하겠다는 답변이 대부분이었습니다. 이는 상대적으로 외산 AI 제품이 한국 서비스에 적용되기 어려운 점을 공략하겠다는 의미로 풀이되는데요. 실제로 이러한 전략은 과거부터 유용하게 활용된 것으로, 현재 네이버가 국내에서 AI 기술력이 가장 우수하다고 평가받고 있는 만큼, 이번에도 이 전략은 통할 수 있을 것으로 기대됩니다.</p>
-
-<p>또한, 이번 리포트 발표에서 아랍어 등의 다국어 능력을 강조했던 점은 네이버가 ‘소버린 AI’ 사업에 대한 의지가 강하다는 것을 시사합니다. ‘소버린 AI’ 사업이란, 상대적으로 AI 기술력이 낮은 국가를 대상으로 현지 언어와 문화에 최적화된 AI 모델을 구축해 주는 사업을 말하는데요. 최근 사우디 아람코와 체결한 ‘아랍어 LLM 기반 소버린 AI 개발 협약’은 이러한 전략의 일환이라고 볼 수 있습니다. 이 경우 기업이 아닌 국가를 상대로 사업을 펼치기 때문에 사업 규모 측면에서 상대적으로 볼륨이 클 수 있다는 장점이 있습니다.</p>
-
-<p>비록 다소 부정적인 전망이 담겨 있었지만, 그럼에도 네이버가 이만큼까지 기술력을 끌어올린 것은 정말 대단한 업적이라 평가할 수 있습니다. 대형 언어 모델을 자체적으로 보유한 국가 자체도 몇 없을뿐더러, 그중에서도 글로벌 경쟁을 이어나가고 있는 기업은 더더욱 귀합니다.</p>
-
-<p>다만, 앞서 말씀드렸던 것처럼 네이버는 한국 빅테크 기업의 자존심이라 할 수 있기에, 더욱 힘을 냈으면 하는 바람입니다. 특히, 단순히 한국어에 특화된 모델이 아니라, 기술력과 사용성에 중점을 둔 범용 모델로 발전시켜 글로벌 시장에서도 경쟁력을 지속적으로 발휘해 나가길 바래봅니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Naver AI" /><category term="HyperCLOVA X" /><category term="Korea LLM" /><summary type="html"><![CDATA[[2024년 04월 08일자 Tech잇슈, Biz Trend Letter에서 발췌]]]></summary></entry></feed>
+<p>앞으로 메타 외에도 오픈소스 진영에 더욱 강력한 지원군들이 등장하여 폐쇄 진영과의 건강한 경쟁 체제가 잘 유지되길 바래봅니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Meta AI" /><category term="LLaMA3" /><category term="Open-source AI" /><summary type="html"><![CDATA[[2024년 04월 25일자 Tech잇슈, Biz Trend Letter에서 발췌]]]></summary></entry></feed>

@@ -1,0 +1,1270 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <!-- 20210119 ADD favicon-->
+<link rel="icon" type="image/png" href="/assets/favicon.ico">
+
+<meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Python은 어떤 언어인가? | 꼬부기의 개발 노트</title>
+<meta name="description" content="Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.">
+
+
+  <meta name="author" content="Kkobugi">
+  
+  <meta property="article:author" content="Kkobugi">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="꼬부기의 개발 노트">
+<meta property="og:title" content="Python은 어떤 언어인가?">
+<meta property="og:url" content="http://localhost:4000/python/about_python/">
+
+
+  <meta property="og:description" content="Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2024-09-26T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/python/about_python/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "ki-sung",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="naver-site-verification" content="63e62209e9a15780ebb93e31ffa97779ac018212">
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="꼬부기의 개발 노트 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- Math jax setting-->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.ico/favicon-16x16.png">
+<link rel="manifest" href="/assets/logo.ico/site.webmanifest">
+<link rel="mask-icon" href="/assets/logo.ico/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          꼬부기의 개발 노트
+          <span class="site-subtitle">Slow but Steady</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about-me/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/year-archive/">By Year</a>
+            </li><li class="masthead__menu-item">
+              <a href="/search/">Search</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#python" itemprop="item"><span itemprop="name">Python</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Python은 어떤 언어인가?</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+
+  
+</nav>
+
+    
+  
+
+  
+    
+
+<nav class="nav__list">
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">토글 메뉴</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <!--전체 글 수--> 
+        <li>
+            📇 <span style="font-family:'Cafe24Oneprettynight';">Total Posting</style> <span style="font-family:'Coming Soon';">24</style> <span style="font-family:'Cafe24Oneprettynight';"></style> 
+        </li>
+        <li>
+            <span class="nav__sub-title">News</span>
+                <ul>
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/news" class="">News (18)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+
+            <span class="nav__sub-title">Computing</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+
+            <span class="nav__sub-title">Newtworks</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+
+            <span class="nav__sub-title">Business</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            
+            <span class="nav__sub-title">Development</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">Language</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/Python" class="">Python (1)</a></li>
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">Dev Diary</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">Books</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/self-dev-book" class="">Self Dev (1)</a></li>
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/trend-book" class="">Trend (2)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">etc</span>
+                <ul>
+                    
+                        
+                            <li><a href="/categories/github-blog" class="">Github Page Blog (2)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+        </li>
+    </ul>
+</nav>
+  
+
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Python은 어떤 언어인가?">
+    <meta itemprop="description" content="Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.">
+    <meta itemprop="datePublished" content="2024-09-26T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      <!-- top banner-->
+      <!-- <p class="notice--info" style="font-size: 1rem !important;">
+    <strong>Github 블로그 제작기</strong>
+    <br>
+    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
+</p>  -->
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/python/about_python/" class="u-url" itemprop="url">Python은 어떤 언어인가?
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-26T00:00:00+09:00">2024-09-26</time>
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
+              <ul class="toc__menu"><li><a href="#python-소개">Python 소개</a><ul><li><a href="#python의-탄생">Python의 탄생</a></li><li><a href="#python을-휴가-중에-만들었다고">Python을 휴가 중에 만들었다고?</a></li></ul></li><li><a href="#python-특징">Python 특징</a><ul><li><a href="#python의-기본-철학">Python의 기본 철학</a></li><li><a href="#python의-대표적-특징">Python의 대표적 특징</a><ul><li><a href="#1-스트립트-언어">1) 스트립트 언어</a></li><li><a href="#2-동적-타이핑">2) 동적 타이핑</a></li><li><a href="#3-플랫폼-독립성">3) 플랫폼 독립성</a></li></ul></li><li><a href="#python의-장점">Python의 장점</a><ul><li><a href="#1-간결하고-쉬운-문법">1) 간결하고 쉬운 문법</a></li><li><a href="#2-빠른-개발-속도">2) 빠른 개발 속도</a></li><li><a href="#3-높은-확장성-및-이식성">3) 높은 확장성 및 이식성</a></li><li><a href="#4-활발한-생태계">4) 활발한 생태계</a></li></ul></li><li><a href="#python의-단점">Python의 단점</a><ul><li><a href="#1-느린-실행-속도">1) 느린 실행 속도</a></li><li><a href="#2-모바일-및-웹-클라이언트-개발">2) 모바일 및 웹 클라이언트 개발</a></li><li><a href="#3-멀티코어-cpu-활용">3) 멀티코어 CPU 활용</a></li><li><a href="#4-데이터베이스-접근">4) 데이터베이스 접근</a></li></ul></li></ul></li><li><a href="#python의-활용-사례">Python의 활용 사례</a><ul><li><a href="#기업에서의-활용">기업에서의 활용</a><ul><li><a href="#1-google">1) Google</a></li><li><a href="#2-instagram">2) Instagram</a></li><li><a href="#3-netflix">3) Netflix</a></li><li><a href="#4-spotify">4) Spotify</a></li><li><a href="#5-dropbox">5) Dropbox</a></li></ul></li><li><a href="#python의-활용-영역">Python의 활용 영역</a><ul><li><a href="#1-시스템-유틸리티-제작">1) 시스템 유틸리티 제작</a></li><li><a href="#2-gui-프로그래밍">2) GUI 프로그래밍</a></li><li><a href="#3-cc과의-결합">3) C/C++과의 결합</a></li><li><a href="#4-웹-프로그래밍">4) 웹 프로그래밍</a></li><li><a href="#5-수치-연산-프로그래밍">5) 수치 연산 프로그래밍</a></li><li><a href="#6-데이터-분석">6) 데이터 분석</a></li><li><a href="#7-데이터-베이스-프로그래밍">7) 데이터 베이스 프로그래밍</a></li><li><a href="#8-인공지능과-머신러닝">8) 인공지능과 머신러닝</a></li></ul></li></ul></li><li><a href="#마무리">마무리</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/python2.png" alt="python_icon" width="200" />
+    <p style="font-size: smaller;"><em>이미지 출처: FLATICON</em></p>
+</div>
+
+<p>간단한 유틸리티 제작을 넘어 웹 프로그래밍, 데이터 분석, 머신러닝, 딥러닝, 사물 인터넷(IoT) 등 다양한 분야에서 활용되고 있습니다.</p>
+
+<p>이번 시간에는 파이썬으 어떤 언어이고, 어떤 특징을 가지고 있는지 알아보도록 하겠습니다.</p>
+
+<h2 id="python-소개">Python 소개</h2>
+<h3 id="python의-탄생">Python의 탄생</h3>
+<p>Python은 네덜란드 암스테르담의 “귀도 반 로섬(Guido van Rossum)”이 개발한 프로그래밍 언어입니다. 1991년에 출시하며 이름을 Python이라고 지었죠. 귀도는 자신이 좋아하던 코미디 프로그램 &lt;Monty Python’s Flying Circus&gt;에서 Python이라는 이름을 따왔다고 합니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/van_rossum_monty_pythons.png" alt="python_history" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: school.coding-x.com</em></p>
+</div>
+
+<p>프로그래밍 언어 중에서도 오래전에 만들어진 ‘포트란’은 1954년에 탄생했고, 지금도 많이 사용하는 C언어는 1972년에 공개된 언어입니다. 해당 언어들과 비교하면 1991년에 탄생한 Python은 비교적 최신에 만들어진 언어라고 할 수 있습니다.</p>
+
+<p>Python은 신화속에 나오는 비단뱀이라는 뜻이기 때문에 로고에 두 마리의 뱀이 들어간 것 입니다(특별한 의미는 없다고 합니다).</p>
+
+<h3 id="python을-휴가-중에-만들었다고">Python을 휴가 중에 만들었다고?</h3>
+<p>누구나 영어로 이해할 수 있는 코드와 일상적인 업무에 적합한 빠른 개발을 원했던 “귀도 반 로섬”은 1989년, 네덜란드 국립 연구소에 근무하던 당시 두 달의 휴가 동안 취미로 만들어본 프로젝트의 하나로 Python을 개발하게 됩니다. 이후 모두를 위한 컴퓨터 프로그래밍이라는 이름으로 투자를 받아 파이썬이 개발되었습니다.</p>
+
+<p>현재 검색량을 기준으로 프로그래밍 언어 선호도를 조사하는 “TIOBE index”에서 2024년 9월 기준 파이썬은 선호하는 프로그래밍 언어 1위(20.17%)를 차지했으며, 오라일리 미디어가 온라인 학습 플랫폼의 학습 과정 및 사용자 선호도를 분석해 발표한 프로그래밍 언어 순위에서는 파이썬이 Java와 C++을 제치고 가장 높은 사용률을 보였습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/2024_09_ranking.png" alt="python_ranking" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: TIOBE Index for September 2024</em></p>
+</div>
+
+<h2 id="python-특징">Python 특징</h2>
+<h3 id="python의-기본-철학">Python의 기본 철학</h3>
+<p><a href="https://peps.python.org/pep-0020/">PEP 20</a> 문서에 보면 Python의 철학이 나오는데 핵심 철학은 아래와 같습니다.</p>
+
+<div class="notice--success">
+<ul>
+    <li>"아름다운 게 추한 것보다 낫다." (Beautiful is better than ugly)</li>
+    <li>"명시적인 것이 암시적인 것 보다 낫다." (Explicit is better than implicit)</li>
+    <li>"단순함이 복잡함보다 낫다." (Simple is better than complex)</li>
+    <li>"복잡함이 난해한 것보다 낫다." (Complex is better than complicated)</li>
+    <li>"가독성은 중요하다." (Readability counts)</li>
+</ul>
+</div>
+
+<p>이런 철학들 때문에 Python은 “복잡하지 않으면서 의미가 명확하고, 코드의 축약보다 뚜렷하게 보이는 흐름을 중시하는 파이썬의 철학을 중시”하는 언어로 알려져 있습니다.</p>
+
+<p>그럼 여기서 Python에서 대표하는 특징들을 살펴보겠습니다.</p>
+
+<h3 id="python의-대표적-특징">Python의 대표적 특징</h3>
+<h4 id="1-스트립트-언어">1) 스트립트 언어</h4>
+<p>Python은 컴파일 과정 없이 인터프리터가 소스 코드를 한 줄씩 읽어 곧바로 실행하는 스크립트 언어입니다. 스크립트 언어의 특성상 컴파일 과정이 필요하지 않기 때문에, 실행 결과를 바로 확인하고 수정할 수 있으며, 코드 작성의 난이도 또한 낮습니다.</p>
+
+<blockquote>
+  <p><strong>※ 컴파일 언어 vs 스크립트 언어</strong> <br />
+컴파일 언어는 컴파일 과정(전처리, 컴파일, 어셈블, 링크)을 통해, 작성한 코드를 기계어로 번역해 실행하는 방식입니다.<br />
+반면, 스크립트 언어는 별도의 컴파일 과정 없이 인터프리터(프로그래밍 언어 해석기)가 소스 코드를 한 줄씩 읽어가며 바로 실행하는 방식입니다.<br />
+컴파일 언어는 소스 코드를 컴파일 하는 과정을 거쳐야 하므로, 실행 및 수정에 비교적 많은 시간이 소요되지만, 한 번 기계어로 번역된 이후에는 빠른 실행 속도를 보입니다.<br />
+이와 달리, 스크립트 언어는 컴파일 없이 곧바로 실행되므로, 결과를 바로 확인하고 수정할 수 있지만, 번역과 실행이 동시에 이루어지므로, 실행 속도가 컴파일 언어에 비해 느립니다.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>※ 스크립트 언어 &amp; 인터프리터 언어</strong> <br />
+스크립트 언어와 인터프리터 언어는 비슷한 개념으로 사용되고 있지만, 엄밀히 말하면 다른 개념입니다. <br />
+스크립트 언어는 코드를 Iterpret(해석)하는 방식으로 동작하는 언어를 의미하고, 인터프리터 언어는 소스 코드를 실행할 때, 컴파일 단계를 거치지 않고 바로 해석하여 실행하는 언어를 의미합니다. <br />
+물론, 두 언어의 차이점이 명확하지는 않기 때문에 같은 개념처럼 사용되는게 일반적이며, 실제로 Python은 스크립트 언어이면서, 인터프리터 언어입니다. <br />
+하지만, 스크립트 언어이면서 인터프리터 언어가 아니거나, 반대로 인터프리터 언어이면서 스크립트 언어가 아닌 경우도 있을 수 있습니다. 대표적으로 <strong>MATLAB</strong>은 스크립트 형태로 작성되지만, 컴파일 단계를 거쳐 실행파일을 생성하기 때문에, 스크립트 언어지만 인터프리터 언어가 아닙니다. 또한 Java는 컴파일 언어와 인터프리터 언어의 특징을 모두 갖는 하이브리드 언어로 스크립트 언어는 아니지만, 인터프리터 언어의 특징이 가지고 있습니다.</p>
+</blockquote>
+
+<h4 id="2-동적-타이핑">2) 동적 타이핑</h4>
+<p>Python은 동적 타이핑(Dynamic Typing) 언어 입니다. 여기서 동적 타이핑이란, 변수의 자료형을 지정하지 않은 상태에서, 단순히 선언하는 것만으로 값을 지정할 수 있음을 의미합니다. 이 때, 변수의 자료형은 코드가 실행되는 시점에 결정됩니다. 형변환을 위한 번거로운 과정이 불필요해진다는 장점이 있지만, 예상치 못한 타입이 할당되어 런타임 에러가 발생할 수도 있습니다.</p>
+
+<p>이와 상반되는 개념으로 정적 타이핑(Static Typing) 언어도 있습니다. 정적 타이핑 언어는 컴파일 시점에서 변수의 타입이 명시적으로 선언되어야 합니다(대포적 언어로 Java가 있습니다). 하지만 그렇다고 해서 컴파일 언어이면 무조건 정적 타이핑이고, 스크립트 언어면 무조건 정적 타이핑인 것은 아닙니다.</p>
+
+<h4 id="3-플랫폼-독립성">3) 플랫폼 독립성</h4>
+<p>Python은 Linux, Unix, Window, Mac 등 대부분의 운영체제에서 모두 동작합니다. 운영체제 별로 컴파일할 필요가 없다는 것은 곧, 한 번 소스 코드를 작성하면, 어떤 운영체제에서도 활용할 수 있다는 것을 의미합니다.</p>
+
+<p>대표적인 특징을 알아보았으니 이제 Python의 장, 단점을 살펴볼까요?</p>
+
+<h3 id="python의-장점">Python의 장점</h3>
+<h4 id="1-간결하고-쉬운-문법">1) 간결하고 쉬운 문법</h4>
+<p>Python을 흔히 “인간다운 언어”라고 이야기 합니다. 그 이유는 Python의 문법이 인간의 사고와 유사하기 때문입니다. 이러한 이유에서 Python 문법을 학습하는 데에 많은 시간을 할애할 필요가 없으며, 프로그래밍 전공자의 경우, Python 문법이 얼마나 쉽고 간결한지를 몸소 느낄수 있습니다. 여기서 쉽고 간결하다는 것은 코드가 직관적이고, 길이가 짧아 가독성이 높다는 의미입니다.</p>
+
+<h4 id="2-빠른-개발-속도">2) 빠른 개발 속도</h4>
+<p>쉽고 간결한 문법 덕분에 Python은 높은 생산성을 자랑합니다. Python을 활용할 경우 더 적은 코드로 더 많은 작업을 수행할 수 있으며, 이는 복잡한 구문으로 인해 발생할 수 있는 오류를 줄여줄 수도 있습니다.</p>
+
+<h4 id="3-높은-확장성-및-이식성">3) 높은 확장성 및 이식성</h4>
+<p>Python은 대표적인 접착제 언어(Glue Language) 입니다. 적, 다른 언어나 라이브러리에 쉽게 접근해 연동이 가능합니다. 실제로, 고성능의 어플리케이션 개발에 C나 C++ 같은 언어를 Python과 결합해 사용하기도 합니다. 이로써 애플리케이션의 성능은 보장되면서, 동시에 별도 설치나 구성과정 없이 스크립트 언어의 장점도 누릴수 있게 됩니다.</p>
+
+<h4 id="4-활발한-생태계">4) 활발한 생태계</h4>
+<p>파이썬은 다양한 분야에 대한 라이브러리와 프레임워크를 제공하기 때문에 프로그래머가 모든 코드를 일일이 작성할 필요가 없습니다. 또한 폭 넓은 생태계와 활발한 커뮤니티 활동으로 인해 문제 해결과 협업이 매우 빠르게 이루어질 수 있습니다.</p>
+
+<h3 id="python의-단점">Python의 단점</h3>
+<h4 id="1-느린-실행-속도">1) 느린 실행 속도</h4>
+<p>인터프리터 언어로 컴파일 언어에 비해 실행 속도가 느립니다. 따라서 성능이 중요한 애플리케이션, 예를 들어 게임 엔진이나 고성능의 수치 계산에는 적합하지 않을 수 있습니다.</p>
+
+<h4 id="2-모바일-및-웹-클라이언트-개발">2) 모바일 및 웹 클라이언트 개발</h4>
+<p>웹 서버 측 스크립트나 데이터 처리에 주로 사용되지만, 웹 클라이언트 측 개발에는 JavaScript 등 다른 언어가 더욱 선호됩니다(Streamlit 이나 FastHTML이 나왔지만 한계가 명확합니다). 또한, IOS나 Android와 같은 모바일 환경에서의 앱 개발에는 잘 사용되지 않습니다.</p>
+
+<h4 id="3-멀티코어-cpu-활용">3) 멀티코어 CPU 활용</h4>
+<p>Python의 GIL(Global Interpreter Lock) 때문에 멀티코어 CPU를 효율적으로 활용하는 것이 어렵습니다. 이는 병렬 처리가 필요한 고성능 애플리케이션에서는 문제가 될 수 있습니다.</p>
+
+<h4 id="4-데이터베이스-접근">4) 데이터베이스 접근</h4>
+<p>데이터베이스 접근에 있어서 다른 언어들에 비해 제한적인 측면이 있습니다. Python의 데이터베이스 연동 기능은 상대적으로 느리고, 대규모 트래픽과 데이터를 처리하기 위한 엔터프라이즈급 애플리케이션에는 제한적일 수 있습니다.</p>
+
+<h2 id="python의-활용-사례">Python의 활용 사례</h2>
+<p>지금까지 살펴본 Python의 특징을 바탕으로 과연 Python은 어디에 활용되었는지 살펴보겠습니다.</p>
+
+<h3 id="기업에서의-활용">기업에서의 활용</h3>
+<h4 id="1-google">1) Google</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/google_logo.png" alt="python_history" width="300" />
+    <p style="font-size: smaller;"><em>이미지 출처: google</em></p>
+</div>
+
+<p>구글은 백엔드에서 C++과 Python을 결합해 활용하고 있습니다. 짧은 대기시간과 엄격한 메모리 제어가 중요한 스택에는 C++을 프그램의 빠른 전달과 유지 관리가 필요한 부분에서는 Python을 사용합니다.</p>
+
+<h4 id="2-instagram">2) Instagram</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/instagram.png" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Business Insider</em></p>
+</div>
+
+<p>Python으로 작성된 오픈 소스 웹 프레임워크인 Django를 기본 서버 측 언어로 사용하고 있습니다.</p>
+
+<h4 id="3-netflix">3) Netflix</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/Netflix-Logo.jpg" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Netfilx</em></p>
+</div>
+
+<p>방대한 표준 라이브러리, 간결하고 깔끔한 구문, 대규모 커뮤니티, 풍부한 타사 라이브러리 등을 이유로 Python을 자사 서비스에 적극적으로 활용하고 있습니다.</p>
+
+<h4 id="4-spotify">4) Spotify</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/spotify-logo.jpg" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Belwood music</em></p>
+</div>
+
+<p>음악 스트리밍 및 미디어 서비스 제공 업체 Spotify는 Python을 활용해 빌드 되었으며, 백앤드의 80%가 Python으로 작성되어 있다고 알려져있습니다.</p>
+
+<h4 id="5-dropbox">5) Dropbox</h4>
+
+<div style="text-align:center">
+    <img src="/images/language/python/about_python/dropbox.png" alt="python_history" width="400" />
+    <p style="font-size: smaller;"><em>이미지 출처: Dropbox</em></p>
+</div>
+
+<p>외부 오픈 소스 코드와 자체 작성한 코드 모두 Python을 사용하고 있습니다(귀도 반 로썸도 Dropbox 개발자 출신이기도 합니다).</p>
+
+<h3 id="python의-활용-영역">Python의 활용 영역</h3>
+<h4 id="1-시스템-유틸리티-제작">1) 시스템 유틸리티 제작</h4>
+<p>운영체제의 시스템 명령어를 사용할 수 있는 각종 도구를 갖추고 있습니다. 파일 관리, 로그 분석, 시스템 모니터링 등과 같은 여러 시스템 유틸리티를 만드는데 유리합니다.</p>
+
+<h4 id="2-gui-프로그래밍">2) GUI 프로그래밍</h4>
+<p>GUI 프로그래밍을 위한 도구들이 잘 갖추어져 있다. 대표적으로 PyQt5, PyGUI, Tkinter 등이 있습니다.</p>
+
+<h4 id="3-cc과의-결합">3) C/C++과의 결합</h4>
+<p>C나 C++로 만든 프로그램을 파이썬에서 사용할 수 있고, 반대로 파이썬으로 만든 프로그램을 C나 C++에서 사용하는 것도 가능합니다.</p>
+
+<h4 id="4-웹-프로그래밍">4) 웹 프로그래밍</h4>
+<p>웹 클라이언트를 만드는 것은 어려우나 웹 프로그램를 제작하기에 매우 적합하여, 파이썬으로 웹 사이트를 제작하는 경우가 많습니다(주로 프론트 영역은 JavaScript, 백엔드를 Python으로 사용하는 경우 입니다).</p>
+
+<h4 id="5-수치-연산-프로그래밍">5) 수치 연산 프로그래밍</h4>
+<p>수치 연산 프로그래밍에는 사실 C언어가 적합합니다. 하지만 Python의 NumPy라는 수치 연산 모듈이 C로 작성되었기 때문에 Python에도 빠른 수치 연산을 수행할 수 있습니다.</p>
+
+<h4 id="6-데이터-분석">6) 데이터 분석</h4>
+<p>Numpy, Pandas, Matplotlib 등의 라이브러리를 활용하여 데이터 처리, 통계 분석, 시각화를 수행할 수 있습니다. 아직까지는 데이터분석에 특화된 R이라는 언어가 더 많이 사용되고 있지만, 최근 들어 파이썬을 사용하는 추세가 굳어지고 있습니다.</p>
+
+<h4 id="7-데이터-베이스-프로그래밍">7) 데이터 베이스 프로그래밍</h4>
+<p>Sybase, Infomix, Oracle, MySQL, PostgreSQL 등의 데이터베이스에 접근하기 위한 도구를 제공합니다.</p>
+
+<h4 id="8-인공지능과-머신러닝">8) 인공지능과 머신러닝</h4>
+<p>Python을 활용하여 자연어 처리, 음성 인식, 이미지 인식과 같은 인공지능 기술을 구현할 수 있습니다. 인공지능과 머신러닝 프로그래밍에는 Scikit-Learn, TensorFlow, PyTorch, Keras 등의 라이브러리가 사용됩니다.</p>
+
+<h2 id="마무리">마무리</h2>
+<p>오늘은 파이썬의 역사, 특징, 활용 분야까지 살펴봤습니다. Python이 널리 사용된 이유는 간결하고 쉽기 때문입니다. 문법이 다른 프로그래밍 언어에 비해 어렵지 않으며, 표현하는 구조도 사람이 대화하는 형식을 이용함으로서 초보자도 쉽게 배울 수 있다는 강점이 있습니다. 또한, 개발자가 누구든지 무료로 쓸 수 있도록 오픈 소스로 제공한 것도 큰 역할을 했다고 볼 수 있습니다. 현재 Python은 속도를 높이기 위해 지속적으로 업데이트를 진행하고 있습니다. 앞으로도 파이썬은 더 많은 분야에서 사용될 것으로 예상되며, 특히 인공지능 분야에 더 많이 활용될 것으로 보입니다. 프로그래밍 언어를 배우고자 하시는 분들에게 Python은 좋은 선택이 될 것입니다. 한번 배워보시는 것은 어떨까요?</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#programming-language" class="page__taxonomy-item p-category" rel="tag">Programming Language</a><span class="sep">, </span>
+    
+      <a href="/tags/#python" class="page__taxonomy-item p-category" rel="tag">Python</a><span class="sep">, </span>
+    
+      <a href="/tags/#python-characteristic" class="page__taxonomy-item p-category" rel="tag">Python Characteristic</a><span class="sep">, </span>
+    
+      <a href="/tags/#python-history" class="page__taxonomy-item p-category" rel="tag">Python History</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#python" class="page__taxonomy-item p-category" rel="tag">Python</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2024-09-26T00:00:00+09:00">2024-09-26</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Python%EC%9D%80+%EC%96%B4%EB%96%A4+%EC%96%B8%EC%96%B4%EC%9D%B8%EA%B0%80%3F%20http%3A%2F%2Flocalhost%3A4000%2Fpython%2Fabout_python%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fpython%2Fabout_python%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fpython%2Fabout_python%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/news/news18/" class="pagination--pager" title="AI에게 인간이 필요한 이유
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news18/" rel="permalink">AI에게 인간이 필요한 이유
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-11T00:00:00+09:00">2024-09-11</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2024년 08월 30일자 미라클레터에서 발췌]
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news17/" rel="permalink">최악의 IT 대란이라는데… 왜 한국은 괜찮을까?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-02T00:00:00+09:00">2024-08-02</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2024년 07월 22일자 테크이슈에서 발췌]
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news16/" rel="permalink">2024년 상반기 IT 트렌드 총정리
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-07-04T00:00:00+09:00">2024-07-04</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2024년 07월 04일자 테크이슈에서 발췌]
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news15/" rel="permalink">애플은 이제 AI회사가 됩니다. [WWDC2024]
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-06-12T00:00:00+09:00">2024-06-12</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2024년 06월 12일자 미라클레터에서 발췌]
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 ki-sung. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/python/about_python/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/python/about_python"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://NinT.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

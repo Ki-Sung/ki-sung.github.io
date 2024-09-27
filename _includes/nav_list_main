@@ -175,6 +175,13 @@
             <span class="nav__sub-title">Language</span>
                 <ul>
                     {% for category in site.categories %}
+                        {% if category[0] == "Python" %}
+                            <li><a href="/categories/Python" class="">Python ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <ul>
+                    {% for category in site.categories %}
                         {% if category[0] == "Server1" %}
                             <li><a href="/categories/server1" class="">C# 유니티 서버 ({{category[1].size}})</a></li>
                         {% endif %}
@@ -185,13 +192,6 @@
                     {% for category in site.categories %}
                         {% if category[0] == "DB" %}
                             <li><a href="/categories/db" class="">MySQL ({{category[1].size}})</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-                <ul>
-                    {% for category in site.categories %}
-                        {% if category[0] == "Programmers SQL" %}
-                            <li><a href="/categories/programmers-sql" class="">프로그래머스 SQL ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
