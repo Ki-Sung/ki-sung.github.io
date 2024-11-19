@@ -124,4 +124,10 @@ var store = [{
         "tags": ["AI","Human","AI Philosophy"],
         "url": "/news/news18/",
         "teaser": null
+      },{
+        "title": "빅테크 동맹의 균열, 그 내막은?",
+        "excerpt":"[2024년 10월 21일자 미라클레터에서 발췌] 2024년 10월 18일 OpenAI가 ChatGPT 윈도우 버전을 발표했습니다. 윈도우 버전용 ChatGPT는 단축키(Alt + Space)만 누르면 언제든지 호출해 쓸 수 있는 PC용 앱 입니다(MacOS 버전을 5월에 출시했으니 비교적 늦게 출시했네요). MicroSoft는 OpenAI에 무려 230억 달러를 투자한 빅테크 기업입니다. 작년 11월 샘 올트먼이 CEO에서 쫓겨났을 때는, 시티아...","categories": ["News"],
+        "tags": ["Big Tech","Alliance","Alliance Rift","AI","MS vs OpenAI","nVIDIA vs TSCM"],
+        "url": "/news/news19/",
+        "teaser": null
       }]
