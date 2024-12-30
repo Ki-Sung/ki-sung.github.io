@@ -130,4 +130,10 @@ var store = [{
         "tags": ["Big Tech","Alliance","Alliance Rift","AI","MS vs OpenAI","nVIDIA vs TSCM"],
         "url": "/news/news19/",
         "teaser": null
+      },{
+        "title": "2024년 IT 트렌드 총정리",
+        "excerpt":"[2024년 12월 23일자 테크잇슈에서 발췌] 2024년의 마지막이 얼마 남지 않았습니다. 올해 한 해를 마무리하며, 주요 IT 소식들을 돌아보는 시간을 가져보려 합니다. 지난해에 이어 올해도 AI 기술이 화제의 중심이었지만, IT 산업의 전반적인 흐름을 군형 있게 살펴보기 위해 다양한 산업 트렌드를 두루 살펴보고, 흐름을 이해하기 쉽도록 월별로 소식들을 정리해보았습니다. 1월 - 뉴럴링크,...","categories": ["News"],
+        "tags": ["2024 IT Trend","Summary of 2024 Trends"],
+        "url": "/news/news20/",
+        "teaser": null
       }]

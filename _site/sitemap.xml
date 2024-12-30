@@ -101,6 +101,10 @@
 <lastmod>2024-10-29T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/news/news20/</loc>
+<lastmod>2024-12-30T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about-me/</loc>
 </url>
 <url>
@@ -147,6 +151,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/page5/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page6/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/google1bb5498c1f542d5c.html</loc>
