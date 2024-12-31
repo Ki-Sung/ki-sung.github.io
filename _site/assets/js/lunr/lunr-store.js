@@ -136,4 +136,10 @@ var store = [{
         "tags": ["2024 IT Trend","Summary of 2024 Trends"],
         "url": "/news/news20/",
         "teaser": null
+      },{
+        "title": "2025년 기술 트렌드, 핵심만 알려드립니다.",
+        "excerpt":"[2024년 12월 02일자 테크잇슈에서 발췌] 어느덧 2025년이 코앞으로 다가왔습니다. 매년 이맘때면 새해를 전망하는 글들로 가득한데요. 오늘은 그중에서도 가장 핵심이 될 다섯 가지 기술 트렌드를 살펴보려고 합니다. Sustainability (지속 가능성) 지속가능성을 뜻하는 Sustainability는 최근 몇 년간 꾸준히 주목받은 키워드입니다. 그러나 실질적인 변화는 더딘 상황이었으며, 최근 AI 기술 경쟁이 치열해지면서 데이터센터의 전력...","categories": ["News"],
+        "tags": ["2025 IT Trend","Summary of 2025 IT Trends","Sustainability","Computing","AI Agent","Robotics","XR"],
+        "url": "/news/news21/",
+        "teaser": null
       }]
