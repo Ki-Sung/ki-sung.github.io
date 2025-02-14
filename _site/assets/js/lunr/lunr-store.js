@@ -142,4 +142,10 @@ var store = [{
         "tags": ["2025 IT Trend","Summary of 2025 IT Trends","Sustainability","Computing","AI Agent","Robotics","XR"],
         "url": "/news/news21/",
         "teaser": null
+      },{
+        "title": "'CES 2025' 10대 키워드로 보는 기술 트렌드",
+        "excerpt":"[2025.01.16 자 요즘 IT ‘CES 2025’ 10대 키워드로 보는 기술 트렌드 발췌] 2025년도 IT 업계의 포문을 CES 2025가 성황리에 마무리되었습니다. 세계 3대 IT 전시회 중 하나인 CES(Customer Electronic Show)는 매년 초에 열리면서 그해의 기술 트렌드를 가늠할 수 있는 중요한 항사인데요. 조금 늦은 감이 있지만, CES 2025를 통해 과연 올해는 어떤...","categories": ["News"],
+        "tags": ["2025 IT Trend","CES 2025","10-Keyword"],
+        "url": "/news/news22/",
+        "teaser": null
       }]
