@@ -148,4 +148,10 @@ var store = [{
         "tags": ["2025 IT Trend","CES 2025","10-Keyword"],
         "url": "/news/news22/",
         "teaser": null
+      },{
+        "title": "2025년 상반기 IT 트렌드 7가지",
+        "excerpt":"[2025.06.25 자 테크잇슈 ‘2025년 상반기 IT 트렌드, 결정적 장면 7가지’ 발췌] 안녕하세요, 블로그 주인장 꼬부기 입니다. 오랜만에 블로그를 통해 인사드립니다. 그동안 업무가 많아 블로그 활동이 잠시 뜸했습니다만, 이제 다시 돌아와 새로운 이야기로 여러분을 찾아뵙게 되었습니다. 오늘은 그 이야기로 “2025년 상반기 IT 트렌드 결정적 장면 7가지”를 준비했습니다. 2025년 상반기 IT 분야는...","categories": ["News"],
+        "tags": ["First Half of The Year","2025 IT Trend","7-keyword"],
+        "url": "/news/news23/",
+        "teaser": null
       }]
