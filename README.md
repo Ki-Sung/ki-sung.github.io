@@ -6,4 +6,4 @@
 #### 블로그 구성
 - News
 - Books
-- 추후 추가 예정
+- Programming Language
