@@ -154,4 +154,10 @@ var store = [{
         "tags": ["First Half of The Year","2025 IT Trend","7-keyword"],
         "url": "/news/news23/",
         "teaser": null
+      },{
+        "title": "쿠팡의 아마존 따라 잡기 - 쿠팡 클라우드 사업 진출",
+        "excerpt":"[2025.07.14 자 테크잇슈 ‘쿠팡의 아마존 따라잡기, 이번에도 성공할까?’ 발췌] 안녕하세요, 꼬부기 입니다. 가만히 있어도 더운 요즘입니다. 이 더운 날씨에 아주 Hot 소식이 들려왔습니다. 바로 쿠팡의 클라우드 사업 진출 소식입니다. 과연 쿠팡은 이커머스 사업을 넘어 클라우드 사업까지 성공시킬 수 있을까요? 아티클을 통해서 만나보시죠! 쿠팡의 클라우드 사업 진출 최근 정부는 ‘AI 3대...","categories": ["News"],
+        "tags": ["Coupang","Coupang Clousd Service","Amazon"],
+        "url": "/news/news24/",
+        "teaser": null
       }]

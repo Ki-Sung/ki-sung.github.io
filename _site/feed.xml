@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-26T23:52:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">2025년 상반기 IT 트렌드 7가지</title><link href="http://localhost:4000/news/news23/" rel="alternate" type="text/html" title="2025년 상반기 IT 트렌드 7가지" /><published>2025-06-26T00:00:00+09:00</published><updated>2025-06-26T00:00:00+09:00</updated><id>http://localhost:4000/news/news23</id><content type="html" xml:base="http://localhost:4000/news/news23/"><![CDATA[<p>[2025.06.25 자 테크잇슈 ‘2025년 상반기 IT 트렌드, 결정적 장면 7가지’ 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-15T20:54:41+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">쿠팡의 아마존 따라 잡기 - 쿠팡 클라우드 사업 진출</title><link href="http://localhost:4000/news/news24/" rel="alternate" type="text/html" title="쿠팡의 아마존 따라 잡기 - 쿠팡 클라우드 사업 진출" /><published>2025-07-15T00:00:00+09:00</published><updated>2025-07-15T00:00:00+09:00</updated><id>http://localhost:4000/news/news24</id><content type="html" xml:base="http://localhost:4000/news/news24/"><![CDATA[<p>[2025.07.14 자 테크잇슈 ‘쿠팡의 아마존 따라잡기, 이번에도 성공할까?’ 발췌]</p>
+
+<p>안녕하세요, 꼬부기 입니다.</p>
+
+<p>가만히 있어도 더운 요즘입니다.</p>
+
+<p>이 더운 날씨에 아주 Hot 소식이 들려왔습니다. 바로 쿠팡의 클라우드 사업 진출 소식입니다.</p>
+
+<p>과연 쿠팡은 이커머스 사업을 넘어 클라우드 사업까지 성공시킬 수 있을까요? 아티클을 통해서 만나보시죠!</p>
+
+<h3 id="쿠팡의-클라우드-사업-진출">쿠팡의 클라우드 사업 진출</h3>
+<p>최근 정부는 ‘AI 3대 강국’ 도약을 목표로 다양한 전략을 본격적으로 추친하고 있습니다. 그중 하나가 약 1.4조원을 투입해 최신형 GPU를 대규모로 확보하고, 이를 기반으로 AI 클라우드 서비스를 구축하려는 프로젝트 입니다.</p>
+
+<p>이렇게 확보된 GPU는 인프라가 부족한 국내 산학연(산업계, 학계, 연구 분야)에 제공하여 경쟁력을 끌어올릴 계획입니다.</p>
+
+<p>이 프로젝트는 규모가 규모인 만큼 참가 기업도 화려합니다. 네이버, 카카오, NHN 등 국내 대표 기술 기업이 참여하여 예상대로 뜨거운 경쟁이 벌어지고 있는데요, 이들 사이에 뜻밖에 이름 하나가 있는데, 바로 쿠팡입니다.</p>
+
+<p>쿠팡은 그동안 쿠팡 내부 서비스와 외부 연구기관, 스타트업에 제공되던 AI 인프라를 리브랜딩한 ‘CIC(Coupang Intelligent Cloud)’ 출범을 알리며 본격적인 클라우드 시장 참전을 알렸습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-07-15-news24/coupang_cloud.jpg" alt="news-24" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Coupang </em></p>
+</div>
+
+<p>쿠팡은 모두가 잘 아는 이커머스 기업입니다. 물론 배달앱 ‘쿠팡이츠’, OTT 플랫폼 ‘쿠팡플레이’ 등을 통해 사업을 확장해 왔지만, 클라우드 사업에 등장한 모습은 생소하게 느껴집니다. 하지만 이 모습은 마냥 생소하지도 않습니다.</p>
+
+<p>쿠팡의 성장 전략은 아마존을 벤치마킹해 왔다는 사실은 이미 잘 알려져 있기 때문입니다. 이커머스로 시작해 AWS라는 클라우드 서비스로 제2의 도약을 이뤄낸 아마존의 행보를 떠올리면, 쿠팡의 이번 선택 역시 어찌 보면 예고된 수순처럼 보이기도 합니다.</p>
+
+<h3 id="쿠팡이-클라우드-사업에-뛰어든-이유">쿠팡이 클라우드 사업에 뛰어든 이유</h3>
+
+<h4 id="1-새로운-성장-동력-필요">1. 새로운 성장 동력 필요</h4>
+<p>앞서 살펴본 것 처럼 쿠팡의 클라우드 진출은 어느 정도 예상 가능한 시나리오였습니다. 그러나 우리가 주목해야 할 것은 진출 타이밍입니다.</p>
+
+<p>현재 쿠팡이 주력하고 있는 국내 이커머스 시장은 성장세가 점점 둔화되고 있습니다. 통계청에 따르면, 온라인 쇼핑 거래액은 매년 최고치를 경신 중이지만, 2022년까지 10% 이상을 유지하던 성장률은 2024년 5.8%까지 하락하며 하락세를 보이고 있습니다. 여기에 네이버와의 경쟁도 점차 치열해지고 있는 상황입니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-07-15-news24/static_for_coupang.png" alt="news-24" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: 통계청 </em></p>
+</div>
+
+<p>여기에 이커머스는 본질적으로 마진이 낮은 산업입니다. 과거에는 고속 성장에 기반해 적자를 감내하며 규모를 키우는 전략이 가능했지만, 성장 한계에 도달한 시점에서 지속 가능한 수익 모델 확보가 더 중요한 과제가 된 이유입니다.</p>
+
+<p>이런 상황에서 클라우드 사업은 쿠팡에 매우 매력적인 대안입니다. 규모의 경제만 달성하면 높은 수익률을 확보할 수 있는 구조이기 때문인데요. 실제로 아마존의 경우 다양한 사업을 운영하고 있지만, 전체 영업이익의 대부분은 AWS(아마존 웹 서비스)에서 발생하고 있습니다.</p>
+
+<h4 id="2-체질-개선">2. 체질 개선</h4>
+<p>ChatGPT 출시 이후, 모든 기업의 경쟁력은 ‘AI를 얼마나 잘 다루는가’로 빠르게 재편되고 있습니다. 이커머스 기업이라고 예외는 아닌데요. 검색, 추천, 고객응대, 물류 자동화 등 거의 모든 분야에서 AI 기술의 유무가 서비스 품질과 비용 구조를 좌우하고 있기 때문입니다. 이제는 단순히 AI를 도입하는 수준을 넘어, 얼마나 고도화된 AI를, 얼마나 유연하게 내부에 녹여낼 수 있는가가 생존의 기준이 되고 있습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-07-15-news24/cb_insight.png" alt="news-24" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: CB Insight </em></p>
+</div>
+
+<p>쿠팡 역시 이 흐름에서 자유로울 수 없습니다. 이미 다양한 영역에서 AI 기술을 활용하고 있지만, 경쟁력을 계속해서 끌어올리기 위해서는 고성능 연산 자원과 독립적인 클라우드 인프라 확보가 필수적입니다. 이번 GPU 조달 사업 참여는 단순한 신사업 확장이 아니라, 쿠팡이라는 기업의 기술 체질을 AI 중심으로 재편하려는 움직임으로 해석할 수 있습니다.</p>
+
+<p>AI는 잘하면 도약의 기회가 되지만, 못하면 경쟁력의 붕괴의 시작이 될 수 있습니다. 특히 플랫폼 기업에게 AI는 이제 ‘선택’이 아닌 ‘필수’가 됐습니다. 쿠팡의 이번 인프라 사업 확장은 어쩌면 ‘생존형 투자’라 볼 수 있습니다.</p>
+
+<h3 id="다시-시작된-모-아니면-도">다시 시작된 ‘모’ 아니면 ‘도’</h3>
+
+<p>쿠팡의 클라우드 사업 진출은 단순한 사업 확장을 넘어서는 전략적 의미를 지닙니다. 성장세가 둔화된 이커머스 본업의 한계를 극복하기 위한 도전이자, AI 시대의 흐름에 뒤처지지 않기 위한 불가피한 선택이기도 합니다. 다만, 정부의 국내 AI 산업 육성 기조와 산업 전반의 패러다임 전환을 고려하면, 지금이 진입 타이밍으로 나쁘지 않은 시점인 것도 사실입니다.</p>
+
+<p>그러나 클라우드는 단순히 물량을 쏟아붓는다고 성과가 보장되는 영역이 아닙니다. 고도화된 기술력, 안정적 운영 경험, 그리고 무엇보다 시장 신뢰가 축적되어야 비로소 성과를 낼 수 있는 영역입니다. 쿠팡이 수도권에 대규모 데이터센터와 GPU 인프라를 갖췄다고는 하지만, AI 특화 클라우드로서의 완성도를 높이려면 기술 스택부터 파트너 생태계 구축까지 전방위적인 역량이 필요합니다.</p>
+
+<p>또한, 국내 시장만 보더라도 글로벌 빅테크가 이미 민간 시장의 70~80%를 장악하고 있고, 국내 사업자들은 규제가 적용되는 공공 시장에서 제한적으로 경쟁하고 있는 형국입니다. 국내 시장 진입도 만만치 않은 가운데, 규모의 경제를 고려한다면 쿠팡 역시 글로벌 진출을 염두에 둘 수밖에 없을 텐데, 이는 훨씬 더 치열하고 복잡한 경쟁 환경을 의미합니다.</p>
+
+<p>결국 쿠팡이 클라우드에서 의미 있는 성과를 내려면, 기술·브랜드·정책 환경을 유리하게 엮어내는 정교한 전략 설계가 필요합니다. 그리고 이 전략은 쿠팡식 ‘계획된 적자 성장’의 시즌 2가 될 가능성이 큽니다. 문제는 시즌 2는 시즌 1보다 훨씬 더 큰 투자가 필요하다는 것인데요. 성공한다면, 아마존 벤치마킹의 마지막 조각을 완성하는 사례로 남겠지만, 실패할 경우 혹독한 대가를 치르게 될 수 있습니다.</p>
+
+<h3 id="불가능은-없다---쿠팡의-현-상황">불가능은 없다? - 쿠팡의 현 상황</h3>
+
+<p>분명 쿠팡의 상황이 녹록지 않은 것은 사실이지만, 기회가 아예 없는 것은 아닙니다.</p>
+
+<h4 id="1인재-확보">1.인재 확보</h4>
+<p>우선 인재 확보 측면에서 쿠팡은 비교적 강점을 가지고 있습니다. 한국에서는 ‘네카라쿠배’로 불리는 주요 IT 기업 중 하나로 인식되고 있으며, 이미 검색, 추천, 가격 최적화 등 이미 다양한 영역에서 AI 기술을 활용해 온 경험이 있습니다. 여기에 막대한 양의 데이터를 보유하고 있다는 점도 무시할 수 없는 경쟁력입니다.</p>
+
+<p>여기에 미국 나스닥 상장사라는 배경 아래, 최근에는 최대 32만 달러의 연봉을 내걸고 실리콘밸리 출신의 기술 인재 확보에 적극 나서고 있는데요. 인도에 개발센터를 설립해 현지 채용을 확대하고 있다는 점도 글로벌 인재 확보를 위한 전략이라 볼 수 있습니다.</p>
+
+<h4 id="2-aws-국내-대안">2. AWS 국내 대안</h4>
+<p>또한, 앞서 언급했듯 국내 클라우드 시장에서 AWS의 점유율은 약 60%에 달합니다. 글로벌 평균을 훌쩍 웃도는 이 수치는 쿠팡 입장에서 오히려 기회 요인이 될 수 있는데요. 쿠팡에게는 특유의 브랜드 서사가 존재하기 때문입니다.</p>
+
+<p>‘한국의 아마존’이라고 별칭은 단순한 비유가 아닙니다. 실제로 로켓배송, 쿠팡이츠, 쿠팡플레이 등 사업 확장에서 아마존의 성장 전략을 충실히 벤치마킹해 왔다는 사실에 기반하고 있는데요. 이번 AI 클라우드 진출 역시 아마존의 AWS를 연상시키는 흐름 위에 있습니다.</p>
+
+<p>물론 단기간 내에 AWS에 필적하는 기술 경쟁력을 확보하기는 어렵겠지만, ‘쿠팡 = 아마존’, ‘쿠팡 클라우드 = AWS’라는 브랜드 공식을 장기적으로 확립해 나간다면, AWS의 국내 대체재로서는 경쟁사보다 상대적으로 유리한 고지를 점할 수 있는 잠재력이 있습니다.</p>
+
+<p>물론 위 상황은 어디까지나 낙관적인 시나리오 입니다. 과연 쿠팡은 현실의 장벽을 딛고, 이번에도 아마존을 따라잡는데 성공할 수 있을지 지켜봐야겠습니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Coupang" /><category term="Coupang Clousd Service" /><category term="Amazon" /><summary type="html"><![CDATA[[2025.07.14 자 테크잇슈 ‘쿠팡의 아마존 따라잡기, 이번에도 성공할까?’ 발췌]]]></summary></entry><entry><title type="html">2025년 상반기 IT 트렌드 7가지</title><link href="http://localhost:4000/news/news23/" rel="alternate" type="text/html" title="2025년 상반기 IT 트렌드 7가지" /><published>2025-06-26T00:00:00+09:00</published><updated>2025-06-26T00:00:00+09:00</updated><id>http://localhost:4000/news/news23</id><content type="html" xml:base="http://localhost:4000/news/news23/"><![CDATA[<p>[2025.06.25 자 테크잇슈 ‘2025년 상반기 IT 트렌드, 결정적 장면 7가지’ 발췌]</p>
 
 <p>안녕하세요, 블로그 주인장 꼬부기 입니다. 오랜만에 블로그를 통해 인사드립니다. 그동안 업무가 많아 블로그 활동이 잠시 뜸했습니다만, 이제 다시 돌아와 새로운 이야기로 여러분을 찾아뵙게 되었습니다.</p>
 
@@ -1030,96 +1112,4 @@
 
 <p>지금까지 주요 기술 3가지와 주요 기업 3곳을 중심으로 2024년 상반기 IT 트렌드를 정리해 보았습니다. 이 외에도 애플카 프로젝트 중단과 중국 모빌리티 기업의 약진, 뉴럴링크 칩 이식 성공 등 생명공학 기반 기술의 발전, 국내 OTT 경쟁의 심화 등이 주요 이슈로 기억될 것 같습니다.</p>
 
-<p>이제 2024년도 절반이 지났습니다. 남은 하반기는 과연 어떤 뉴스들이 쏟아져 나올까요? 열심히 블로그에 남겨보도록 하겠습니다. 감사합니다. :)</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="The First Half" /><category term="IT Trend" /><summary type="html"><![CDATA[[2024년 07월 04일자 테크이슈에서 발췌]]]></summary></entry><entry><title type="html">애플은 이제 AI회사가 됩니다. [WWDC2024]</title><link href="http://localhost:4000/news/news15/" rel="alternate" type="text/html" title="애플은 이제 AI회사가 됩니다. [WWDC2024]" /><published>2024-06-12T00:00:00+09:00</published><updated>2024-06-12T00:00:00+09:00</updated><id>http://localhost:4000/news/news15</id><content type="html" xml:base="http://localhost:4000/news/news15/"><![CDATA[<p>[2024년 06월 12일자 미라클레터에서 발췌]</p>
-
-<p>부쩍 날씨가 더워진 6월 둘째 주 입니다. 날씨가 뜨거워진 것만큼 이번 주 핫한 소식이 있는데, 바로 Apple에서 주최한 WWDC 2024입니다. 과연 어떤 내용이 있었는지 바로 알아보도록 하겠습니다.</p>
-
-<h3 id="애플-지능apple-intelligence의-탄생">애플 지능(Apple Intelligence)의 탄생</h3>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-06-12-news15/wwdc_2024.jpg" alt="news-15" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: Apple, WWDC2024 팀쿡의 기조연설</em></p>
-</div>
-
-<p>Apple WWDC2024의 내용은 사실 블룸버그의 보도로 많은 부분이 유출되었는데요. WWDC2024는 과연 유출된 내용을 애플이 얼마나 설득력 있는 내러티브로 엮어내는지를 보여주는 자리였다고 합니다.<br />
-2시간 동안 사전 녹화된 영상을 틀어주고 함께 시청하는 것이었기 때문에 서프라이즈도 없었다고 해요. 하지만 애플이 AI를 어떻게 소비자들에게 기져올지를 엄청 고민했다는 것을 알 수 있었다고 WWDC2024 참석자 분들은 이야기 합니다.</p>
-
-<p>Apple은 Apple 생태계 기기 iPhone, iPad, Mac을 관통하는 생성형 AI를 ‘애플지능(Apple Intelligence)’이라고 부르기로 했어요. 앞으로 AI는 인공지능이 아니라 애플지능이라고 부르겠다는 Apple의 ‘애플중심적 사고’가 눈에 띄었습니다.</p>
-
-<p>AI가 소비자들에게 쓸모있는 서비스를 위해서 가장 중요한 것은 무엇인지 Apple은 너무 잘 알고 있었어요. 바로 “개인화” 입니다. Apple은 이를 “Personal Context”라고 설명했어요. AI가 개인의 사적인 대화 및 경험의 맥락을 이해하고 있어야 고객들에게 가장 쓸모 있는 AI가 된다는 것을 강조하고 있습니다.</p>
-
-<p>그러나 소비자 개인화를 위해서 개인정보를 가져와야하는데, 이는 소비자들에게 예민할 수밖에 없는 문제입니다. 문제는 생성형 AI는 모델의 사이즈가 크기 때문에 iPhone 등 디바이스에서 계산하기 어렵다는 것입니다. 이를 동작시키기 위해서는 데이터를 데이터 센터(예: 클라우드)로 보내서 이를 연산시키고 다시 가져오는 절차가 필요합니다.</p>
-
-<p>이를 위해서 Apple은 어떻게 하기로 했냐면 직접 데이터센터를 만들기로 했습니다. 자신들의 AI 반도체가 탑재된 데이터 센터를 만들고 고객의 데이터는 여기서만 처리하기로 한 것. 그 이름은 바로 “Private Cloud Compute” 라고 정했습니다. 그래서 온디바이스로 애플 반도체에서 처리할 수 있는 것은 온디바이스에서, 높은 연산이 필요한 것은 클라우드로 보내는 하이브리드 AI를 하기로 했습니다.</p>
-
-<p>이렇게 고객의 정보를 가져와 어떤 것을 할까요?</p>
-
-<p>첫 번째, Siri가 좀 더 개인화된 비서가 됩니다. 생성형 AI가 고객을 좀더 잘 이해해서 맞춤화된 서비스를 제공해준다고 합니다(내 말을 잘 알아듣는 개인용 비서를 만드는 것이 애플의 목표!).</p>
-
-<p>두 번째, 앱에 실제 명령을 내리는 것이 가능해집니다. 현재는 Siri와 AI를 가지고 Apple이 직접만든 앱에게 명령을 내릴 수 있지만 장기적으로는 서드파티앱(우버나 배민같은)에도 확장 될 것이라고 했습니다.</p>
-
-<h4 id="고객의-데이터-획득">고객의 데이터 획득!</h4>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-06-12-news15/apple_pcc.png" alt="news-15" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: Apple, Apple Private Cloud Compute</em></p>
-</div>
-
-<p>여기까지 들으신 분들은 이렇게 생각하실거에요. 너무 당연한 것 아니야? 혁신이 어딨지? 삼성 갤럭시와 구글, 오픈AI가 생각하고 먼저 공개했던거 아니야? ‘이번에도 혁신은 없는거 아냐?’</p>
-
-<p>여기서의 대답은 “네, 맞습니다.”</p>
-
-<p>그런데 Apple의 AI 진입을 AI 경쟁이 아니라 디바이스 생태계 경쟁이라고 보면 저는 매우 위협적이고 강력한 Apple의 또 하나의 Lock-In(생태계에서 빠져나오지 못하게 하는 것)요소가 생겼다는 생각이 들었습니다.</p>
-
-<p>먼저 개인화된 AI 서비스를 제공하기 위해서는 고객의 개인데이터가 필요한데요. 이를 가지고 있는 회사는 Apple과 Google 정도입니다. Apple은 디바이스에 저장된 데이터, 메일, iCloud에 저장된 고객 데이터를 갖고 있어요. Google도 안드로이드 디바이스에 저장된 데이터, Gmail 등에 데이터를 갖고 있습니다.</p>
-
-<p>문제는 기꺼이 고객이 자신의 데이터를 Apple에게 맡길 것인지하는 문제인데 Apple은 이를 ‘직접 데이터센터를 구축’하는 방식으로 푸는 것 같습니다. 그리고 Apple의 개인정보 보호에 대한 집착(!) 덕분에 고객들의 신뢰를 얻고 있죠.</p>
-
-<p>Google도 자신의 생태계에 있는 데이터를 고객의 데이터를 사용하도록 해야하는데요. 문제는 Apple과 달리 Google은 스마트폰 디바이스 시장에서 삼성전자와 다른 제조사에 의존하고 있다는 것입니다. 이건 반대로 삼성전자도 마찬가지로 삼성전자는 AI와 클라우드(데이터센터)를 Google에 의존하고 있죠.</p>
-
-<p>이건 PC쪽도 마찬가지인데요. Google은 Chrome 브라우저를 통해서 고객의 인터넷 사용정보를 갖고있긴 하지만, PC에 저장된 데이터는 Microsoft의 Window에 더 많죠.</p>
-
-<p>Apple은 iPhone-Mac-iPad가 하나의 생태계로 개인정보가 공유되는데, Google이나 삼성, Microsoft는 각각 디바이스에 갇혀져 서로 공유되지 못하고 있어요. 일부 공유는 되겠지만.. Apple만큼 강력하지 않아요. 개인화된 AI가 소비자들에게 가장 중요한 킬러 서비스가 된다면 이 데이터확보가 중요할 것 같다는 생각이 들었습니다.</p>
-
-<h3 id="chatgpt-탑재한-siri-언제-나올까">ChatGPT 탑재한 Siri.. 언제 나올까?</h3>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-06-12-news15/gpt_siri.png" alt="news-15" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: Apple, ChatGPT Section</em></p>
-</div>
-
-<p>WWDC 2024 현장에 샘 올트먼이 등장했다고 합니다. 그는 제일 앞줄에 앉아서 ‘함께’ 방송을 시청했습니다. 하지만 키노트 영상에 등장하거나 깜짝 무대에 오르지는 않은 것 같습니다.</p>
-
-<p>하지만 공식적으로 애플과 오픈AI의 파트너십은 발표되었어요. 시리에는 챗GPT가 들어가서 시리에게 챗GPT를 통한 질문을 하는 것이 가능해졌습니다.</p>
-
-<p>애플이 개발한 AI 중에서 어느것이 애플이 직접 개발한 AI이고, 어느 것이 오픈AI의 GPT 기술을 가져온 것인지는 명확하지 않습니다. AI가 텍스트와 이미지를 이해하고, 이미지와 이모티콘을 생성하는 등 생성형 AI의 주요 기능이 Apple 기기에 도입된다고 합니다.</p>
-
-<p>하지만 Apple은 ‘올해 하반기부터 GPT-4o가 시리에 도입된다’고 말했고 다른 AI도 향후 도입할 것이라고 밝혔죠. OpenAI는 여러 파트너 중 하나라고 명확하게 선을 긋는 모습입니다.</p>
-
-<p>삼성전자 GlaxyAI의 경우 온디바이스로 처리되는 기술은 대부분 삼성전자가 직접 개발한 AI가, 클라우드로 처리되는 기술은 Google의 Gemini로 작동되는데, 애플도 동일한 방식을 선택한 것으로 보여집니다.</p>
-
-<h4 id="apple이-제시하는-모바일-ai의-모습">Apple이 제시하는 모바일 AI의 모습</h4>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-06-12-news15/apple_ai.png" alt="news-15" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: Apple, Apple Intelligence</em></p>
-</div>
-
-<ol>
-  <li>온디바이스로 처리할 수 있는 것은 Apple 디바이스에서 처리하고, 처리량이 큰 것은 클라우드에서 처리하는 하이브리드 방식 채택</li>
-  <li>Apple이 직접 데이터 센터를 만들어서 직접 고객 데이터를 처리하도록 채택</li>
-  <li>개인화된 정보를 바탕으로 개인 비서인 Siri를 출시, 테스트를 거쳐 내년에 졍교화 시키기</li>
-  <li>생성형 AI의 경우 기본적인 것은 Apple이 만들고, 정교한 작업은 ChatGPT에 맡기기. 그리고 GPT 말고 다른 생성형 AI가 들어올 수 있게 구축</li>
-</ol>
-
-<p>어떻게 보면 위의 내용은 지난 1월 삼성전자가 갤럭시S24를 공개하고 소프트웨어를 통해 기존 스마트폰들에 업데이트를 하면서 선택한 방향과 같아 보입니다. 결국 하이브리드로 생성형AI를 돌릴 수 밖에 없고, 외부업체의 AI를 사용할 수 밖에 없다는 거죠.<br />
-하지만 애플이 갖고 있는 가장 큰 차이점은 고객의 개인정보를 가져올 수 있고, 이를 데이터센터를 구축해 거기에서만 돌리겠다는 계획. 개인화된 AI에서 제일 중요한 것이 바로 ‘개인 데이터’와 ‘보안’임을 애플은 잘 알고 있는 것 같았습니다.<br />
-이제 개인과 기업의 데이터를 어떻게 체계적으로 정리하고, 이를 기록하도록 만드냐가 중요해질 것으로 보입니다.</p>
-
-<!-- Courtesy of embedresponsively.com -->
-
-<div class="responsive-video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/cErKv-cqSn8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-
-<p><em>CNET, Apple WWDC2024 발표 영상 12분 요약본</em></p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Apple" /><category term="WWDC2024" /><category term="AI" /><category term="Apple Intelligence" /><summary type="html"><![CDATA[[2024년 06월 12일자 미라클레터에서 발췌]]]></summary></entry></feed>
+<p>이제 2024년도 절반이 지났습니다. 남은 하반기는 과연 어떤 뉴스들이 쏟아져 나올까요? 열심히 블로그에 남겨보도록 하겠습니다. 감사합니다. :)</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="The First Half" /><category term="IT Trend" /><summary type="html"><![CDATA[[2024년 07월 04일자 테크이슈에서 발췌]]]></summary></entry></feed>
