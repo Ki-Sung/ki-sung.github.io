@@ -42,13 +42,23 @@ Back-end 개발 등 다양한 데이터 직군을 경험했습니다.
     <thead>
         <tr>
             <th style="text-align: center">&nbsp;</th>
+            <th style="text-align: center">직책</th>
             <th style="text-align: center">기간</th>
             <th>담당 업무</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="text-align: center">에이원 퍼포먼스 팩토리</td>
+            <td style="text-align: center">
+                에이원 퍼포먼스팩토리
+                <br>
+                Data Intelligence Team
+            </td>
+            <td style="text-align: center">
+                Head Team Leader
+                <br>
+                Manager - Data Engineer
+            </td>
             <td style="text-align: center">2021.12 ~ present</td>
             <td>
                 SSG 솔루션 개발 참여 
@@ -63,7 +73,12 @@ Back-end 개발 등 다양한 데이터 직군을 경험했습니다.
             </td>
         </tr>
         <tr>
-            <td style="text-align: center">Gucci Korea</td>
+            <td style="text-align: center">
+                Gucci Korea
+                <br>
+                Duty Free Sales Part
+            </td>
+            <td style="text-align: center">Senior Sales Associate</td>
             <td style="text-align: center">2015.12 ~ 2021.02</td>
             <td>
                 롯데 면세점 Gucci Watch Store 매장 관리 및 판매
@@ -77,6 +92,7 @@ Back-end 개발 등 다양한 데이터 직군을 경험했습니다.
         </tr>
          <tr>
             <td style="text-align: center">Beauty Plus</td>
+            <td style="text-align: center">인턴</td>
             <td style="text-align: center">2012.10 ~ 2013.09</td>
             <td>
                 Texas 지역 Sales Assistance 인턴
