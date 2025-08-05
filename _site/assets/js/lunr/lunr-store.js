@@ -160,4 +160,10 @@ var store = [{
         "tags": ["Coupang","Coupang Clousd Service","Amazon"],
         "url": "/news/news24/",
         "teaser": null
+      },{
+        "title": "국가대표 AI, 누가 만들까? - AI 3대 강국 진입을 위한 선발전",
+        "excerpt":"[2025.07.28 자 테크잇슈 ‘국가대표 AI, 누가 만들까?’ 발췌] 안녕하세요, 꼬부기 입니다. 모든 나라에서 AI를 언급하지 않은 곳이 없습니다. 특히 최근 한국에서는 AI 3대 강국 진입을 목표로 ‘국가대표 AI’ 선정 사업이 진행되고 있어 많은 관심을 받고 있네요. 마치 월드컵 국가대표 선발전처럼, AI 분야의 최고 기업들이 모여 한국판 ChatGPT를 만들기 위한 경쟁에...","categories": ["News"],
+        "tags": ["AI","National Korea AI","Naver","LG","Upstage","ChatGPT","Foundation Model","Digital Sovereignty"],
+        "url": "/news/news25/",
+        "teaser": null
       }]
