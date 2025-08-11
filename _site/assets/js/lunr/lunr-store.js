@@ -166,4 +166,10 @@ var store = [{
         "tags": ["AI","National Korea AI","Naver","LG","Upstage","ChatGPT","Foundation Model","Digital Sovereignty"],
         "url": "/news/news25/",
         "teaser": null
+      },{
+        "title": "GPT-5가 출시됐다...그런데?",
+        "excerpt":"[2025.08.11 자 테크잇슈 ‘GPT-5가 출시됐다…그런데?’ 발췌] 2025년 8월 8일, 소문만 무성했던 GPT-5가 공식적으로 출시됐습니다. 이번 발표는 GPT-4가 출시된 지 약 2년 5개월 만에 이루어진 메이저 업그레이드였기에 관심은 그 어느 때보다 뜨거웠습니다. 그 사이 ChatGPT 사용자는 7억 명, 기업 고객은 500만 개를 돌파했고, 그만큼 많은 사람들에게 빠르게 확산되며 반응도 뜨겁게 이어졌습니다....","categories": ["News"],
+        "tags": ["GPT-5","OpenAI","AI","Coding","Developer","Performance","LLM"],
+        "url": "/news/news26/",
+        "teaser": null
       }]
