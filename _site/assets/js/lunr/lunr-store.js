@@ -172,4 +172,10 @@ var store = [{
         "tags": ["GPT-5","OpenAI","AI","Coding","Developer","Performance","LLM"],
         "url": "/news/news26/",
         "teaser": null
+      },{
+        "title": "AI를 사용하면 정말 바보가 될까?",
+        "excerpt":"[2025.08.25 자 테크잇슈 ‘AI를 사용하면 정말 바보가 될까?’ 발췌] 안녕하세요 꼬부기 입니다. 오늘은 테크 나 IT 소식이 아닌 AI에 대한 통찰에 대한 글귀를 가져와 보았습니다. 다시 한번 마주한 질문 과거 우리는 수십 개의 전화번호를 줄줄 외웠고, 내비게이션 없이도 길을 잘 찾아다녔습니다. 그러나 스마트폰이 등장하면서 일상이 달라졌습니다. 이제 외우고 있는 전화번호는...","categories": ["News"],
+        "tags": ["AI","Brain","ChatGPT","MIT","Research","Cognitive","Writing","Creativity","Dependency","Neuroscience","EEG","NLP","Memory","Learning"],
+        "url": "/news/news27/",
+        "teaser": null
       }]
