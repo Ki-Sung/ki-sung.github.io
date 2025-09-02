@@ -39,6 +39,7 @@
   (info, $info-color),
   (facebook, $facebook-color),
   (twitter, $twitter-color),
+  (x, $x-color),
   (linkedin, $linkedin-color);
 
   @each $buttoncolor, $color in $buttoncolors {
@@ -49,6 +50,12 @@
       }
       @if ($buttoncolor == light-outline) {
         border: 1px solid #fff;
+      }
+      @if ($buttoncolor == x) {
+        color: #fff !important;
+        i {
+          color: #fff !important;
+        }
       }
 
       &:visited {
