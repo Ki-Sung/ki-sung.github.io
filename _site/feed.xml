@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-02T16:48:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">AI를 사용하면 정말 바보가 될까?</title><link href="http://localhost:4000/news/news27/" rel="alternate" type="text/html" title="AI를 사용하면 정말 바보가 될까?" /><published>2025-08-27T00:00:00+09:00</published><updated>2025-08-27T00:00:00+09:00</updated><id>http://localhost:4000/news/news27</id><content type="html" xml:base="http://localhost:4000/news/news27/"><![CDATA[<p>[2025.08.25 자 테크잇슈 ‘AI를 사용하면 정말 바보가 될까?’ 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-06T23:06:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">AI를 사용하면 정말 바보가 될까?</title><link href="http://localhost:4000/news/news27/" rel="alternate" type="text/html" title="AI를 사용하면 정말 바보가 될까?" /><published>2025-08-27T00:00:00+09:00</published><updated>2025-08-27T00:00:00+09:00</updated><id>http://localhost:4000/news/news27</id><content type="html" xml:base="http://localhost:4000/news/news27/"><![CDATA[<p>[2025.08.25 자 테크잇슈 ‘AI를 사용하면 정말 바보가 될까?’ 발췌]</p>
 
 <p>안녕하세요 꼬부기 입니다. 오늘은 테크 나 IT 소식이 아닌 AI에 대한 통찰에 대한 글귀를 가져와 보았습니다.</p>
 
@@ -32,7 +32,10 @@
 <h3 id="ai가-뇌-연결망을-약화-시킨다">AI가 뇌 연결망을 약화 시킨다</h3>
 <p>가장 먼저 뇌파검사(EEG)를 통해 뇌의 연결성을 살펴보았습니다. 연결성이 높다는 것은 뇌의 한 영역이 다른 영역에 강하게 신호를 보내고 있다는 뜻인데요. 연구에서는 dDTF라는 지표가 사용됐으며, 수치가 높을수록 뇌 네트워크가 활발하게 작동하고 있음을 의미합니다.</p>
 
-<p>*dDTF 지표: dDTF는 EEG(뇌파검사)에서 뇌 영역들 사이의 정보 흐름이 어느 방향으로 얼마나 강하게 일어나는지, 주파수별로 보여주는 연결성 지표입니다. 값이 높을수록 한 영역이 다른 영역에 더 직접적으로 영향을 준다는 뜻입니다.</p>
+<div class="notice--info">
+<strong>dDTF 지표</strong><br />
+dDTF는 EEG(뇌파검사)에서 뇌 영역들 사이의 정보 흐름이 어느 방향으로 얼마나 강하게 일어나는지, 주파수별로 보여주는 연결성 지표입니다. 값이 높을수록 한 영역이 다른 영역에 더 직접적으로 영향을 준다는 뜻입니다.
+</div>
 
 <ul>
   <li>브레인 그룹 dDTF : 0.053</li>
@@ -41,7 +44,10 @@
 
 <p>분석 결과는 극명했습니다. 특히 좌측 두정엽(P7)에서 우측 측두엽(T8)으로의 연결을 확인한 결과, 브레인 그룹이 연결성이 LLM 그룹보다 훨씬 높은 수치를 보였습니다. 이 실험의 p-value 값은 0.0002로, 일반적으로 p-value가 0.05 이하만 되어도 통계적으로 유의미한 차이로 간주되며, 이 수치는 우연히 발생했을 가능성이 거의 없음을 보여줍니다.</p>
 
-<p>*p-value: “귀무가설이 참이라고 가정할 때, 지금처럼 극단적인 결과가 우연히 나올 확률”입니다. 보통 기준(유의수준)으로 0.05를 많이 쓰며, P가 이보다 작으면 통계적으로 유의하다고 해석합니다. 다만 P-value는 효과의 크기나 중요도를 말해주지 않으므로, 효과크기와 신뢰구간을 함께 확인하는 것이 좋습니다.</p>
+<div class="notice--info">
+<strong>p-value란?</strong><br />
+"귀무가설이 참이라고 가정할 때, 지금처럼 극단적인 결과가 우연히 나올 확률"입니다. 보통 기준(유의수준)으로 0.05를 많이 쓰며, P가 이보다 작으면 통계적으로 유의하다고 해석합니다. 다만 P-value는 효과의 크기나 중요도를 말해주지 않으므로, 효과크기와 신뢰구간을 함께 확인하는 것이 좋습니다.
+</div>
 
 <p>또한 브레인 그룹은 79개, LLM 그룹은 42개의 유의미한 연결성을 보였습니다. 이는 곧, 도구 없이 글을 쓸 때 뇌의 다양한 부위가 훨씬 더 많이 협력하여 활발히 작동했다는 의미인데요. LLM을 활용했을 때 지금 당장은 좋은 결과물을 만들어 낼 수도 있지만, 장기적으로는 학습과 사고력의 기회가 줄어들 수 있다는 점이 확인된 것입니다.</p>
 
