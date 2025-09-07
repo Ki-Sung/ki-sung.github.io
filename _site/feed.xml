@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-06T23:06:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">AI를 사용하면 정말 바보가 될까?</title><link href="http://localhost:4000/news/news27/" rel="alternate" type="text/html" title="AI를 사용하면 정말 바보가 될까?" /><published>2025-08-27T00:00:00+09:00</published><updated>2025-08-27T00:00:00+09:00</updated><id>http://localhost:4000/news/news27</id><content type="html" xml:base="http://localhost:4000/news/news27/"><![CDATA[<p>[2025.08.25 자 테크잇슈 ‘AI를 사용하면 정말 바보가 될까?’ 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-07T23:05:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">지브리는 넘쳤는데, 왜 나노바나나는 안보일까?</title><link href="http://localhost:4000/news/news28/" rel="alternate" type="text/html" title="지브리는 넘쳤는데, 왜 나노바나나는 안보일까?" /><published>2025-09-07T00:00:00+09:00</published><updated>2025-09-07T00:00:00+09:00</updated><id>http://localhost:4000/news/news28</id><content type="html" xml:base="http://localhost:4000/news/news28/"><![CDATA[<p>[2025.09.01 자 테크잇슈 ‘🚀 지브리는 넘쳤는데, 왜 나노바나나는 안보일까?’ 발췌]</p>
+
+<h2 id="ai-피규어-누가-만든-거야">AI 피규어? 누가 만든 거야</h2>
+
+<p>올해 3월 말, 세상 모든 SNS와 메신저는 하나의 이미지로 뒤덮였습니다. 바로 지브리 스타일의 그림입니다. ChatGPT가 지브리 스타일의 이미지 생성 기능을 공개하자마자 불과 열흘 만에 1억 3천만 건의 이미지 요청이 쏟아졌는데요. 샘 올트먼 OpenAI CEO는 지브리풍 이미지 생성 때문에 GPU가 녹아내리고 있다며 일시적으로 생성 제한을 걸기도 했습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-09-07-news28/nano_banana_sample.png" alt="news-28" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: EaseMate AI Sample Image </em></p>
+</div>
+
+<p>그리고 약 4개월 뒤, 또 다른 이미지 하나가 주목을 받습니다. 이번 주인공은 피규어였습니다. 각종 커뮤니티에는 사람들이 인형 박스 속에 들어간 듯한 피규어 이미지가 하나둘 등장하기 시작했고, 언론은 이를 두고 제2의 지브리 열풍을 예고하기도 했습니다. 그리고 그 중심에는 다소 장난스러운 이름, ‘나노 바나나(Nano Banana)’가 있었습니다.</p>
+
+<h2 id="나노-바나나-뭐가-특별한-걸까">나노 바나나, 뭐가 특별한 걸까</h2>
+
+<p>지금은 구글 제미나이에 통합되어 ‘Gemini 2.5 Flash Image’라는 정식 명칭을 달고 있지만, 출시 초기만 해도 ‘나노 바나나’라는 코드네임으로 LMArena라는 테스트 플랫폼을 통해 먼저 모습을 드러냈습니다. 이때만 해도 구글의 모델이라는 점이 명확히 알려지지 않았고, 단지 뛰어난 결과물이 인터넷을 통해 퍼지면서 누가 만들었는지에 대한 호기심이 커졌습니다.</p>
+
+<p>이 모델이 주목받은 이유는 단순히 이미지를 생성하는 데 그치지 않고, 사람·동물·캐릭터의 정체성을 유지한 채 편집·합성하는 능력이 탁월했기 때문입니다. 예컨대 두 장의 사진을 합쳐 자신과 유명인물이 함께 찍힌 듯한 장면을 만들거나, 포즈를 바꿔도 여전히 ‘나 같은 느낌’을 잃지 않는 것이 특징인데요. 더 나아가 한 번 만든 이미지를 연속적으로 편집하더라도 어색함이 거의 없었습니다.</p>
+
+<p>이러한 능력은 기존 AI 이미지 생성 모델이 자주 실패하던 영역에서 뚜렷한 개선을 보여준 것이었고, 실제로 LMArena 벤치마크에서 세계 최고 성능을 기록하며 기술적 우위를 입증했습니다. 결과적으로 나노바나나는 단순한 재미를 넘어, 고급 편집 기능과 실무 활용 가능성까지 보여주며 ChatGPT보다 한 단계 앞서 있다는 평가를 받았습니다.</p>
+
+<h2 id="골든타임을-놓친-나노바나나">골든타임을 놓친 나노바나나</h2>
+
+<p>하지만 뛰어난 기술력에도 불구하고 나노 바나나는 지브리풍 이미지처럼 폭발적인 확산으로 이어지지 못했습니다. 가장 큰 이유는 접근성의 허들이 높았기 때문입니다. 나노 바나나가 처음 공개된 곳은 대중들에게 생소한 LMArena였고, 그것도 특정 모델을 지정할 수 없는 배틀모드를 통해서만 제한적으로 사용할 수 있었는데요. 요즘 같은 시대에 굳이 새로운 사이트에 접속해 번거로운 절차를 감수할 사용자는 많지 않았습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-09-07-news28/sample_2.png" alt="news-28" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: LMArean.ai sample </em></p>
+</div>
+
+<p>나노 바나나는 약 일주일 뒤 제미나이에 통합되었지만, 이미 초기 확산의 골든타임을 놓친 상태였습니다. 결국 대중적 확산의 불씨를 살리지 못한 채, 관심은 이 기술력의 잠재력을 활용할 수 있는 일부 기술 커뮤니티에 한정되어 버렸습니다.</p>
+
+<p>이 차이는 ChatGPT 지브리풍 열풍과 비교하면 더욱 뚜렷합니다. ChatGPT는 이미 수백만 사용자가 쓰던 웹과 앱 환경에서 바로 이미지 기능을 추가했기 때문에 별도의 진입장벽 없이 바로 체험할 수 있었습니다. 반면 나노 바나나는 호기심은 분명 자극했지만, 실행까지 이어지지 못한 전형적 사례가 되었습니다.</p>
+
+<h2 id="너무-잘-만들어도-문제">너무 잘 만들어도 문제</h2>
+
+<p>지브리풍이 열풍을 일으킨 데에는 ‘그림화’가 주는 안전한 거리감이 있었습니다. 실제 얼굴이 그대로 드러나는 대신 애니메이션 속 주인공처럼 포장되었기 때문에 누구나 부담 없이 공유할 수 있었고, 프로필 교체 같은 일상적 행동으로도 자연스럽게 이어졌는데요. 누구나 지브리 주인공이 될 수 있다는 경험은 자연스럽게 밈으로 확산될 수 있는 계기가 됐습니다.</p>
+
+<p>반대로 나노바나나는 기술적으로는 훨씬 앞서 있었습니다. 인물의 정체성을 유지한 채 배경을 바꾸고, 포즈를 바꾸며, 다른 인물과 합성해도 어색하지 않은 결과물을 만들어냈습니다. 그러나 이 뛰어난 사실성이 오히려 심리적 장벽이 되었는데요. 자신의 얼굴이 그대로 드러난 합성 이미지를 공개하기는 꺼려졌고, 특히 아시아권에서 자기 노출을 선호하지 않는 문화적 특성과 맞물려 대중적 확산으로 이어지기 어려웠습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-09-07-news28/sample_3.png" alt="news-28" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: 왼쪽이 Gemini 2.5 Image Flash로 만든 이미지 </em></p>
+</div>
+
+<p>여기에 더해, 높은 사실성은 딥페이크 우려와 직결됐습니다. 구글은 가시·비가시 워터마크(SynthID)를 도입하며 안전장치를 마련했지만, 사용자 입장에서 체감되는 신뢰는 여전히 제한적이었는데요. 결국 나노바나나는 “놀라운 기술”이라는 평가는 얻었으나, 가볍게 즐기고 모두가 공유하는 놀이 문화로 발전하기에는 여러모로 제약이 많았던 것입니다.</p>
+
+<h2 id="아직-때가-아니다">아직 때가 아니다</h2>
+
+<p>결정적으로 나노바나나가 등장한 시점 자체가 불리했습니다. 불과 몇 달 전만 해도 지브리풍 이미지가 SNS를 완전히 장악하며 했는데, 그 열기가 채 식기도 전에 또 다른 이미지 밈이 나타난 것입니다. 카카오톡 프로필 사진을 보면 여전히 지브리풍 이미지가 남아있는 모습을 확인할 수 있습니다.</p>
+
+<p>특히 지브리풍은 단순한 유행을 넘어, 거의 모든 플랫폼에서 동시에 소비된 거대한 집단 경험이었습니다. 그만큼 빠르게 퍼졌고, 동시에 빠르게 소모되었는데요. 사용자 입장에서는 이미 자신의 얼굴을 변형시켜 공유하는 놀이를 한 차례 즐겼기 때문에, 비슷한 맥락의 나노 바나나에는 신선함보다는 “비슷한 거 또 나왔네”라는 반응이 어느 정도 자리했습니다.</p>
+
+<p>여기에 나노바나나는 기술적으로 훨씬 진보했음에도 불구하고 문화적 기대치를 넘어서지 못했습니다. 즉, 나노바나나가 대중적 밈으로 자리 잡지 못한 데에는 단순한 기술력의 문제가 아니라, 유행 주기의 짧음과 타이밍의 불운이라는 환경적 요인도 크게 작용했습니다.</p>
+
+<h2 id="더-중요한-것을-얻은-구글">더 중요한 것을 얻은 구글</h2>
+
+<p>비록 나노 바나나가 지브리풍처럼 대중을 휩쓸지는 못했지만, 그렇다고 의미가 없었던 것은 아닙니다. 오히려 이번 사례는 업계에 분명한 메시지를 던졌습니다. 더 이상 구글이 OpenAI에게 뒤처지지 않는다는 메시지를 말입니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-09-07-news28/ai_best_chart.png" alt="news-28" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Washington Post </em></p>
+</div>
+
+<p>공교롭게도 최근 워싱턴포스트는 주요 AI 모델 비교 기사에서 가장 정확한 답변을 내놓은 모델로 구글 AI 모드를 꼽았습니다. 여기에 나노 바나나는 이미지 생성 분야에서 난제로 꼽히던 인물의 정체성 유지와 연속 편집을 자연스럽게 구현해 내며 기술적 우위를 입증했는데요. 구글은 이 두 가지 사례를 통해 생성형 AI 전반에서 최고 수준의 기술력을 확보했다는 인식을 확산시킬 수 있게 됐습니다.</p>
+
+<h2 id="따라잡기까지-꼬박-3년">따라잡기까지 꼬박 3년</h2>
+
+<p>2022년 ChatGPT가 세상을 뒤흔든 이후, 구글은 줄곧 망신만 당했습니다. 바드(현 제미나이)는 시연 현장에서 엉뚱한 답변을 내놓았고, 제미나이 소개 영상은 ‘편집 논란’이라는 오명을 남겼습니다. 여기에 이미지 생성 기능은 정치적 올바름을 과도하게 적용하다가 현실과 동떨어진 결과물을 내놓으며 신뢰를 잃었습니다.</p>
+
+<p>그러나 조용히 세상에 모습을 드러낸 나노 바나나는 역설적으로 완전히 다른 인상을 심어주었습니다. 지금껏 누구도 제대로 구현하지 못했던 이미지 생성 기술을 구현하며 업계 전문가들로부터 확실한 인정을 받은 것입니다.</p>
+
+<p>이처럼 절치부심 끝에 기술적 우위를 다시 입증하고 있는 구글은 사용자 기반에서도 반등을 보이고 있습니다. 제미나이는 웹/모바일 순위에서 ChatGPT에 이어 2위를 기록하고 있으며, NotebookLM 등 다른 서비스까지 포함하면 실제 사용자 규모는 더 커지고 있습니다.</p>
+
+<p>꼬박 3년 만에 되찾은 정상의 자리. 구글이 다시금 경쟁의 한가운데에 복귀한 지금, 앞으로의 기술 구도는 더욱 흥미로워질 전망입니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="AI" /><category term="ImageGeneration" /><category term="NanoBanana" /><category term="Gemini" /><category term="Google" /><category term="LMArena" /><category term="ImageEditing" /><category term="AICompetition" /><summary type="html"><![CDATA[[2025.09.01 자 테크잇슈 ‘🚀 지브리는 넘쳤는데, 왜 나노바나나는 안보일까?’ 발췌]]]></summary></entry><entry><title type="html">AI를 사용하면 정말 바보가 될까?</title><link href="http://localhost:4000/news/news27/" rel="alternate" type="text/html" title="AI를 사용하면 정말 바보가 될까?" /><published>2025-08-27T00:00:00+09:00</published><updated>2025-08-27T00:00:00+09:00</updated><id>http://localhost:4000/news/news27</id><content type="html" xml:base="http://localhost:4000/news/news27/"><![CDATA[<p>[2025.08.25 자 테크잇슈 ‘AI를 사용하면 정말 바보가 될까?’ 발췌]</p>
 
 <p>안녕하세요 꼬부기 입니다. 오늘은 테크 나 IT 소식이 아닌 AI에 대한 통찰에 대한 글귀를 가져와 보았습니다.</p>
 
@@ -929,187 +1003,4 @@ dDTF는 EEG(뇌파검사)에서 뇌 영역들 사이의 정보 흐름이 어느 
 
 <p>이를 측정하는 방법은 현저성(전체 매출에서 특정 기업에 대한 비중)과 대칭성(상호 의존적인지, 일방적 의존인지)입니다. 이런 사례는 무수히 많습니다. 아마존은 2000년대 초반만 하더라도 월마트의 물류 네트워크를 사용했습니다. 하지만 의존도가 높아 지다보니, 자체 물류 네트워크를 구축하기 시작했습니다. 이후 서로 경쟁을 벌이는 관계로 변신했습니다. 테슬라 역시 초기에는 모빌아이(현재는 인텔 자회사)로부터 비전 기술을 제공 받았습니다. 하지만 기술적 의존도가 더 높아질 것을 염려해 파트너십을 종료했습니다.</p>
 
-<p>결국 파트너십에서 중요한 것은 의존성 관리와 독립성 확보 아닐까 합니다. 협력의 시너지를 극대화하려면 상호 의존도를 조절하고, 상황 변화에 따라 전략적 결정을 내릴 수 있는 유연성이 필요합니다. 파트너십은 단순한 협력 관계를 넘어, 지속 가능한 발전을 위해 끊임없이 재평가해야 하는 전략적 자산이기 때문입니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Big Tech" /><category term="Alliance" /><category term="Alliance Rift" /><category term="AI" /><category term="MS vs OpenAI" /><category term="nVIDIA vs TSCM" /><summary type="html"><![CDATA[[2024년 10월 21일자 미라클레터에서 발췌]]]></summary></entry><entry><title type="html">Python은 어떤 언어인가?</title><link href="http://localhost:4000/python/about_python/" rel="alternate" type="text/html" title="Python은 어떤 언어인가?" /><published>2024-09-26T00:00:00+09:00</published><updated>2024-09-26T00:00:00+09:00</updated><id>http://localhost:4000/python/about_python</id><content type="html" xml:base="http://localhost:4000/python/about_python/"><![CDATA[<p>Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/python2.png" alt="python_icon" width="200" />
-    <p style="font-size: smaller;"><em>이미지 출처: FLATICON</em></p>
-</div>
-
-<p>간단한 유틸리티 제작을 넘어 웹 프로그래밍, 데이터 분석, 머신러닝, 딥러닝, 사물 인터넷(IoT) 등 다양한 분야에서 활용되고 있습니다.</p>
-
-<p>이번 시간에는 파이썬은 어떤 언어이고, 어떤 특징을 가지고 있는지 알아보도록 하겠습니다.</p>
-
-<h2 id="python-소개">Python 소개</h2>
-<h3 id="python의-탄생">Python의 탄생</h3>
-<p>Python은 네덜란드 암스테르담의 “귀도 반 로섬(Guido van Rossum)”이 개발한 프로그래밍 언어입니다. 1991년에 출시하며 이름을 Python이라고 지었죠. 귀도는 자신이 좋아하던 코미디 프로그램 &lt;Monty Python’s Flying Circus&gt;에서 Python이라는 이름을 따왔다고 합니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/van_rossum_monty_pythons.png" alt="python_history" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: school.coding-x.com</em></p>
-</div>
-
-<p>프로그래밍 언어 중에서도 오래전에 만들어진 ‘포트란’은 1954년에 탄생했고, 지금도 많이 사용하는 C언어는 1972년에 공개된 언어입니다. 해당 언어들과 비교하면 1991년에 탄생한 Python은 비교적 최신에 만들어진 언어라고 할 수 있습니다.</p>
-
-<p>Python은 신화속에 나오는 비단뱀이라는 뜻이기 때문에 로고에 두 마리의 뱀이 들어간 것 입니다(특별한 의미는 없다고 합니다).</p>
-
-<h3 id="python을-휴가-중에-만들었다고">Python을 휴가 중에 만들었다고?</h3>
-<p>누구나 영어로 이해할 수 있는 코드와 일상적인 업무에 적합한 빠른 개발을 원했던 “귀도 반 로섬”은 1989년, 네덜란드 국립 연구소에 근무하던 당시 두 달의 휴가 동안 취미로 만들어본 프로젝트의 하나로 Python을 개발하게 됩니다. 이후 모두를 위한 컴퓨터 프로그래밍이라는 이름으로 투자를 받아 파이썬이 개발되었습니다.</p>
-
-<p>현재 검색량을 기준으로 프로그래밍 언어 선호도를 조사하는 “TIOBE index”에서 2024년 9월 기준 파이썬은 선호하는 프로그래밍 언어 1위(20.17%)를 차지했으며, 오라일리 미디어가 온라인 학습 플랫폼의 학습 과정 및 사용자 선호도를 분석해 발표한 프로그래밍 언어 순위에서는 파이썬이 Java와 C++을 제치고 가장 높은 사용률을 보였습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/2024_09_ranking.png" alt="python_ranking" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: TIOBE Index for September 2024</em></p>
-</div>
-
-<h2 id="python-특징">Python 특징</h2>
-<h3 id="python의-기본-철학">Python의 기본 철학</h3>
-<p><a href="https://peps.python.org/pep-0020/">PEP 20</a> 문서에 보면 Python의 철학이 나오는데 핵심 철학은 아래와 같습니다.</p>
-
-<div class="notice--success">
-<ul>
-    <li>"아름다운 게 추한 것보다 낫다." (Beautiful is better than ugly)</li>
-    <li>"명시적인 것이 암시적인 것 보다 낫다." (Explicit is better than implicit)</li>
-    <li>"단순함이 복잡함보다 낫다." (Simple is better than complex)</li>
-    <li>"복잡함이 난해한 것보다 낫다." (Complex is better than complicated)</li>
-    <li>"가독성은 중요하다." (Readability counts)</li>
-</ul>
-</div>
-
-<p>이런 철학들 때문에 Python은 “복잡하지 않으면서 의미가 명확하고, 코드의 축약보다 뚜렷하게 보이는 흐름을 중시하는 파이썬의 철학을 중시”하는 언어로 알려져 있습니다.</p>
-
-<p>그럼 여기서 Python에서 대표하는 특징들을 살펴보겠습니다.</p>
-
-<h3 id="python의-대표적-특징">Python의 대표적 특징</h3>
-<h4 id="1-스트립트-언어">1) 스트립트 언어</h4>
-<p>Python은 컴파일 과정 없이 인터프리터가 소스 코드를 한 줄씩 읽어 곧바로 실행하는 스크립트 언어입니다. 스크립트 언어의 특성상 컴파일 과정이 필요하지 않기 때문에, 실행 결과를 바로 확인하고 수정할 수 있으며, 코드 작성의 난이도 또한 낮습니다.</p>
-
-<blockquote>
-  <p><strong>※ 컴파일 언어 vs 스크립트 언어</strong> <br />
-컴파일 언어는 컴파일 과정(전처리, 컴파일, 어셈블, 링크)을 통해, 작성한 코드를 기계어로 번역해 실행하는 방식입니다.<br />
-반면, 스크립트 언어는 별도의 컴파일 과정 없이 인터프리터(프로그래밍 언어 해석기)가 소스 코드를 한 줄씩 읽어가며 바로 실행하는 방식입니다.<br />
-컴파일 언어는 소스 코드를 컴파일 하는 과정을 거쳐야 하므로, 실행 및 수정에 비교적 많은 시간이 소요되지만, 한 번 기계어로 번역된 이후에는 빠른 실행 속도를 보입니다.<br />
-이와 달리, 스크립트 언어는 컴파일 없이 곧바로 실행되므로, 결과를 바로 확인하고 수정할 수 있지만, 번역과 실행이 동시에 이루어지므로, 실행 속도가 컴파일 언어에 비해 느립니다.</p>
-</blockquote>
-
-<blockquote>
-  <p><strong>※ 스크립트 언어 &amp; 인터프리터 언어</strong> <br />
-스크립트 언어와 인터프리터 언어는 비슷한 개념으로 사용되고 있지만, 엄밀히 말하면 다른 개념입니다. <br />
-스크립트 언어는 코드를 Iterpret(해석)하는 방식으로 동작하는 언어를 의미하고, 인터프리터 언어는 소스 코드를 실행할 때, 컴파일 단계를 거치지 않고 바로 해석하여 실행하는 언어를 의미합니다. <br />
-물론, 두 언어의 차이점이 명확하지는 않기 때문에 같은 개념처럼 사용되는게 일반적이며, 실제로 Python은 스크립트 언어이면서, 인터프리터 언어입니다. <br />
-하지만, 스크립트 언어이면서 인터프리터 언어가 아니거나, 반대로 인터프리터 언어이면서 스크립트 언어가 아닌 경우도 있을 수 있습니다. 대표적으로 <strong>MATLAB</strong>은 스크립트 형태로 작성되지만, 컴파일 단계를 거쳐 실행파일을 생성하기 때문에, 스크립트 언어지만 인터프리터 언어가 아닙니다. 또한 Java는 컴파일 언어와 인터프리터 언어의 특징을 모두 갖는 하이브리드 언어로 스크립트 언어는 아니지만, 인터프리터 언어의 특징이 가지고 있습니다.</p>
-</blockquote>
-
-<h4 id="2-동적-타이핑">2) 동적 타이핑</h4>
-<p>Python은 동적 타이핑(Dynamic Typing) 언어 입니다. 여기서 동적 타이핑이란, 변수의 자료형을 지정하지 않은 상태에서, 단순히 선언하는 것만으로 값을 지정할 수 있음을 의미합니다. 이 때, 변수의 자료형은 코드가 실행되는 시점에 결정됩니다. 형변환을 위한 번거로운 과정이 불필요해진다는 장점이 있지만, 예상치 못한 타입이 할당되어 런타임 에러가 발생할 수도 있습니다.</p>
-
-<p>이와 상반되는 개념으로 정적 타이핑(Static Typing) 언어도 있습니다. 정적 타이핑 언어는 컴파일 시점에서 변수의 타입이 명시적으로 선언되어야 합니다(대포적 언어로 Java가 있습니다). 하지만 그렇다고 해서 컴파일 언어이면 무조건 정적 타이핑이고, 스크립트 언어면 무조건 정적 타이핑인 것은 아닙니다.</p>
-
-<h4 id="3-플랫폼-독립성">3) 플랫폼 독립성</h4>
-<p>Python은 Linux, Unix, Window, Mac 등 대부분의 운영체제에서 모두 동작합니다. 운영체제 별로 컴파일할 필요가 없다는 것은 곧, 한 번 소스 코드를 작성하면, 어떤 운영체제에서도 활용할 수 있다는 것을 의미합니다.</p>
-
-<p>대표적인 특징을 알아보았으니 이제 Python의 장, 단점을 살펴볼까요?</p>
-
-<h3 id="python의-장점">Python의 장점</h3>
-<h4 id="1-간결하고-쉬운-문법">1) 간결하고 쉬운 문법</h4>
-<p>Python을 흔히 “인간다운 언어”라고 이야기 합니다. 그 이유는 Python의 문법이 인간의 사고와 유사하기 때문입니다. 이러한 이유에서 Python 문법을 학습하는 데에 많은 시간을 할애할 필요가 없으며, 프로그래밍 전공자의 경우, Python 문법이 얼마나 쉽고 간결한지를 몸소 느낄수 있습니다. 여기서 쉽고 간결하다는 것은 코드가 직관적이고, 길이가 짧아 가독성이 높다는 의미입니다.</p>
-
-<h4 id="2-빠른-개발-속도">2) 빠른 개발 속도</h4>
-<p>쉽고 간결한 문법 덕분에 Python은 높은 생산성을 자랑합니다. Python을 활용할 경우 더 적은 코드로 더 많은 작업을 수행할 수 있으며, 이는 복잡한 구문으로 인해 발생할 수 있는 오류를 줄여줄 수도 있습니다.</p>
-
-<h4 id="3-높은-확장성-및-이식성">3) 높은 확장성 및 이식성</h4>
-<p>Python은 대표적인 접착제 언어(Glue Language) 입니다. 적, 다른 언어나 라이브러리에 쉽게 접근해 연동이 가능합니다. 실제로, 고성능의 어플리케이션 개발에 C나 C++ 같은 언어를 Python과 결합해 사용하기도 합니다. 이로써 애플리케이션의 성능은 보장되면서, 동시에 별도 설치나 구성과정 없이 스크립트 언어의 장점도 누릴수 있게 됩니다.</p>
-
-<h4 id="4-활발한-생태계">4) 활발한 생태계</h4>
-<p>파이썬은 다양한 분야에 대한 라이브러리와 프레임워크를 제공하기 때문에 프로그래머가 모든 코드를 일일이 작성할 필요가 없습니다. 또한 폭 넓은 생태계와 활발한 커뮤니티 활동으로 인해 문제 해결과 협업이 매우 빠르게 이루어질 수 있습니다.</p>
-
-<h3 id="python의-단점">Python의 단점</h3>
-<h4 id="1-느린-실행-속도">1) 느린 실행 속도</h4>
-<p>인터프리터 언어로 컴파일 언어에 비해 실행 속도가 느립니다. 따라서 성능이 중요한 애플리케이션, 예를 들어 게임 엔진이나 고성능의 수치 계산에는 적합하지 않을 수 있습니다.</p>
-
-<h4 id="2-모바일-및-웹-클라이언트-개발">2) 모바일 및 웹 클라이언트 개발</h4>
-<p>웹 서버 측 스크립트나 데이터 처리에 주로 사용되지만, 웹 클라이언트 측 개발에는 JavaScript 등 다른 언어가 더욱 선호됩니다(Streamlit 이나 FastHTML이 나왔지만 한계가 명확합니다). 또한, IOS나 Android와 같은 모바일 환경에서의 앱 개발에는 잘 사용되지 않습니다.</p>
-
-<h4 id="3-멀티코어-cpu-활용">3) 멀티코어 CPU 활용</h4>
-<p>Python의 GIL(Global Interpreter Lock) 때문에 멀티코어 CPU를 효율적으로 활용하는 것이 어렵습니다. 이는 병렬 처리가 필요한 고성능 애플리케이션에서는 문제가 될 수 있습니다.</p>
-
-<h4 id="4-데이터베이스-접근">4) 데이터베이스 접근</h4>
-<p>데이터베이스 접근에 있어서 다른 언어들에 비해 제한적인 측면이 있습니다. Python의 데이터베이스 연동 기능은 상대적으로 느리고, 대규모 트래픽과 데이터를 처리하기 위한 엔터프라이즈급 애플리케이션에는 제한적일 수 있습니다.</p>
-
-<h2 id="python의-활용-사례">Python의 활용 사례</h2>
-<p>지금까지 살펴본 Python의 특징을 바탕으로 과연 Python은 어디에 활용되었는지 살펴보겠습니다.</p>
-
-<h3 id="기업에서의-활용">기업에서의 활용</h3>
-<h4 id="1-google">1) Google</h4>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/google_logo.png" alt="python_history" width="300" />
-    <p style="font-size: smaller;"><em>이미지 출처: google</em></p>
-</div>
-
-<p>구글은 백엔드에서 C++과 Python을 결합해 활용하고 있습니다. 짧은 대기시간과 엄격한 메모리 제어가 중요한 스택에는 C++을 프그램의 빠른 전달과 유지 관리가 필요한 부분에서는 Python을 사용합니다.</p>
-
-<h4 id="2-instagram">2) Instagram</h4>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/instagram.png" alt="python_history" width="400" />
-    <p style="font-size: smaller;"><em>이미지 출처: Business Insider</em></p>
-</div>
-
-<p>Python으로 작성된 오픈 소스 웹 프레임워크인 Django를 기본 서버 측 언어로 사용하고 있습니다.</p>
-
-<h4 id="3-netflix">3) Netflix</h4>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/Netflix-Logo.jpg" alt="python_history" width="400" />
-    <p style="font-size: smaller;"><em>이미지 출처: Netfilx</em></p>
-</div>
-
-<p>방대한 표준 라이브러리, 간결하고 깔끔한 구문, 대규모 커뮤니티, 풍부한 타사 라이브러리 등을 이유로 Python을 자사 서비스에 적극적으로 활용하고 있습니다.</p>
-
-<h4 id="4-spotify">4) Spotify</h4>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/spotify-logo.jpg" alt="python_history" width="400" />
-    <p style="font-size: smaller;"><em>이미지 출처: Belwood music</em></p>
-</div>
-
-<p>음악 스트리밍 및 미디어 서비스 제공 업체 Spotify는 Python을 활용해 빌드 되었으며, 백앤드의 80%가 Python으로 작성되어 있다고 알려져있습니다.</p>
-
-<h4 id="5-dropbox">5) Dropbox</h4>
-
-<div style="text-align:center">
-    <img src="/images/language/python/about_python/dropbox.png" alt="python_history" width="400" />
-    <p style="font-size: smaller;"><em>이미지 출처: Dropbox</em></p>
-</div>
-
-<p>외부 오픈 소스 코드와 자체 작성한 코드 모두 Python을 사용하고 있습니다(귀도 반 로썸도 Dropbox 개발자 출신이기도 합니다).</p>
-
-<h3 id="python의-활용-영역">Python의 활용 영역</h3>
-<h4 id="1-시스템-유틸리티-제작">1) 시스템 유틸리티 제작</h4>
-<p>운영체제의 시스템 명령어를 사용할 수 있는 각종 도구를 갖추고 있습니다. 파일 관리, 로그 분석, 시스템 모니터링 등과 같은 여러 시스템 유틸리티를 만드는데 유리합니다.</p>
-
-<h4 id="2-gui-프로그래밍">2) GUI 프로그래밍</h4>
-<p>GUI 프로그래밍을 위한 도구들이 잘 갖추어져 있다. 대표적으로 PyQt5, PyGUI, Tkinter 등이 있습니다.</p>
-
-<h4 id="3-cc과의-결합">3) C/C++과의 결합</h4>
-<p>C나 C++로 만든 프로그램을 파이썬에서 사용할 수 있고, 반대로 파이썬으로 만든 프로그램을 C나 C++에서 사용하는 것도 가능합니다.</p>
-
-<h4 id="4-웹-프로그래밍">4) 웹 프로그래밍</h4>
-<p>웹 클라이언트를 만드는 것은 어려우나 웹 프로그램를 제작하기에 매우 적합하여, 파이썬으로 웹 사이트를 제작하는 경우가 많습니다(주로 프론트 영역은 JavaScript, 백엔드를 Python으로 사용하는 경우 입니다).</p>
-
-<h4 id="5-수치-연산-프로그래밍">5) 수치 연산 프로그래밍</h4>
-<p>수치 연산 프로그래밍에는 사실 C언어가 적합합니다. 하지만 Python의 NumPy라는 수치 연산 모듈이 C로 작성되었기 때문에 Python에도 빠른 수치 연산을 수행할 수 있습니다.</p>
-
-<h4 id="6-데이터-분석">6) 데이터 분석</h4>
-<p>Numpy, Pandas, Matplotlib 등의 라이브러리를 활용하여 데이터 처리, 통계 분석, 시각화를 수행할 수 있습니다. 아직까지는 데이터분석에 특화된 R이라는 언어가 더 많이 사용되고 있지만, 최근 들어 파이썬을 사용하는 추세가 굳어지고 있습니다.</p>
-
-<h4 id="7-데이터-베이스-프로그래밍">7) 데이터 베이스 프로그래밍</h4>
-<p>Sybase, Infomix, Oracle, MySQL, PostgreSQL 등의 데이터베이스에 접근하기 위한 도구를 제공합니다.</p>
-
-<h4 id="8-인공지능과-머신러닝">8) 인공지능과 머신러닝</h4>
-<p>Python을 활용하여 자연어 처리, 음성 인식, 이미지 인식과 같은 인공지능 기술을 구현할 수 있습니다. 인공지능과 머신러닝 프로그래밍에는 Scikit-Learn, TensorFlow, PyTorch, Keras 등의 라이브러리가 사용됩니다.</p>
-
-<h2 id="마무리">마무리</h2>
-<p>오늘은 파이썬의 역사, 특징, 활용 분야까지 살펴봤습니다. Python이 널리 사용된 이유는 간결하고 쉽기 때문입니다. 문법이 다른 프로그래밍 언어에 비해 어렵지 않으며, 표현하는 구조도 사람이 대화하는 형식을 이용함으로서 초보자도 쉽게 배울 수 있다는 강점이 있습니다. 또한, 개발자가 누구든지 무료로 쓸 수 있도록 오픈 소스로 제공한 것도 큰 역할을 했다고 볼 수 있습니다. 현재 Python은 속도를 높이기 위해 지속적으로 업데이트를 진행하고 있습니다. 앞으로도 파이썬은 더 많은 분야에서 사용될 것으로 예상되며, 특히 인공지능 분야에 더 많이 활용될 것으로 보입니다. 프로그래밍 언어를 배우고자 하시는 분들에게 Python은 좋은 선택이 될 것입니다. 한번 배워보시는 것은 어떨까요?</p>]]></content><author><name>Kkobugi</name></author><category term="Python" /><category term="Programming Language" /><category term="Python" /><category term="Python History" /><category term="Python Characteristic" /><summary type="html"><![CDATA[Python(파이썬)은 직관적이고 간결한 문법으로, 프로그래머들은 물론 비전공자들 사이에서도 가장 주목받는 언어입니다.]]></summary></entry></feed>
+<p>결국 파트너십에서 중요한 것은 의존성 관리와 독립성 확보 아닐까 합니다. 협력의 시너지를 극대화하려면 상호 의존도를 조절하고, 상황 변화에 따라 전략적 결정을 내릴 수 있는 유연성이 필요합니다. 파트너십은 단순한 협력 관계를 넘어, 지속 가능한 발전을 위해 끊임없이 재평가해야 하는 전략적 자산이기 때문입니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Big Tech" /><category term="Alliance" /><category term="Alliance Rift" /><category term="AI" /><category term="MS vs OpenAI" /><category term="nVIDIA vs TSCM" /><summary type="html"><![CDATA[[2024년 10월 21일자 미라클레터에서 발췌]]]></summary></entry></feed>

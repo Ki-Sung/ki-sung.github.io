@@ -178,4 +178,10 @@ var store = [{
         "tags": ["AI","Brain","ChatGPT","MIT","Research","Cognitive","Writing","Creativity","Dependency","Neuroscience","EEG","NLP","Memory","Learning"],
         "url": "/news/news27/",
         "teaser": null
+      },{
+        "title": "지브리는 넘쳤는데, 왜 나노바나나는 안보일까?",
+        "excerpt":"[2025.09.01 자 테크잇슈 ‘🚀 지브리는 넘쳤는데, 왜 나노바나나는 안보일까?’ 발췌] AI 피규어? 누가 만든 거야 올해 3월 말, 세상 모든 SNS와 메신저는 하나의 이미지로 뒤덮였습니다. 바로 지브리 스타일의 그림입니다. ChatGPT가 지브리 스타일의 이미지 생성 기능을 공개하자마자 불과 열흘 만에 1억 3천만 건의 이미지 요청이 쏟아졌는데요. 샘 올트먼 OpenAI CEO는 지브리풍...","categories": ["News"],
+        "tags": ["AI","ImageGeneration","NanoBanana","Gemini","Google","LMArena","ImageEditing","AICompetition"],
+        "url": "/news/news28/",
+        "teaser": null
       }]
