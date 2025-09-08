@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-07T23:05:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">지브리는 넘쳤는데, 왜 나노바나나는 안보일까?</title><link href="http://localhost:4000/news/news28/" rel="alternate" type="text/html" title="지브리는 넘쳤는데, 왜 나노바나나는 안보일까?" /><published>2025-09-07T00:00:00+09:00</published><updated>2025-09-07T00:00:00+09:00</updated><id>http://localhost:4000/news/news28</id><content type="html" xml:base="http://localhost:4000/news/news28/"><![CDATA[<p>[2025.09.01 자 테크잇슈 ‘🚀 지브리는 넘쳤는데, 왜 나노바나나는 안보일까?’ 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-08T21:55:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">지브리는 넘쳤는데, 왜 나노바나나는 안보일까?</title><link href="http://localhost:4000/news/news28/" rel="alternate" type="text/html" title="지브리는 넘쳤는데, 왜 나노바나나는 안보일까?" /><published>2025-09-07T00:00:00+09:00</published><updated>2025-09-07T00:00:00+09:00</updated><id>http://localhost:4000/news/news28</id><content type="html" xml:base="http://localhost:4000/news/news28/"><![CDATA[<p>[2025.09.01 자 테크잇슈 ‘🚀 지브리는 넘쳤는데, 왜 나노바나나는 안보일까?’ 발췌]</p>
 
 <h2 id="ai-피규어-누가-만든-거야">AI 피규어? 누가 만든 거야</h2>
 
@@ -18,6 +18,11 @@
 <p>이 모델이 주목받은 이유는 단순히 이미지를 생성하는 데 그치지 않고, 사람·동물·캐릭터의 정체성을 유지한 채 편집·합성하는 능력이 탁월했기 때문입니다. 예컨대 두 장의 사진을 합쳐 자신과 유명인물이 함께 찍힌 듯한 장면을 만들거나, 포즈를 바꿔도 여전히 ‘나 같은 느낌’을 잃지 않는 것이 특징인데요. 더 나아가 한 번 만든 이미지를 연속적으로 편집하더라도 어색함이 거의 없었습니다.</p>
 
 <p>이러한 능력은 기존 AI 이미지 생성 모델이 자주 실패하던 영역에서 뚜렷한 개선을 보여준 것이었고, 실제로 LMArena 벤치마크에서 세계 최고 성능을 기록하며 기술적 우위를 입증했습니다. 결과적으로 나노바나나는 단순한 재미를 넘어, 고급 편집 기능과 실무 활용 가능성까지 보여주며 ChatGPT보다 한 단계 앞서 있다는 평가를 받았습니다.</p>
+
+<div class="notice--info">
+<strong>LMArena</strong><br />
+여러 대화형 인공지능의 언어 모델을 평가하고 비교하는 플랫폼입니다. 단순한 모델 비교를 넘어, 생성형 AI를 통해 이미지를 만들 수 있는 기능도 제공합니다. 이곳에서는 익명으로 진행되는 1:1 대결을 통해 실제 사용자들이 어떤 모델이 더 뛰어난지 투표하여 승자를 결정하는 독특한 방식을 사용하고 있습니다. 
+</div>
 
 <h2 id="골든타임을-놓친-나노바나나">골든타임을 놓친 나노바나나</h2>
 
