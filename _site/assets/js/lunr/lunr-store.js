@@ -184,4 +184,10 @@ var store = [{
         "tags": ["AI","ImageGeneration","NanoBanana","Gemini","Google","LMArena","ImageEditing","AICompetition"],
         "url": "/news/news28/",
         "teaser": null
+      },{
+        "title": "엔비디아의 베팅, OpenAI와 손잡은 이유",
+        "excerpt":"[2025.09.24 자 미라클레터 ‘엔비디아의 베팅, OpenAI와 손잡은 이유’ 발췌] 지난 22일 OpenAI가 엔비디아와 손을 맞잡았습니다. 이는 단순히 상징적인 의미를 넘어서 많은 의미를 내포하고 있다고 모두 생각하고 있습니다. 그럼 해당내용을 살펴보겠습니다. 엔비디아 1000억 달러 투자, 민간 기업 최대 규모 이미지 출처: 엔비디아 아직 구체적인 내용은 정해지지 않았고 큰 틀만 공개됐는데요. 오픈AI와...","categories": ["News"],
+        "tags": ["NVIDIA","OpenAI","Investment","Datacenter","GPU","AIInfrastructure","Partnership","ScalingLaw","AICompetition"],
+        "url": "/news/news29/",
+        "teaser": null
       }]
