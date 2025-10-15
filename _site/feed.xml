@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-30T23:49:41+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">엔비디아의 베팅, OpenAI와 손잡은 이유</title><link href="http://localhost:4000/news/news29/" rel="alternate" type="text/html" title="엔비디아의 베팅, OpenAI와 손잡은 이유" /><published>2025-09-30T00:00:00+09:00</published><updated>2025-09-30T00:00:00+09:00</updated><id>http://localhost:4000/news/news29</id><content type="html" xml:base="http://localhost:4000/news/news29/"><![CDATA[<p>[2025.09.24 자 미라클레터 ‘엔비디아의 베팅, OpenAI와 손잡은 이유’ 발췌]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-15T21:56:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꼬부기의 개발 노트</title><subtitle>꼬부기의 개발 블로그 입니다.</subtitle><author><name>Kkobugi</name></author><entry><title type="html">ChatGPT 모멘트를 재현한 휴머노이드, Figure 03</title><link href="http://localhost:4000/news/news30/" rel="alternate" type="text/html" title="ChatGPT 모멘트를 재현한 휴머노이드, Figure 03" /><published>2025-10-15T00:00:00+09:00</published><updated>2025-10-15T00:00:00+09:00</updated><id>http://localhost:4000/news/news30</id><content type="html" xml:base="http://localhost:4000/news/news30/"><![CDATA[<p>[2025.10.13 자 테크잇슈 ‘Figure 03, ChatGPT Moment?’ 발췌]</p>
+
+<p>한국에서는10월 초 추석 연휴였는데요, 이 와중에 2025년 10월 10일 미국에서는 엄청난 소식들이 전해졌습니다. OpenAI는 연래 개발자 행사 ‘Devday’를 통해 AI계의 OS가 되겠다는 야심을 드러냈고, 구글은 웹 브라우저를 사람처럼 조작하는 ‘Gemini 2.5 Computer Use’와 코딩 없이 앱을 만드는 ‘Opal’을 선보이며 맞불을 놓았습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>하지만 수많은 기술 발표 중에서도 제 눈을 가장 사로잡은 건 따로 있었는데요. 바로 휴머노이드 스타트업 Figure가 공개한 단 6분짜리 영상이었습니다.</p>
+
+<p>영상 속 ‘Figure 03’은 장난감을 정리하고, 음식물이 묻은 접시를 물에 헹궈 식기세척기에 넣었으며, 세탁물과 세제를 세탁기에 넣고 작동시키는 모습을 보여주었습니다. 과장일 수도 있지만, 저는 이 짧은 영상에서 ChatGPT가 처음 등장했을 때 충격을 다시 떠올렸는데요. 어떤 점에서 그런 느낌을 불러일으켰는지, 그 이유를 하나씩 짚어보겠습니다.</p>
+
+<h2 id="빌려-쓴-두뇌와의-이별">빌려 쓴 두뇌와의 이별</h2>
+<p>사실 Figure가 커피를 내리거나 쓰레기를 휴지통에 넣는 등 가사 노동을 하는 모습을 보여준 건 이번이 처음은 아닙니다. 그러나 당시에는 온전히 자신들만의 기술로 만들어진 것이 아닌데요. 자신들이 만든 로봇에 ChatGPT를 탑재해 처리한 결과였습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_2.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>그러나 Figure 03은 다릅니다. 외부의 두뇌를 빌리는 대신, 자체적으로 개발한 AI 모델을 로봇의 심장부에 탑재해 세상에 나온 결과물입니다. 놀라운 건 그 독립의 속도입니다. Figure가 OpenAI의 그늘에서 벗어나 독자적인 길을 걷겠다고 발표한 것이 불과 올해 2월입니다. 단 8개월 만에 단순한 하드웨어 제조사를 넘어, 신체와 두뇌를 모두 갖춘 완전한 ‘AI 로보틱스’ 기업으로 거듭 났습니다.</p>
+
+<p>이 놀라운 속도는 그들이 결별 이후 허둥지둥 대안을 찾은 것이 아니라, 이미 오래전부터 자신들의 길을 준비해 왔다는 강력한 증거로 생각됩니다. 이것은 단순히 챗GPT의 빈자리를 채운 것이 아니라, 처음부터 전혀 다른 청사진을 그리고 있었다는 뜻입니다. 그리고 그 청사진의 내용은, 바로 CEO의 말을 통해 이미 예고된 바 있습니다.</p>
+
+<h2 id="말이-아닌-행동을-배우다">말이 아닌 행동을 배우다</h2>
+<p>올해 2월, OpenAI와의 결별을 알리며 Figure의 CEO 브렛 애드콕은 이런 자신감 넘치는 트윗(X)을 남겼습니다.</p>
+
+<p><strong><em>“Figure made a major breakthrough on fully end-to-end robot AI, built entirely in-house.”</em></strong> <br />
+<strong><em>(Figure는 완전히 자체적으로 구축한, 완전한 엔드-투-엔드 로봇 AI에서 중대한 돌파구를 만들었습니다.)</em></strong></p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_3.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>Figure는 단순히 챗GPT 같은 생성형 AI 기술을 모방하는 길을 가지 않았습니다. 물론 그 기술을 탑재하면 인간과의 상호작용은 더 쉬웠을지 모릅니다. 하지만 그들의 궁극적인 목표가 대화 잘하는 ‘말벗 로봇’이 아니라, 일을 대신하는 ‘가사 노동 로봇’이라는 점입니다.</p>
+
+<p>가사 노동 로봇의 핵심은 유창한 ‘대화’가 아니라, 정교하고 올바른 ‘신체 동작’에 있습니다. 설거지를 하고 빨래를 갤 때 필요한 것은 철학적 대화가 아니라, 접시를 깨뜨리지 않고 옷을 망가뜨리지 않는 능력인 것이죠. 이에 따라 Figure는 ‘모방 학습(Imitation Learning)’에 집중했다고 합니다. 이것이야말로 브렛 애드콕이 말한 ‘E2E(End-to-End) 로봇 AI’의 핵심입니다. 인간의 행동을 데이터로 삼아, 로봇이 그 동작의 의도와 순서를 스스로 배우고 따라 하게 만드는 기술입니다.</p>
+
+<p>결론적으로 챗GPT가 인간의 ‘언어’를 학습했다면, Figure의 AI는 인간의 ‘행동’을 학습한 것입니다.</p>
+
+<h2 id="전문가의-손에서-대중의-품으로">전문가의 손에서 대중의 품으로</h2>
+<p>지금까지 우리가 ‘로봇’ 하면 떠올리던 풍경은 명확했습니다. 자동차 공장의 용접 로봇, 물류 창고의 운반 로봇 등 대부분은 정해진 규칙에 따라 수천 번이고 똑같은 동작을 반복하는 ‘산업 장비’의 모습이었습니다. 이 로봇들에게 새로운 임무를 주려면, 전문가가 복잡한 코드로 모든 움직임을 다시 설계해야만 했습니다.</p>
+
+<p>그러나 Figure 03은 ‘행동’이라는 가장 직관적인 인터페이스로 로봇의 장벽을 허물고 있습니다. 더 이상 로봇을 움직이기 위해 전문가의 코드를 공부할 필요 없이, 그저 우리가 먼저 행동으로 보여주기만 하면 됩니다. 이는 곧, 일반인 누구나 로봇의 ‘선생님’이 될 수 있는 시대가 열렸다는 뜻입니다. 이는 로봇의 무대를 공장을 넘어 우리의 집으로 넓혀줄 예정입니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_4.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<h2 id="그러나-현실이라는-문턱">그러나 현실이라는 문턱</h2>
+<p>위와 같이 명확한 기술 혁신이 이면에는 현실의 냉정한 비판의 목소리도 나옵니다.</p>
+
+<p>가장 먼저 지적되는 것은 속도입니다. 영상 속 Figure 03의 움직임은 인간에 비해 현저히 느립니다. 접시 한 장을 헹구는 데도, 빨래를 세탁기에 넣는 데도 우리보다 몇 배의 시간이 걸립니다. 실제 가정에서 이 속도로 작동한다면, 오히려 답답함만 가중시킬 수 있다는 우려가 있습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_5.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>또한 제공되어진 영상을 보면 촬영 환경에 대한 의구심도 존재합니다. 영상은 통제된 실험실에서, 미리 정해진 물체들로, 계획된 시나리오대로 진행되었을 가능성이 큽니다. 실제 가정은 훨씬 복잡합니다. 예상치 못한 위치에 놓인 물건들, 다양한 형태와 재질의 그릇들, 순간순간 달라지는 상황들. 과연 Figure 03가 이런 ‘현실의 무질서함’에 제대로 대응할 수 있을지는 아직 미지수입니다.</p>
+
+<p>경쟁사 비교도 빼놓을 수 없습니다. 테슬라의 옵티머스, 보스턴 다이내믹스의 아틀라스 등 다른 휴머노이드 로봇들도 이미 비슷하거나 더 인상적인 작업 능력을 선보인 바 있습니다. Figure 03만의 차별화된 우위가 무엇인지는 여전히 논쟁의 여지가 있습니다.</p>
+
+<h2 id="가능성을-연-것으로-충분하다">가능성을 연 것으로 충분하다</h2>
+<p>이 모든 비판은 기술적으로 타당하고 중요한 지적입니다. 그러나 ChatGPT 역시 완벽한 모습이진 않았습니다. 환각(hallucination) 현상으로 엉뚱한 정보를 내놓았고, 맥락을 오해하거나, 단순한 산수도 틀리곤 했습니다. 당시에도 비슷한 비판이 쏟아졌습니다. “이건 그저 그럴싸한 말을 지어내는 앵무새일 뿐”이라고요.</p>
+
+<p>그러나 중요한 것은 ‘완벽함’이 아니라 ‘가능성의 증명’입니다. ChatGPT는 비록 불완전했지만, AI가 인간의 언어를 이해하고 대화할 수 있다는 가능성 자체를 대중에게 직접 보여줬습니다. 그리고 그 가능성은 전 세계 수억 명의 사용자가 실제로 사용하고, 피드백하고, 함께 발전시키는 선순환으로 이어졌습니다. 불과 2년 만에 AI는 우리의 일상에 깊숙이 스며들었습니다.</p>
+
+<p>Figure 03도 마찬가지입니다. 느린 속도, 제한된 환경, 경쟁사와의 차이는 현재 시점의 기술적 한계일 뿐입니다. 진짜 중요한 것은 Figure가 로봇을 ‘공장’에서 ‘집’으로 가져오겠다는 명확한 비전을 제시했고, 모방 학습이라는 구체적인 방법론으로 그 가능성을 실제로 구현해 냈다는 사실입니다. 어쩌면, 빠른 시일내에 추석에는 전을 부치고 있는 Figure의 모습을 볼지도 모르겠습니다 :)</p>
+
+<p>기술은 완벽할 때 세상을 바꾸는 것이 아닙니다. 가능성이 증명되는 순간, 그때부터 변화는 시작됩니다. 그리고 지금 이 순간이, 바로 그 시작점일지도 모릅니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="Figure03" /><category term="HumanoidRobot" /><category term="ImitationLearning" /><category term="EndToEndAI" /><category term="DomesticRobot" /><summary type="html"><![CDATA[[2025.10.13 자 테크잇슈 ‘Figure 03, ChatGPT Moment?’ 발췌]]]></summary></entry><entry><title type="html">엔비디아의 베팅, OpenAI와 손잡은 이유</title><link href="http://localhost:4000/news/news29/" rel="alternate" type="text/html" title="엔비디아의 베팅, OpenAI와 손잡은 이유" /><published>2025-09-30T00:00:00+09:00</published><updated>2025-09-30T00:00:00+09:00</updated><id>http://localhost:4000/news/news29</id><content type="html" xml:base="http://localhost:4000/news/news29/"><![CDATA[<p>[2025.09.24 자 미라클레터 ‘엔비디아의 베팅, OpenAI와 손잡은 이유’ 발췌]</p>
 
 <p>지난 22일 OpenAI가 엔비디아와 손을 맞잡았습니다. 이는 단순히 상징적인 의미를 넘어서 많은 의미를 내포하고 있다고 모두 생각하고 있습니다. 그럼 해당내용을 살펴보겠습니다.</p>
 
@@ -850,141 +923,4 @@ dDTF는 EEG(뇌파검사)에서 뇌 영역들 사이의 정보 흐름이 어느 
 <div style="text-align:center">
     <img src="/images/news/2024-12-31-news21/2025_new_year.jpg" alt="news-21" width="700" />
     <p style="font-size: smaller;"><em></em></p>
-</div>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="2025 IT Trend" /><category term="Summary of 2025 IT Trends" /><category term="Sustainability" /><category term="Computing" /><category term="AI Agent" /><category term="Robotics" /><category term="XR" /><summary type="html"><![CDATA[[2024년 12월 02일자 테크잇슈에서 발췌]]]></summary></entry><entry><title type="html">2024년 IT 트렌드 총정리</title><link href="http://localhost:4000/news/news20/" rel="alternate" type="text/html" title="2024년 IT 트렌드 총정리" /><published>2024-12-30T00:00:00+09:00</published><updated>2024-12-30T00:00:00+09:00</updated><id>http://localhost:4000/news/news20</id><content type="html" xml:base="http://localhost:4000/news/news20/"><![CDATA[<p>[2024년 12월 23일자 테크잇슈에서 발췌]</p>
-
-<p>2024년의 마지막이 얼마 남지 않았습니다. 올해 한 해를 마무리하며, 주요 IT 소식들을 돌아보는 시간을 가져보려 합니다. 지난해에 이어 올해도 AI 기술이 화제의 중심이었지만, IT 산업의 전반적인 흐름을 군형 있게 살펴보기 위해 다양한 산업 트렌드를 두루 살펴보고, 흐름을 이해하기 쉽도록 월별로 소식들을 정리해보았습니다.</p>
-
-<h3 id="1월---뉴럴링크-임상시험-성공으로-bci-기술의-가능성-입증">1월 - 뉴럴링크, 임상시험 성공으로 BCI 기술의 가능성 입증</h3>
-
-<p>2024년의 포문을 연 것은 일론 머스크의 뉴럴링크였습니다. <span style="background-color:#FFE6E6"><strong>실제 사람의 뇌에 칩 이식에 성공하여 BCI(Brain Computer Interface) 분야의 중요한 이정표</strong></span>를 세웠는데요, 임상시험 참가자는 이 기술을 활용해 체스를 두는 등 일상적인 활동을 수행할 수 있었습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/neuralink.jpg" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: 테크잇슈 레터 </em></p>
-</div>
-
-<p>몇 주 후 전극의 실이 느슨해지는 문제가 발생했으나, 이를 개선하여 7월에는 두 번째 임상시험까지 성공적으로 마쳤습니다. 뉴럴링크는 두 번째 임상시험을 통해 BCI 기술의 가능성을 입증했고 상용화를 향해 빠르게 나아가고 있습니다.</p>
-
-<h3 id="2월---구글-제미나이에-집중하여-되찾은-자존심">2월 - 구글, 제미나이에 집중하여 되찾은 자존심</h3>
-
-<p>2023년 3월, ChatGPT의 대항마로 출시된 ‘바드’는 시연 중 오류를 일으키며 구글에게 상처를 남겼습니다. 그로부터 1년이 지난 2024년 2월, 구글은 실패의 상징이 되어버린 ‘바드’를 역사 속으로 보내고 ‘제미나이’를 전면에 내세웠습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/gemini.png" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: Google </em></p>
-</div>
-
-<p>그동안 OpoenAI의 그늘에서 벗어나지 못했던 <span style="background-color:#FFE6E6"><strong>구글은 ‘제미나이’를 중심으로 비지니스를 개편하며 왕좌의 자존심을 되찾기 시작</strong></span>했습니다(아직은 OpenAI가 압도적이지만…). 특히 ‘제미나이’를 이끄는 딥마인드의 “하사비스”는 노벨상까지 거머쥐며 그 영향력이 더욱 커지고 있습니다.</p>
-
-<h3 id="3월---앤쓰로픽-클로드-3-출시와-ai-스케일리의-법칙의-한계">3월 - 앤쓰로픽, 클로드 3 출시와 AI 스케일리의 법칙의 한계</h3>
-
-<p>엔쓰로픽이 3월에 공개한 클로드 3은 AI 최초로 IQ 100을 넘어서며 OpenAI 독주 체제에 균열을 가져왔습니다. 돌이켜 보면, 이는 <span style="background-color:#FFE6E6"><strong>AI 스케일링 법칙의 한계가 왔음을 보여주는 기점</strong></span>이 되었습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/claude3.png" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: Anthropic </em></p>
-</div>
-
-<p>모델의 규모가 커지면 그만큼 성능도 좋아진다는 AI 스케일링의 법칙을 가장 잘 활용했던 OpenAI의 기술 발전 속도가 다소 둔화된 사이, 구글과 메타 같은 기업들이 격차를 좁혀온 것인데요, 이는 OpenAI가 추론 기반 모델에 집중한 계기가 되기도 했습니다.</p>
-
-<h3 id="4월---티빙-프로야구-유로중계와-ott-시장의-패러다임-전환">4월 - 티빙, 프로야구 유로중계와 OTT 시장의 패러다임 전환</h3>
-
-<p>잠시 국내 OTT 시장의 이야기를 해보겠습니다. 티빙은 올해 초 KBO 리그 유,무선 중계권을 3년 간 1,450억 원에 계약하고 이를 유료 구독자들에게 제공하겠다고 발표했습니다. 처음 시도하는 스포츠 중계라 우려도 있엇고, 그동안 네이버 등에서 무료로 야구를 보던 팬들의 반발로 효과가 미미할 거란 전망이 많았습니다. 실제로 3~4월에 진행된 중계에서 잦은 실수를 보이며 실패한 전략이라는 평가도 이어졌습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/tiving.jpg" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: TVING </em></p>
-</div>
-
-<p>그러나 프로야구가 사상 첫 천만 과중을 돌파하는 등 뜨거운 인기를 자랑했고, 이에 힘입어 티빙도 많은 성과를 거두었습니다. 또한 <span style="background-color:#FFE6E6"><strong>스포츠 콘텐츠가 효과가 있다는 것을 입증한 사례</strong></span>이기도 합니다. 이를 통해 티빙은 국내 1위 자리를 두고 경쟁하던 쿠팡플레이를 밀어내고, 넷플릭스와의 격차를 많이 줄였습니다. 프로야구 시즌이 끝나고 넷플릭스가 네이버와 제휴를 통해 공세를 시작한 지금, 티빙은 프로야구가 개막하는 내년 4월까지 구독자 이탈을 최소화하는 것이 중요한 과제가 되었습니다.</p>
-
-<h3 id="5월---네이버-죽라인-쒀서-개소프트뱅크-줄-뻔">5월 - 네이버, 죽(라인) 쒀서 개(소프트뱅크) 줄 뻔</h3>
-<p>네이버에게 올해 가장 힘들었던 달을 물으면 아마 5월이라고 대답하지 않을까 싶습니다. 일본 총무성이 라인 이용자 정보 유출 사건이 네이버에 과도하게 의존한 결과라고 지적하며, 네이버가 보유한 지분과 경영권을 소프트뱅크에 넘겨주라며 압박한 것입니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/line_messanger.png" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: LINE </em></p>
-</div>
-
-<p><span style="background-color:#FFE6E6"><strong>네이버는 지난 약 20년 간 키워온 라인을 순식간에 잃을 위기</strong></span>에 처했었습니다. 현재는 사태가 잠잔해졌지만, 당시 이사였던 신중호의 사임으로 네이버의 영향력이 약화된 것은 분명합니다. 이는 네이버가 향후 해결해야 할 중요한 과제로 남아 있습니다.</p>
-
-<h3 id="6월---애플-오랜-침묵을-깨고-본격적인-ai-전쟁-참전">6월 - 애플, 오랜 침묵을 깨고 본격적인 AI 전쟁 참전</h3>
-
-<p>ChatGPT의 등장으로 수많은 기업들이 AI를 최우선 과제로 삼았지만, 애플은 한동한 조용한 행보를 보였습니다. 그러던 2024년 6월, 더 이상 거대한 흐름을 거스를 수 없다고 판단한 애플은 연례 세계개발자회의(WWDC)에서 자사의 AI 기술을 선보였습니다. 특히 AI라는 용어 대신 ‘애플 인텔리전스(Apple Intelligence)’라는 독자적인 브랜딩을 통해 애플만의 차별화된 접근 방식을 강조했습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/wwdc24.png" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: Apple </em></p>
-</div>
-
-<p>애플은 자사가 보유한 다양한 디바이스들과 AI 기술을 접목해 사용자 경험을 극대화하는데 주력하고 있습니다. 특히 온디바이스 AI 기술을 전면에 내세우며 프라이버시와 보안성을 강조하는 전략을 취했는데요. 비록 AI 시장 진출은 다소 늦었지만, <span style="background-color:#FFE6E6"><strong>속도보다는 방향성을 중요시하겠다는 메시지가 통하며 시장의 신뢰도를 회복하는데 성공</strong></span>했습니다.</p>
-
-<h3 id="7월---마이크로소프트-글로벌-it-대란의-최대-피해자">7월 - 마이크로소프트, 글로벌 IT 대란의 최대 피해자</h3>
-
-<p>2024년 7월 19일, 전 세계가 블루스크린으로 도배되는 일이 발생했습니다. 윈도우(OS)와 클라우드스트라이크의 보안 프로그램이 충돌을 일으키며 무한 부팅에 걸리게 된 것인데요. 이 <span style="background-color:#FFE6E6"><strong>두 프로그램을 동시에 이용하던 기업들은 디지털 업무가 마비되면서 수기로 업무를 처리해야 하는 상황</strong></span>까지 이르렀습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/bluescreen.jpg" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: 테크잇슈 레터 </em></p>
-</div>
-
-<p>사실 IT 대란에서 직접적인 원인은 클라우드스트라이크의 보안 업데이트였지만, 문제가 윈도우 환경에서만 발생했다는 점 때문에 자연스레 모든 시선이 마이크로소프트로 향했습니다. 언론에서도 마이크로소프트를 앞세우고, 클라우드 시스템의 안정성 문제와 연결 지어 보도하면서 대중들의 혼란을 야기했습니다. 지금은 상황이 안정됐지만, 마이크로소프트로서는 다소 억울했던 7월로 기억에 남을 것 같습니다.</p>
-
-<h3 id="8월---티메프-사태-수면-위로-드러난-이커머스-산업의-명암">8월 - 티메프 사태, 수면 위로 드러난 이커머스 산업의 명암</h3>
-
-<p>8월은 티메프 사태를 빼놓고 갈 수 없습니다. 큐텐 계열사인 티몬과 위메프가 판매자들의 정산금을 수개월 간 지급하지 않음이 드러난 것인데요. 사태가 발생하기 전, 상품권을 할인된 가격에 대량 판매하여 당장의 유동성을 확보하려는 이른바 ‘상품권 깡’ 전략을 시도했지만, 이마저도 실패로 돌아가며 결국 탈이 났습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/wemap_tmon.jpg" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: 테크잇슈 레터 </em></p>
-</div>
-
-<p>이러한 사태가 벌어진 배경에는 큐텐의 무리한 외형 확장이 자리 잡고 있습니다. 큐텐은 티몬, 위메프, 인터파크, 위시 등을 연이어 인수하며 규모의 경제를 이루려고 했으나, 취약한 자본 상태가 발목을 잡았습니다. 이 사건으로 인해 그동안 수면 아래에 있던 이커머서의 문제점들이 드러나기 시작했습니다. <span style="background-color:#FFE6E6"><strong>쿠팡의 ‘의도된 적자’ 전략이 성공하자 이를 무분별하게 모방하는 기업들이 생겨났고, 뚜렷한 비전 없이 외형 성장에만 치중하다 재무건정성이 악화</strong></span>된 것입니다. 지금까지도 티몬과 위메프의 정상화는 요원하며, 최근에서야 피해자 구제방안들이 나오는 등 여전히 풀어야 할 숙제가 많은 상황입니다.</p>
-
-<h3 id="9월---openai-o1출시하며-추론-기반-ai-시장-선점">9월 - OpenAI, ‘o1’출시하며 추론 기반 AI 시장 선점</h3>
-
-<p>앞서 3월의 키워드로 언급했던 AI 스케일링 법칙의 한계, 그 해결책이 9월에 등장했습니다. 그리고 주인공은 역시나 OpenAI였는데요. 이들은 ‘o1’이라는 추론에 특화된 AI 모델을 출시하며 이 분야도 선점했습니다. 이 모델은 ‘사고의 연쇄(chain-of-thought)’ 방식을 통해 문제를 단계적으로 해결하며, 특히 과학, 코딩, 수학 분야에서 뛰어난 성과를 보였습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/openai_o1.jpg" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: OpenAI </em></p>
-</div>
-
-<p>ChatGPT 개발에 혁혁한 공을 세운 것으로 알려진 일리야 수츠케버도 힘을 보탰습니다. 학습 데이터에는 한계가 있기 때문에, 앞으로 AI 학습 방식이 추론으로 진화할 것이라 전망한 것인데요. 실제로 OpenAI는 <span style="background-color:#FFE6E6"><strong>‘o1’을 공개한 지 3개월 만에 ‘o3’를 공개하며, 2025년이 추론 AI 모델의 원년이 될 것임을 시사</strong></span>했습니다.</p>
-
-<h3 id="10월---ai-노벨상까지-접수">10월 - AI, 노벨상까지 접수</h3>
-
-<p>지난 10월에 발표된 2024 노벨상은 AI 업계에 특별한 의미를 남겼습니다. 전통적으로 학계 연구자들의 전유물이었던 노벨상이 AI 업계 인물들에게 수여된 것인데요. 그것도 한 분야가 아닌 <span style="background-color:#FFE6E6"><strong>노벨 물리학상과 노벨 화학상 두 분야에서 동시에 수상하며 AI 기술이 기초 과학 발전에 혁혁한 공을 세웠음을 인정</strong></span>받았습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/nobell_price.png" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em> 이미지 출처: The Official Website of the Nobel Prize </em></p>
-</div>
-
-<p>이번 수상을 기점으로 AI는 이제 단순한 기술 혁신을 넘어 인류의 지식 발전에 기여하는 근본적인 도구로 자리매김했습니다. 앞으로 AI가 더욱 다양한 분야에서 혁신을 이끌어낼 것이라 기대하게 하는 대목입니다.</p>
-
-<h3 id="11월---일론-머스크-트럼프-코인-타고-비상飛上">11월 - 일론 머스크, 트럼프 코인 타고 비상(飛上)</h3>
-
-<p>2024년 11월 5일에는 미국 대선이 펼쳐졌고, 모두가 알다시피 트럼프가 당선되었습니다. 이 과정에서 일론 머스크는 약 2억 달러(약 2,800억 원)를 트럼프의 재선 캠페인에 후원하며 핵심 지지자로서의 존재감을 드러냈는데요. 이러한 공로를 인정받아 <span style="background-color:#FFE6E6"><strong>머스크는 ‘정부효율부’ 수장으로 임명되어 정치적 영향력을 확대</strong></span>하게 되었습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/musk_trump.png" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: 테크잇슈 레터 </em></p>
-</div>
-
-<p>주목할 점은 머크스가 이끄는 사업 영역입니다. 테슬라, 스페이스 X, xAI 등 주로 혁신 기술 기업들을 이끌고 있는 그는 트럼프와의 정치적 연대를 통해 향후 정부 정책에서 유리한 입지를 확보했습니다. 특히 거침없는 언행으로 적도 많았던 머스크인 만큼, 그와 관계가 비즈니스 성공의 변수로 작용할 가능성도 제기됩니다.</p>
-
-<h3 id="12월---sora-vs-veo2-영상-생성-ai-전쟁-개막">12월 - ‘SORA’ vs ‘Veo2’, 영상 생성 AI 전쟁 개막</h3>
-
-<p>2024년의 마지막 달인 12월, AI 업계에서 또 하나의 중요한 변화가 있었습니다. OpenAI가 지난 3월 처음 선보였던 영상 생성 AI ‘SORA’가 드디어 정식 출시된 것인데요. AI가 만든 거라고는, 그리고 짧은 시간에 만든 거라고는 믿기 힘들 정도의 퀄리티를 구현해 내며 많은 디자이너와 엔지니어들에게 충격을 안겨주었습니다.</p>
-
-<div style="text-align:center">
-    <img src="/images/news/2024-12-30-news20/sora_veo2.gif" alt="news-19" width="700" />
-    <p style="font-size: smaller;"><em>이미지 출처: 테크잇슈 레터 </em></p>
-</div>
-
-<p>여기에 구글이 ‘Veo2’를 선보이며 맞불을 놓았습니다. 구글이 이처럼 빠르게 대응할 수 있었던 이유는 자신의 제품이 충분히 승산 있다고 판단했기 때문인데요. 최대 해상도가 1080p인 SORA에 비해 Veo2는 4k를 지원하고, 더 긴 영상 생성이 가능합니다. 특히 구글은 유튜브를 보유하고 있기 때문에 시너지 효과도 기대되는 부분입니다. 이외에도 메타는 ‘무비젠’으로 시장에 뛰어들었고, ‘런웨이’, ‘피카랩스’ 등 스타트업들의 도전도 이어지고 있어, <span style="background-color:#FFE6E6"><strong>2025년에는 영상 생성 AI를 둘러싼 경쟁이 더욱 치열해질 전망</strong></span>입니다.</p>
-
-<h3 id="2024년-it-트렌드-총평">2024년 IT 트렌드 총평</h3>
-
-<p>지금까지 2024년 IT 트렌드를 월별로 나누어 살펴보았는데요. 연말이면 늘 하는 이야기지만, 올해도 참 다사다난했던 한 해가 아니었나 싶습니다. <span style="background-color:#FFE6E6"><strong>한편에서는 새로운 기술로 비즈니스의 패러다임이 변화하고, 또 한편에서는 디지털 기술로 비즈니스가 마비되는 아이러니한 상황</strong></span>도 있었습니다. 또한, 티빙과 티메프의 사례는 비즈니스계에 영원한 승자도, 패자도 없다는 것을 다시 한번 일깨워주었습니다.</p>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="2024 IT Trend" /><category term="Summary of 2024 Trends" /><summary type="html"><![CDATA[[2024년 12월 23일자 테크잇슈에서 발췌]]]></summary></entry></feed>
+</div>]]></content><author><name>Kkobugi</name></author><category term="News" /><category term="2025 IT Trend" /><category term="Summary of 2025 IT Trends" /><category term="Sustainability" /><category term="Computing" /><category term="AI Agent" /><category term="Robotics" /><category term="XR" /><summary type="html"><![CDATA[[2024년 12월 02일자 테크잇슈에서 발췌]]]></summary></entry></feed>

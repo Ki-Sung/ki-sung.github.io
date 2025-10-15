@@ -190,4 +190,10 @@ var store = [{
         "tags": ["NVIDIA","OpenAI","Investment","Datacenter","GPU","AIInfrastructure","Partnership","ScalingLaw","AICompetition"],
         "url": "/news/news29/",
         "teaser": null
+      },{
+        "title": "ChatGPT 모멘트를 재현한 휴머노이드, Figure 03",
+        "excerpt":"[2025.10.13 자 테크잇슈 ‘Figure 03, ChatGPT Moment?’ 발췌] 한국에서는10월 초 추석 연휴였는데요, 이 와중에 2025년 10월 10일 미국에서는 엄청난 소식들이 전해졌습니다. OpenAI는 연래 개발자 행사 ‘Devday’를 통해 AI계의 OS가 되겠다는 야심을 드러냈고, 구글은 웹 브라우저를 사람처럼 조작하는 ‘Gemini 2.5 Computer Use’와 코딩 없이 앱을 만드는 ‘Opal’을 선보이며 맞불을 놓았습니다. 이미지...","categories": ["News"],
+        "tags": ["Figure03","HumanoidRobot","ImitationLearning","EndToEndAI","DomesticRobot"],
+        "url": "/news/news30/",
+        "teaser": null
       }]

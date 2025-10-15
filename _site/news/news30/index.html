@@ -1,0 +1,1162 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <!-- 20210119 ADD favicon-->
+<link rel="icon" type="image/png" href="/assets/favicon.ico">
+
+<meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ChatGPT 모멘트를 재현한 휴머노이드, Figure 03 | 꼬부기의 개발 노트</title>
+<meta name="description" content="[2025.10.13 자 테크잇슈 ‘Figure 03, ChatGPT Moment?’ 발췌]">
+
+
+  <meta name="author" content="Kkobugi">
+  
+  <meta property="article:author" content="Kkobugi">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="꼬부기의 개발 노트">
+<meta property="og:title" content="ChatGPT 모멘트를 재현한 휴머노이드, Figure 03">
+<meta property="og:url" content="http://localhost:4000/news/news30/">
+
+
+  <meta property="og:description" content="[2025.10.13 자 테크잇슈 ‘Figure 03, ChatGPT Moment?’ 발췌]">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2025-10-15T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/news/news30/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "ki-sung",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="naver-site-verification" content="63e62209e9a15780ebb93e31ffa97779ac018212">
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="꼬부기의 개발 노트 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- Math jax setting-->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.ico/favicon-16x16.png">
+<link rel="manifest" href="/assets/logo.ico/site.webmanifest">
+<link rel="mask-icon" href="/assets/logo.ico/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          꼬부기의 개발 노트
+          <span class="site-subtitle">Slow but Steady</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about-me/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/year-archive/">By Year</a>
+            </li><li class="masthead__menu-item">
+              <a href="/search/">Search</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#news" itemprop="item"><span itemprop="name">News</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">ChatGPT 모멘트를 재현한 휴머노이드, Figure 03</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+
+  
+</nav>
+
+    
+  
+
+  
+    
+
+<nav class="nav__list">
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">토글 메뉴</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <!--전체 글 수--> 
+        <li>
+            📇 <span style="font-family:'Cafe24Oneprettynight';">Total Posting</style> <span style="font-family:'Coming Soon';">36</style> <span style="font-family:'Cafe24Oneprettynight';"></style> 
+        </li>
+        <li>
+            <span class="nav__sub-title">News</span>
+                <ul>
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/news" class="">News (30)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+
+            <span class="nav__sub-title">Computing</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+
+            <span class="nav__sub-title">Newtworks</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+
+            <span class="nav__sub-title">Business</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            
+            <span class="nav__sub-title">Development</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">Language</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/python" class="">Python (1)</a></li>
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">Dev Diary</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">Books</span>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/self-dev-book" class="">Self Dev (1)</a></li>
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/trend-book" class="">Trend (2)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            <span class="nav__sub-title">etc</span>
+                <ul>
+                    
+                        
+                            <li><a href="/categories/github-blog" class="">Github Page Blog (2)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+        </li>
+    </ul>
+</nav>
+  
+
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ChatGPT 모멘트를 재현한 휴머노이드, Figure 03">
+    <meta itemprop="description" content="[2025.10.13 자 테크잇슈 ‘Figure 03, ChatGPT Moment?’ 발췌]">
+    <meta itemprop="datePublished" content="2025-10-15T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      <!-- top banner-->
+      <!-- <p class="notice--info" style="font-size: 1rem !important;">
+    <strong>Github 블로그 제작기</strong>
+    <br>
+    <a href="https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr">영상 보러가기</a>
+</p>  -->
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/news/news30/" class="u-url" itemprop="url">ChatGPT 모멘트를 재현한 휴머노이드, Figure 03
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-10-15T00:00:00+09:00">2025-10-15</time>
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-pizza-slice"></i> Summary</h4></header>
+              <ul class="toc__menu"><li><a href="#빌려-쓴-두뇌와의-이별">빌려 쓴 두뇌와의 이별</a></li><li><a href="#말이-아닌-행동을-배우다">말이 아닌 행동을 배우다</a></li><li><a href="#전문가의-손에서-대중의-품으로">전문가의 손에서 대중의 품으로</a></li><li><a href="#그러나-현실이라는-문턱">그러나 현실이라는 문턱</a></li><li><a href="#가능성을-연-것으로-충분하다">가능성을 연 것으로 충분하다</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>[2025.10.13 자 테크잇슈 ‘Figure 03, ChatGPT Moment?’ 발췌]</p>
+
+<p>한국에서는10월 초 추석 연휴였는데요, 이 와중에 2025년 10월 10일 미국에서는 엄청난 소식들이 전해졌습니다. OpenAI는 연래 개발자 행사 ‘Devday’를 통해 AI계의 OS가 되겠다는 야심을 드러냈고, 구글은 웹 브라우저를 사람처럼 조작하는 ‘Gemini 2.5 Computer Use’와 코딩 없이 앱을 만드는 ‘Opal’을 선보이며 맞불을 놓았습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>하지만 수많은 기술 발표 중에서도 제 눈을 가장 사로잡은 건 따로 있었는데요. 바로 휴머노이드 스타트업 Figure가 공개한 단 6분짜리 영상이었습니다.</p>
+
+<p>영상 속 ‘Figure 03’은 장난감을 정리하고, 음식물이 묻은 접시를 물에 헹궈 식기세척기에 넣었으며, 세탁물과 세제를 세탁기에 넣고 작동시키는 모습을 보여주었습니다. 과장일 수도 있지만, 저는 이 짧은 영상에서 ChatGPT가 처음 등장했을 때 충격을 다시 떠올렸는데요. 어떤 점에서 그런 느낌을 불러일으켰는지, 그 이유를 하나씩 짚어보겠습니다.</p>
+
+<h2 id="빌려-쓴-두뇌와의-이별">빌려 쓴 두뇌와의 이별</h2>
+<p>사실 Figure가 커피를 내리거나 쓰레기를 휴지통에 넣는 등 가사 노동을 하는 모습을 보여준 건 이번이 처음은 아닙니다. 그러나 당시에는 온전히 자신들만의 기술로 만들어진 것이 아닌데요. 자신들이 만든 로봇에 ChatGPT를 탑재해 처리한 결과였습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_2.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>그러나 Figure 03은 다릅니다. 외부의 두뇌를 빌리는 대신, 자체적으로 개발한 AI 모델을 로봇의 심장부에 탑재해 세상에 나온 결과물입니다. 놀라운 건 그 독립의 속도입니다. Figure가 OpenAI의 그늘에서 벗어나 독자적인 길을 걷겠다고 발표한 것이 불과 올해 2월입니다. 단 8개월 만에 단순한 하드웨어 제조사를 넘어, 신체와 두뇌를 모두 갖춘 완전한 ‘AI 로보틱스’ 기업으로 거듭 났습니다.</p>
+
+<p>이 놀라운 속도는 그들이 결별 이후 허둥지둥 대안을 찾은 것이 아니라, 이미 오래전부터 자신들의 길을 준비해 왔다는 강력한 증거로 생각됩니다. 이것은 단순히 챗GPT의 빈자리를 채운 것이 아니라, 처음부터 전혀 다른 청사진을 그리고 있었다는 뜻입니다. 그리고 그 청사진의 내용은, 바로 CEO의 말을 통해 이미 예고된 바 있습니다.</p>
+
+<h2 id="말이-아닌-행동을-배우다">말이 아닌 행동을 배우다</h2>
+<p>올해 2월, OpenAI와의 결별을 알리며 Figure의 CEO 브렛 애드콕은 이런 자신감 넘치는 트윗(X)을 남겼습니다.</p>
+
+<p><strong><em>“Figure made a major breakthrough on fully end-to-end robot AI, built entirely in-house.”</em></strong> <br />
+<strong><em>(Figure는 완전히 자체적으로 구축한, 완전한 엔드-투-엔드 로봇 AI에서 중대한 돌파구를 만들었습니다.)</em></strong></p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_3.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>Figure는 단순히 챗GPT 같은 생성형 AI 기술을 모방하는 길을 가지 않았습니다. 물론 그 기술을 탑재하면 인간과의 상호작용은 더 쉬웠을지 모릅니다. 하지만 그들의 궁극적인 목표가 대화 잘하는 ‘말벗 로봇’이 아니라, 일을 대신하는 ‘가사 노동 로봇’이라는 점입니다.</p>
+
+<p>가사 노동 로봇의 핵심은 유창한 ‘대화’가 아니라, 정교하고 올바른 ‘신체 동작’에 있습니다. 설거지를 하고 빨래를 갤 때 필요한 것은 철학적 대화가 아니라, 접시를 깨뜨리지 않고 옷을 망가뜨리지 않는 능력인 것이죠. 이에 따라 Figure는 ‘모방 학습(Imitation Learning)’에 집중했다고 합니다. 이것이야말로 브렛 애드콕이 말한 ‘E2E(End-to-End) 로봇 AI’의 핵심입니다. 인간의 행동을 데이터로 삼아, 로봇이 그 동작의 의도와 순서를 스스로 배우고 따라 하게 만드는 기술입니다.</p>
+
+<p>결론적으로 챗GPT가 인간의 ‘언어’를 학습했다면, Figure의 AI는 인간의 ‘행동’을 학습한 것입니다.</p>
+
+<h2 id="전문가의-손에서-대중의-품으로">전문가의 손에서 대중의 품으로</h2>
+<p>지금까지 우리가 ‘로봇’ 하면 떠올리던 풍경은 명확했습니다. 자동차 공장의 용접 로봇, 물류 창고의 운반 로봇 등 대부분은 정해진 규칙에 따라 수천 번이고 똑같은 동작을 반복하는 ‘산업 장비’의 모습이었습니다. 이 로봇들에게 새로운 임무를 주려면, 전문가가 복잡한 코드로 모든 움직임을 다시 설계해야만 했습니다.</p>
+
+<p>그러나 Figure 03은 ‘행동’이라는 가장 직관적인 인터페이스로 로봇의 장벽을 허물고 있습니다. 더 이상 로봇을 움직이기 위해 전문가의 코드를 공부할 필요 없이, 그저 우리가 먼저 행동으로 보여주기만 하면 됩니다. 이는 곧, 일반인 누구나 로봇의 ‘선생님’이 될 수 있는 시대가 열렸다는 뜻입니다. 이는 로봇의 무대를 공장을 넘어 우리의 집으로 넓혀줄 예정입니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_4.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<h2 id="그러나-현실이라는-문턱">그러나 현실이라는 문턱</h2>
+<p>위와 같이 명확한 기술 혁신이 이면에는 현실의 냉정한 비판의 목소리도 나옵니다.</p>
+
+<p>가장 먼저 지적되는 것은 속도입니다. 영상 속 Figure 03의 움직임은 인간에 비해 현저히 느립니다. 접시 한 장을 헹구는 데도, 빨래를 세탁기에 넣는 데도 우리보다 몇 배의 시간이 걸립니다. 실제 가정에서 이 속도로 작동한다면, 오히려 답답함만 가중시킬 수 있다는 우려가 있습니다.</p>
+
+<div style="text-align:center">
+    <img src="/images/news/2025-10-15-news30/figure_5.gif" alt="news-30" width="700" />
+    <p style="font-size: smaller;"><em>이미지 출처: Figure (2배속) </em></p>
+</div>
+
+<p>또한 제공되어진 영상을 보면 촬영 환경에 대한 의구심도 존재합니다. 영상은 통제된 실험실에서, 미리 정해진 물체들로, 계획된 시나리오대로 진행되었을 가능성이 큽니다. 실제 가정은 훨씬 복잡합니다. 예상치 못한 위치에 놓인 물건들, 다양한 형태와 재질의 그릇들, 순간순간 달라지는 상황들. 과연 Figure 03가 이런 ‘현실의 무질서함’에 제대로 대응할 수 있을지는 아직 미지수입니다.</p>
+
+<p>경쟁사 비교도 빼놓을 수 없습니다. 테슬라의 옵티머스, 보스턴 다이내믹스의 아틀라스 등 다른 휴머노이드 로봇들도 이미 비슷하거나 더 인상적인 작업 능력을 선보인 바 있습니다. Figure 03만의 차별화된 우위가 무엇인지는 여전히 논쟁의 여지가 있습니다.</p>
+
+<h2 id="가능성을-연-것으로-충분하다">가능성을 연 것으로 충분하다</h2>
+<p>이 모든 비판은 기술적으로 타당하고 중요한 지적입니다. 그러나 ChatGPT 역시 완벽한 모습이진 않았습니다. 환각(hallucination) 현상으로 엉뚱한 정보를 내놓았고, 맥락을 오해하거나, 단순한 산수도 틀리곤 했습니다. 당시에도 비슷한 비판이 쏟아졌습니다. “이건 그저 그럴싸한 말을 지어내는 앵무새일 뿐”이라고요.</p>
+
+<p>그러나 중요한 것은 ‘완벽함’이 아니라 ‘가능성의 증명’입니다. ChatGPT는 비록 불완전했지만, AI가 인간의 언어를 이해하고 대화할 수 있다는 가능성 자체를 대중에게 직접 보여줬습니다. 그리고 그 가능성은 전 세계 수억 명의 사용자가 실제로 사용하고, 피드백하고, 함께 발전시키는 선순환으로 이어졌습니다. 불과 2년 만에 AI는 우리의 일상에 깊숙이 스며들었습니다.</p>
+
+<p>Figure 03도 마찬가지입니다. 느린 속도, 제한된 환경, 경쟁사와의 차이는 현재 시점의 기술적 한계일 뿐입니다. 진짜 중요한 것은 Figure가 로봇을 ‘공장’에서 ‘집’으로 가져오겠다는 명확한 비전을 제시했고, 모방 학습이라는 구체적인 방법론으로 그 가능성을 실제로 구현해 냈다는 사실입니다. 어쩌면, 빠른 시일내에 추석에는 전을 부치고 있는 Figure의 모습을 볼지도 모르겠습니다 :)</p>
+
+<p>기술은 완벽할 때 세상을 바꾸는 것이 아닙니다. 가능성이 증명되는 순간, 그때부터 변화는 시작됩니다. 그리고 지금 이 순간이, 바로 그 시작점일지도 모릅니다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#domesticrobot" class="page__taxonomy-item p-category" rel="tag">DomesticRobot</a><span class="sep">, </span>
+    
+      <a href="/tags/#endtoendai" class="page__taxonomy-item p-category" rel="tag">EndToEndAI</a><span class="sep">, </span>
+    
+      <a href="/tags/#figure03" class="page__taxonomy-item p-category" rel="tag">Figure03</a><span class="sep">, </span>
+    
+      <a href="/tags/#humanoidrobot" class="page__taxonomy-item p-category" rel="tag">HumanoidRobot</a><span class="sep">, </span>
+    
+      <a href="/tags/#imitationlearning" class="page__taxonomy-item p-category" rel="tag">ImitationLearning</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#news" class="page__taxonomy-item p-category" rel="tag">News</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2025-10-15T00:00:00+09:00">2025-10-15</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=ChatGPT+%EB%AA%A8%EB%A9%98%ED%8A%B8%EB%A5%BC+%EC%9E%AC%ED%98%84%ED%95%9C+%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C%2C+Figure+03%20http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews30%2F" class="btn btn--x" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 X"><span style="font-weight: bold; color: #fff;">𝕏</span><span></span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews30%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fnews%2Fnews30%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/news/news29/" class="pagination--pager" title="엔비디아의 베팅, OpenAI와 손잡은 이유
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news29/" rel="permalink">엔비디아의 베팅, OpenAI와 손잡은 이유
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-09-30T00:00:00+09:00">2025-09-30</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2025.09.24 자 미라클레터 ‘엔비디아의 베팅, OpenAI와 손잡은 이유’ 발췌]
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news28/" rel="permalink">지브리는 넘쳤는데, 왜 나노바나나는 안보일까?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-09-07T00:00:00+09:00">2025-09-07</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2025.09.01 자 테크잇슈 ‘🚀 지브리는 넘쳤는데, 왜 나노바나나는 안보일까?’ 발췌]
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news27/" rel="permalink">AI를 사용하면 정말 바보가 될까?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-08-27T00:00:00+09:00">2025-08-27</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2025.08.25 자 테크잇슈 ‘AI를 사용하면 정말 바보가 될까?’ 발췌]
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/news26/" rel="permalink">GPT-5가 출시됐다…그런데?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-08-11T00:00:00+09:00">2025-08-11</time>
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">[2025.08.11 자 테크잇슈 ‘GPT-5가 출시됐다…그런데?’ 발췌]
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/Ki-Sung" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 ki-sung. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/news/news30/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/news/news30"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://NinT.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>
