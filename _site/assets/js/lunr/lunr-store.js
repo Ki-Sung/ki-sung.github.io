@@ -196,4 +196,10 @@ var store = [{
         "tags": ["Figure03","HumanoidRobot","ImitationLearning","EndToEndAI","DomesticRobot"],
         "url": "/news/news30/",
         "teaser": null
+      },{
+        "title": "사이버 정전 또다시 발생",
+        "excerpt":"[2025.10.22 자 미라클레터 ‘또다시 발생한 사이버 정전’ 발췌] 지난 10월 20일 미국에서 많은 사람들이 불편한 상황을 경험했습니다. 미국에서 많이 쓰는 ‘왓츠앱’과 ‘벤모’와 같은 앱이 작동을 멈췄다고 하는데, 원인은 AWS(아마존 웹 서비스) 오류 때문이라고 합니다. 이 때문에 게임 플랫폼 포트나이트를 비롯해, 스냅챗, 왓츠앱, 줌, 레딧, 페이스북, 인스타그램, 넷플릭스 등에서 오류가 발생했다고...","categories": ["News"],
+        "tags": ["AWS","CloudService","DNS","SystemFailure","MultiCloud"],
+        "url": "/news/news31/",
+        "teaser": null
       }]
