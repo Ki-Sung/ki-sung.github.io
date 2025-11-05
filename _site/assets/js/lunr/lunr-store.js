@@ -202,4 +202,10 @@ var store = [{
         "tags": ["AWS","CloudService","DNS","SystemFailure","MultiCloud"],
         "url": "/news/news31/",
         "teaser": null
+      },{
+        "title": "엔비디아는 왜 우리나라에 GPU를 주었을까?",
+        "excerpt":"지난 10월 30일 ~ 10월 31일 젠슨 황 엔비디아 CEO가 한국을 찾아왔습니다. 1박 2일의 일정 중, 머무는 시간이 약 30시간 밖에 되지 않았지만, 한국에 엄청난 인상을 남겼습니다. 이번 시간에는 1박 2일 동안 있었던 일과 엔비디아는 왜 GPU를 우리에게 우선적으로 공급했는지 그 이유를 살펴보겠습니다. 우리 깐부아이가? 30일 저는 일본 출장 중...","categories": ["News"],
+        "tags": ["NVIDIA","GPU","PhysicalAI","HBM","SupplyChain"],
+        "url": "/news/news32/",
+        "teaser": null
       }]
