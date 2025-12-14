@@ -208,4 +208,10 @@ var store = [{
         "tags": ["NVIDIA","GPU","PhysicalAI","HBM","SupplyChain"],
         "url": "/news/news32/",
         "teaser": null
+      },{
+        "title": "역대급 개인정보 유츌, 쿠팡 유출 사태",
+        "excerpt":"올해만 해도 개인 정보 유출 사태가 많은 한해 입니다. 그런데… 전국민이 사용하고 있는 쿠팡에서 역대급 개인정보 유출 사태가 발생했습니다. 무려 3,370만건의 개인정보가 유출된 것으로 확인되었습니다. 이는 대한민국 전체 인구의 65%, 경제활동인구의 대부분을 포함한 수치인데요. 워낙 전례 없는 사건이다 보니, 온·오프라인에서는 확인되지 않은 정보들도 넘쳐나고 있습니다. 그래서 오늘은 사안에 대한 분석보다는,...","categories": ["News"],
+        "tags": ["Coupang","DataBreach","Privacy","Security","PersonalInformation"],
+        "url": "/news/neews33/",
+        "teaser": null
       }]
