@@ -209,9 +209,15 @@ var store = [{
         "url": "/news/news32/",
         "teaser": null
       },{
-        "title": "역대급 개인정보 유츌, 쿠팡 유출 사태",
+        "title": "역대급 개인정보 유출, 쿠팡 유출 사태",
         "excerpt":"올해만 해도 개인 정보 유출 사태가 많은 한해 입니다. 그런데… 전국민이 사용하고 있는 쿠팡에서 역대급 개인정보 유출 사태가 발생했습니다. 무려 3,370만건의 개인정보가 유출된 것으로 확인되었습니다. 이는 대한민국 전체 인구의 65%, 경제활동인구의 대부분을 포함한 수치인데요. 워낙 전례 없는 사건이다 보니, 온·오프라인에서는 확인되지 않은 정보들도 넘쳐나고 있습니다. 그래서 오늘은 사안에 대한 분석보다는,...","categories": ["News"],
         "tags": ["Coupang","DataBreach","Privacy","Security","PersonalInformation"],
-        "url": "/news/neews33/",
+        "url": "/news/news33/",
+        "teaser": null
+      },{
+        "title": "OpenAI 코드 레드, 왕좌에서 언더독으로",
+        "excerpt":"안녕하세요! 아침마다 AI 뉴스를 보다 보면, OpenAI와 챗GPT는 늘 ‘기준점’처럼 서 있었습니다. 새로운 모델이 나올 때마다 “GPT보다 좋은가?”가 자동으로 따라붙었고요. 그런데 최근 판도가 눈에 띄게 흔들리고 있습니다. 구글의 제미나이 3, 중국발 오픈소스 모델들, 그리고 조용히 몸집을 키운 앤스로픽까지 — 더 이상 AI 왕좌가 한 회사의 전유물은 아니라는 신호들이 곳곳에서 보입니다....","categories": ["News"],
+        "tags": ["OpenAI","Gemini","Anthropic","CodeRed","LLM","AIIndustry","AICompetition"],
+        "url": "/news/news34/",
         "teaser": null
       }]
