@@ -220,4 +220,10 @@ var store = [{
         "tags": ["OpenAI","Gemini","Anthropic","CodeRed","LLM","AIIndustry","AICompetition"],
         "url": "/news/news34/",
         "teaser": null
+      },{
+        "title": "2025년 하반기 AI 트렌드 정산",
+        "excerpt":"안녕하세요! 2026년 벙오년 붉은 말의 해가 시작되었습니다. 모두 새해 복 많이 받으세요. 새해를 맞이하며 지난해를 돌아보는 시간이 되었는데요, 저는 2025년 하반기 AI 트렌드를 정리하는 글을 뒤늦게 쓰게 되었습니다. 2025년 하반기, 7월부터 12월까지 불과 6개월이었지만 AI 산업은 그 어느 때보다 빠르게 변화했습니다. 그 변화의 속도가 너무 빨라서 당시에는 하나하나를 제대로 소화하지...","categories": ["News"],
+        "tags": ["AI","Trend","2025","GPT5","Gemini","NVIDIA","Security","Robotics","FoundationModel"],
+        "url": "/news/news35/",
+        "teaser": null
       }]
